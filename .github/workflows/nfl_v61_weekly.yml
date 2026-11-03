@@ -193,7 +193,9 @@ jobs:
           git add public_data/nfl_v61_latest_projection.csv public_data/nfl_v61_latest_paper_picks.csv
           if ! git diff --cached --quiet; then
             git commit -m "Update NFL V6.1 public paper snapshot"
-            git push
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
 
       - name: Upload research snapshot
