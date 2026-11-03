@@ -23,6 +23,17 @@ def main():
     src = pd.read_csv(SOURCE)
     if src.empty or not REQUIRED.issubset(src.columns):
         raise ValueError("Original V2 source is empty or missing required columns")
+    # Never republish an old original-model snapshot as if it were today's picks.
+    current_day = datetime.now(timezone.utc).astimezone(
+        __import__("zoneinfo").ZoneInfo("America/Chicago")
+    ).date()
+    game_days = pd.to_datetime(src["game_date"], errors="coerce").dt.date
+    if game_days.isna().any():
+        raise ValueError("Invalid game dates in NBA V2 source")
+    if not any(day >= current_day for day in game_days):
+        print("NBA V2 source contains only past games; leaving current publication unchanged.")
+        return
+    src = src[game_days >= current_day].copy()
     if src.duplicated(["game_id", "player_id"]).any():
         raise ValueError("Duplicate game/player projections")
     src["v2_projection"] = pd.to_numeric(src["v2_projection"], errors="coerce")
