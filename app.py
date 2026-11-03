@@ -2513,11 +2513,16 @@ elif page == "🏀 NBA Projections":
         today_board = forward[forward["model"] == "NBA V2"].copy()
         if not today_board.empty:
             today_board["board_date"] = pd.to_datetime(today_board["game_date"], errors="coerce").dt.date
-            today_board = today_board[today_board["board_date"] == central_today]
+            upcoming = today_board[today_board["board_date"] >= central_today]
+            if not upcoming.empty:
+                next_date = upcoming["board_date"].min()
+                today_board = upcoming[upcoming["board_date"] == next_date]
+            else:
+                today_board = today_board.iloc[0:0]
         if today_board.empty:
             st.info("Today's model board is being prepared. No current qualifying paper leans published.")
         else:
-            st.markdown("**Today's five model projections — line comparison pending**")
+            st.markdown(f"**{next_date} model projections — line comparison pending**")
             st.caption("These are the existing model selections, not confirmed OVER/UNDER wagers. A lean needs a matching sportsbook line.")
             for _, pick in today_board.head(5).iterrows():
                 st.markdown(f"**{pick['selection']}** · vs {pick.get('opponent', 'TBD')} · Projected {float(pick['prediction']):.1f} PTS · **LEAN: WAIT**")
