@@ -2,13 +2,28 @@
 Does not run, retrain, or alter the frozen model. Unfinished games stay PENDING.
 """
 from pathlib import Path
-import io
+import re
 import pandas as pd
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "public_data" / "cfb_v4_top5.csv"
 OUTPUT = ROOT / "public_data" / "cfb_v4_graded.csv"
+
+def normalize_team(name):
+    return " ".join(re.sub(r"[^a-z0-9 ]", " ", str(name).lower()).split())
+
+def resolve_side(side, competitors):
+    target = normalize_team(side)
+    matches = []
+    for item in competitors:
+        team = item.get("team", {})
+        variants = [team.get(k, "") for k in ("displayName", "shortDisplayName", "name", "location", "abbreviation")]
+        if any(normalize_team(v) == target for v in variants if v):
+            matches.append(item)
+    if len(matches) != 1:
+        raise ValueError(f"Could not uniquely match {side!r} to ESPN teams")
+    return matches[0]
 
 def result_for_game(game_id, side, spread):
     url = "https://site.api.espn.com/apis/site/v2/sports/football/college-football/summary"
@@ -26,19 +41,17 @@ def result_for_game(game_id, side, spread):
     competitors = comp.get("competitors") or []
     if len(competitors) != 2:
         return "PENDING", None, None
-    teams = {}
-    for item in competitors:
-        name = item.get("team", {}).get("displayName", "")
+    selected = resolve_side(side, competitors)
+    opponent = next(item for item in competitors if item is not selected)
+    def points(item):
         score = item.get("score")
         if isinstance(score, dict):
             score = score.get("displayValue", score.get("value"))
-        teams[name] = float(score)
-    if side not in teams:
-        raise ValueError(f"Selection team {side!r} not found for ESPN game {game_id}: {list(teams)}")
-    other = next(name for name in teams if name != side)
-    adjusted = teams[side] - teams[other] + float(spread)
+        return float(score)
+    scored, conceded = points(selected), points(opponent)
+    adjusted = scored - conceded + float(spread)
     outcome = "WIN" if adjusted > 0 else "LOSS" if adjusted < 0 else "PUSH"
-    return outcome, int(teams[side]), int(teams[other])
+    return outcome, int(scored), int(conceded)
 
 def main():
     if not SOURCE.exists():
