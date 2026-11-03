@@ -26,7 +26,7 @@ df = load_data()
 def load_model_export(model, filename):
     url = f"https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/{filename}"
     try:
-        response = requests.get(url, timeout=12)
+        response = requests.get(url, timeout=3)
         response.raise_for_status()
         fresh = pd.read_csv(__import__("io").StringIO(response.text))
         required = {"model", "test_type", "selection", "prediction", "game_date"}
@@ -1854,6 +1854,13 @@ pages = [
 
 
 
+page = st.radio(
+    "Navigate",
+    pages,
+    horizontal=True,
+    label_visibility="collapsed"
+)
+
 # STEP 73B — GLOBAL EMS SPORTS WIRE
 # Runs above branding on every navigation page.
 
@@ -1866,7 +1873,7 @@ import html
 ticker_games = []
 ticker_errors = []
 
-for ticker_sport in ["NFL", "College Football", "NBA"]:
+for ticker_sport in (["NFL", "College Football", "NBA"] if page in ("🏠 Overview", "🔴 Live Scores") else []):
     try:
         for game in ems_fetch_scores(ticker_sport):
             item = dict(game)
@@ -1979,12 +1986,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-page = st.radio(
-    "Navigate",
-    pages,
-    horizontal=True,
-    label_visibility="collapsed"
-)
 
 historical = df[df["test_type"] == "HISTORICAL_BACKTEST"]
 forward = df[df["test_type"].isin(["FORWARD_PAPER","PROJECTION_TEST"])]
