@@ -27,10 +27,23 @@ jobs:
           echo "f5ac39a7f1e94ce3b1ec4e918986e9e74dce280557f03db4b38b344be0dcb27f  automation/models/nba_v2_frozen_2026_model.joblib" | sha256sum -c -
       - name: Generate recovered model paper projections
         run: python automation/run_nba_v2_recovered_paper.py
+      - name: Fetch verified sportsbook lines when API key is configured
+        env:
+          PROPLINE_API_KEY: ${{ secrets.PROPLINE_API_KEY }}
+        shell: bash
+        run: |
+          if [ -n "$PROPLINE_API_KEY" ]; then
+            python automation/fetch_nba_propline_odds.py
+          else
+            echo "No odds API key configured; projections will show WAIT."
+          fi
+      - name: Compare recovered projections to verified market lines
+        run: python automation/compare_nba_v2_recovered_props.py
       - name: Commit paper snapshot only
         shell: bash
         run: |
-          git add public_data/nba_v2_recovered_paper_predictions.csv
+          git add public_data/nba_v2_recovered_paper_predictions.csv public_data/nba_v2_recovered_prop_comparison.csv
+          if [ -f public_data/nba_v2_propline_odds.csv ]; then git add public_data/nba_v2_propline_odds.csv; fi
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
