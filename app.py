@@ -2422,42 +2422,89 @@ elif page == "🏟️ College Football":
 elif page == "🏀 NBA Projections":
     import html as nba_html
 
-    # Frozen NBA V2 forward paper projections (separate from baseline and official picks).
-    st.subheader("🏀 NBA V2 — Frozen Model Daily Projections")
-    st.caption("Automatically generated recovered-model paper projections. Not confirmed lineups or betting picks.")
+    # Frozen NBA V2 professional player cards; only verified sportsbook quotes show signals.
+    import html as nba_card_html
+    from io import StringIO as NBAStringIO
+    from datetime import datetime as NBADatetime
+    from zoneinfo import ZoneInfo as NBAZoneInfo
+    st.markdown("### 🏀 NBA V2 — DAILY PLAYER PROPS")
+    st.caption("Frozen model · Automated daily · Paper testing only")
+    nba_team_logos = {"ATL":"atl","BOS":"bos","BKN":"bkn","CHA":"cha","CHI":"chi","CLE":"cle","DAL":"dal","DEN":"den","DET":"det","GSW":"gs","HOU":"hou","IND":"ind","LAC":"lac","LAL":"lal","MEM":"mem","MIA":"mia","MIL":"mil","MIN":"min","NOP":"no","NYK":"ny","OKC":"okc","ORL":"orl","PHI":"phi","PHX":"phx","POR":"por","SAC":"sac","SAS":"sa","TOR":"tor","UTA":"utah","WAS":"wsh"}
     try:
-        from io import StringIO
-        from datetime import datetime as nba_datetime
-        from zoneinfo import ZoneInfo as NBAZoneInfo
-        nba_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_recovered_paper_predictions.csv"
-        nba_response = requests.get(nba_url, timeout=8)
-        nba_response.raise_for_status()
-        nba_frozen = pd.read_csv(StringIO(nba_response.text))
-        nba_expected = {"game_date", "player_name", "opponent", "v2_projection", "model_version", "generated_at_utc"}
-        if not nba_expected.issubset(nba_frozen.columns):
-            raise ValueError("Frozen model snapshot missing required columns")
-        nba_frozen = nba_frozen[nba_frozen["model_version"] == "NBA_V2_RECOVERED_FROZEN_PAPER"].copy()
-        nba_today = nba_datetime.now(NBAZoneInfo("America/Chicago")).date()
-        nba_frozen["game_date"] = pd.to_datetime(nba_frozen["game_date"], errors="coerce").dt.date
-        nba_frozen = nba_frozen[nba_frozen["game_date"] >= nba_today].copy()
-        nba_frozen["v2_projection"] = pd.to_numeric(nba_frozen["v2_projection"], errors="coerce")
-        nba_frozen = nba_frozen.dropna(subset=["v2_projection"])
-        if nba_frozen.empty:
-            st.info("No upcoming frozen-model projections are available yet.")
+        nba_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_recovered_prop_comparison.csv"
+        nba_res = requests.get(nba_url, timeout=8)
+        nba_res.raise_for_status()
+        nba_props = pd.read_csv(NBAStringIO(nba_res.text), dtype={"player_id":str})
+        nba_need = {"game_date","player_id","player_name","team","opponent","v2_projection","market_line","sportsbook","decision","edge","model_version"}
+        if not nba_need.issubset(nba_props): raise ValueError("Incomplete NBA V2 comparison data")
+        nba_props = nba_props[nba_props.model_version=="NBA_V2_RECOVERED_FROZEN_PAPER"].copy()
+        nba_props["game_date"] = pd.to_datetime(nba_props.game_date, errors="coerce").dt.date
+        nba_today = NBADatetime.now(NBAZoneInfo("America/Chicago")).date()
+        nba_props = nba_props[nba_props.game_date>=nba_today].copy()
+        if nba_props.empty:
+            st.info("Waiting for the next scheduled NBA V2 slate.")
         else:
-            nba_dates = sorted(nba_frozen["game_date"].unique())
-            nba_selected = st.selectbox("Game date", nba_dates, format_func=lambda d:d.strftime("%b %d, %Y"), key="nba_v2_frozen_date")
-            nba_display = nba_frozen[nba_frozen["game_date"] == nba_selected].copy()
-            nba_query = st.text_input("Find player", key="nba_v2_frozen_player_filter", placeholder="Search player name")
-            if nba_query.strip():
-                nba_display = nba_display[nba_display["player_name"].str.contains(nba_query.strip(), case=False, regex=False, na=False)]
-            nba_display = nba_display.sort_values("v2_projection", ascending=False)
-            nba_display["Projected PTS"] = nba_display["v2_projection"].round(1)
-            st.dataframe(nba_display[["player_name", "opponent", "Projected PTS"]].rename(columns={"player_name":"Player", "opponent":"Opponent"}), hide_index=True, use_container_width=True)
-            st.caption(f"{len(nba_display)} projections shown · Paper testing only · Verify injury status and starting lineups before considering any wager.")
-    except (requests.RequestException, ValueError, pd.errors.ParserError, KeyError) as nba_exc:
-        st.info("Frozen NBA V2 projections are temporarily unavailable.")
-        st.caption(str(nba_exc))
+            nba_day = st.selectbox("Slate", sorted(nba_props.game_date.dropna().unique()), format_func=lambda d:d.strftime("%A, %b %d"), key="nba_v2_cards_day")
+            nba_props = nba_props[nba_props.game_date==nba_day].copy()
+            nba_filter = st.segmented_control("Show", ["All","OVER","UNDER","PASS","WAIT"], default="All", key="nba_v2_cards_status")
+            nba_search = st.text_input("Search players",placeholder="Player name",key="nba_v2_cards_search")
+            if nba_filter!="All":nba_props=nba_props[nba_props.decision==nba_filter]
+            if nba_search.strip():nba_props=nba_props[nba_props.player_name.str.contains(nba_search.strip(),case=False,regex=False,na=False)]
+            nba_props["abs_edge"]=pd.to_numeric(nba_props.edge,errors="coerce").abs()
+            nba_props=nba_props.sort_values(["abs_edge","v2_projection"],ascending=[False,False],na_position="last")
+            nba_count=nba_props.decision.value_counts()
+            a,b,c,d=st.columns(4)
+            a.metric("OVER",int(nba_count.get("OVER",0)))
+            b.metric("UNDER",int(nba_count.get("UNDER",0)))
+            c.metric("PASS",int(nba_count.get("PASS",0)))
+            d.metric("WAITING FOR LINES",int(nba_count.get("WAIT",0)))
+            st.markdown("""
+            <style>
+            .nba-v2-card{background:linear-gradient(135deg,#171e2d,#10141e);border:1px solid #334057;border-radius:17px;padding:19px;margin:10px 0 18px;color:#edf3ff;min-height:238px}
+            .nba-v2-top{display:flex;align-items:center;gap:12px}
+            .nba-v2-head{height:82px;width:82px;object-fit:contain}
+            .nba-v2-logo{height:38px;width:38px;object-fit:contain}
+            .nba-v2-name{font-size:19px;font-weight:850;color:white}
+            .nba-v2-match{color:#a8b6ca;font-size:12px}
+            .nba-v2-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:16px;border-top:1px solid #303b50;padding-top:15px}
+            .nba-v2-label{font-size:10px;color:#9daec7;letter-spacing:1px;text-transform:uppercase}
+            .nba-v2-num{font-size:24px;font-weight:900;color:#fff}
+            .nba-v2-foot{margin-top:14px;font-size:12px;color:#b5c5dc}
+            .nba-v2-tag{display:inline-block;padding:4px 9px;border-radius:30px;font-size:11px;font-weight:900;background:#263247;color:#e9f0ff}
+            </style>
+            """,unsafe_allow_html=True)
+            if nba_props.empty:st.info("No players match these filters.")
+            else:
+                nba_rows=nba_props.to_dict("records")
+                for i in range(0,len(nba_rows),2):
+                    columns=st.columns(2)
+                    for j,entry in enumerate(nba_rows[i:i+2]):
+                        with columns[j]:
+                            name=nba_card_html.escape(str(entry["player_name"]))
+                            team=nba_card_html.escape(str(entry["team"]))
+                            opponent=nba_card_html.escape(str(entry["opponent"]))
+                            status=str(entry["decision"])
+                            color={"OVER":"#60e3ac","UNDER":"#ffb76c","PASS":"#b6c4da","WAIT":"#a6b0c1"}.get(status,"#a6b0c1")
+                            line=pd.to_numeric(entry["market_line"],errors="coerce")
+                            edge=pd.to_numeric(entry["edge"],errors="coerce")
+                            line_text=f"{line:.1f}" if pd.notna(line) else "—"
+                            edge_text=f"{edge:+.1f}" if pd.notna(edge) else "—"
+                            book=nba_card_html.escape(str(entry.get("sportsbook") or "Awaiting verified sportsbook"))
+                            pid=str(entry["player_id"])
+                            pid=pid if pid.isdigit() else "0"
+                            logo=nba_team_logos.get(str(entry["team"]),"nba")
+                            st.markdown(f"""<div class="nba-v2-card">
+                            <div class="nba-v2-top"><img class="nba-v2-head" src="https://a.espncdn.com/i/headshots/nba/players/full/{pid}.png">
+                            <img class="nba-v2-logo" src="https://a.espncdn.com/i/teamlogos/nba/500/{logo}.png">
+                            <div><div class="nba-v2-name">{name}</div><div class="nba-v2-match">{team} vs {opponent}</div><span class="nba-v2-tag" style="color:{color}">{status}</span></div></div>
+                            <div class="nba-v2-stats"><div><div class="nba-v2-label">V2 projection</div><div class="nba-v2-num">{float(entry["v2_projection"]):.1f}</div></div>
+                            <div><div class="nba-v2-label">Book line</div><div class="nba-v2-num">{line_text}</div></div>
+                            <div><div class="nba-v2-label">Edge</div><div class="nba-v2-num" style="color:{color}">{edge_text}</div></div></div>
+                            <div class="nba-v2-foot">{book} · Paper testing only · Unconfirmed lineup</div></div>""",unsafe_allow_html=True)
+            st.caption("OVER/UNDER requires a verified same-game sportsbook line and at least a 3-point edge. WAIT means no matched line; PASS means edge below threshold. Odds and injury status should be checked before wagering.")
+    except (requests.RequestException,ValueError,KeyError,pd.errors.ParserError) as nba_error:
+        st.info("NBA V2 comparison cards are awaiting the next automated publish.")
+        st.caption(str(nba_error))
     st.divider()
 
     st.markdown("""
