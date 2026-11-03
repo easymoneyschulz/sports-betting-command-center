@@ -120,6 +120,37 @@ jobs:
         run: |
           python automation/prepare_nfl_v61_weekly.py             --output-dir research_snapshots/nfl
 
+      - name: Run NFL V6.1 research projections
+        if: steps.schedule_gate.outputs.run == 'true'
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          import sys
+
+          files = sorted(
+              Path("research_snapshots/nfl").glob(
+                  "nfl_v61_*_features.csv"
+              )
+          )
+
+          if len(files) != 1:
+              raise RuntimeError(
+                  f"Expected one feature snapshot, found {len(files)}"
+              )
+
+          command = [
+              sys.executable,
+              "automation/project_nfl_v61_research.py",
+              "--features",
+              str(files[0]),
+              "--output-dir",
+              "research_snapshots/nfl",
+          ]
+
+          subprocess.run(command, check=True)
+          PY
+
       - name: Upload research snapshot
         if: steps.schedule_gate.outputs.run == 'true'
         uses: actions/upload-artifact@v4
