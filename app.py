@@ -1857,10 +1857,7 @@ pages = [
 # STEP 73B — GLOBAL EMS SPORTS WIRE
 # Runs above branding on every navigation page.
 
-st_autorefresh(
-    interval=30_000,
-    key="ems_global_ticker_refresh"
-)
+
 
 # STEP 72D — LIVE SPORTS WIRE
 
