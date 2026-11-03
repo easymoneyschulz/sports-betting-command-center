@@ -2486,8 +2486,8 @@ elif page == "🏀 NBA Projections":
     </style>
     """, unsafe_allow_html=True)
 
-    st.subheader("🏀 Daily Top 5 — NBA V2 Paper Leans")
-    st.caption("Ranked fresh each day from original V2 projections and verified sportsbook odds. No forced picks.")
+    st.subheader("🏀 NBA Player Points — Today's Model Board")
+    st.caption("Paper-testing dashboard. OVER/UNDER only appears when a sportsbook line matches the player and game.")
     @st.cache_data(ttl=120, show_spinner=False)
     def load_nba_top5():
         import io
@@ -2504,12 +2504,23 @@ elif page == "🏀 NBA Projections":
     if not top5.empty and "game_date" in top5.columns:
         top5["game_date"] = pd.to_datetime(top5["game_date"], errors="coerce").dt.date
         top5 = top5[top5["game_date"] == central_today]
-    if top5.empty:
-        st.info("No qualifying, verified V2 paper selections for today yet. We do not recycle yesterday's five.")
-    else:
+    if not top5.empty:
+        st.markdown("**Today's qualifying OVER / UNDER paper leans**")
         for _, pick in top5.head(5).iterrows():
             st.markdown(f"**{pick['player_name']} — {pick['side']} {float(pick['market_line']):.1f} points** · {pick['sportsbook']} ({int(pick['price']):+d})")
-            st.caption(f"V2 projection {float(pick['v2_projection']):.1f} · Edge {float(pick['edge']):+.1f} points · Paper only")
+            st.caption(f"Model: {pick.get('model_version', 'NBA V2')} · Projection {float(pick['v2_projection']):.1f} · Edge {float(pick['edge']):+.1f} pts · PAPER")
+    else:
+        today_board = forward[forward["model"] == "NBA V2"].copy()
+        if not today_board.empty:
+            today_board["board_date"] = pd.to_datetime(today_board["game_date"], errors="coerce").dt.date
+            today_board = today_board[today_board["board_date"] == central_today]
+        if today_board.empty:
+            st.info("Today's model board is being prepared. No current qualifying paper leans published.")
+        else:
+            st.markdown("**Today's five model projections — line comparison pending**")
+            st.caption("These are the existing model selections, not confirmed OVER/UNDER wagers. A lean needs a matching sportsbook line.")
+            for _, pick in today_board.head(5).iterrows():
+                st.markdown(f"**{pick['selection']}** · vs {pick.get('opponent', 'TBD')} · Projected {float(pick['prediction']):.1f} PTS · **LEAN: WAIT**")
     st.divider()
 
     st.subheader("NBA V2 — Player Points")
