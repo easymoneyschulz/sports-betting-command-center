@@ -2344,6 +2344,8 @@ elif page == "🏟️ College Football":
 
     st.subheader("CFB V4 — Qualified Paper Picks")
     cfb = forward[forward["model"] == "CFB V4"].copy()
+    cfb["game_date"] = pd.to_datetime(cfb["game_date"], errors="coerce")
+    cfb = cfb[cfb["game_date"].dt.date >= pd.Timestamp.now(tz="America/Chicago").date()]
 
     # ESPN logo ID for the currently qualified selection.
     # Other teams show a fallback until their IDs are mapped.
@@ -2352,13 +2354,15 @@ elif page == "🏟️ College Football":
     }
 
     if cfb.empty:
-        st.info("No qualifying CFB paper selections.")
+        st.info("No current dated CFB V4 paper picks published. Awaiting the next verified weekly model export.")
     else:
         for _, record in cfb.iterrows():
             team = str(record["selection"])
             line = pd.to_numeric(record["market_line"], errors="coerce")
             projection = pd.to_numeric(record["prediction"], errors="coerce")
             status = str(record["result"]).upper()
+            game_date = record.get("game_date")
+            date_label = game_date.strftime("%b %d, %Y") if pd.notna(game_date) else "Date not verified"
 
             logo_id = cfb_logo_ids.get(team)
             if logo_id:
@@ -2402,7 +2406,7 @@ elif page == "🏟️ College Football":
                     </div>
                 </div>
                 <div class="ems-cfb-footer">
-                    Model projected margin: {model_margin} pts · Paper testing only
+                    Game date: {date_label} · Model projected margin: {model_margin} pts · Paper testing only
                 </div>
             </div>
             """
