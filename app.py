@@ -1842,12 +1842,6 @@ div[data-testid="stTabs"] [data-baseweb="tab-highlight"] {
 """, unsafe_allow_html=True)
 
 
-# Temporary original-design isolation: preserve all existing code below.
-# No betting models, model files, or stored predictions are modified.
-st.markdown("""<div style="background:#17191f;border:1px solid #4b5364;border-radius:12px;padding:18px;color:#fff">
-<strong>Original dashboard design test</strong><p>Original styling loaded. The interactive dashboard is temporarily paused while we isolate its loading problem.</p></div>""",unsafe_allow_html=True)
-st.stop()
-
 pages = [
     "🏠 Overview",
     "🏈 NFL Picks",
@@ -2112,6 +2106,10 @@ def show_editorial_pick(label, category, detail, value, footnote=""):
       </div>
     </div>
     """, unsafe_allow_html=True)
+
+# Diagnostic checkpoint 2: navigation, branding, and shared data initialization.
+st.markdown("""<div style="background:#17191f;border:1px solid #4b5364;border-radius:12px;padding:18px;color:#fff"><strong>Dashboard checkpoint 2</strong><p>Navigation and shared dashboard setup loaded. Individual sports sections are temporarily paused.</p></div>""",unsafe_allow_html=True)
+st.stop()
 
 if page == "🏠 Overview":
     st.subheader("Command Center Overview")
