@@ -2458,6 +2458,12 @@ elif page == "🏀 NBA Projections":
         nba_need = {"game_date","player_id","player_name","team","opponent","v2_projection","market_line","sportsbook","decision","edge","model_version"}
         if not nba_need.issubset(nba_props): raise ValueError("Incomplete NBA V2 comparison data")
         nba_props = nba_props[nba_props.model_version=="NBA_V2_RECOVERED_FROZEN_PAPER"].copy()
+        # Never display betting signals from pre-validation or unverifiable roster snapshots.
+        if "roster_verified" not in nba_props.columns:
+            st.warning("NBA V2 picks paused: waiting for the new roster-verified model run. Existing historical tracking is preserved.")
+            nba_props = nba_props.iloc[0:0].copy()
+        else:
+            nba_props = nba_props[nba_props["roster_verified"].astype(str).str.lower().eq("true")].copy()
         nba_props["game_date"] = pd.to_datetime(nba_props.game_date, errors="coerce").dt.date
         nba_today = NBADatetime.now(NBAZoneInfo("America/Chicago")).date()
         nba_props = nba_props[nba_props.game_date>=nba_today].copy()
