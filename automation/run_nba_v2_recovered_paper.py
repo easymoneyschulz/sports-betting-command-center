@@ -98,8 +98,13 @@ def main():
     rows=combined[combined["is_future"]].copy()
     if rows.duplicated(["game_id","player_id"]).any():raise ValueError("Duplicate future player-game rows")
     # Model contains fitted preprocessing; do not fit or modify it.
-    model=joblib.load(MODEL)
-    predictions=model.predict(rows[FEATURES])
+    bundle=joblib.load(MODEL)
+    if not isinstance(bundle,dict) or not {"model","imputer","features"}<=bundle.keys():
+        raise ValueError("Unexpected frozen model bundle")
+    if list(bundle["features"])!=FEATURES:
+        raise ValueError("Frozen model feature order mismatch")
+    X=bundle["imputer"].transform(rows[FEATURES])
+    predictions=bundle["model"].predict(X)
     if len(predictions)!=len(rows) or not np.isfinite(predictions).all():raise ValueError("Invalid model predictions")
     rows["v2_projection"]=predictions
     rows["model_version"]="NBA_V2_RECOVERED_FROZEN_PAPER"
