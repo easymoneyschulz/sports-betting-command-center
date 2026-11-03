@@ -2,6 +2,11 @@ name: NFL V6.1 Research Automation
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'automation/build_nfl_v61_paper_picks.py'
+      - '.github/workflows/nfl_v61_weekly.yml'
   schedule:
     # Both CST and CDT candidate hours.
     # The internal timezone gate selects the correct run.
@@ -68,7 +73,7 @@ jobs:
               central.utcoffset().total_seconds() / 3600
           )
 
-          if event == "workflow_dispatch":
+          if event in ("workflow_dispatch", "push"):
               allowed = True
           elif event == "schedule":
               allowed = cron in allowed_crons.get(
