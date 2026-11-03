@@ -1,5 +1,5 @@
 name: NBA V2 Recovered Frozen Paper Predictions
-# Manual rerun request after ESPN roster endpoint fix (frozen model unchanged).
+# Rerun requested after Washington ESPN abbreviation fix; frozen model unchanged.
 # Rerun requested after roster verification fix; frozen model unchanged.
 on:
   push:
