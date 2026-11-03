@@ -2446,7 +2446,14 @@ elif page == "🏀 NBA Projections":
         else:
             nba_day = st.selectbox("Slate", sorted(nba_props.game_date.dropna().unique()), format_func=lambda d:d.strftime("%A, %b %d"), key="nba_v2_cards_day")
             nba_props = nba_props[nba_props.game_date==nba_day].copy()
-            nba_filter = st.segmented_control("Show", ["All","OVER","UNDER","PASS","WAIT"], default="All", key="nba_v2_cards_status")
+            st.markdown("""<style>
+.st-key-nba_v2_cards_status [data-testid="stSegmentedControl"],.st-key-nba_v2_cards_status [role="radiogroup"]{background:transparent!important;border:0!important;gap:10px!important}
+.st-key-nba_v2_cards_status button,.st-key-nba_v2_cards_status [role="radio"]{background:#151e2e!important;color:#dce5f4!important;border:1px solid #35455f!important;border-radius:11px!important;padding:10px 20px!important;min-height:46px!important;font-size:12px!important;font-weight:850!important;letter-spacing:1.2px!important;box-shadow:0 5px 16px #0003!important}
+.st-key-nba_v2_cards_status button:hover,.st-key-nba_v2_cards_status [role="radio"]:hover{background:#22324a!important;border-color:#ed4e64!important;color:#fff!important}
+.st-key-nba_v2_cards_status button[aria-checked="true"],.st-key-nba_v2_cards_status button[aria-pressed="true"],.st-key-nba_v2_cards_status [role="radio"][aria-checked="true"],.st-key-nba_v2_cards_status [data-state="checked"]{background:#542034!important;border-color:#ff5068!important;color:#fff!important;box-shadow:0 4px 20px #ed4e6429!important}
+.st-key-nba_v2_cards_status button *,.st-key-nba_v2_cards_status [role="radio"] *{color:inherit!important}
+</style>""",unsafe_allow_html=True)
+            nba_filter = st.segmented_control("FILTER PLAYER PROPS", ["All","OVER","UNDER","PASS","WAIT"], default="All", key="nba_v2_cards_status")
             nba_search = st.text_input("Search players",placeholder="Player name",key="nba_v2_cards_search")
             if nba_filter!="All":nba_props=nba_props[nba_props.decision==nba_filter]
             if nba_search.strip():nba_props=nba_props[nba_props.player_name.str.contains(nba_search.strip(),case=False,regex=False,na=False)]
@@ -2462,7 +2469,9 @@ elif page == "🏀 NBA Projections":
             <style>
             .nba-v2-card{background:linear-gradient(135deg,#171e2d,#10141e);border:1px solid #334057;border-radius:17px;padding:19px;margin:10px 0 18px;color:#edf3ff;min-height:238px}
             .nba-v2-top{display:flex;align-items:center;gap:12px}
-            .nba-v2-head{height:82px;width:82px;object-fit:contain}
+            .nba-v2-head{height:94px;width:94px;object-fit:contain;object-position:center bottom;display:block}
+            .nba-v2-portrait{height:96px;width:96px;flex:0 0 96px;overflow:hidden;border-radius:14px;background:#19253b url("https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/assets/emp_player_shield.svg") center / 82px 82px no-repeat;border:1px solid #33445d}
+            .nba-v2-portrait object{height:94px;width:94px;display:block}
             .nba-v2-logo{height:38px;width:38px;object-fit:contain}
             .nba-v2-name{font-size:19px;font-weight:850;color:white}
             .nba-v2-match{color:#a8b6ca;font-size:12px}
@@ -2494,7 +2503,7 @@ elif page == "🏀 NBA Projections":
                             pid=pid if pid.isdigit() else "0"
                             logo=nba_team_logos.get(str(entry["team"]),"nba")
                             st.markdown(f"""<div class="nba-v2-card">
-                            <div class="nba-v2-top"><img class="nba-v2-head" src="https://a.espncdn.com/i/headshots/nba/players/full/{pid}.png" alt="{name} player headshot" onerror="this.onerror=null;this.src=\'https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/assets/emp_player_shield.svg\'">
+                            <div class="nba-v2-top"><div class="nba-v2-portrait"><object class="nba-v2-head" data="https://cdn.nba.com/headshots/nba/latest/1040x760/{pid}.png" type="image/png" aria-label="{name} player headshot"><img class="nba-v2-head" src="https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/assets/emp_player_shield.svg" alt="EMP shield"></object></div>
                             <img class="nba-v2-logo" src="https://a.espncdn.com/i/teamlogos/nba/500/{logo}.png">
                             <div><div class="nba-v2-name">{name}</div><div class="nba-v2-match">{team} vs {opponent}</div><span class="nba-v2-tag" style="color:{color}">{status}</span></div></div>
                             <div class="nba-v2-stats"><div><div class="nba-v2-label">V2 projection</div><div class="nba-v2-num">{float(entry["v2_projection"]):.1f}</div></div>
