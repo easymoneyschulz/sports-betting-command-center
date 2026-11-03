@@ -207,10 +207,10 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: Confirm publication disabled
+      - name: Confirm paper-only publication
         if: steps.schedule_gate.outputs.run == 'true'
         run: |
           echo "NFL research snapshot saved as GitHub artifact."
           echo "Sportsbook odds verified where available."
-          echo "Paper selections saved in run artifact; no wagers placed."
-          echo "No website files modified."
+          echo "Paper selections saved in run artifact and public_data for Streamlit; no wagers placed."
+          echo "Website app code unchanged; public_data paper snapshots updated when available."
