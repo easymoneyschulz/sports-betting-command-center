@@ -1,0 +1,41 @@
+name: NBA V2 Recovered Frozen Paper Predictions
+on:
+  schedule:
+    - cron: '30 16 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: nba-v2-recovered-paper
+  cancel-in-progress: false
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install frozen model dependencies
+        run: pip install "numpy<3" "pandas<3" "scikit-learn==1.6.1" joblib duckdb requests
+      - name: Verify original frozen model fingerprint
+        shell: bash
+        run: |
+          test -f automation/models/nba_v2_frozen_2026_model.joblib || { echo "Missing frozen model: upload required"; exit 1; }
+          echo "f5ac39a7f1e94ce3b1ec4e918986e9e74dce280557f03db4b38b344be0dcb27f  automation/models/nba_v2_frozen_2026_model.joblib" | sha256sum -c -
+      - name: Generate recovered model paper projections
+        run: python automation/run_nba_v2_recovered_paper.py
+      - name: Commit paper snapshot only
+        shell: bash
+        run: |
+          git add public_data/nba_v2_recovered_paper_predictions.csv
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update NBA V2 recovered frozen paper projections"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
