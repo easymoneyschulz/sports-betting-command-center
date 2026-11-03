@@ -1521,7 +1521,7 @@ def ems_team_logo(team):
 
     return ""
 
-@st.cache_data(ttl=25, show_spinner=False)
+@st.cache_data(ttl=180, show_spinner=False)
 def ems_fetch_scores(sport):
     url = EMS_SCOREBOARD_ENDPOINTS[sport]
 
