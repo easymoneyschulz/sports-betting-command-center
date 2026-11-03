@@ -2107,10 +2107,6 @@ def show_editorial_pick(label, category, detail, value, footnote=""):
     </div>
     """, unsafe_allow_html=True)
 
-# Diagnostic checkpoint 2: navigation, branding, and shared data initialization.
-st.markdown("""<div style="background:#17191f;border:1px solid #4b5364;border-radius:12px;padding:18px;color:#fff"><strong>Dashboard checkpoint 2</strong><p>Navigation and shared dashboard setup loaded. Individual sports sections are temporarily paused.</p></div>""",unsafe_allow_html=True)
-st.stop()
-
 if page == "🏠 Overview":
     st.subheader("Command Center Overview")
 
@@ -2162,6 +2158,9 @@ if page == "🏠 Overview":
             projection,
             "Projected PTS · Line pending"
         )
+
+    st.success("Checkpoint 3: Original Overview section finished rendering.")
+    st.stop()
 
 elif page == "🏈 NFL Picks":
     import html as nfl_html
