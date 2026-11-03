@@ -128,11 +128,12 @@ def main():
     predictions=bundle["model"].predict(X)
     if len(predictions)!=len(rows) or not np.isfinite(predictions).all():raise ValueError("Invalid model predictions")
     rows["v2_projection"]=predictions
+    rows["roster_verified"]=True
     rows["model_version"]="NBA_V2_RECOVERED_FROZEN_PAPER"
     rows["generated_at_utc"]=pd.Timestamp.now(tz="UTC").isoformat()
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     tmp=OUTPUT.with_suffix(".tmp")
-    rows[["game_date","game_id","player_id","player_name","team","opponent","v2_projection","model_version","generated_at_utc"]].assign(game_date=lambda x:x.game_date.dt.strftime("%Y-%m-%d")).to_csv(tmp,index=False)
+    rows[["game_date","game_id","player_id","player_name","team","opponent","v2_projection","roster_verified","model_version","generated_at_utc"]].assign(game_date=lambda x:x.game_date.dt.strftime("%Y-%m-%d")).to_csv(tmp,index=False)
     os.replace(tmp,OUTPUT)
     print("PAPER projections:",len(rows),"date:",rows.game_date.min().date(),"file:",OUTPUT)
     print("Historical picks and official V2 source unchanged")
