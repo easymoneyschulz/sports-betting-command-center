@@ -23,12 +23,15 @@ jobs:
         env:
           PROPLINE_API_KEY: ${{ secrets.PROPLINE_API_KEY }}
         run: python automation/fetch_nba_propline_odds.py
+      - name: Build NBA daily player baseline
+        run: python automation/build_nba_rolling_baseline.py
       - name: Validate and format original model snapshots
         run: python automation/publish_nba_v2.py
       - name: Rank daily NBA V2 paper opportunities
         run: python automation/rank_nba_v2_daily.py
       - name: Commit only changed public NBA snapshot
         run: |
+          git add -A public_data/nba_rolling_game_logs.csv public_data/nba_daily_rebuilt_projections.csv public_data/nba_daily_active_projections.csv
           if [ -f public_data/nba_v2_daily_top5.csv ]; then
             git add public_data/nba_v2_daily_top5.csv
           fi
