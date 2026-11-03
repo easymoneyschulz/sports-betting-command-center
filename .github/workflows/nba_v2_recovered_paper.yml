@@ -1,4 +1,5 @@
 name: NBA V2 Recovered Frozen Paper Predictions
+# Rerun requested after roster verification fix; frozen model unchanged.
 on:
   push:
     branches: [main]
