@@ -2483,36 +2483,115 @@ elif page == "🏀 NBA Projections":
     </style>
     """, unsafe_allow_html=True)
 
-    st.subheader("🏀 NBA Player Points — OVER / UNDER")
-    st.caption("Paper-testing dashboard. OVER/UNDER only appears when a sportsbook line matches the player and game.")
-    @st.cache_data(ttl=120, show_spinner=False)
-    def load_nba_top5():
+    st.markdown("""
+    <style>
+    .ems-prop-hero{padding:29px 30px;border-radius:19px;background:linear-gradient(115deg,#171f30,#10141e 58%,#35161e);border:1px solid #343a4b;margin:8px 0 22px}
+    .ems-prop-eyebrow{font-size:11px;letter-spacing:2.6px;color:#ff6374;font-weight:850;margin-bottom:9px}
+    .ems-prop-heading{font-size:clamp(27px,4vw,43px);font-weight:950;color:#fff;letter-spacing:-1.4px;line-height:1.12}
+    .ems-prop-sub{color:#b4bdce;font-size:14px;margin-top:10px;line-height:1.6}
+    .ems-prop-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:15px;margin:14px 0 24px}
+    .ems-prop-card{background:linear-gradient(145deg,#171d2a,#0e131e);border:1px solid #30394c;border-radius:17px;padding:22px 23px 19px;min-height:240px;box-shadow:0 9px 30px #0003}
+    .ems-prop-card.verified{border:1px solid #287d63;background:linear-gradient(145deg,#102b29,#101923 60%,#171a24)}
+    .ems-prop-cardhead{display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .ems-prop-rank{font-size:12px;letter-spacing:1px;color:#8998b1;font-weight:900}
+    .ems-prop-tag{font-size:10px;font-weight:900;letter-spacing:1.2px;border:1px solid #465068;color:#b6c4da;border-radius:50px;padding:6px 10px}
+    .ems-prop-tag.verified{color:#75ebbd;border-color:#2a9775;background:#15392f}
+    .ems-prop-name{font-size:23px;font-weight:900;letter-spacing:-.5px;color:#fff;margin-top:21px}
+    .ems-prop-match{font-size:12px;color:#a5b2c5;margin:5px 0 18px}
+    .ems-prop-pick{font-size:29px;font-weight:950;color:#75ebbd;letter-spacing:-.7px}
+    .ems-prop-projection{font-size:29px;font-weight:950;color:#f4f7ff;letter-spacing:-.7px}
+    .ems-prop-line{height:1px;background:#343b4b;margin:17px 0 14px}
+    .ems-prop-stats{display:flex;justify-content:space-between;gap:10px}
+    .ems-prop-stats small{display:block;color:#8794a9;font-size:10px;font-weight:850;letter-spacing:1px;margin-bottom:6px}
+    .ems-prop-stats strong{color:#f0f4fc;font-size:16px}
+    .ems-prop-note{color:#8f9eb2;font-size:12px;margin-top:14px;line-height:1.5}
+    </style>
+    """,unsafe_allow_html=True)
+
+    @st.cache_data(ttl=120,show_spinner=False)
+    def nba_board_file(filename):
         import io
-        url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_daily_top5.csv"
+        url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/" + filename
         try:
-            response = requests.get(url, timeout=12)
-            response.raise_for_status()
-            return pd.read_csv(io.StringIO(response.text))
-        except (requests.RequestException, ValueError, pd.errors.ParserError):
+            r=requests.get(url,timeout=8)
+            r.raise_for_status()
+            return pd.read_csv(io.StringIO(r.text))
+        except (requests.RequestException,ValueError,pd.errors.ParserError):
             return pd.DataFrame()
 
-    top5 = load_nba_top5()
-    central_today = pd.Timestamp.now(tz="America/Chicago").date()
-    if not top5.empty and "game_date" in top5.columns:
-        top5["game_date"] = pd.to_datetime(top5["game_date"], errors="coerce").dt.date
-        top5 = top5[top5["game_date"] >= central_today]
-        if not top5.empty:
-            top5 = top5[top5["game_date"] == top5["game_date"].min()]
-    if not top5.empty:
-        st.markdown("**Upcoming OVER / UNDER paper picks**")
-        for _, pick in top5.head(5).iterrows():
-            st.markdown(f"**{pick['player_name']} — {pick['side']} {float(pick['market_line']):.1f} points** · {pick['sportsbook']} ({int(pick['price']):+d})")
-            st.caption(f"Model: {pick.get('model_version', 'NBA V2')} · Projection {float(pick['v2_projection']):.1f} · Edge {float(pick['edge']):+.1f} pts · PAPER")
-    else:
-        st.info("No qualifying OVER / UNDER picks for the upcoming slate. The model does not force selections.")
-    st.divider()
+    top5=nba_board_file("nba_v2_daily_top5.csv")
+    originals=nba_board_file("nba_v2_source_predictions.csv")
+    rebuilt=nba_board_file("nba_daily_active_projections.csv")
+    central_today=pd.Timestamp.now(tz="America/Chicago").date()
+    def dated_rows(frame):
+        if frame.empty or "game_date" not in frame.columns:
+            return pd.DataFrame()
+        frame=frame.copy()
+        frame["game_date"]=pd.to_datetime(frame["game_date"],errors="coerce").dt.date
+        return frame[frame["game_date"]>=central_today]
 
-    st.caption("Only verified, qualifying OVER / UNDER selections are shown above. Other player projections are not picks. Paper testing only.")
+    top5=dated_rows(top5)
+    originals=dated_rows(originals)
+    rebuilt=dated_rows(rebuilt)
+    dates=[]
+    for frame in (top5,originals,rebuilt):
+        if not frame.empty:
+            dates.extend(frame["game_date"].dropna().tolist())
+    if dates:
+        target=min(dates)
+        confirmed=top5[top5["game_date"]==target] if not top5.empty else pd.DataFrame()
+        base=originals[originals["game_date"]==target] if not originals.empty else pd.DataFrame()
+        if base.empty and not rebuilt.empty:
+            base=rebuilt[rebuilt["game_date"]==target]
+        entries=[]
+        for _,p in confirmed.head(5).iterrows():
+            entries.append({"player":str(p["player_name"]),"opponent":str(p.get("opponent","—")),"projection":float(p["v2_projection"]),"side":str(p["side"]),"line":float(p["market_line"]),"price":int(p["price"]),"book":str(p["sportsbook"]),"edge":float(p["edge"]),"verified":True})
+        if not base.empty:
+            for _,p in base.iterrows():
+                player=str(p["player_name"])
+                if any(x["player"]==player for x in entries):
+                    continue
+                try:
+                    projection=float(p["v2_projection"])
+                except (ValueError,TypeError):
+                    continue
+                entries.append({"player":player,"opponent":str(p.get("opponent","—")),"projection":projection,"verified":False})
+                if len(entries)==5:
+                    break
+        verified_count=sum(x["verified"] for x in entries)
+        title_date=target.strftime("%B %d, %Y")
+        st.markdown(
+            '<div class="ems-prop-hero"><div class="ems-prop-eyebrow">EASYMONEYSCHULZ / NBA PLAYER POINTS</div>'
+            '<div class="ems-prop-heading">THE TOP 5 BOARD</div>'
+            '<div class="ems-prop-sub">'+nba_html.escape(title_date)+' &nbsp;•&nbsp; '+str(verified_count)+' verified OVER/UNDER paper pick(s) &nbsp;•&nbsp; '+str(len(entries))+' featured players</div></div>',
+            unsafe_allow_html=True
+        )
+        cards=[]
+        for i,p in enumerate(entries,1):
+            player=nba_html.escape(p["player"])
+            opponent=nba_html.escape(p["opponent"])
+            verified=p["verified"]
+            tag="VERIFIED PAPER PICK" if verified else "MODEL PROJECTION"
+            main=(nba_html.escape(p["side"])+" "+f'{p["line"]:.1f}'+" PTS") if verified else f'{p["projection"]:.1f} PROJECTED PTS'
+            stat1=(f'{p["projection"]:.1f} PTS') if verified else "POINTS"
+            stat2=(f'{p["edge"]:+.1f} PTS') if verified else "NOT A PICK"
+            stat3=(nba_html.escape(p["book"])+" "+f'{p["price"]:+d}') if verified else "NO VERIFIED LINE"
+            note="Paper selection • Odds can move • Not a guaranteed result" if verified else "Featured model projection only • Not an OVER/UNDER selection"
+            cards.append(
+                '<div class="ems-prop-card'+(' verified' if verified else '')+'">'
+                '<div class="ems-prop-cardhead"><span class="ems-prop-rank">#'+str(i).zfill(2)+'</span><span class="ems-prop-tag'+(' verified' if verified else '')+'">'+tag+'</span></div>'
+                '<div class="ems-prop-name">'+player+'</div><div class="ems-prop-match">VS '+opponent+' &nbsp;·&nbsp; '+nba_html.escape(title_date)+'</div>'
+                '<div class="'+('ems-prop-pick' if verified else 'ems-prop-projection')+'">'+main+'</div>'
+                '<div class="ems-prop-line"></div><div class="ems-prop-stats">'
+                '<div><small>MODEL</small><strong>'+stat1+'</strong></div>'
+                '<div><small>'+('EDGE' if verified else 'STATUS')+'</small><strong>'+stat2+'</strong></div>'
+                '<div><small>SPORTSBOOK</small><strong>'+stat3+'</strong></div>'
+                '</div><div class="ems-prop-note">'+note+'</div></div>'
+            )
+        st.markdown('<div class="ems-prop-grid">'+''.join(cards)+'</div>',unsafe_allow_html=True)
+        st.caption("Official picks require a matching player, game, sportsbook line and qualifying model edge. Five featured players do not mean five bets. The rebuilt rolling model is not the original trained V2.")
+    else:
+        st.markdown('<div class="ems-prop-hero"><div class="ems-prop-eyebrow">EASYMONEYSCHULZ / NBA PLAYER POINTS</div><div class="ems-prop-heading">THE TOP 5 BOARD</div><div class="ems-prop-sub">Next slate loading. No verified selections have been published for a future game date.</div></div>',unsafe_allow_html=True)
 
 elif page == "📊 Model Performance":
     st.subheader("NFL V6.1 — Historical Backtest")
