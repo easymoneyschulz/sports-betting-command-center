@@ -2344,6 +2344,13 @@ elif page == "🏟️ College Football":
 
     st.subheader("CFB V4 — Qualified Paper Picks")
     cfb = forward[forward["model"] == "CFB V4"].copy()
+    try:
+        cfb_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/cfb_v4_current_picks.csv"
+        cfb_latest = pd.read_csv(cfb_url)
+        if not cfb_latest.empty:
+            cfb = cfb_latest
+    except Exception:
+        pass
     cfb["game_date"] = pd.to_datetime(cfb["game_date"], errors="coerce")
     cfb = cfb[cfb["game_date"].dt.date >= pd.Timestamp.now(tz="America/Chicago").date()]
 
