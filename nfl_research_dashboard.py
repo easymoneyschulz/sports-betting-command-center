@@ -162,7 +162,7 @@ def render_nfl_research(base: Path):
 
     st.subheader("NFL V6.1 — Forward Paper Picks")
     if picks is None:
-        st.info("Awaiting first verified sportsbook paper-pick snapshot.")
+        st.warning("This source does not contain the latest sportsbook picks. The GitHub artifact reader may need a valid GITHUB_READ_TOKEN in Streamlit secrets.")
     elif picks.empty:
         st.info("No verified upcoming sportsbook spreads in this snapshot.")
     else:
