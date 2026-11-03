@@ -1876,27 +1876,9 @@ ticker_errors = []
 
 # Fetch all three score feeds concurrently, with a strict total wait budget.
 # A slow ESPN response must never prevent the dashboard from rendering.
-if page in ("🏠 Overview", "🔴 Live Scores"):
-    from concurrent.futures import ThreadPoolExecutor, wait
-    ticker_sports = ["NFL", "College Football", "NBA"]
-    ticker_pool = ThreadPoolExecutor(max_workers=3)
-    try:
-        ticker_futures = {ticker_pool.submit(ems_fetch_scores, sport): sport for sport in ticker_sports}
-        completed, pending = wait(ticker_futures, timeout=2.5)
-        for future in completed:
-            sport = ticker_futures[future]
-            try:
-                for game in future.result():
-                    item = dict(game)
-                    item["ticker_sport"] = sport
-                    ticker_games.append(item)
-            except Exception:
-                ticker_errors.append(sport)
-        for future in pending:
-            ticker_errors.append(ticker_futures[future])
-            future.cancel()
-    finally:
-        ticker_pool.shutdown(wait=False, cancel_futures=True)
+# Temporarily suspend live ticker network calls to keep the premium dashboard responsive.
+# The original ticker markup and styling remain preserved below for re-enabling.
+ticker_errors = []
 
 state_order = {"in": 0, "pre": 1, "post": 2}
 ticker_games.sort(
@@ -1971,7 +1953,7 @@ if ticker_items:
 
     st.markdown(ticker_html, unsafe_allow_html=True)
 elif page in ("🏠 Overview", "🔴 Live Scores"):
-    st.caption("Sports wire temporarily unavailable.")
+    st.caption("EMS Sports Wire · Live scores temporarily paused while we stabilize the dashboard.")
 
 if ticker_errors:
     st.caption(
