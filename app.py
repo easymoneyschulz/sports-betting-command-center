@@ -2429,6 +2429,30 @@ elif page == "🏀 NBA Projections":
     from zoneinfo import ZoneInfo as NBAZoneInfo
     st.markdown("### 🏀 NBA V2 — DAILY PLAYER PROPS")
     st.caption("Frozen model · Automated daily · Paper testing only")
+
+    # Grade only locked pregame paper selections; exclude voids and pushes from win rate.
+    try:
+        nba_tracker_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_recovered_paper_tracker.csv"
+        nba_tracker_response = requests.get(nba_tracker_url,timeout=5)
+        if nba_tracker_response.ok:
+            from io import StringIO as NBAHistoryIO
+            nba_history = pd.read_csv(NBAHistoryIO(nba_tracker_response.text))
+            if {"result","net_units"}.issubset(nba_history):
+                nba_record = nba_history[nba_history.result.isin(["WIN","LOSS"])].copy()
+                nba_wins = int((nba_record.result=="WIN").sum())
+                nba_losses = int((nba_record.result=="LOSS").sum())
+                nba_units = pd.to_numeric(nba_history.net_units,errors="coerce").fillna(0).sum()
+                nba_staked = len(nba_record)
+                nba_roi = (nba_units/nba_staked*100) if nba_staked else 0
+                t1,t2,t3,t4 = st.columns(4)
+                t1.metric("PAPER RECORD",f"{nba_wins}-{nba_losses}")
+                t2.metric("WIN RATE",f"{nba_wins/nba_staked*100:.1f}%" if nba_staked else "—")
+                t3.metric("NET UNITS",f"{nba_units:+.2f}u")
+                t4.metric("ROI",f"{nba_roi:+.1f}%" if nba_staked else "—")
+                st.caption("Locked selections only · 1-unit hypothetical stakes · Pushes and DNP voids excluded from win rate.")
+    except (requests.RequestException,ValueError,pd.errors.ParserError):
+        pass
+
     nba_team_logos = {"ATL":"atl","BOS":"bos","BKN":"bkn","CHA":"cha","CHI":"chi","CLE":"cle","DAL":"dal","DEN":"den","DET":"det","GSW":"gs","HOU":"hou","IND":"ind","LAC":"lac","LAL":"lal","MEM":"mem","MIA":"mia","MIL":"mil","MIN":"min","NOP":"no","NYK":"ny","OKC":"okc","ORL":"orl","PHI":"phi","PHX":"phx","POR":"por","SAC":"sac","SAS":"sa","TOR":"tor","UTA":"utah","WAS":"wsh"}
     try:
         nba_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_recovered_prop_comparison.csv"
