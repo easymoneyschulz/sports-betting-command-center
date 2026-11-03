@@ -34,6 +34,10 @@ def main():
         if upcoming_dates:
             target_date = upcoming_dates[0]
     if not original.empty:
+        original_future = sorted(d for d in pd.to_datetime(original["game_date"], errors="coerce").dt.date.dropna().unique() if d >= today)
+        if original_future:
+            target_date = original_future[0]
+    if not original.empty:
         original = original[pd.to_datetime(original["game_date"], errors="coerce").dt.date == target_date]
     if not original.empty:
         src = original.copy()
