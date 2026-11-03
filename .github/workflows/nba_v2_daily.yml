@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install pandas
+      - run: pip install pandas requests
       - name: Fetch PropLine NBA player-points odds
         env:
           PROPLINE_API_KEY: ${{ secrets.PROPLINE_API_KEY }}
