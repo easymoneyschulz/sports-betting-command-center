@@ -1521,7 +1521,7 @@ def ems_team_logo(team):
 
     return ""
 
-@st.cache_data(ttl=180, show_spinner=False)
+@st.cache_data(ttl=600, show_spinner=False)
 def ems_fetch_scores(sport):
     url = EMS_SCOREBOARD_ENDPOINTS[sport]
 
@@ -1529,7 +1529,7 @@ def ems_fetch_scores(sport):
         url,
         params={"limit": 100},
         headers={"User-Agent": "Mozilla/5.0"},
-        timeout=12
+        timeout=3
     )
     response.raise_for_status()
 
@@ -1866,7 +1866,7 @@ import html
 ticker_games = []
 ticker_errors = []
 
-for ticker_sport in ["NFL", "College Football", "NBA"]:
+for ticker_sport in (["NFL", "College Football", "NBA"] if page in ("🏠 Overview", "🔴 Live Scores") else []):
     try:
         for game in ems_fetch_scores(ticker_sport):
             item = dict(game)
@@ -1947,8 +1947,8 @@ if ticker_items:
     )
 
     st.markdown(ticker_html, unsafe_allow_html=True)
-else:
-    st.info("Sports ticker waiting for ESPN game data.")
+elif page in ("🏠 Overview", "🔴 Live Scores"):
+    st.caption("Sports wire temporarily unavailable.")
 
 if ticker_errors:
     st.caption(
@@ -2624,7 +2624,7 @@ elif page == "📊 Model Performance":
     def perf_read_public(name):
         url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/" + name
         try:
-            response = requests.get(url, timeout=10)
+            response = requests.get(url, timeout=3)
             response.raise_for_status()
             return pd.read_csv(perf_io.StringIO(response.text))
         except (requests.RequestException, ValueError, pd.errors.ParserError):
