@@ -1905,7 +1905,7 @@ ticker_games.sort(
 
 ticker_items = []
 
-for game in ticker_games:
+for game in ticker_games[:18]:
     state = game.get("state", "pre")
 
     away = html.escape(str(
@@ -2138,7 +2138,7 @@ if page == "🏠 Overview":
 
     cfb = forward[forward["model"] == "CFB V4"]
 
-    for _, row in cfb.iterrows():
+    for _, row in cfb.head(5).iterrows():
         spread = pd.to_numeric(row["market_line"], errors="coerce")
         spread_text = f"{spread:+g}" if pd.notna(spread) else "N/A"
 
@@ -2157,7 +2157,7 @@ if page == "🏠 Overview":
 
     nba = forward[forward["model"] == "NBA V2"]
 
-    for _, row in nba.iterrows():
+    for _, row in nba.head(8).iterrows():
         points = pd.to_numeric(
             row["prediction"], errors="coerce"
         )
