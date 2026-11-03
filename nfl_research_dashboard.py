@@ -188,11 +188,71 @@ def render_nfl_research(base: Path):
         if qualified.empty:
             st.info("No qualifying paper picks this run. All verified games are PASS.")
         else:
-            for _, pick in qualified.sort_values("edge_points", ascending=False).iterrows():
-                st.success("PAPER PICK: {} {:+g} ({:+d}) | Edge {:.2f} pts | {}".format(
-                    pick["selected_team"], float(pick["selected_spread"]),
-                    int(pick["selected_price"]), float(pick["edge_points"]),
-                    str(pick["sportsbook"]).title()))
+            st.markdown("""
+            <style>
+            .nfl-picks-banner{background:linear-gradient(110deg,#111c2d,#08101b 65%,#092b32);
+              border:1px solid #234d68;border-radius:16px;padding:19px 24px;margin:12px 0 18px;
+              box-shadow:0 8px 24px #0005}
+            .nfl-picks-banner .top{color:#6fd6ff;font-size:12px;font-weight:850;letter-spacing:2px}
+            .nfl-picks-banner .main{font-size:clamp(22px,3vw,34px);font-weight:950;color:#fff;
+              letter-spacing:.5px;margin-top:3px}
+            .nfl-picks-banner .bottom{color:#a2b5c9;font-size:12px;margin-top:6px}
+            .nfl-pick-card{display:flex;align-items:center;gap:18px;
+              background:linear-gradient(105deg,#1a2535,#0e1520 62%,#102c2b);
+              border:1px solid #304357;border-left:5px solid #28d1b0;border-radius:14px;
+              padding:14px 22px;margin:11px 0;min-height:102px;box-shadow:0 5px 16px #0004}
+            .nfl-pick-rank{color:#71879e;font-weight:900;font-size:23px;width:34px;flex-shrink:0}
+            .nfl-pick-logo{width:76px;height:76px;object-fit:contain;flex-shrink:0}
+            .nfl-pick-info{flex:1;min-width:0}
+            .nfl-pick-kicker{font-size:11px;color:#64cbd7;font-weight:800;letter-spacing:1.5px}
+            .nfl-pick-name{font-size:clamp(17px,2vw,24px);font-weight:900;color:#fff;line-height:1.2}
+            .nfl-pick-meta{color:#9aacc0;font-size:12px;margin-top:5px}
+            .nfl-pick-right{text-align:right;min-width:140px}
+            .nfl-pick-spread{color:#fff;font-size:clamp(26px,3vw,38px);font-weight:950;line-height:1}
+            .nfl-pick-odds{font-size:13px;color:#aebdc9;margin-top:5px}
+            .nfl-pick-edge{color:#51e8b1;font-size:13px;font-weight:850;margin-top:7px}
+            @media(max-width:650px){
+              .nfl-pick-card{gap:10px;padding:12px 10px;min-height:85px}
+              .nfl-pick-rank{width:18px;font-size:15px}
+              .nfl-pick-logo{width:48px;height:48px}
+              .nfl-pick-name{font-size:15px}
+              .nfl-pick-right{min-width:86px}
+              .nfl-pick-spread{font-size:25px}
+              .nfl-pick-meta{font-size:10px}
+              .nfl-pick-edge{font-size:11px}
+            }
+            </style>
+            """, unsafe_allow_html=True)
+            st.markdown(
+                '<div class="nfl-picks-banner"><div class="top">NFL V6.1 / LIVE DATA SNAPSHOT</div>'
+                '<div class="main">WEEK {} &nbsp;·&nbsp; {} PAPER PICKS</div>'
+                '<div class="bottom">MODEL-RANKED SPREADS · ODDS AT SNAPSHOT · RESEARCH ONLY</div></div>'.format(
+                    html.escape(week), len(qualified)), unsafe_allow_html=True)
+            for rank, (_, pick) in enumerate(
+                qualified.sort_values("edge_points", ascending=False).iterrows(), 1
+            ):
+                name = str(pick["selected_team"])
+                code = next((c for c, n in TEAM_NAMES.items() if n == name), "")
+                logo = _logo(code, name) if code else ""
+                spread = float(pick["selected_spread"])
+                price = int(pick["selected_price"])
+                edge = float(pick["edge_points"])
+                book = html.escape(str(pick["sportsbook"]).title())
+                card = (
+                    f'<div class="nfl-pick-card">'
+                    f'<div class="nfl-pick-rank">{rank:02d}</div>'
+                    f'<div class="nfl-pick-logo">{logo}</div>'
+                    f'<div class="nfl-pick-info">'
+                    f'<div class="nfl-pick-kicker">MODEL SELECTION</div>'
+                    f'<div class="nfl-pick-name">{html.escape(name)}</div>'
+                    f'<div class="nfl-pick-meta">{book} · PAPER TEST</div></div>'
+                    f'<div class="nfl-pick-right">'
+                    f'<div class="nfl-pick-spread">{spread:+g}</div>'
+                    f'<div class="nfl-pick-odds">ODDS {price:+d}</div>'
+                    f'<div class="nfl-pick-edge">EDGE +{edge:.2f} PTS</div>'
+                    f'</div></div>'
+                )
+                st.markdown(card, unsafe_allow_html=True)
         with st.expander("All verified matchups — picks and passes"):
             cols = ["away_team","home_team","decision","selected_team",
                     "selected_spread","selected_price","edge_points",
