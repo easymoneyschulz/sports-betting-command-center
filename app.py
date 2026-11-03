@@ -2422,6 +2422,44 @@ elif page == "🏟️ College Football":
 elif page == "🏀 NBA Projections":
     import html as nba_html
 
+    # Frozen NBA V2 forward paper projections (separate from baseline and official picks).
+    st.subheader("🏀 NBA V2 — Frozen Model Daily Projections")
+    st.caption("Automatically generated recovered-model paper projections. Not confirmed lineups or betting picks.")
+    try:
+        from io import StringIO
+        from datetime import datetime as nba_datetime
+        from zoneinfo import ZoneInfo as NBAZoneInfo
+        nba_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_recovered_paper_predictions.csv"
+        nba_response = requests.get(nba_url, timeout=8)
+        nba_response.raise_for_status()
+        nba_frozen = pd.read_csv(StringIO(nba_response.text))
+        nba_expected = {"game_date", "player_name", "opponent", "v2_projection", "model_version", "generated_at_utc"}
+        if not nba_expected.issubset(nba_frozen.columns):
+            raise ValueError("Frozen model snapshot missing required columns")
+        nba_frozen = nba_frozen[nba_frozen["model_version"] == "NBA_V2_RECOVERED_FROZEN_PAPER"].copy()
+        nba_today = nba_datetime.now(NBAZoneInfo("America/Chicago")).date()
+        nba_frozen["game_date"] = pd.to_datetime(nba_frozen["game_date"], errors="coerce").dt.date
+        nba_frozen = nba_frozen[nba_frozen["game_date"] >= nba_today].copy()
+        nba_frozen["v2_projection"] = pd.to_numeric(nba_frozen["v2_projection"], errors="coerce")
+        nba_frozen = nba_frozen.dropna(subset=["v2_projection"])
+        if nba_frozen.empty:
+            st.info("No upcoming frozen-model projections are available yet.")
+        else:
+            nba_dates = sorted(nba_frozen["game_date"].unique())
+            nba_selected = st.selectbox("Game date", nba_dates, format_func=lambda d:d.strftime("%b %d, %Y"), key="nba_v2_frozen_date")
+            nba_display = nba_frozen[nba_frozen["game_date"] == nba_selected].copy()
+            nba_query = st.text_input("Find player", key="nba_v2_frozen_player_filter", placeholder="Search player name")
+            if nba_query.strip():
+                nba_display = nba_display[nba_display["player_name"].str.contains(nba_query.strip(), case=False, regex=False, na=False)]
+            nba_display = nba_display.sort_values("v2_projection", ascending=False)
+            nba_display["Projected PTS"] = nba_display["v2_projection"].round(1)
+            st.dataframe(nba_display[["player_name", "opponent", "Projected PTS"]].rename(columns={"player_name":"Player", "opponent":"Opponent"}), hide_index=True, use_container_width=True)
+            st.caption(f"{len(nba_display)} projections shown · Paper testing only · Verify injury status and starting lineups before considering any wager.")
+    except (requests.RequestException, ValueError, pd.errors.ParserError, KeyError) as nba_exc:
+        st.info("Frozen NBA V2 projections are temporarily unavailable.")
+        st.caption(str(nba_exc))
+    st.divider()
+
     st.markdown("""
     <style>
     .ems-nba-date {
