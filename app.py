@@ -2006,6 +2006,16 @@ losses = int((nfl_hist["result"] == "LOSS").sum())
 pushes = int((nfl_hist["result"] == "PUSH").sum())
 win_rate = 100*wins/(wins+losses) if wins+losses else None
 
+CFB_TEAM_IDS = {"Colorado State":36,"Boise State":68,"UConn":41,"North Carolina":153,"New Mexico State":166,"Liberty":2335,"Notre Dame":87,"Miami":2390,"Baylor":239,"Iowa State":66}
+NBA_TEAM_IDS = {"ATL":1,"BOS":2,"BKN":17,"CHA":30,"CHI":4,"CLE":5,"DAL":6,"DEN":7,"DET":8,"GSW":9,"HOU":10,"IND":11,"LAC":12,"LAL":13,"MEM":29,"MIA":14,"MIL":15,"MIN":16,"NOP":3,"NYK":18,"OKC":25,"ORL":19,"PHI":20,"PHX":21,"POR":22,"SAC":23,"SAS":24,"TOR":28,"UTA":26,"WAS":27}
+NBA_PLAYER_TEAM = {"Luka Dončić":"LAL","Tyrese Maxey":"PHI","Jamal Murray":"DEN","Toumani Camara":"POR","Peyton Watson":"DEN"}
+def cfb_team_logo(name):
+    team_id = CFB_TEAM_IDS.get(str(name))
+    return f"https://a.espncdn.com/i/teamlogos/ncaa/500/{team_id}.png" if team_id else ""
+def nba_team_logo(abbr):
+    team_id = NBA_TEAM_IDS.get(str(abbr).upper())
+    return f"https://a.espncdn.com/i/teamlogos/nba/500/{team_id}.png" if team_id else ""
+
 def show_pick(selection, subtitle, detail, status):
     st.markdown(f"""
     <div class="pick-card">
@@ -2349,7 +2359,7 @@ elif page == "🏟️ College Football":
     .cfb-headline{color:#f8fafc;font-size:29px;font-weight:850;letter-spacing:-.8px;margin:7px 0}
     .cfb-description{color:#a9b7c8;font-size:13px;line-height:1.6}
     .cfb-card{display:flex;gap:17px;align-items:center;padding:19px 22px;background:linear-gradient(110deg,#181f2c,#202937);border:1px solid #334155;border-radius:15px;margin:12px 0}
-    .cfb-rank{color:#7d91aa;font-size:22px;font-weight:850;min-width:36px}
+    .cfb-logo{width:58px;height:58px;object-fit:contain;flex-shrink:0} .cfb-rank{color:#7d91aa;font-size:22px;font-weight:850;min-width:36px}
     .cfb-main{flex:1;min-width:0}
     .cfb-matchup{font-size:12px;color:#9aabc0;margin-bottom:6px}
     .cfb-selection{font-size:23px;font-weight:850;color:#f8fafc;line-height:1.25}
@@ -2359,7 +2369,7 @@ elif page == "🏟️ College Football":
     .cfb-edge-caption{font-size:10px;color:#91a4bb;text-transform:uppercase;letter-spacing:1px}
     .cfb-tag{display:inline-block;padding:5px 9px;border-radius:7px;background:#28384a;color:#b9cce0;font-size:10px;font-weight:800;letter-spacing:.7px;margin-top:8px}
     .cfb-tag-strong{background:#173f37;color:#8ce5c7}
-    @media(max-width:620px){.cfb-hero{padding:19px}.cfb-headline{font-size:24px}.cfb-card{padding:14px 12px;gap:9px}.cfb-rank{font-size:17px;min-width:23px}.cfb-selection{font-size:17px}.cfb-side{min-width:90px}.cfb-edge{font-size:19px}.cfb-detail{font-size:11px}}
+    @media(max-width:620px){.cfb-hero{padding:19px}.cfb-headline{font-size:24px}.cfb-card{padding:14px 12px;gap:9px}.cfb-logo{width:38px;height:38px}.cfb-rank{font-size:17px;min-width:23px}.cfb-selection{font-size:17px}.cfb-side{min-width:90px}.cfb-edge{font-size:19px}.cfb-detail{font-size:11px}}
     </style>
     <div class="cfb-hero">
       <div class="cfb-eyebrow">EASY MONEY SCHULZ · COLLEGE FOOTBALL</div>
@@ -2383,9 +2393,12 @@ elif page == "🏟️ College Football":
             matchup = cfb_html.escape(str(pick["away_team"]) + " @ " + str(pick["home_team"]))
             book = cfb_html.escape(str(pick["sportsbook"]).title())
             odds = int(pick["selected_price"])
+            logo_url = cfb_team_logo(pick["selected_side"])
+            logo_tag = f'<img class="cfb-logo" src="{logo_url}" alt="{selection} logo" loading="lazy">' if logo_url else ""
             card = f"""
             <div class="cfb-card">
               <div class="cfb-rank">{rank:02d}</div>
+              {logo_tag}
               <div class="cfb-main">
                 <div class="cfb-matchup">{matchup}</div>
                 <div class="cfb-selection">{selection} {spread:+g}</div>
@@ -2488,7 +2501,7 @@ elif page == "🏀 NBA Projections":
     .ems-prop-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:15px;margin:14px 0 24px}
     .ems-prop-card{background:linear-gradient(145deg,#171d2a,#0e131e);border:1px solid #30394c;border-radius:17px;padding:22px 23px 19px;min-height:240px;box-shadow:0 9px 30px #0003}
     .ems-prop-card.verified{border:1px solid #287d63;background:linear-gradient(145deg,#102b29,#101923 60%,#171a24)}
-    .ems-prop-cardhead{display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .ems-prop-identity{display:flex;align-items:center;gap:13px;margin-top:17px}.ems-prop-logo{width:53px;height:53px;object-fit:contain;flex-shrink:0}.ems-prop-identity .ems-prop-name{margin-top:0}.ems-prop-cardhead{display:flex;align-items:center;justify-content:space-between;gap:10px}
     .ems-prop-rank{font-size:12px;letter-spacing:1px;color:#8998b1;font-weight:900}
     .ems-prop-tag{font-size:10px;font-weight:900;letter-spacing:1.2px;border:1px solid #465068;color:#b6c4da;border-radius:50px;padding:6px 10px}
     .ems-prop-tag.verified{color:#75ebbd;border-color:#2a9775;background:#15392f}
@@ -2573,10 +2586,13 @@ elif page == "🏀 NBA Projections":
             stat2=(f'{p["edge"]:+.1f} PTS') if verified else "NOT A PICK"
             stat3=(nba_html.escape(p["book"])+" "+f'{p["price"]:+d}') if verified else "NO VERIFIED LINE"
             note="Paper selection • Odds can move • Not a guaranteed result" if verified else "Featured model projection only • Not an OVER/UNDER selection"
+            team_abbr = NBA_PLAYER_TEAM.get(p["player"], "")
+            team_logo = nba_team_logo(team_abbr)
+            logo_tag = ('<img class="ems-prop-logo" src="'+team_logo+'" alt="'+nba_html.escape(team_abbr)+' team logo" loading="lazy">') if team_logo else ""
             cards.append(
                 '<div class="ems-prop-card'+(' verified' if verified else '')+'">'
                 '<div class="ems-prop-cardhead"><span class="ems-prop-rank">#'+str(i).zfill(2)+'</span><span class="ems-prop-tag'+(' verified' if verified else '')+'">'+tag+'</span></div>'
-                '<div class="ems-prop-name">'+player+'</div><div class="ems-prop-match">VS '+opponent+' &nbsp;·&nbsp; '+nba_html.escape(title_date)+'</div>'
+                '<div class="ems-prop-identity">'+logo_tag+'<div class="ems-prop-name">'+player+'</div></div><div class="ems-prop-match">VS '+opponent+' &nbsp;·&nbsp; '+nba_html.escape(title_date)+'</div>'
                 '<div class="'+('ems-prop-pick' if verified else 'ems-prop-projection')+'">'+main+'</div>'
                 '<div class="ems-prop-line"></div><div class="ems-prop-stats">'
                 '<div><small>MODEL</small><strong>'+stat1+'</strong></div>'
