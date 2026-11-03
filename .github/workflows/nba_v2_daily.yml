@@ -18,15 +18,20 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install pandas requests
+      - run: pip install pandas requests numpy
       - name: Fetch PropLine NBA player-points odds
         env:
           PROPLINE_API_KEY: ${{ secrets.PROPLINE_API_KEY }}
         run: python automation/fetch_nba_propline_odds.py
       - name: Validate and format original model snapshots
         run: python automation/publish_nba_v2.py
+      - name: Rank daily NBA V2 paper opportunities
+        run: python automation/rank_nba_v2_daily.py
       - name: Commit only changed public NBA snapshot
         run: |
+          if [ -f public_data/nba_v2_daily_top5.csv ]; then
+            git add public_data/nba_v2_daily_top5.csv
+          fi
           if [ -f public_data/nba_v2_propline_odds.csv ]; then
             git add public_data/nba_v2_propline_odds.csv
           fi
