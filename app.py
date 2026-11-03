@@ -2549,6 +2549,7 @@ elif page == "🏀 NBA Projections":
                             line_text=f"{line:.1f}" if pd.notna(line) else "—"
                             edge_text=f"{edge:+.1f}" if pd.notna(edge) else "—"
                             book=nba_card_html.escape(str(entry.get("sportsbook") or "Awaiting verified sportsbook"))
+                            participation=nba_card_html.escape(str(entry.get("lineup_status") or "UNCONFIRMED"))
                             pid=str(entry["player_id"])
                             pid=pid if pid.isdigit() else "0"
                             logo=nba_team_logos.get(str(entry["team"]),"nba")
@@ -2559,7 +2560,7 @@ elif page == "🏀 NBA Projections":
                             <div class="nba-v2-stats"><div><div class="nba-v2-label">V2 projection</div><div class="nba-v2-num">{float(entry["v2_projection"]):.1f}</div></div>
                             <div><div class="nba-v2-label">Book line</div><div class="nba-v2-num">{line_text}</div></div>
                             <div><div class="nba-v2-label">Edge</div><div class="nba-v2-num" style="color:{color}">{edge_text}</div></div></div>
-                            <div class="nba-v2-foot">{book} · Paper testing only · Unconfirmed lineup</div></div>""",unsafe_allow_html=True)
+                            <div class="nba-v2-foot">{book} · {participation.replace("_"," ")} · Paper testing only</div></div>""",unsafe_allow_html=True)
             st.caption("OVER/UNDER requires a verified same-game sportsbook line and at least a 3-point edge. WAIT means no matched line; PASS means edge below threshold. Odds and injury status should be checked before wagering.")
     except (requests.RequestException,ValueError,KeyError,pd.errors.ParserError) as nba_error:
         st.info("NBA V2 comparison cards are awaiting the next automated publish.")
