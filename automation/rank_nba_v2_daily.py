@@ -27,8 +27,14 @@ def main():
         return
     original = pd.read_csv(SOURCE) if SOURCE.exists() else pd.DataFrame()
     today = pd.Timestamp.now(tz="UTC").tz_convert("America/Chicago").date()
+    target_date = today
+    if ODDS.exists():
+        odds_dates = pd.to_datetime(pd.read_csv(ODDS)["commence_time"], utc=True, errors="coerce").dt.tz_convert("America/Chicago").dt.date
+        upcoming_dates = sorted(d for d in odds_dates.dropna().unique() if d >= today)
+        if upcoming_dates:
+            target_date = upcoming_dates[0]
     if not original.empty:
-        original = original[pd.to_datetime(original["game_date"], errors="coerce").dt.date == today]
+        original = original[pd.to_datetime(original["game_date"], errors="coerce").dt.date == target_date]
     if not original.empty:
         src = original.copy()
         model_label = "NBA V2 ORIGINAL"
@@ -43,7 +49,7 @@ def main():
     if src.empty or not required.issubset(src.columns):
         raise ValueError("NBA V2 source lacks required projection columns")
     src["game_date"] = pd.to_datetime(src["game_date"], errors="coerce").dt.date
-    src = src[src["game_date"] == today].copy()
+    src = src[src["game_date"] == target_date].copy()
     if src.empty:
         print("No original V2 projections for today; preserving previous paper selections.")
         return
@@ -54,7 +60,7 @@ def main():
     odds["commence_time"] = pd.to_datetime(odds["commence_time"], utc=True, errors="coerce")
     odds["odds_timestamp_utc"] = pd.to_datetime(odds["odds_timestamp_utc"], utc=True, errors="coerce")
     now = pd.Timestamp.now(tz="UTC")
-    odds = odds[(odds["commence_time"].dt.tz_convert("America/Chicago").dt.date == today)
+    odds = odds[(odds["commence_time"].dt.tz_convert("America/Chicago").dt.date == target_date)
                 & (odds["commence_time"] > now)
                 & (odds["odds_timestamp_utc"] <= now)
                 & (odds["odds_timestamp_utc"] >= now - pd.Timedelta(hours=MAX_ODDS_AGE_HOURS))].copy()
@@ -93,7 +99,7 @@ def main():
     merged["status"] = "PAPER"
     merged["model_version"] = model_label
     merged[cols + ["status", "model_version"]].to_csv(OUTPUT, index=False)
-    print(f"Published {len(merged)} distinct NBA V2 paper leans for {today}")
+    print(f"Published {len(merged)} distinct NBA V2 paper leans for {target_date}")
 
 
 if __name__ == "__main__":
