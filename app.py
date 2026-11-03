@@ -6,7 +6,7 @@ from streamlit_autorefresh import st_autorefresh
 from pathlib import Path
 
 st.set_page_config(
-    page_title="Sports Betting Command Center",
+    page_title="Easy Money Picks",
     page_icon="🏆",
     layout="wide",
     initial_sidebar_state="collapsed"
