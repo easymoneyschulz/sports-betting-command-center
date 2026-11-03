@@ -2486,6 +2486,32 @@ elif page == "🏀 NBA Projections":
     </style>
     """, unsafe_allow_html=True)
 
+    st.subheader("🏀 Daily Top 5 — NBA V2 Paper Leans")
+    st.caption("Ranked fresh each day from original V2 projections and verified sportsbook odds. No forced picks.")
+    @st.cache_data(ttl=120, show_spinner=False)
+    def load_nba_top5():
+        import io
+        url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_daily_top5.csv"
+        try:
+            response = requests.get(url, timeout=12)
+            response.raise_for_status()
+            return pd.read_csv(io.StringIO(response.text))
+        except (requests.RequestException, ValueError, pd.errors.ParserError):
+            return pd.DataFrame()
+
+    top5 = load_nba_top5()
+    central_today = pd.Timestamp.now(tz="America/Chicago").date()
+    if not top5.empty and "game_date" in top5.columns:
+        top5["game_date"] = pd.to_datetime(top5["game_date"], errors="coerce").dt.date
+        top5 = top5[top5["game_date"] == central_today]
+    if top5.empty:
+        st.info("No qualifying, verified V2 paper selections for today yet. We do not recycle yesterday's five.")
+    else:
+        for _, pick in top5.head(5).iterrows():
+            st.markdown(f"**{pick['player_name']} — {pick['side']} {float(pick['market_line']):.1f} points** · {pick['sportsbook']} ({int(pick['price']):+d})")
+            st.caption(f"V2 projection {float(pick['v2_projection']):.1f} · Edge {float(pick['edge']):+.1f} points · Paper only")
+    st.divider()
+
     st.subheader("NBA V2 — Player Points")
     nba = forward[forward["model"] == "NBA V2"].copy()
 
