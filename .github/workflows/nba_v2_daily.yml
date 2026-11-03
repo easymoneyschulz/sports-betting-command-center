@@ -19,18 +19,26 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pandas
+      - name: Fetch PropLine NBA player-points odds
+        env:
+          PROPLINE_API_KEY: ${{ secrets.PROPLINE_API_KEY }}
+        run: python automation/fetch_nba_propline_odds.py
       - name: Validate and format original model snapshots
         run: python automation/publish_nba_v2.py
       - name: Commit only changed public NBA snapshot
         run: |
+          if [ -f public_data/nba_v2_propline_odds.csv ]; then
+            git add public_data/nba_v2_propline_odds.csv
+          fi
           if [ -f public_data/nba_v2_latest_player_points.csv ]; then
             git add public_data/nba_v2_latest_player_points.csv
-            if ! git diff --cached --quiet; then
-              git config user.name "github-actions[bot]"
-              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-              git commit -m "Publish validated NBA V2 paper snapshot"
-              git fetch origin main
-              git rebase origin/main
-              git push origin HEAD:main
-            fi
           fi
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Publish verified NBA odds and V2 snapshot"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+
