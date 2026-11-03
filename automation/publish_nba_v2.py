@@ -10,7 +10,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1] / "public_data"
 SOURCE = ROOT / "nba_v2_source_predictions.csv"
-LINES = ROOT / "nba_v2_verified_lines.csv"
+LINES = ROOT / "nba_v2_propline_odds.csv"
 DEST = ROOT / "nba_v2_latest_player_points.csv"
 REQUIRED = {"game_date", "game_id", "player_id", "player_name", "opponent", "v2_projection"}
 LINE_COLS = {"game_id", "player_id", "sportsbook", "market_line", "odds_timestamp_utc"}
@@ -56,23 +56,78 @@ def main():
         "points_edge": pd.NA,
     })
     if LINES.exists():
+        import unicodedata
+        from zoneinfo import ZoneInfo
+
         lines = pd.read_csv(LINES)
-        if not LINE_COLS.issubset(lines.columns):
-            raise ValueError("Verified lines missing required columns")
-        if lines.duplicated(["game_id", "player_id"]).any():
-            raise ValueError("Ambiguous sportsbook lines: one line per player/game required")
+        needed = {"player_name", "commence_time", "home_team", "away_team",
+                  "sportsbook", "market_line", "odds_timestamp_utc",
+                  "over_price", "under_price"}
+        if not needed.issubset(lines.columns):
+            raise ValueError("PropLine odds missing required columns")
+
+        def normalized(value):
+            value = unicodedata.normalize("NFKD", str(value))
+            return "".join(ch for ch in value if ch.isalnum()).casefold()
+
+        now = pd.Timestamp.now(tz="UTC")
+        lines["tip"] = pd.to_datetime(lines["commence_time"], utc=True, errors="coerce")
+        lines["quoted"] = pd.to_datetime(lines["odds_timestamp_utc"], utc=True, errors="coerce")
+        lines["game_date"] = lines["tip"].dt.tz_convert(ZoneInfo("America/Chicago")).dt.strftime("%Y-%m-%d")
+        lines["name_key"] = lines["player_name"].map(normalized)
         lines["market_line"] = pd.to_numeric(lines["market_line"], errors="coerce")
-        if lines["market_line"].isna().any():
-            raise ValueError("Invalid sportsbook points line")
-        joined = src[["game_id", "player_id"]].merge(
-            lines[["game_id", "player_id", "market_line"]],
-            on=["game_id", "player_id"], how="left", validate="one_to_one")
-        out["sportsbook_points_line"] = joined["market_line"].to_numpy()
-        out["market_line"] = joined["market_line"].to_numpy()
-        edge = out["prediction"] - pd.to_numeric(out["market_line"], errors="coerce")
-        out["points_edge"] = edge
-        out["higher_lower"] = edge.map(
-            lambda e: "WAIT" if pd.isna(e) else "OVER" if e > 0 else "UNDER" if e < 0 else "PASS")
+        lines = lines[
+            lines["tip"].gt(now)
+            & lines["quoted"].le(now)
+            & lines["quoted"].ge(now - pd.Timedelta(hours=24))
+            & lines["market_line"].notna()
+            & lines["over_price"].notna()
+            & lines["under_price"].notna()
+        ].copy()
+        # Match on date, player and opponent; never join an unrelated event.
+        # Team names are mapped explicitly rather than guessed from player identity.
+        team_codes = {
+            "Atlanta Hawks": "ATL", "Boston Celtics": "BOS", "Brooklyn Nets": "BKN",
+            "Charlotte Hornets": "CHA", "Chicago Bulls": "CHI", "Cleveland Cavaliers": "CLE",
+            "Dallas Mavericks": "DAL", "Denver Nuggets": "DEN", "Detroit Pistons": "DET",
+            "Golden State Warriors": "GSW", "Houston Rockets": "HOU", "Indiana Pacers": "IND",
+            "Los Angeles Clippers": "LAC", "LA Clippers": "LAC",
+            "Los Angeles Lakers": "LAL", "Memphis Grizzlies": "MEM",
+            "Miami Heat": "MIA", "Milwaukee Bucks": "MIL", "Minnesota Timberwolves": "MIN",
+            "New Orleans Pelicans": "NOP", "New York Knicks": "NYK",
+            "Oklahoma City Thunder": "OKC", "Orlando Magic": "ORL",
+            "Philadelphia 76ers": "PHI", "Phoenix Suns": "PHX",
+            "Portland Trail Blazers": "POR", "Sacramento Kings": "SAC",
+            "San Antonio Spurs": "SAS", "Toronto Raptors": "TOR",
+            "Utah Jazz": "UTA", "Washington Wizards": "WAS"
+        }
+        lines["home_code"] = lines["home_team"].map(team_codes)
+        lines["away_code"] = lines["away_team"].map(team_codes)
+        src_keys = src[["game_date", "player_name", "opponent"]].copy()
+        src_keys["name_key"] = src_keys["player_name"].map(normalized)
+        src_keys["game_date"] = pd.to_datetime(src_keys["game_date"]).dt.strftime("%Y-%m-%d")
+        src_keys["row_number"] = range(len(src_keys))
+        matched = src_keys.merge(lines, on=["game_date", "name_key"], how="inner")
+        matched = matched[
+            (matched["opponent"] == matched["home_code"])
+            | (matched["opponent"] == matched["away_code"])
+        ].copy()
+        # Multiple books/lines are legitimate. Pick a deterministic quote,
+        # preferring newest timestamp and then sportsbook alphabetically.
+        matched = matched.sort_values(
+            ["quoted", "sportsbook"], ascending=[False, True]
+        ).drop_duplicates("row_number")
+        for _, quote in matched.iterrows():
+            idx = out.index[int(quote["row_number"])]
+            line = float(quote["market_line"])
+            edge = float(out.at[idx, "prediction"]) - line
+            out.at[idx, "market_line"] = line
+            out.at[idx, "sportsbook_points_line"] = line
+            out.at[idx, "points_edge"] = edge
+            out.at[idx, "higher_lower"] = (
+                "OVER" if edge > 0 else "UNDER" if edge < 0 else "PASS"
+            )
+        print(f"Matched {len(matched)} current, opponent-verified PropLine quotes")
     ROOT.mkdir(parents=True, exist_ok=True)
     out.to_csv(DEST, index=False)
     print(f"Published {len(out)} ORIGINAL V2 projections; {out['market_line'].notna().sum()} verified lines")
