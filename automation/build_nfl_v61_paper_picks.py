@@ -8,7 +8,7 @@ import requests
 
 NAMES = dict(zip(
 "ARI ATL BAL BUF CAR CHI CIN CLE DAL DEN DET GB HOU IND JAX KC LAC LAR LV MIA MIN NE NO NYG NYJ PHI PIT SEA SF TB TEN WAS".split(),
-"Arizona_Cardinals Atlanta_Falcons Baltimore_Ravens Buffalo_Bills Carolina_Panthers Chicago_Bears Cincinnati_Bengals Cleveland_Browns Dallas_Cowboys Denver_Broncos Detroit_Lions Green_Bay_Packers Houston_Texans Indianapolis_Colts Jacksonville_Jaguars Kansas_City_Chiefs Los_Angeles_Chargers Los_Angeles_Rams Las_Vegas_Raiders Miami_Dolphins Minnesota_Vikings New_England_Patriots New_Orleans_Saints New_York_Giants New_York_Jets Philadelphia_Eagles Pittsburgh_Steelers Seattle_Seahawks San_Francisco_49ers Tampa_Bay_Buccaneers Tennessee_Titans Washington_Commanders".replace("_"," ").split("  ")
+[x.replace("_"," ") for x in "Arizona_Cardinals Atlanta_Falcons Baltimore_Ravens Buffalo_Bills Carolina_Panthers Chicago_Bears Cincinnati_Bengals Cleveland_Browns Dallas_Cowboys Denver_Broncos Detroit_Lions Green_Bay_Packers Houston_Texans Indianapolis_Colts Jacksonville_Jaguars Kansas_City_Chiefs Los_Angeles_Chargers Los_Angeles_Rams Las_Vegas_Raiders Miami_Dolphins Minnesota_Vikings New_England_Patriots New_Orleans_Saints New_York_Giants New_York_Jets Philadelphia_Eagles Pittsburgh_Steelers Seattle_Seahawks San_Francisco_49ers Tampa_Bay_Buccaneers Tennessee_Titans Washington_Commanders".split()]
 ))
 # Use explicit team aliases from nflverse.
 ALIASES = {"JAC":"JAX", "LA":"LAR", "WSH":"WAS"}
