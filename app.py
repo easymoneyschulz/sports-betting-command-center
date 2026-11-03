@@ -2342,8 +2342,31 @@ elif page == "🏟️ College Football":
     </style>
     """, unsafe_allow_html=True)
 
-    st.subheader("CFB V4 — Weekly Top 5")
-    st.caption("Ranked by frozen V4 model edge. Only PAPER LEAN meets the 3-point qualification threshold; PASS is not a betting recommendation.")
+    st.markdown("""
+    <style>
+    .cfb-hero{padding:24px 26px;background:linear-gradient(115deg,#141c2a,#202a3a 65%,#172c30);border:1px solid #334155;border-radius:18px;margin:12px 0 20px}
+    .cfb-eyebrow{color:#8fcfc4;font-size:11px;font-weight:800;letter-spacing:2px}
+    .cfb-headline{color:#f8fafc;font-size:29px;font-weight:850;letter-spacing:-.8px;margin:7px 0}
+    .cfb-description{color:#a9b7c8;font-size:13px;line-height:1.6}
+    .cfb-card{display:flex;gap:17px;align-items:center;padding:19px 22px;background:linear-gradient(110deg,#181f2c,#202937);border:1px solid #334155;border-radius:15px;margin:12px 0}
+    .cfb-rank{color:#7d91aa;font-size:22px;font-weight:850;min-width:36px}
+    .cfb-main{flex:1;min-width:0}
+    .cfb-matchup{font-size:12px;color:#9aabc0;margin-bottom:6px}
+    .cfb-selection{font-size:23px;font-weight:850;color:#f8fafc;line-height:1.25}
+    .cfb-detail{font-size:12px;color:#9fb0c5;margin-top:8px}
+    .cfb-side{text-align:right;min-width:125px}
+    .cfb-edge{font-size:24px;font-weight:850;color:#e2e8f0}
+    .cfb-edge-caption{font-size:10px;color:#91a4bb;text-transform:uppercase;letter-spacing:1px}
+    .cfb-tag{display:inline-block;padding:5px 9px;border-radius:7px;background:#28384a;color:#b9cce0;font-size:10px;font-weight:800;letter-spacing:.7px;margin-top:8px}
+    .cfb-tag-strong{background:#173f37;color:#8ce5c7}
+    @media(max-width:620px){.cfb-hero{padding:19px}.cfb-headline{font-size:24px}.cfb-card{padding:14px 12px;gap:9px}.cfb-rank{font-size:17px;min-width:23px}.cfb-selection{font-size:17px}.cfb-side{min-width:90px}.cfb-edge{font-size:19px}.cfb-detail{font-size:11px}}
+    </style>
+    <div class="cfb-hero">
+      <div class="cfb-eyebrow">EASY MONEY SCHULZ · COLLEGE FOOTBALL</div>
+      <div class="cfb-headline">V4 Weekly Top Five</div>
+      <div class="cfb-description">Five highest-ranked spread opportunities from the frozen V4 model. Ranked by projected edge, with confidence tiers shown separately.</div>
+    </div>
+    """, unsafe_allow_html=True)
     try:
         top5_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/cfb_v4_top5.csv"
         cfb_top5 = pd.read_csv(top5_url)
@@ -2351,93 +2374,35 @@ elif page == "🏟️ College Football":
         cfb_top5 = cfb_top5[cfb_top5["start_date"].dt.tz_convert("America/Chicago").dt.date >= pd.Timestamp.now(tz="America/Chicago").date()]
         for rank, (_, pick) in enumerate(cfb_top5.sort_values("predicted_edge", ascending=False).head(5).iterrows(), 1):
             qualified = str(pick["decision"]).upper() == "PAPER LEAN"
-            pick_status = "QUALIFIED PAPER LEAN" if qualified else "PASS · RESEARCH ONLY"
-            kickoff = pick["start_date"].tz_convert("America/Chicago").strftime("%a %b %d, %-I:%M %p CT")
+            tier = "MODEL LEAN" if qualified else "SLIGHT LEAN"
+            tier_class = "cfb-tag cfb-tag-strong" if qualified else "cfb-tag"
+            kickoff = pick["start_date"].tz_convert("America/Chicago").strftime("%a %b %d, %I:%M %p CT").replace(" 0", " ")
             spread = float(pick["selected_spread"])
             edge = float(pick["predicted_edge"])
-            with st.container(border=True):
-                st.markdown(f"**#{rank} · {pick['selected_side']} {spread:+g}**  |  {pick_status}")
-                st.caption(f"{pick['away_team']} @ {pick['home_team']} · {kickoff} · {pick['sportsbook']} ({int(pick['selected_price']):+d}) · Model edge {edge:.2f} pts")
-        if cfb_top5.empty:
-            st.info("No upcoming games in the last published V4 snapshot. Waiting for a new verified run.")
-    except Exception as exc:
-        st.warning("The weekly CFB top-five file is not available yet.")
-    st.subheader("CFB V4 — Qualified Paper Picks")
-    cfb = forward[forward["model"] == "CFB V4"].copy()
-    try:
-        cfb_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/cfb_v4_current_picks.csv"
-        cfb_latest = pd.read_csv(cfb_url)
-        if not cfb_latest.empty:
-            cfb = cfb_latest
-    except Exception:
-        pass
-    cfb["game_date"] = pd.to_datetime(cfb["game_date"], errors="coerce")
-    cfb = cfb[cfb["game_date"].dt.date >= pd.Timestamp.now(tz="America/Chicago").date()]
-
-    # ESPN logo ID for the currently qualified selection.
-    # Other teams show a fallback until their IDs are mapped.
-    cfb_logo_ids = {
-        "Colorado State": "36"
-    }
-
-    if cfb.empty:
-        st.info("No current dated CFB V4 paper picks published. Awaiting the next verified weekly model export.")
-    else:
-        for _, record in cfb.iterrows():
-            team = str(record["selection"])
-            line = pd.to_numeric(record["market_line"], errors="coerce")
-            projection = pd.to_numeric(record["prediction"], errors="coerce")
-            status = str(record["result"]).upper()
-            game_date = record.get("game_date")
-            date_label = game_date.strftime("%b %d, %Y") if pd.notna(game_date) else "Date not verified"
-
-            logo_id = cfb_logo_ids.get(team)
-            if logo_id:
-                logo_html = (
-                    '<img class="ems-cfb-logo" '
-                    f'src="https://a.espncdn.com/i/teamlogos/ncaa/500/{logo_id}.png" '
-                    f'alt="{cfb_html.escape(team, quote=True)} logo">'
-                )
-            else:
-                logo_html = '<div class="ems-cfb-logo"></div>'
-
-            spread = f"{line:+g}" if pd.notna(line) else "—"
-
-            # Model projection is the selected team's expected margin.
-            model_margin = (
-                f"{projection:+.2f}"
-                if pd.notna(projection) else "—"
-            )
-            edge = (
-                f"{projection + line:+.2f}"
-                if pd.notna(projection) and pd.notna(line)
-                else "—"
-            )
-
+            selection = cfb_html.escape(str(pick["selected_side"]))
+            matchup = cfb_html.escape(str(pick["away_team"]) + " @ " + str(pick["home_team"]))
+            book = cfb_html.escape(str(pick["sportsbook"]).title())
+            odds = int(pick["selected_price"])
             card = f"""
-            <div class="ems-cfb-pick">
-                <div class="ems-cfb-top">
-                    <span>CFB V4 · QUALIFIED PAPER PICK</span>
-                    <span class="ems-cfb-status">{cfb_html.escape(status)}</span>
-                </div>
-                <div class="ems-cfb-main">
-                    {logo_html}
-                    <div class="ems-cfb-team">
-                        <div class="ems-cfb-team-name">{cfb_html.escape(team)}</div>
-                        <div class="ems-cfb-opponent">vs {cfb_html.escape(str(record.get("opponent", "Opponent TBD")))}</div>
-                        <div class="ems-cfb-edge">Model edge: {edge} pts</div>
-                    </div>
-                    <div>
-                        <div class="ems-cfb-spread">{spread}</div>
-                        <div class="ems-cfb-spread-label">THE PICK</div>
-                    </div>
-                </div>
-                <div class="ems-cfb-footer">
-                    Game date: {date_label} · Model projected margin: {model_margin} pts · Paper testing only
-                </div>
-            </div>
-            """
+            <div class="cfb-card">
+              <div class="cfb-rank">{rank:02d}</div>
+              <div class="cfb-main">
+                <div class="cfb-matchup">{matchup}</div>
+                <div class="cfb-selection">{selection} {spread:+g}</div>
+                <div class="cfb-detail">{kickoff} · {book} {odds:+d}</div>
+              </div>
+              <div class="cfb-side">
+                <div class="cfb-edge">+{edge:.2f}</div>
+                <div class="cfb-edge-caption">Model edge · pts</div>
+                <span class="{tier_class}">{tier}</span>
+              </div>
+            </div>"""
             st.markdown(card, unsafe_allow_html=True)
+        if cfb_top5.empty:
+            st.info("No upcoming V4 selections in the current snapshot. A new model run is required.")
+    except Exception:
+        st.warning("The CFB weekly board is temporarily unavailable.")
+    st.caption("V4 research rankings, not verified wagers. 'Model Lean' meets the 3-point paper-test threshold; 'Slight Lean' is below it. Weekly automatic reruns have not yet been verified.")
 
 elif page == "🏀 NBA Projections":
     import html as nba_html
