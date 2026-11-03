@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import requests
-from streamlit_autorefresh import st_autorefresh
 from pathlib import Path
 
 st.set_page_config(
@@ -3190,10 +3189,9 @@ elif page == "🔴 Live Scores":
     st.subheader("LIVE SPORTS SCOREBOARD")
     st.caption("NFL · COLLEGE FOOTBALL · NBA")
 
-    st_autorefresh(
-        interval=30_000,
-        key="ems_live_score_refresh"
-    )
+    # Automatic browser refresh disabled: the live scores page remains
+    # manually refreshable without mounting an additional frontend component.
+    # This preserves the original dashboard layout and betting data.
 
     # Manual refresh
     _, refresh_col = st.columns([3, 1])
