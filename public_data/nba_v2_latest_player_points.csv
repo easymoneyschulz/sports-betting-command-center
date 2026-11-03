@@ -1,6 +1,6 @@
 model,test_type,event_id,season,selection,prediction,market_line,actual,result,game_date,opponent,sportsbook_points_line,higher_lower,points_edge
 NBA V2,FORWARD_PAPER,20261104_Luka_Luka_Doncic,2026,Luka Dončić,32.22304,,,PENDING,2026-11-04,SAC,,WAIT,
-NBA V2,FORWARD_PAPER,20261104_Maxey_Tyrese_Maxey,2026,Tyrese Maxey,27.231859,,,PENDING,2026-11-04,DET,,WAIT,
+NBA V2,FORWARD_PAPER,20261104_Maxey_Tyrese_Maxey,2026,Tyrese Maxey,27.231859,22.5,,PENDING,2026-11-04,DET,22.5,OVER,4.731859
 NBA V2,FORWARD_PAPER,20261104_Murray_Jamal_Murray,2026,Jamal Murray,23.913835,,,PENDING,2026-11-04,TOR,,WAIT,
 NBA V2,FORWARD_PAPER,20261104_Camara_Toumani_Camara,2026,Toumani Camara,13.353583,,,PENDING,2026-11-04,PHX,,WAIT,
 NBA V2,FORWARD_PAPER,20261104_Watson_Peyton_Watson,2026,Peyton Watson,12.484697,,,PENDING,2026-11-04,OKC,,WAIT,
