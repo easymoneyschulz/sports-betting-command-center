@@ -53,22 +53,26 @@ def get_history():
     finally: con.close()
 
 def verified_roster_names(team_abbreviation):
-    """Verify current roster by name: ESPN and NBA source use different player IDs."""
-    url=f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{team_abbreviation.lower()}/roster"
-    response=requests.get(url,timeout=25)
+    """Read ESPN scoreboard-linked team roster; fail closed if unavailable."""
+    url="https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams"
+    response=requests.get(url,params={"limit":100},timeout=25)
     response.raise_for_status()
-    data=response.json()
-    athletes=data.get("athletes",[])
+    teams=response.json().get("sports",[{}])[0].get("leagues",[{}])[0].get("teams",[])
+    matching=[item["team"] for item in teams if item.get("team",{}).get("abbreviation","").upper()==team_abbreviation]
+    if len(matching)!=1:
+        raise ValueError(f"Could not resolve ESPN team {team_abbreviation}")
+    espn_id=matching[0]["id"]
+    response=requests.get(f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{espn_id}/roster",timeout=25)
+    response.raise_for_status()
     names=set()
-    for group in athletes:
+    for group in response.json().get("athletes",[]):
         members=group.get("items",[]) if isinstance(group,dict) and "items" in group else [group]
         for player in members:
             if isinstance(player,dict):
                 name=player.get("fullName") or player.get("displayName")
-                if name:
-                    names.add(" ".join(str(name).casefold().split()))
+                if name: names.add(" ".join(str(name).casefold().split()))
     if not names:
-        raise ValueError(f"Missing ESPN roster for {team_abbreviation}; refusing to publish")
+        raise ValueError(f"ESPN roster empty for {team_abbreviation}; no projections published")
     return names
 
 def main():
