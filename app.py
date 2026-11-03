@@ -2472,18 +2472,28 @@ elif page == "🏀 NBA Projections":
             if st.session_state.get("nba_v2_selected_day") not in nba_dates:
                 st.session_state["nba_v2_selected_day"] = nba_dates[0]
             st.markdown("""<style>
-            .st-key-nba_v2_day_bar button {background:#151e2e!important;color:#f2f5ff!important;border:1px solid #35455f!important;border-radius:12px!important;font-weight:850!important;letter-spacing:.5px!important;min-height:54px!important}
-            .st-key-nba_v2_day_bar button[kind="primary"] {background:#622239!important;border-color:#ff526c!important;box-shadow:0 0 16px #e44b6430!important}
-            .st-key-nba_v2_day_bar button:hover{border-color:#ff526c!important;background:#27354b!important}
+            .st-key-nba_v2_date_nav{background:linear-gradient(110deg,#172236,#0d1524);border:1px solid #334761;border-radius:18px;padding:16px 18px;margin:8px 0 22px;box-shadow:0 10px 32px #0004}
+            .st-key-nba_v2_date_nav button{background:#18243a!important;border:1px solid #344863!important;color:#dbe6f8!important;border-radius:12px!important;font-size:14px!important;font-weight:800!important;min-height:53px!important}
+            .st-key-nba_v2_date_nav button:hover{border-color:#f05a70!important;background:#26364f!important}
+            .st-key-nba_v2_date_nav button:disabled{opacity:.3!important}
+            .nba-v2-date-title{color:#ff657a;font-size:11px;font-weight:900;letter-spacing:2.4px;margin:2px 0 4px}
+            .nba-v2-date-main{color:#fff;font-size:26px;font-weight:950;letter-spacing:-.7px;line-height:1.25}
+            .nba-v2-date-sub{color:#9eafc9;font-size:12px;margin-top:5px}
             </style>""",unsafe_allow_html=True)
-            st.markdown("**GAME DAY**")
-            with st.container(key="nba_v2_day_bar"):
-                nba_date_columns = st.columns(min(5,len(nba_dates)))
-                for nba_i, nba_date in enumerate(nba_dates):
-                    with nba_date_columns[nba_i % len(nba_date_columns)]:
-                        if st.button(nba_date.strftime("%a %b %d").upper(), key=f"nba_v2_day_{nba_date}", use_container_width=True, type="primary" if st.session_state["nba_v2_selected_day"]==nba_date else "secondary"):
-                            st.session_state["nba_v2_selected_day"] = nba_date
-                            st.rerun()
+            nba_current_index = nba_dates.index(st.session_state["nba_v2_selected_day"])
+            with st.container(key="nba_v2_date_nav"):
+                nba_prev, nba_center, nba_next = st.columns([1,4,1],vertical_alignment="center")
+                with nba_prev:
+                    if st.button("◀ PREV",key="nba_v2_prev_day",disabled=nba_current_index==0,use_container_width=True):
+                        st.session_state["nba_v2_selected_day"]=nba_dates[nba_current_index-1]
+                        st.rerun()
+                with nba_center:
+                    nba_selected_label=st.session_state["nba_v2_selected_day"].strftime("%A, %B %d, %Y")
+                    st.markdown(f'<div style="text-align:center"><div class="nba-v2-date-title">🏀 NBA PLAYER PROPS · GAME DAY</div><div class="nba-v2-date-main">{nba_selected_label}</div><div class="nba-v2-date-sub">{nba_current_index+1} OF {len(nba_dates)} AVAILABLE SLATES</div></div>',unsafe_allow_html=True)
+                with nba_next:
+                    if st.button("NEXT ▶",key="nba_v2_next_day",disabled=nba_current_index==len(nba_dates)-1,use_container_width=True):
+                        st.session_state["nba_v2_selected_day"]=nba_dates[nba_current_index+1]
+                        st.rerun()
             nba_day = st.session_state["nba_v2_selected_day"]
             nba_props = nba_props[nba_props.game_date==nba_day].copy()
             st.markdown("""<style>
