@@ -1,0 +1,37 @@
+name: CFB V4 Daily Paper Grading
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 13 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cfb-v4-daily-grading
+  cancel-in-progress: false
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install pandas requests
+      - name: Grade completed CFB games from ESPN
+        run: python automation/grade_cfb_v4_top5.py
+      - name: Publish verified results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public_data/cfb_v4_graded.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Update CFB V4 paper grading from final ESPN scores"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
