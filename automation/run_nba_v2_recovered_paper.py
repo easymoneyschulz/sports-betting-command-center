@@ -52,6 +52,23 @@ def get_history():
         """).df()
     finally: con.close()
 
+def verified_roster_ids(team_id):
+    """Fail closed: ESPN's current roster must confirm player identity and team."""
+    url=f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{team_id}/roster"
+    response=requests.get(url,timeout=25)
+    response.raise_for_status()
+    data=response.json()
+    athletes=data.get("athletes",[])
+    ids=set()
+    for group in athletes:
+        members=group.get("items",[]) if isinstance(group,dict) and "items" in group else [group]
+        for player in members:
+            if isinstance(player,dict) and player.get("id") is not None:
+                ids.add(str(player["id"]))
+    if not ids:
+        raise ValueError(f"Missing current ESPN roster for team {team_id}; refusing to publish")
+    return ids
+
 def main():
     if not MODEL.is_file(): raise FileNotFoundError("Frozen model missing; no projections published")
     now=datetime.now(ZoneInfo("America/Chicago"))
@@ -75,8 +92,12 @@ def main():
     # Exclude players who have not appeared in the current season.
     if latest.empty: raise ValueError("No current-season players")
     records=[]
+    roster_cache={}
     for s in schedule:
-        selected=latest[latest["team_id"].astype(str)==str(s["team_id"])]
+        team_id=s["team_id"]
+        if team_id not in roster_cache:
+            roster_cache[team_id]=verified_roster_ids(team_id)
+        selected=latest[(latest["team_id"].astype(str)==str(team_id)) & (latest["player_id"].astype(str).isin(roster_cache[team_id]))]
         for _,p in selected.iterrows():
             records.append({**s,"player_id":p["player_id"],"player_name":p["player_name"],"team":next(k for k,v in TEAM_IDS.items() if v==s["team_id"]),"season":2027})
     future=pd.DataFrame(records)
