@@ -78,7 +78,7 @@ def main():
     for s in schedule:
         selected=latest[latest["team_id"].astype(str)==str(s["team_id"])]
         for _,p in selected.iterrows():
-            records.append({**s,"player_id":p["player_id"],"player_name":p["player_name"],"season":2027})
+            records.append({**s,"player_id":p["player_id"],"player_name":p["player_name"],"team":next(k for k,v in TEAM_IDS.items() if v==s["team_id"]),"season":2027})
     future=pd.DataFrame(records)
     if future.empty: raise ValueError("No players matched slate teams; no output")
     future["game_date"]=pd.to_datetime(future["game_date"])
@@ -111,7 +111,7 @@ def main():
     rows["generated_at_utc"]=pd.Timestamp.now(tz="UTC").isoformat()
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     tmp=OUTPUT.with_suffix(".tmp")
-    rows[["game_date","game_id","player_id","player_name","opponent","v2_projection","model_version","generated_at_utc"]].assign(game_date=lambda x:x.game_date.dt.strftime("%Y-%m-%d")).to_csv(tmp,index=False)
+    rows[["game_date","game_id","player_id","player_name","team","opponent","v2_projection","model_version","generated_at_utc"]].assign(game_date=lambda x:x.game_date.dt.strftime("%Y-%m-%d")).to_csv(tmp,index=False)
     os.replace(tmp,OUTPUT)
     print("PAPER projections:",len(rows),"date:",rows.game_date.min().date(),"file:",OUTPUT)
     print("Historical picks and official V2 source unchanged")
