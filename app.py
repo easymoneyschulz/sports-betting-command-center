@@ -2342,6 +2342,26 @@ elif page == "🏟️ College Football":
     </style>
     """, unsafe_allow_html=True)
 
+    st.subheader("CFB V4 — Weekly Top 5")
+    st.caption("Ranked by frozen V4 model edge. Only PAPER LEAN meets the 3-point qualification threshold; PASS is not a betting recommendation.")
+    try:
+        top5_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/cfb_v4_top5.csv"
+        cfb_top5 = pd.read_csv(top5_url)
+        cfb_top5["start_date"] = pd.to_datetime(cfb_top5["start_date"], utc=True, errors="coerce")
+        cfb_top5 = cfb_top5[cfb_top5["start_date"].dt.tz_convert("America/Chicago").dt.date >= pd.Timestamp.now(tz="America/Chicago").date()]
+        for rank, (_, pick) in enumerate(cfb_top5.sort_values("predicted_edge", ascending=False).head(5).iterrows(), 1):
+            qualified = str(pick["decision"]).upper() == "PAPER LEAN"
+            pick_status = "QUALIFIED PAPER LEAN" if qualified else "PASS · RESEARCH ONLY"
+            kickoff = pick["start_date"].tz_convert("America/Chicago").strftime("%a %b %d, %-I:%M %p CT")
+            spread = float(pick["selected_spread"])
+            edge = float(pick["predicted_edge"])
+            with st.container(border=True):
+                st.markdown(f"**#{rank} · {pick['selected_side']} {spread:+g}**  |  {pick_status}")
+                st.caption(f"{pick['away_team']} @ {pick['home_team']} · {kickoff} · {pick['sportsbook']} ({int(pick['selected_price']):+d}) · Model edge {edge:.2f} pts")
+        if cfb_top5.empty:
+            st.info("No upcoming games in the last published V4 snapshot. Waiting for a new verified run.")
+    except Exception as exc:
+        st.warning("The weekly CFB top-five file is not available yet.")
     st.subheader("CFB V4 — Qualified Paper Picks")
     cfb = forward[forward["model"] == "CFB V4"].copy()
     try:
