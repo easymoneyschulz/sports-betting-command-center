@@ -1,13 +1,58 @@
 event_id,commence_time,home_team,away_team,player_name,sportsbook,market_line,over_price,under_price,odds_timestamp_utc
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Tyrese Maxey,betmgm,22.5,-111,-120,2026-11-03T18:02:26.220594Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Duncan Robinson,betmgm,13.5,-115,-115,2026-11-03T18:02:26.220594Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Anfernee Simons,betrivers,9.5,-103,-134,2026-11-03T17:52:25.543578Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Cade Cunningham,betrivers,23.5,-117,-117,2026-11-03T17:52:25.543578Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Duncan Robinson,betrivers,14.5,-109,-125,2026-11-03T17:52:25.543578Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Jaylen Brown,betrivers,19.5,-113,-120,2026-11-03T17:52:25.543578Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Joel Embiid,betrivers,19.5,-105,-130,2026-11-03T17:52:25.543578Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,John Collins,betrivers,11.5,-134,100,2026-11-03T17:52:25.543578Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,LeBron James,betrivers,14.5,-115,-118,2026-11-03T17:52:25.543578Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Paul Reed,betrivers,12.5,-120,-113,2026-11-03T17:52:25.543578Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Tyrese Maxey,betrivers,23.5,-104,-132,2026-11-03T17:52:25.543578Z
-543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,VJ Edgecombe,betrivers,10.5,-115,-118,2026-11-03T17:52:25.543578Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Tyrese Maxey,betmgm,22.5,-111,-120,2026-11-03T21:14:18.886273Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Duncan Robinson,betmgm,13.5,-115,-115,2026-11-03T21:14:18.886273Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Cade Cunningham,betrivers,23.5,-104,-132,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Duncan Robinson,betrivers,13.5,-121,-113,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Jaylen Brown,betrivers,19.5,-109,-124,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Joel Embiid,betrivers,18.5,-127,-108,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,John Collins,betrivers,11.5,-127,-107,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,LeBron James,betrivers,14.5,-115,-118,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Paul Reed,betrivers,12.5,-109,-125,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Tyrese Maxey,betrivers,22.5,-125,-109,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,VJ Edgecombe,betrivers,10.5,-115,-118,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Ausar Thompson,betrivers,10.5,-104,-132,2026-11-03T21:14:14.796269Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Jaylen Brown,fanduel,19.5,-114,-114,2026-11-03T21:12:33.373452Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Joel Embiid,fanduel,19.5,-102,-130,2026-11-03T21:12:33.373452Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,LeBron James,fanduel,14.5,-132,100,2026-11-03T21:12:33.373452Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Tyrese Maxey,fanduel,23.5,100,-132,2026-11-03T21:12:33.373452Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,VJ Edgecombe,fanduel,10.5,-128,-104,2026-11-03T21:12:33.373452Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Cade Cunningham,fanduel,23.5,-118,-112,2026-11-03T21:12:33.373452Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Duncan Robinson,fanduel,13.5,-128,-104,2026-11-03T21:12:33.373452Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Paul Reed,fanduel,12.5,-114,-114,2026-11-03T21:12:33.373452Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,John Collins,fanduel,11.5,-132,100,2026-11-03T21:12:33.373452Z
+543729,2026-11-05T00:00:00Z,Detroit Pistons,Philadelphia 76ers,Ausar Thompson,fanduel,10.5,-125,-106,2026-11-03T21:12:33.373452Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Ajay Mitchell,betmgm,18.5,-115,-115,2026-11-03T21:14:18.611400Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Donovan Mitchell,betmgm,22.5,-115,-115,2026-11-03T21:14:18.611400Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Ajay Mitchell,fanduel,19.5,-106,-125,2026-11-03T21:18:12.726581Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Donovan Mitchell,fanduel,22.5,-112,-118,2026-11-03T21:12:33.140663Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Evan Mobley,fanduel,17.5,100,-132,2026-11-03T21:12:33.140663Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Isaiah Hartenstein,fanduel,10.5,-104,-128,2026-11-03T21:18:12.726581Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,James Harden,fanduel,17.5,-112,-118,2026-11-03T21:12:33.140663Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Jared McCain,fanduel,13.5,-114,-114,2026-11-03T21:12:33.140663Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Jarrett Allen,fanduel,11.5,-128,-104,2026-11-03T21:12:33.140663Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Jaylin Williams,fanduel,7.5,102,-136,2026-11-03T21:12:33.140663Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Kenrich Williams,fanduel,8.5,-132,100,2026-11-03T21:18:12.726581Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Sam Merrill,fanduel,8.5,-112,-118,2026-11-03T21:12:33.140663Z
+543734,2026-11-05T01:00:00Z,Oklahoma City Thunder,Cleveland Cavaliers,Shai Gilgeous-Alexander,fanduel,31.5,-128,-104,2026-11-03T21:18:13.729965Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,LaMelo Ball,fanduel,19.5,100,-132,2026-11-03T21:12:33.494042Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,Ayo Dosunmu,fanduel,15.5,-125,-106,2026-11-03T21:12:33.494042Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,Jaden McDaniels,fanduel,16.5,-104,-128,2026-11-03T21:12:33.494042Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,Jonathan Kuminga,fanduel,14.5,-112,-118,2026-11-03T21:12:33.494042Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,Rudy Gobert,fanduel,8.5,-136,102,2026-11-03T21:12:33.494042Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,Kevin Durant,fanduel,22.5,-108,-122,2026-11-03T21:12:33.494042Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,Alperen Sengun,fanduel,19.5,-102,-130,2026-11-03T21:12:33.494042Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,Fred VanVleet,fanduel,11.5,-114,-114,2026-11-03T21:12:33.494042Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,Amen Thompson,fanduel,15.5,-114,-114,2026-11-03T21:12:33.494042Z
+543470,2026-11-05T01:30:00Z,Houston Rockets,Minnesota Timberwolves,Jabari Smith,fanduel,15.5,-114,-114,2026-11-03T21:12:33.494042Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,De'Aaron Fox,fanduel,14.5,-128,-104,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Devin Vassell,fanduel,12.5,-102,-130,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Dylan Harper,fanduel,16.5,-125,-106,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Julian Champagnie,fanduel,9.5,-114,-114,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Keldon Johnson,fanduel,8.5,-130,-102,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Stephon Castle,fanduel,16.5,104,-138,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Victor Wembanyama,fanduel,26.5,-112,-118,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Cooper Flagg,fanduel,25.5,-106,-125,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Daniel Gafford,fanduel,9.5,-102,-130,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Kyrie Irving,fanduel,20.5,-106,-125,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,Naji Marshall,fanduel,11.5,-106,-125,2026-11-03T21:12:33.213367Z
+543449,2026-11-05T02:30:00Z,San Antonio Spurs,Dallas Mavericks,P.J. Washington,fanduel,13.5,-118,-112,2026-11-03T21:12:33.213367Z
