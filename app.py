@@ -2483,7 +2483,7 @@ elif page == "🏀 NBA Projections":
     </style>
     """, unsafe_allow_html=True)
 
-    st.subheader("🏀 NBA Player Points — Today's Model Board")
+    st.subheader("🏀 NBA Player Points — OVER / UNDER")
     st.caption("Paper-testing dashboard. OVER/UNDER only appears when a sportsbook line matches the player and game.")
     @st.cache_data(ttl=120, show_spinner=False)
     def load_nba_top5():
@@ -2500,9 +2500,11 @@ elif page == "🏀 NBA Projections":
     central_today = pd.Timestamp.now(tz="America/Chicago").date()
     if not top5.empty and "game_date" in top5.columns:
         top5["game_date"] = pd.to_datetime(top5["game_date"], errors="coerce").dt.date
-        top5 = top5[top5["game_date"] == central_today]
+        top5 = top5[top5["game_date"] >= central_today]
+        if not top5.empty:
+            top5 = top5[top5["game_date"] == top5["game_date"].min()]
     if not top5.empty:
-        st.markdown("**Today's qualifying OVER / UNDER paper leans**")
+        st.markdown("**Upcoming OVER / UNDER paper picks**")
         for _, pick in top5.head(5).iterrows():
             st.markdown(f"**{pick['player_name']} — {pick['side']} {float(pick['market_line']):.1f} points** · {pick['sportsbook']} ({int(pick['price']):+d})")
             st.caption(f"Model: {pick.get('model_version', 'NBA V2')} · Projection {float(pick['v2_projection']):.1f} · Edge {float(pick['edge']):+.1f} pts · PAPER")
@@ -2522,7 +2524,7 @@ elif page == "🏀 NBA Projections":
             st.markdown(f"**{next_date} model projections — line comparison pending**")
             st.caption("These are the existing model selections, not confirmed OVER/UNDER wagers. A lean needs a matching sportsbook line.")
             for _, pick in today_board.head(5).iterrows():
-                st.markdown(f"**{pick['selection']}** · vs {pick.get('opponent', 'TBD')} · Projected {float(pick['prediction']):.1f} PTS · **LEAN: WAIT**")
+                st.markdown(f"**{pick['selection']}** · vs {pick.get('opponent', 'TBD')} · Projected {float(pick['prediction']):.1f} PTS · **OVER / UNDER: LINE PENDING**")
     st.divider()
 
     st.subheader("NBA V2 — Player Points")
@@ -2606,7 +2608,7 @@ elif page == "🏀 NBA Projections":
                 '<div class="ems-nba-scroll"><table class="ems-nba-table">'
                 '<thead><tr>'
                 '<th>PLAYER</th><th>OPP</th><th>PROJ</th>'
-                '<th>O/U</th><th>EDGE</th><th>LEAN</th><th>ACTUAL</th>'
+                '<th>O/U</th><th>EDGE</th><th>OVER / UNDER</th><th>ACTUAL</th>'
                 '<th>RESULT</th>'
                 '</tr></thead><tbody>'
                 + "".join(rows_html)
@@ -2617,7 +2619,7 @@ elif page == "🏀 NBA Projections":
     st.markdown(
         '<div class="ems-nba-footnote">'
         'NBA V2 forward projection testing. '
-        'O/U and lean require verified sportsbook lines. '
+        'OVER / UNDER picks require matched sportsbook lines. '
         'No wagers activated.'
         '</div>',
         unsafe_allow_html=True
