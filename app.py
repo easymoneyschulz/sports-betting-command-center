@@ -2494,7 +2494,7 @@ elif page == "🏀 NBA Projections":
                             pid=pid if pid.isdigit() else "0"
                             logo=nba_team_logos.get(str(entry["team"]),"nba")
                             st.markdown(f"""<div class="nba-v2-card">
-                            <div class="nba-v2-top"><img class="nba-v2-head" src="https://a.espncdn.com/i/headshots/nba/players/full/{pid}.png">
+                            <div class="nba-v2-top"><img class="nba-v2-head" src="https://a.espncdn.com/i/headshots/nba/players/full/{pid}.png" alt="{name} player headshot" onerror="this.onerror=null;this.src=\'https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/assets/emp_player_shield.svg\'">
                             <img class="nba-v2-logo" src="https://a.espncdn.com/i/teamlogos/nba/500/{logo}.png">
                             <div><div class="nba-v2-name">{name}</div><div class="nba-v2-match">{team} vs {opponent}</div><span class="nba-v2-tag" style="color:{color}">{status}</span></div></div>
                             <div class="nba-v2-stats"><div><div class="nba-v2-label">V2 projection</div><div class="nba-v2-num">{float(entry["v2_projection"]):.1f}</div></div>
