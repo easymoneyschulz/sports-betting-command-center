@@ -2424,7 +2424,7 @@ elif page == "🏀 NBA Projections":
     from datetime import datetime as NBADatetime
     from zoneinfo import ZoneInfo as NBAZoneInfo
     st.markdown("### 🏀 NBA V2 — DAILY PLAYER PROPS")
-    st.caption("Frozen model · Automated daily · Paper testing only")
+    st.caption("Frozen model · Automated daily · Paper testing only · Top 10 OVER / Top 10 UNDER")
 
     # Grade only locked pregame paper selections; exclude voids and pushes from win rate.
     try:
@@ -2498,6 +2498,20 @@ elif page == "🏀 NBA Projections":
                         st.rerun()
             nba_day = st.session_state["nba_v2_selected_day"]
             nba_props = nba_props[nba_props.game_date==nba_day].copy()
+            # Investor view: only the strongest verified OVER/UNDER signals,
+            # up to ten on each side. No fabricated or forced recommendations.
+            nba_props["edge"] = pd.to_numeric(nba_props["edge"], errors="coerce")
+            nba_props["market_line"] = pd.to_numeric(nba_props["market_line"], errors="coerce")
+            nba_props = nba_props[
+                nba_props["decision"].isin(["OVER", "UNDER"])
+                & nba_props["market_line"].notna()
+                & nba_props["edge"].notna()
+            ].copy()
+            nba_props["abs_edge_rank"] = nba_props["edge"].abs()
+            nba_props = (nba_props.sort_values(
+                ["abs_edge_rank", "player_name"], ascending=[False, True]
+            ).groupby("decision", group_keys=False).head(10).copy())
+            st.caption("Top 10 verified OVERs and top 10 verified UNDERs by model-to-line edge. Fewer shown when fewer qualify; no forced picks.")
             st.markdown("""<style>
 .st-key-nba_v2_cards_status [data-testid="stSegmentedControl"],.st-key-nba_v2_cards_status [role="radiogroup"]{background:transparent!important;border:0!important;gap:10px!important}
 .st-key-nba_v2_cards_status button,.st-key-nba_v2_cards_status [role="radio"]{background:#151e2e!important;color:#dce5f4!important;border:1px solid #35455f!important;border-radius:11px!important;padding:10px 20px!important;min-height:46px!important;font-size:12px!important;font-weight:850!important;letter-spacing:1.2px!important;box-shadow:0 5px 16px #0003!important}
