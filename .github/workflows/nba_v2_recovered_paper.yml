@@ -2,6 +2,7 @@ name: NBA V2 Recovered Frozen Paper Predictions
 on:
   schedule:
     - cron: '30 16 * * *'
+    - cron: '0 20,22,0,2,4 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -39,6 +40,8 @@ jobs:
           fi
       - name: Compare recovered projections to verified market lines
         run: python automation/compare_nba_v2_recovered_props.py
+      - name: Check explicit NBA player participation status
+        run: python automation/verify_nba_v2_participation.py
       - name: Lock new paper selections and grade completed NBA games
         run: python automation/grade_nba_v2_recovered_paper.py
       - name: Commit paper snapshot only
