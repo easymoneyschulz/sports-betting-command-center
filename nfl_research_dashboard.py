@@ -67,12 +67,13 @@ def _latest_github_snapshot(token: str):
             if len(frame) > 32:
                 continue
             picks = None
-            pick_files = sorted((n for n in archive.namelist()
+            with zipfile.ZipFile(io.BytesIO(download.content)) as pick_archive:
+                pick_files = sorted((n for n in pick_archive.namelist()
                 if n.split("/")[-1].startswith("nfl_v61_paper_picks_")
                 and n.endswith(".csv")), reverse=True)
-            if pick_files:
-                with archive.open(pick_files[0]) as handle:
-                    picks = pd.read_csv(handle)
+                if pick_files:
+                    with pick_archive.open(pick_files[0]) as handle:
+                        picks = pd.read_csv(handle)
             return frame, f"GitHub Actions run {run['id']} / {candidates[0]}", picks
     raise ValueError("No valid unexpired NFL research projection artifact found")
 
