@@ -9,6 +9,7 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1] / "public_data"
 SOURCE = ROOT / "nba_v2_source_predictions.csv"
+REBUILT = ROOT / "nba_daily_active_projections.csv"
 ODDS = ROOT / "nba_v2_propline_odds.csv"
 OUTPUT = ROOT / "nba_v2_daily_top5.csv"
 MIN_EDGE = 3.0
@@ -21,15 +22,26 @@ def implied_prob(american):
 
 
 def main():
-    if not SOURCE.exists() or not ODDS.exists():
+    if not ODDS.exists():
         print("No original daily NBA V2 projection source or odds; not manufacturing picks.")
         return
-    src = pd.read_csv(SOURCE)
+    original = pd.read_csv(SOURCE) if SOURCE.exists() else pd.DataFrame()
+    today = pd.Timestamp.now(tz="UTC").tz_convert("America/Chicago").date()
+    if not original.empty:
+        original = original[pd.to_datetime(original["game_date"], errors="coerce").dt.date == today]
+    if not original.empty:
+        src = original.copy()
+        model_label = "NBA V2 ORIGINAL"
+    elif REBUILT.exists():
+        src = pd.read_csv(REBUILT)
+        model_label = "ROLLING REBUILD V0"
+    else:
+        print("No current-day original or rebuilt projections; no picks.")
+        return
     odds = pd.read_csv(ODDS)
     required = {"game_date", "player_name", "v2_projection"}
     if src.empty or not required.issubset(src.columns):
         raise ValueError("NBA V2 source lacks required projection columns")
-    today = pd.Timestamp.now(tz="UTC").tz_convert("America/Chicago").date()
     src["game_date"] = pd.to_datetime(src["game_date"], errors="coerce").dt.date
     src = src[src["game_date"] == today].copy()
     if src.empty:
@@ -79,7 +91,8 @@ def main():
         print("No players meet the 3-point minimum edge; no forced picks.")
         return
     merged["status"] = "PAPER"
-    merged[cols + ["status"]].to_csv(OUTPUT, index=False)
+    merged["model_version"] = model_label
+    merged[cols + ["status", "model_version"]].to_csv(OUTPUT, index=False)
     print(f"Published {len(merged)} distinct NBA V2 paper leans for {today}")
 
 
