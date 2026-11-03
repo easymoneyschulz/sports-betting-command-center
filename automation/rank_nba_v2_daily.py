@@ -37,17 +37,23 @@ def main():
         original_future = sorted(d for d in pd.to_datetime(original["game_date"], errors="coerce").dt.date.dropna().unique() if d >= today)
         if original_future:
             target_date = original_future[0]
-    if not original.empty:
-        original = original[pd.to_datetime(original["game_date"], errors="coerce").dt.date == target_date]
-    if not original.empty:
-        src = original.copy()
-        model_label = "NBA V2 ORIGINAL"
-    elif REBUILT.exists():
-        src = pd.read_csv(REBUILT)
-        model_label = "ROLLING REBUILD V0"
+    # Prefer full-slate separately labeled rolling projections for screening.
+    # The original frozen V2 export is never overwritten or presented as rebuilt.
+    rebuilt = pd.read_csv(REBUILT) if REBUILT.exists() else pd.DataFrame()
+    if not rebuilt.empty:
+        rebuilt_dates = pd.to_datetime(rebuilt["game_date"], errors="coerce").dt.date
+        rebuilt = rebuilt[rebuilt_dates == target_date].copy()
+    if not rebuilt.empty:
+        src = rebuilt
+        model_label = "ROLLING REBUILD V0 (NOT NBA V2)"
     else:
-        print("No current-day original or rebuilt projections; no picks.")
-        return
+        if not original.empty:
+            original = original[pd.to_datetime(original["game_date"], errors="coerce").dt.date == target_date]
+        if original.empty:
+            print("No same-date original or rolling projections; no picks.")
+            return
+        src = original
+        model_label = "NBA V2 ORIGINAL"
     odds = pd.read_csv(ODDS)
     required = {"game_date", "player_name", "v2_projection"}
     if src.empty or not required.issubset(src.columns):
