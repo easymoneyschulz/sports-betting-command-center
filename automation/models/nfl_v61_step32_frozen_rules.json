@@ -1,0 +1,73 @@
+{
+  "model_name": "NFL_V6.1_PAPER",
+  "status": "FROZEN_RESEARCH_ONLY",
+  "created_utc": "2026-11-03T00:02:40.978740+00:00",
+  "model": {
+    "algorithm": "Ridge",
+    "alpha": 20,
+    "scaler": "StandardScaler",
+    "target": "market_residual",
+    "features": [
+      "diff_pregame_off_epa_last3",
+      "diff_pregame_off_epa_last8",
+      "diff_pregame_off_success_last3",
+      "diff_pregame_off_success_last8",
+      "diff_pregame_pass_rate_last3",
+      "diff_pregame_pass_rate_last8",
+      "diff_pregame_pass_epa_last3",
+      "diff_pregame_pass_epa_last8",
+      "diff_pregame_rush_epa_last3",
+      "diff_pregame_rush_epa_last8",
+      "diff_pregame_turnovers_last3",
+      "diff_pregame_turnovers_last8",
+      "diff_pregame_def_epa_allowed_last3",
+      "diff_pregame_def_epa_allowed_last8",
+      "diff_pregame_def_success_allowed_last3",
+      "diff_pregame_def_success_allowed_last8",
+      "diff_pregame_def_pass_epa_allowed_last3",
+      "diff_pregame_def_pass_epa_allowed_last8",
+      "diff_pregame_def_rush_epa_allowed_last3",
+      "diff_pregame_def_rush_epa_allowed_last8",
+      "diff_pregame_def_turnovers_forced_last3",
+      "diff_pregame_def_turnovers_forced_last8",
+      "rest_advantage",
+      "diff_pregame_adjusted_off_epa_last3",
+      "diff_pregame_adjusted_off_epa_last8",
+      "diff_pregame_adjusted_def_epa_allowed_last3",
+      "diff_pregame_adjusted_def_epa_allowed_last8"
+    ],
+    "feature_sha256": "0e1f1919ec0ef36dbd54b56f94601d8979d415f098d72908432c16ed01b71ba5",
+    "training_rule": "Prior completed seasons only"
+  },
+  "market_convention": {
+    "market_home_margin": "Positive means home favored",
+    "positive_correction": "HOME",
+    "negative_correction": "AWAY"
+  },
+  "selection": {
+    "min_abs_edge_inclusive": 2.0,
+    "max_abs_edge_exclusive": 5.0,
+    "mode": "PAPER_ONLY",
+    "max_picks_per_week": 5,
+    "selection_order": "Descending absolute edge; game_id tiebreak",
+    "price_rule": "Record actual sportsbook odds and timestamp"
+  },
+  "historical_exploratory_results": {
+    "seasons": "2022-2025",
+    "games": 328,
+    "wins": 182,
+    "losses": 136,
+    "pushes": 10,
+    "win_pct": 57.23,
+    "hypothetical_roi_at_minus_110_pct": 9.26,
+    "warning": "Historical selection bias; not validated"
+  },
+  "forward_test_requirements": [
+    "Save predictions before kickoff",
+    "Record sportsbook, spread, odds and timestamp",
+    "Never modify saved predictions",
+    "Grade all qualifying picks and passes",
+    "Evaluate actual returns",
+    "Do not change selection rules during testing"
+  ]
+}
