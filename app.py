@@ -21,6 +21,24 @@ def load_data():
 
 df = load_data()
 
+# Optional automated model exports. Only validated, model-produced rows are shown.
+@st.cache_data(ttl=120, show_spinner=False)
+def load_model_export(model, filename):
+    url = f"https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/{filename}"
+    try:
+        response = requests.get(url, timeout=12)
+        response.raise_for_status()
+        fresh = pd.read_csv(__import__("io").StringIO(response.text))
+        required = {"model", "test_type", "selection", "prediction", "game_date"}
+        if fresh.empty or not required.issubset(fresh.columns):
+            return pd.DataFrame()
+        fresh = fresh[(fresh["model"] == model) &
+                      (fresh["test_type"].isin(["FORWARD_PAPER", "PROJECTION_TEST"]))].copy()
+        return fresh
+    except (requests.RequestException, ValueError, pd.errors.ParserError):
+        return pd.DataFrame()
+
+
 st.markdown("""
 <style>
 .stApp {
