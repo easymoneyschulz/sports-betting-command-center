@@ -2444,7 +2444,23 @@ elif page == "🏀 NBA Projections":
         if nba_props.empty:
             st.info("Waiting for the next scheduled NBA V2 slate.")
         else:
-            nba_day = st.selectbox("Slate", sorted(nba_props.game_date.dropna().unique()), format_func=lambda d:d.strftime("%A, %b %d"), key="nba_v2_cards_day")
+            nba_dates = sorted(nba_props.game_date.dropna().unique())
+            if st.session_state.get("nba_v2_selected_day") not in nba_dates:
+                st.session_state["nba_v2_selected_day"] = nba_dates[0]
+            st.markdown("""<style>
+            .st-key-nba_v2_day_bar button {background:#151e2e!important;color:#f2f5ff!important;border:1px solid #35455f!important;border-radius:12px!important;font-weight:850!important;letter-spacing:.5px!important;min-height:54px!important}
+            .st-key-nba_v2_day_bar button[kind="primary"] {background:#622239!important;border-color:#ff526c!important;box-shadow:0 0 16px #e44b6430!important}
+            .st-key-nba_v2_day_bar button:hover{border-color:#ff526c!important;background:#27354b!important}
+            </style>""",unsafe_allow_html=True)
+            st.markdown("**GAME DAY**")
+            with st.container(key="nba_v2_day_bar"):
+                nba_date_columns = st.columns(min(5,len(nba_dates)))
+                for nba_i, nba_date in enumerate(nba_dates):
+                    with nba_date_columns[nba_i % len(nba_date_columns)]:
+                        if st.button(nba_date.strftime("%a %b %d").upper(), key=f"nba_v2_day_{nba_date}", use_container_width=True, type="primary" if st.session_state["nba_v2_selected_day"]==nba_date else "secondary"):
+                            st.session_state["nba_v2_selected_day"] = nba_date
+                            st.rerun()
+            nba_day = st.session_state["nba_v2_selected_day"]
             nba_props = nba_props[nba_props.game_date==nba_day].copy()
             st.markdown("""<style>
 .st-key-nba_v2_cards_status [data-testid="stSegmentedControl"],.st-key-nba_v2_cards_status [role="radiogroup"]{background:transparent!important;border:0!important;gap:10px!important}
