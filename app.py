@@ -1991,6 +1991,17 @@ page = st.radio(
 
 historical = df[df["test_type"] == "HISTORICAL_BACKTEST"]
 forward = df[df["test_type"].isin(["FORWARD_PAPER","PROJECTION_TEST"])]
+for model_name, export_name in [
+    ("CFB V4", "cfb_v4_latest_paper_picks.csv"),
+    ("NBA V2", "nba_v2_latest_player_points.csv"),
+]:
+    exported = load_model_export(model_name, export_name)
+    if not exported.empty:
+        forward = pd.concat(
+            [forward[forward["model"] != model_name], exported],
+            ignore_index=True,
+        )
+
 
 nfl_hist = historical[historical["model"] == "NFL V6.1"]
 wins = int((nfl_hist["result"] == "WIN").sum())
@@ -2385,7 +2396,7 @@ elif page == "🏟️ College Football":
                     {logo_html}
                     <div class="ems-cfb-team">
                         <div class="ems-cfb-team-name">{cfb_html.escape(team)}</div>
-                        <div class="ems-cfb-opponent">vs Boise State</div>
+                        <div class="ems-cfb-opponent">vs {cfb_html.escape(str(record.get("opponent", "Opponent TBD")))}</div>
                         <div class="ems-cfb-edge">Model edge: {edge} pts</div>
                     </div>
                     <div>
