@@ -1,0 +1,84 @@
+"""Daily NBA V2 top-five paper selection from validated V2 projections and live odds.
+
+Never creates model projections. Requires the original model's daily source export.
+One player per selection, no forced picks, and no fabricated sportsbook prices.
+"""
+from pathlib import Path
+import pandas as pd
+import numpy as np
+
+ROOT = Path(__file__).resolve().parents[1] / "public_data"
+SOURCE = ROOT / "nba_v2_source_predictions.csv"
+ODDS = ROOT / "nba_v2_propline_odds.csv"
+OUTPUT = ROOT / "nba_v2_daily_top5.csv"
+MIN_EDGE = 3.0
+MAX_ODDS_AGE_HOURS = 24
+
+
+def implied_prob(american):
+    american = float(american)
+    return -american / (100 - american) if american < 0 else 100 / (100 + american)
+
+
+def main():
+    if not SOURCE.exists() or not ODDS.exists():
+        print("No original daily NBA V2 projection source or odds; not manufacturing picks.")
+        return
+    src = pd.read_csv(SOURCE)
+    odds = pd.read_csv(ODDS)
+    required = {"game_date", "player_name", "v2_projection"}
+    if src.empty or not required.issubset(src.columns):
+        raise ValueError("NBA V2 source lacks required projection columns")
+    today = pd.Timestamp.now(tz="UTC").tz_convert("America/Chicago").date()
+    src["game_date"] = pd.to_datetime(src["game_date"], errors="coerce").dt.date
+    src = src[src["game_date"] == today].copy()
+    if src.empty:
+        print("No original V2 projections for today; preserving previous paper selections.")
+        return
+    src["v2_projection"] = pd.to_numeric(src["v2_projection"], errors="coerce")
+    src = src.dropna(subset=["v2_projection"])
+    if src["player_name"].duplicated().any():
+        raise ValueError("Ambiguous duplicate player projections")
+    odds["commence_time"] = pd.to_datetime(odds["commence_time"], utc=True, errors="coerce")
+    odds["odds_timestamp_utc"] = pd.to_datetime(odds["odds_timestamp_utc"], utc=True, errors="coerce")
+    now = pd.Timestamp.now(tz="UTC")
+    odds = odds[(odds["commence_time"].dt.tz_convert("America/Chicago").dt.date == today)
+                & (odds["commence_time"] > now)
+                & (odds["odds_timestamp_utc"] <= now)
+                & (odds["odds_timestamp_utc"] >= now - pd.Timedelta(hours=MAX_ODDS_AGE_HOURS))].copy()
+    for col in ("market_line", "over_price", "under_price"):
+        odds[col] = pd.to_numeric(odds[col], errors="coerce")
+    odds = odds.dropna(subset=["market_line", "over_price", "under_price"])
+    # Names alone aren't sufficient when the source has an opponent: check the event teams.
+    merged = odds.merge(src, on="player_name", how="inner", validate="many_to_one")
+    if "opponent" in merged:
+        merged = merged[merged.apply(
+            lambda r: str(r["opponent"]).strip().casefold() in
+            (str(r["home_team"]).strip().casefold(), str(r["away_team"]).strip().casefold()),
+            axis=1)]
+    if merged.empty:
+        print("No verified matching games/players; no new selections.")
+        return
+    merged["edge"] = merged["v2_projection"] - merged["market_line"]
+    merged["side"] = np.where(merged["edge"] > 0, "OVER", "UNDER")
+    merged["price"] = np.where(merged["edge"] > 0, merged["over_price"], merged["under_price"])
+    merged["absolute_edge"] = merged["edge"].abs()
+    merged = merged[merged["absolute_edge"] >= MIN_EDGE].copy()
+    merged["implied_probability"] = merged["price"].map(implied_prob)
+    # This is a transparent screening score, NOT a calibrated win probability.
+    merged["screening_score"] = merged["absolute_edge"] / np.sqrt(1 + merged["implied_probability"])
+    merged = merged.sort_values(["screening_score", "absolute_edge", "odds_timestamp_utc"],
+                                ascending=[False, False, False])
+    merged = merged.drop_duplicates("player_name").head(5)
+    cols = ["game_date", "player_name", "opponent", "v2_projection", "market_line",
+            "edge", "side", "price", "sportsbook", "screening_score", "odds_timestamp_utc"]
+    if merged.empty:
+        print("No players meet the 3-point minimum edge; no forced picks.")
+        return
+    merged["status"] = "PAPER"
+    merged[cols + ["status"]].to_csv(OUTPUT, index=False)
+    print(f"Published {len(merged)} distinct NBA V2 paper leans for {today}")
+
+
+if __name__ == "__main__":
+    main()
