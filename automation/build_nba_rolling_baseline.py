@@ -70,7 +70,11 @@ def main():
     logs["game_date"]=pd.to_datetime(logs["game_date"],errors="coerce")
     logs["points"]=pd.to_numeric(logs["points"],errors="coerce")
     logs["minutes"]=pd.to_numeric(logs["minutes"],errors="coerce")
-    upcoming=slate(today)
+    target_date=today
+    upcoming=slate(target_date)
+    if not any(not e.get("status",{}).get("type",{}).get("completed") for e in upcoming):
+        target_date=today+timedelta(days=1)
+        upcoming=slate(target_date)
     out=[]
     for event in upcoming:
         if event.get("status",{}).get("type",{}).get("completed"):continue
@@ -88,17 +92,17 @@ def main():
                 # Conservative transparent rolling estimate, not original V2.
                 projection=round(0.65*avg10+0.35*avg5,4)
                 if not 0<=projection<=65:continue
-                out.append({"game_date":today.isoformat(),"game_id":str(event["id"]),"player_id":str(player_id),"player_name":g["player_name"].iloc[-1],"opponent":opponent,"team":team,"v2_projection":projection,"model_version":"ROLLING_REBUILD_V0","sample_games":len(g)})
+                out.append({"game_date":target_date.isoformat(),"game_id":str(event["id"]),"player_id":str(player_id),"player_name":g["player_name"].iloc[-1],"opponent":opponent,"team":team,"v2_projection":projection,"model_version":"ROLLING_REBUILD_V0","sample_games":len(g)})
     result=pd.DataFrame(out)
     if result.empty:
         print("No eligible players with >=5 completed games; no new projection export");return
     result.to_csv(DEST,index=False)
-    print("Rebuilt baseline projections:",len(result),"for",today)
+    print("Rebuilt baseline projections:",len(result),"for",target_date)
     # Original V2 snapshot is immutable for its game date. Only use rebuilt baseline on later dates.
     if SOURCE.exists():
         original=pd.read_csv(SOURCE)
         original_dates=set(pd.to_datetime(original["game_date"],errors="coerce").dt.date.dropna())
-        if today in original_dates:
+        if target_date in original_dates:
             print("Original V2 snapshot exists for today; preserved. Rebuilt baseline not substituted.")
             return
     result.to_csv(ROOT/"nba_daily_active_projections.csv",index=False)
