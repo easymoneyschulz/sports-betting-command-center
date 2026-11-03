@@ -31,7 +31,9 @@ jobs:
         run: python automation/rank_nba_v2_daily.py
       - name: Commit only changed public NBA snapshot
         run: |
-          git add -A public_data/nba_rolling_game_logs.csv public_data/nba_daily_rebuilt_projections.csv public_data/nba_daily_active_projections.csv
+          for path in public_data/nba_rolling_game_logs.csv public_data/nba_daily_rebuilt_projections.csv public_data/nba_daily_active_projections.csv; do
+            if [ -f "$path" ]; then git add "$path"; fi
+          done
           if [ -f public_data/nba_v2_daily_top5.csv ]; then
             git add public_data/nba_v2_daily_top5.csv
           fi
