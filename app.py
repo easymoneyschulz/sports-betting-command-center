@@ -1866,7 +1866,7 @@ import html
 ticker_games = []
 ticker_errors = []
 
-for ticker_sport in (["NFL", "College Football", "NBA"] if page in ("🏠 Overview", "🔴 Live Scores") else []):
+for ticker_sport in ["NFL", "College Football", "NBA"]:
     try:
         for game in ems_fetch_scores(ticker_sport):
             item = dict(game)
