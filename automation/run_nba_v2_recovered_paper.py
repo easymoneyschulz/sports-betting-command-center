@@ -58,7 +58,10 @@ def verified_roster_names(team_abbreviation):
     response=requests.get(url,params={"limit":100},timeout=25)
     response.raise_for_status()
     teams=response.json().get("sports",[{}])[0].get("leagues",[{}])[0].get("teams",[])
-    matching=[item["team"] for item in teams if item.get("team",{}).get("abbreviation","").upper()==team_abbreviation]
+    espn_abbreviation={"WAS":"WSH","UTA":"UTAH"}.get(team_abbreviation,team_abbreviation)
+    matching=[item["team"] for item in teams if item.get("team",{}).get("abbreviation","").upper() in {team_abbreviation,espn_abbreviation}]
+    if len(matching)!=1:
+        matching=[item["team"] for item in teams if item.get("team",{}).get("displayName","").casefold()=={"WAS":"washington wizards","UTA":"utah jazz"}.get(team_abbreviation,"__no_match__")]
     if len(matching)!=1:
         raise ValueError(f"Could not resolve ESPN team {team_abbreviation}")
     espn_id=matching[0]["id"]
