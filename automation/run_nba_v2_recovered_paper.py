@@ -52,22 +52,24 @@ def get_history():
         """).df()
     finally: con.close()
 
-def verified_roster_ids(team_id):
-    """Fail closed: ESPN's current roster must confirm player identity and team."""
-    url=f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{team_id}/roster"
+def verified_roster_names(team_abbreviation):
+    """Verify current roster by name: ESPN and NBA source use different player IDs."""
+    url=f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{team_abbreviation.lower()}/roster"
     response=requests.get(url,timeout=25)
     response.raise_for_status()
     data=response.json()
     athletes=data.get("athletes",[])
-    ids=set()
+    names=set()
     for group in athletes:
         members=group.get("items",[]) if isinstance(group,dict) and "items" in group else [group]
         for player in members:
-            if isinstance(player,dict) and player.get("id") is not None:
-                ids.add(str(player["id"]))
-    if not ids:
-        raise ValueError(f"Missing current ESPN roster for team {team_id}; refusing to publish")
-    return ids
+            if isinstance(player,dict):
+                name=player.get("fullName") or player.get("displayName")
+                if name:
+                    names.add(" ".join(str(name).casefold().split()))
+    if not names:
+        raise ValueError(f"Missing ESPN roster for {team_abbreviation}; refusing to publish")
+    return names
 
 def main():
     if not MODEL.is_file(): raise FileNotFoundError("Frozen model missing; no projections published")
@@ -95,9 +97,10 @@ def main():
     roster_cache={}
     for s in schedule:
         team_id=s["team_id"]
-        if team_id not in roster_cache:
-            roster_cache[team_id]=verified_roster_ids(team_id)
-        selected=latest[(latest["team_id"].astype(str)==str(team_id)) & (latest["player_id"].astype(str).isin(roster_cache[team_id]))]
+        team_abbreviation=next(k for k,v in TEAM_IDS.items() if v==team_id)
+        if team_abbreviation not in roster_cache:
+            roster_cache[team_abbreviation]=verified_roster_names(team_abbreviation)
+        selected=latest[(latest["team_id"].astype(str)==str(team_id)) & (latest["player_name"].astype(str).str.casefold().str.strip().isin(roster_cache[team_abbreviation]))]
         for _,p in selected.iterrows():
             records.append({**s,"player_id":p["player_id"],"player_name":p["player_name"],"team":next(k for k,v in TEAM_IDS.items() if v==s["team_id"]),"season":2027})
     future=pd.DataFrame(records)
