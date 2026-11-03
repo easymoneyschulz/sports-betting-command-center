@@ -56,6 +56,11 @@ def main():
             if abs(float(h["point"])+float(a["point"]))>0.01:
                 continue
             correction=float(p.model_home_margin)
+            if not (-100 < correction < 100):
+                continue
+            last_update=pd.to_datetime(market.get("last_update",book.get("last_update")),utc=True,errors="coerce")
+            if pd.isna(last_update) or (now-last_update.to_pydatetime()).total_seconds()>21600:
+                continue
             side="HOME" if correction>0 else "AWAY"
             chosen=h if side=="HOME" else a
             rows.append({
@@ -69,7 +74,7 @@ def main():
                 "selected_side":side,"selected_team":home if side=="HOME" else away,
                 "selected_spread":float(chosen["point"]),
                 "selected_price":int(chosen["price"]),
-                "odds_timestamp_utc":market.get("last_update",book.get("last_update","")),
+                "odds_timestamp_utc":last_update.isoformat(),
                 "prediction_timestamp_utc":now.isoformat(),
                 "decision":"PASS","test_mode":"PAPER_ONLY"})
             break
