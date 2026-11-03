@@ -1,0 +1,6 @@
+game_id,start_date,home_team,away_team,selected_side,selected_spread,selected_price,predicted_edge,decision,sportsbook,model_home_margin
+401860911,2026-11-07 23:00:00+00:00,Colorado State,Boise State,Colorado State,17.5,-110,3.083158963406067,PAPER LEAN,draftkings,-14.416841036593931
+401858292,2026-11-07 17:00:00+00:00,UConn,North Carolina,UConn,7.0,-115,2.2750903707182424,PASS,draftkings,-4.724909629281758
+401870795,2026-11-08 01:00:00+00:00,New Mexico State,Liberty,New Mexico State,17.5,-118,2.2296694867254523,PASS,draftkings,-15.270330513274548
+401858291,2026-11-08 00:30:00+00:00,Notre Dame,Miami,Notre Dame,-5.5,-110,2.168429773855653,PASS,draftkings,7.668429773855653
+401856853,2026-11-07 05:00:00+00:00,Baylor,Iowa State,Baylor,-10.0,-105,2.046683790285975,PASS,draftkings,12.046683790285975
