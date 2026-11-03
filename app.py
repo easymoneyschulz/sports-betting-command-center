@@ -1874,14 +1874,29 @@ import html
 ticker_games = []
 ticker_errors = []
 
-for ticker_sport in []:  # Temporarily disable blocking ESPN calls during page startup
+# Fetch all three score feeds concurrently, with a strict total wait budget.
+# A slow ESPN response must never prevent the dashboard from rendering.
+if page in ("🏠 Overview", "🔴 Live Scores"):
+    from concurrent.futures import ThreadPoolExecutor, wait
+    ticker_sports = ["NFL", "College Football", "NBA"]
+    ticker_pool = ThreadPoolExecutor(max_workers=3)
     try:
-        for game in ems_fetch_scores(ticker_sport):
-            item = dict(game)
-            item["ticker_sport"] = ticker_sport
-            ticker_games.append(item)
-    except requests.RequestException:
-        ticker_errors.append(ticker_sport)
+        ticker_futures = {ticker_pool.submit(ems_fetch_scores, sport): sport for sport in ticker_sports}
+        completed, pending = wait(ticker_futures, timeout=2.5)
+        for future in completed:
+            sport = ticker_futures[future]
+            try:
+                for game in future.result():
+                    item = dict(game)
+                    item["ticker_sport"] = sport
+                    ticker_games.append(item)
+            except Exception:
+                ticker_errors.append(sport)
+        for future in pending:
+            ticker_errors.append(ticker_futures[future])
+            future.cancel()
+    finally:
+        ticker_pool.shutdown(wait=False, cancel_futures=True)
 
 state_order = {"in": 0, "pre": 1, "post": 2}
 ticker_games.sort(
@@ -2158,9 +2173,6 @@ if page == "🏠 Overview":
             projection,
             "Projected PTS · Line pending"
         )
-
-    st.success("Checkpoint 3: Original Overview section finished rendering.")
-    st.stop()
 
 elif page == "🏈 NFL Picks":
     import html as nfl_html
