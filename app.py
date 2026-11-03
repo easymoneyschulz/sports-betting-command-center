@@ -1842,6 +1842,12 @@ div[data-testid="stTabs"] [data-baseweb="tab-highlight"] {
 """, unsafe_allow_html=True)
 
 
+# Temporary original-design isolation: preserve all existing code below.
+# No betting models, model files, or stored predictions are modified.
+st.markdown("""<div style="background:#17191f;border:1px solid #4b5364;border-radius:12px;padding:18px;color:#fff">
+<strong>Original dashboard design test</strong><p>Original styling loaded. The interactive dashboard is temporarily paused while we isolate its loading problem.</p></div>""",unsafe_allow_html=True)
+st.stop()
+
 pages = [
     "🏠 Overview",
     "🏈 NFL Picks",
