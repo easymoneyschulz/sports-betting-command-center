@@ -25,7 +25,7 @@ def get_schedule(day):
     r.raise_for_status()
     out=[]
     for e in r.json().get("events",[]):
-        if e.get("status",{}).get("type",{}).get("completed"): continue
+        if e.get("status",{}).get("type",{}).get("state") != "pre": continue
         sides={c.get("homeAway"):c for c in e.get("competitions",[{}])[0].get("competitors",[])}
         if not {"home","away"}<=sides.keys(): continue
         for side in ("home","away"):
