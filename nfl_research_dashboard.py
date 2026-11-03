@@ -66,7 +66,14 @@ def _latest_github_snapshot(token: str):
                 continue
             if len(frame) > 32:
                 continue
-            return frame, f"GitHub Actions run {run['id']} / {candidates[0]}"
+            picks = None
+            pick_files = sorted((n for n in archive.namelist()
+                if n.split("/")[-1].startswith("nfl_v61_paper_picks_")
+                and n.endswith(".csv")), reverse=True)
+            if pick_files:
+                with archive.open(pick_files[0]) as handle:
+                    picks = pd.read_csv(handle)
+            return frame, f"GitHub Actions run {run['id']} / {candidates[0]}", picks
     raise ValueError("No valid unexpired NFL research projection artifact found")
 
 
@@ -83,15 +90,15 @@ def _load_research_snapshot(base: Path):
             pass
     paths = _snapshot_paths(base)
     if not paths:
-        return None, None
+        return None, None, None
     for path in paths:
         try:
             frame = pd.read_csv(path)
             if not frame.empty and REQUIRED.issubset(frame.columns):
-                return frame, f"Local snapshot: {path.name}"
+                return frame, f"Local snapshot: {path.name}", None
         except (OSError, pd.errors.ParserError, UnicodeError):
             continue
-    return None, None
+    return None, None, None
 
 
 TEAM_NAMES = {
@@ -139,7 +146,7 @@ def render_nfl_research(base: Path):
     st.subheader("NFL V6.1 — Weekly Model Projections")
     st.caption("RESEARCH ONLY · Not sportsbook odds, betting recommendations, or published picks")
 
-    df, source_label = _load_research_snapshot(base)
+    df, source_label, picks = _load_research_snapshot(base)
     if df is None:
         st.info("No valid NFL research snapshot is available. The latest successful GitHub run may still be processing.")
         return
@@ -151,6 +158,30 @@ def render_nfl_research(base: Path):
         statuses = set(df["publication_status"].dropna().astype(str).str.upper())
         if statuses and statuses != {"PUBLISHED"}:
             st.caption("Source publication status: " + ", ".join(sorted(statuses)))
+
+    st.subheader("NFL V6.1 — Forward Paper Picks")
+    if picks is None:
+        st.info("Awaiting first verified sportsbook paper-pick snapshot.")
+    elif picks.empty:
+        st.info("No verified upcoming sportsbook spreads in this snapshot.")
+    else:
+        qualified = picks[picks["decision"] == "PAPER_PICK"].copy()
+        if qualified.empty:
+            st.info("No qualifying paper picks this run. All verified games are PASS.")
+        else:
+            for _, pick in qualified.sort_values("edge_points", ascending=False).iterrows():
+                st.success("PAPER PICK: {} {:+g} ({:+d}) | Edge {:.2f} pts | {}".format(
+                    pick["selected_team"], float(pick["selected_spread"]),
+                    int(pick["selected_price"]), float(pick["edge_points"]),
+                    str(pick["sportsbook"]).title()))
+        with st.expander("All verified matchups — picks and passes"):
+            cols = ["away_team","home_team","decision","selected_team",
+                    "selected_spread","selected_price","edge_points",
+                    "sportsbook","odds_timestamp_utc","prediction_timestamp_utc"]
+            st.dataframe(picks[[c for c in cols if c in picks.columns]],
+                         hide_index=True, use_container_width=True)
+    st.caption("Paper testing only. No wagers placed.")
+    st.divider()
 
     st.markdown("""
     <style>
