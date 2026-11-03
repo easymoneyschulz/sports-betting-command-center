@@ -151,6 +151,20 @@ jobs:
           subprocess.run(command, check=True)
           PY
 
+      - name: Generate sportsbook-verified paper picks
+        if: steps.schedule_gate.outputs.run == 'true'
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess, sys
+          projections=sorted(Path('research_snapshots/nfl').glob('nfl_v61_research_projection_*.csv'))
+          if len(projections)!=1:
+              raise RuntimeError('Expected exactly one projection file')
+          subprocess.run([sys.executable,'automation/build_nfl_v61_paper_picks.py','--projections',str(projections[0]),'--output-dir','research_snapshots/nfl'],check=True)
+          PY
+
       - name: Upload research snapshot
         if: steps.schedule_gate.outputs.run == 'true'
         uses: actions/upload-artifact@v4
@@ -164,6 +178,6 @@ jobs:
         if: steps.schedule_gate.outputs.run == 'true'
         run: |
           echo "NFL research snapshot saved as GitHub artifact."
-          echo "No sportsbook odds verified."
-          echo "No picks published."
+          echo "Sportsbook odds verified where available."
+          echo "Paper selections saved in run artifact; no wagers placed."
           echo "No website files modified."
