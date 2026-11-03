@@ -52,31 +52,56 @@ def get_history():
         """).df()
     finally: con.close()
 
-def verified_roster_names(team_abbreviation):
-    """Read ESPN scoreboard-linked team roster; fail closed if unavailable."""
-    url="https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams"
-    response=requests.get(url,params={"limit":100},timeout=25)
+# ESPN's public team directory uses its own team IDs. Resolve every NBA club by
+# its unique full franchise name rather than inconsistent abbreviations.
+ESPN_TEAM_NAMES={
+"ATL":"Atlanta Hawks","BOS":"Boston Celtics","BKN":"Brooklyn Nets",
+"CHA":"Charlotte Hornets","CHI":"Chicago Bulls","CLE":"Cleveland Cavaliers",
+"DAL":"Dallas Mavericks","DEN":"Denver Nuggets","DET":"Detroit Pistons",
+"GSW":"Golden State Warriors","HOU":"Houston Rockets","IND":"Indiana Pacers",
+"LAC":"LA Clippers","LAL":"Los Angeles Lakers","MEM":"Memphis Grizzlies",
+"MIA":"Miami Heat","MIL":"Milwaukee Bucks","MIN":"Minnesota Timberwolves",
+"NOP":"New Orleans Pelicans","NYK":"New York Knicks","OKC":"Oklahoma City Thunder",
+"ORL":"Orlando Magic","PHI":"Philadelphia 76ers","PHX":"Phoenix Suns",
+"POR":"Portland Trail Blazers","SAC":"Sacramento Kings",
+"SAS":"San Antonio Spurs","TOR":"Toronto Raptors",
+"UTA":"Utah Jazz","WAS":"Washington Wizards"}
+
+def get_verified_rosters():
+    response=requests.get("https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams",params={"limit":100},timeout=25)
     response.raise_for_status()
     teams=response.json().get("sports",[{}])[0].get("leagues",[{}])[0].get("teams",[])
-    espn_abbreviation={"WAS":"WSH","UTA":"UTAH"}.get(team_abbreviation,team_abbreviation)
-    matching=[item["team"] for item in teams if item.get("team",{}).get("abbreviation","").upper() in {team_abbreviation,espn_abbreviation}]
-    if len(matching)!=1:
-        matching=[item["team"] for item in teams if item.get("team",{}).get("displayName","").casefold()=={"WAS":"washington wizards","UTA":"utah jazz"}.get(team_abbreviation,"__no_match__")]
-    if len(matching)!=1:
-        raise ValueError(f"Could not resolve ESPN team {team_abbreviation}")
-    espn_id=matching[0]["id"]
-    response=requests.get(f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{espn_id}/roster",timeout=25)
-    response.raise_for_status()
-    names=set()
-    for group in response.json().get("athletes",[]):
-        members=group.get("items",[]) if isinstance(group,dict) and "items" in group else [group]
-        for player in members:
-            if isinstance(player,dict):
-                name=player.get("fullName") or player.get("displayName")
-                if name: names.add(" ".join(str(name).casefold().split()))
-    if not names:
-        raise ValueError(f"ESPN roster empty for {team_abbreviation}; no projections published")
-    return names
+    by_name={}
+    for item in teams:
+        team=item.get("team",{})
+        name=str(team.get("displayName","")).casefold().strip()
+        if name:
+            by_name.setdefault(name,[]).append(team)
+    resolved={}
+    for abbr,full_name in ESPN_TEAM_NAMES.items():
+        matches=by_name.get(full_name.casefold(),[])
+        if len(matches)!=1:
+            raise ValueError(f"ESPN directory missing or ambiguous NBA team: {full_name} ({abbr}); refusing to publish")
+        resolved[abbr]=str(matches[0]["id"])
+    if len(set(resolved.values()))!=30:
+        raise ValueError("ESPN team IDs are not unique across all 30 clubs")
+    print("Validated all 30 NBA franchise mappings against ESPN directory",flush=True)
+    rosters={}
+    for abbr,espn_id in resolved.items():
+        response=requests.get(f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{espn_id}/roster",timeout=25)
+        response.raise_for_status()
+        names=set()
+        for group in response.json().get("athletes",[]):
+            members=group.get("items",[]) if isinstance(group,dict) and "items" in group else [group]
+            for player in members:
+                if isinstance(player,dict):
+                    name=player.get("fullName") or player.get("displayName")
+                    if name:names.add(" ".join(str(name).casefold().split()))
+        if not names:
+            raise ValueError(f"Empty ESPN roster for {abbr}; refusing to publish")
+        rosters[abbr]=names
+    print("Validated 30 nonempty NBA rosters",flush=True)
+    return rosters
 
 def main():
     if not MODEL.is_file(): raise FileNotFoundError("Frozen model missing; no projections published")
@@ -101,12 +126,10 @@ def main():
     # Exclude players who have not appeared in the current season.
     if latest.empty: raise ValueError("No current-season players")
     records=[]
-    roster_cache={}
+    roster_cache=get_verified_rosters()
     for s in schedule:
         team_id=s["team_id"]
         team_abbreviation=next(k for k,v in TEAM_IDS.items() if v==team_id)
-        if team_abbreviation not in roster_cache:
-            roster_cache[team_abbreviation]=verified_roster_names(team_abbreviation)
         selected=latest[(latest["team_id"].astype(str)==str(team_id)) & (latest["player_name"].astype(str).str.casefold().str.strip().isin(roster_cache[team_abbreviation]))]
         for _,p in selected.iterrows():
             records.append({**s,"player_id":p["player_id"],"player_name":p["player_name"],"team":next(k for k,v in TEAM_IDS.items() if v==s["team_id"]),"season":2027})
