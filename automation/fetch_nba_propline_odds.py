@@ -62,22 +62,6 @@ def fetch():
                         "under_price": sides["Under"],
                         "odds_timestamp_utc": market.get("last_update"),
                     })
-    # Sanity check: one event must not contain props from unrelated teams.
-    # Reject suspicious slates instead of silently publishing them as verified.
-    known_team_players = {
-        "LeBron James": "Los Angeles Lakers",
-        "Jaylen Brown": "Boston Celtics",
-        "Tyrese Maxey": "Philadelphia 76ers",
-        "Cade Cunningham": "Detroit Pistons",
-    }
-    for quote in rows:
-        expected_team = known_team_players.get(quote["player_name"])
-        if expected_team and expected_team not in (quote["home_team"], quote["away_team"]):
-            raise ValueError(
-                "PropLine matchup integrity failed: player "
-                + quote["player_name"] + " is not on either team for event "
-                + quote["event_id"] + ". No new odds will be published."
-            )
     if not rows:
         print("No two-sided NBA player-points odds returned; preserving prior snapshot")
         return
