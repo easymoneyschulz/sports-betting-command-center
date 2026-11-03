@@ -1,7 +1,8 @@
 name: NBA V2 Snapshot Publisher
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    # 4 PM America/Chicago: 21 UTC in daylight time, 22 UTC in standard time.
+    - cron: '0 21,22 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -12,26 +13,44 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - name: Check 4 PM Central schedule (DST aware)
+        id: central_time
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(TZ=America/Chicago date +%H)" = "16" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping: not 4 PM Central"
+          fi
       - uses: actions/checkout@v4
+        if: steps.central_time.outputs.run == 'true'
         with:
           persist-credentials: true
       - uses: actions/setup-python@v5
+        if: steps.central_time.outputs.run == 'true'
         with:
           python-version: '3.11'
-      - run: pip install pandas requests numpy
+      - if: steps.central_time.outputs.run == 'true'
+        run: pip install pandas requests numpy
       - name: Fetch PropLine NBA player-points odds
+        if: steps.central_time.outputs.run == 'true'
         env:
           PROPLINE_API_KEY: ${{ secrets.PROPLINE_API_KEY }}
         run: python automation/fetch_nba_propline_odds.py
       - name: Build NBA daily player baseline
+        if: steps.central_time.outputs.run == 'true'
         run: python automation/build_nba_rolling_baseline.py
       - name: Validate and format original model snapshots
+        if: steps.central_time.outputs.run == 'true'
         run: python automation/publish_nba_v2.py
       - name: Match verified odds to NBA V2 dashboard cards
+        if: steps.central_time.outputs.run == 'true'
         run: python automation/match_nba_recovered_odds.py
       - name: Rank daily NBA V2 paper opportunities
+        if: steps.central_time.outputs.run == 'true'
         run: python automation/rank_nba_v2_daily.py
       - name: Commit only changed public NBA snapshot
+        if: steps.central_time.outputs.run == 'true'
         run: |
           for path in public_data/nba_rolling_game_logs.csv public_data/nba_daily_rebuilt_projections.csv public_data/nba_daily_active_projections.csv; do
             if [ -f "$path" ]; then git add "$path"; fi
