@@ -1874,7 +1874,7 @@ import html
 ticker_games = []
 ticker_errors = []
 
-for ticker_sport in (["NFL", "College Football", "NBA"] if page in ("🏠 Overview", "🔴 Live Scores") else []):
+for ticker_sport in []:  # Temporarily disable blocking ESPN calls during page startup
     try:
         for game in ems_fetch_scores(ticker_sport):
             item = dict(game)
@@ -1994,7 +1994,7 @@ for model_name, export_name in [
     ("CFB V4", "cfb_v4_latest_paper_picks.csv"),
     ("NBA V2", "nba_v2_latest_player_points.csv"),
 ]:
-    exported = load_model_export(model_name, export_name)
+    exported = pd.DataFrame()  # Avoid network requests on every initial page load
     if not exported.empty:
         forward = pd.concat(
             [forward[forward["model"] != model_name], exported],
