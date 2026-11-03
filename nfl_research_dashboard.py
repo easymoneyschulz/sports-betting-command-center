@@ -78,7 +78,25 @@ def _latest_github_snapshot(token: str):
     raise ValueError("No valid unexpired NFL research projection artifact found")
 
 
+@st.cache_data(ttl=120, show_spinner=False)
+def _public_paper_snapshot():
+    root = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/public_data"
+    response = requests.get(f"{root}/nfl_v61_latest_paper_picks.csv", timeout=15)
+    response.raise_for_status()
+    picks = pd.read_csv(io.StringIO(response.text))
+    response = requests.get(f"{root}/nfl_v61_latest_projection.csv", timeout=15)
+    response.raise_for_status()
+    frame = pd.read_csv(io.StringIO(response.text))
+    if frame.empty or not REQUIRED.issubset(frame.columns):
+        raise ValueError("Invalid public projection snapshot")
+    return frame, "Latest public NFL paper snapshot", picks
+
+
 def _load_research_snapshot(base: Path):
+    try:
+        return _public_paper_snapshot()
+    except (requests.RequestException, ValueError, pd.errors.ParserError, OSError):
+        pass
     token = ""
     try:
         token = st.secrets.get("GITHUB_READ_TOKEN", "")
