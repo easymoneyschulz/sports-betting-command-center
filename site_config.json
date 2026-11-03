@@ -1,0 +1,12 @@
+{
+  "site_name": "Sports Betting Command Center",
+  "access": "public",
+  "subscription_required": false,
+  "models": [
+    "NFL V6.1",
+    "CFB V4",
+    "NBA V2"
+  ],
+  "source_snapshot": "unified_graded_v1.csv",
+  "real_money_data_public": false
+}
