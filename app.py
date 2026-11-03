@@ -2532,9 +2532,15 @@ elif page == "🏀 NBA Projections":
             .nba-v2-tag{display:inline-block;padding:4px 9px;border-radius:30px;font-size:11px;font-weight:900;background:#263247;color:#e9f0ff}
             </style>
             """,unsafe_allow_html=True)
+            # Limit expensive player cards and remote images to one page.
+            nba_page_size=16
+            nba_total=len(nba_props)
+            nba_page_count=max(1,(nba_total+nba_page_size-1)//nba_page_size)
+            nba_page=st.number_input("PLAYER PAGE",min_value=1,max_value=nba_page_count,value=1,step=1,key="nba_v2_card_page") if nba_page_count>1 else 1
+            st.caption(f"Showing {min(nba_total,(nba_page-1)*nba_page_size+1) if nba_total else 0}–{min(nba_total,nba_page*nba_page_size)} of {nba_total} players")
             if nba_props.empty:st.info("No players match these filters.")
             else:
-                nba_rows=nba_props.to_dict("records")
+                nba_rows=nba_props.iloc[(nba_page-1)*nba_page_size:nba_page*nba_page_size].to_dict("records")
                 for i in range(0,len(nba_rows),2):
                     columns=st.columns(2)
                     for j,entry in enumerate(nba_rows[i:i+2]):
@@ -2554,7 +2560,7 @@ elif page == "🏀 NBA Projections":
                             pid=pid if pid.isdigit() else "0"
                             logo=nba_team_logos.get(str(entry["team"]),"nba")
                             st.markdown(f"""<div class="nba-v2-card">
-                            <div class="nba-v2-top"><div class="nba-v2-portrait"><object class="nba-v2-head" data="https://cdn.nba.com/headshots/nba/latest/1040x760/{pid}.png" type="image/png" aria-label="{name} player headshot"><img class="nba-v2-head" src="https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/assets/emp_player_shield.svg" alt="EMP shield"></object></div>
+                            <div class="nba-v2-top"><div class="nba-v2-portrait"><img class="nba-v2-head" loading="lazy" decoding="async" src="https://cdn.nba.com/headshots/nba/latest/1040x760/{pid}.png" alt="{name} player headshot"></div>
                             <img class="nba-v2-logo" src="https://a.espncdn.com/i/teamlogos/nba/500/{logo}.png">
                             <div><div class="nba-v2-name">{name}</div><div class="nba-v2-match">{team} vs {opponent}</div><span class="nba-v2-tag" style="color:{color}">{status}</span></div></div>
                             <div class="nba-v2-stats"><div><div class="nba-v2-label">V2 projection</div><div class="nba-v2-num">{float(entry["v2_projection"]):.1f}</div></div>
