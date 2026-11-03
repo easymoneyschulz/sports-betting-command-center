@@ -27,6 +27,8 @@ jobs:
         run: python automation/build_nba_rolling_baseline.py
       - name: Validate and format original model snapshots
         run: python automation/publish_nba_v2.py
+      - name: Match verified odds to NBA V2 dashboard cards
+        run: python automation/match_nba_recovered_odds.py
       - name: Rank daily NBA V2 paper opportunities
         run: python automation/rank_nba_v2_daily.py
       - name: Commit only changed public NBA snapshot
@@ -34,6 +36,9 @@ jobs:
           for path in public_data/nba_rolling_game_logs.csv public_data/nba_daily_rebuilt_projections.csv public_data/nba_daily_active_projections.csv; do
             if [ -f "$path" ]; then git add "$path"; fi
           done
+          if [ -f public_data/nba_v2_recovered_prop_comparison.csv ]; then
+            git add public_data/nba_v2_recovered_prop_comparison.csv
+          fi
           if [ -f public_data/nba_v2_daily_top5.csv ]; then
             git add public_data/nba_v2_daily_top5.csv
           fi
