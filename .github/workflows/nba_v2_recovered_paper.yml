@@ -1,5 +1,11 @@
 name: NBA V2 Recovered Frozen Paper Predictions
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'automation/run_nba_v2_recovered_paper.py'
+      - 'automation/compare_nba_v2_recovered_props.py'
+      - '.github/workflows/nba_v2_recovered_paper.yml'
   schedule:
     - cron: '30 16 * * *'
     - cron: '0 20,22,0,2,4 * * *'
