@@ -1,0 +1,2 @@
+game_date,player_name,opponent,v2_projection,market_line,edge,side,price,sportsbook,screening_score,odds_timestamp_utc,status,model_version
+2026-11-04,Tyrese Maxey,DET,27.231859,22.5,4.731859,OVER,-111,betmgm,3.830408450371812,2026-11-03 18:02:26.220594+00:00,PAPER,NBA V2 ORIGINAL
