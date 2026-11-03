@@ -52,10 +52,13 @@ def main():
     # Names alone aren't sufficient when the source has an opponent: check the event teams.
     merged = odds.merge(src, on="player_name", how="inner", validate="many_to_one")
     if "opponent" in merged:
-        merged = merged[merged.apply(
-            lambda r: str(r["opponent"]).strip().casefold() in
-            (str(r["home_team"]).strip().casefold(), str(r["away_team"]).strip().casefold()),
-            axis=1)]
+        # Accept standard team abbreviations; never match a player to an unrelated game.
+        codes = {"Philadelphia 76ers":"PHI","Detroit Pistons":"DET","Boston Celtics":"BOS","Los Angeles Lakers":"LAL","Sacramento Kings":"SAC","Washington Wizards":"WAS","Dallas Mavericks":"DAL","Toronto Raptors":"TOR","Phoenix Suns":"PHX","Oklahoma City Thunder":"OKC","Denver Nuggets":"DEN","New York Knicks":"NYK","Brooklyn Nets":"BKN","Atlanta Hawks":"ATL","Chicago Bulls":"CHI","Charlotte Hornets":"CHA","Cleveland Cavaliers":"CLE","Golden State Warriors":"GSW","Houston Rockets":"HOU","Indiana Pacers":"IND","LA Clippers":"LAC","Memphis Grizzlies":"MEM","Miami Heat":"MIA","Milwaukee Bucks":"MIL","Minnesota Timberwolves":"MIN","New Orleans Pelicans":"NOP","Orlando Magic":"ORL","Portland Trail Blazers":"POR","San Antonio Spurs":"SAS","Utah Jazz":"UTA"}
+        def valid_match(row):
+            opponent = str(row["opponent"]).strip().casefold()
+            return any(opponent in (str(t).casefold(), codes.get(str(t), "").casefold())
+                       for t in (row["home_team"], row["away_team"]))
+        merged = merged[merged.apply(valid_match, axis=1)]
     if merged.empty:
         print("No verified matching games/players; no new selections.")
         return
