@@ -1,0 +1,99 @@
+name: NFL V6.1 Weekly Automation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 16 * * 3"
+
+permissions:
+  contents: read
+
+jobs:
+  nfl-model-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn joblib pyarrow requests
+
+      - name: Validate frozen model
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          import joblib
+
+          path = Path(
+              "automation/models/"
+              "nfl_v61_frozen_2026_model.joblib"
+          )
+
+          expected = (
+              "18ee19e1f38908d40ca420d06c05213ae802418a99ea6a999de378e139e5483e"
+          )
+
+          assert path.exists(), "Frozen model missing"
+
+          digest = hashlib.sha256(
+              path.read_bytes()
+          ).hexdigest()
+
+          assert digest == expected, "Model hash mismatch"
+
+          model = joblib.load(path)
+
+          assert len(model["features"]) == 27
+
+          print("Frozen NFL model validated")
+          PY
+
+      - name: Validate NFL feature engine
+        run: |
+          python - <<'PY'
+          import sys
+          import pandas as pd
+          from datetime import datetime, timezone
+
+          sys.path.insert(0, "automation")
+
+          from build_nfl_v61_features import build_features
+
+          today = datetime.now(timezone.utc)
+
+          schedule = pd.read_csv(
+              "https://github.com/nflverse/nflverse-data/"
+              "releases/download/schedules/games.csv"
+          )
+
+          upcoming = schedule[
+              (schedule["season"] == today.year) &
+              (schedule["game_type"] == "REG") &
+              (pd.to_datetime(schedule["gameday"])
+               >= pd.Timestamp(today.date()))
+          ].sort_values("gameday")
+
+          if upcoming.empty:
+              print("No upcoming NFL games. Skipping.")
+          else:
+              week = int(upcoming.iloc[0]["week"])
+              print("Rebuilding NFL week:", week)
+
+              features = build_features(today.year, week)
+
+              assert len(features) > 0
+              assert features["game_id"].is_unique
+
+              print("Games:", len(features))
+              print("Features validated:", 27)
+              print("PUBLISHING DISABLED")
+          PY
