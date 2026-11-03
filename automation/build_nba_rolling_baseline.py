@@ -98,13 +98,8 @@ def main():
         print("No eligible players with >=5 completed games; no new projection export");return
     result.to_csv(DEST,index=False)
     print("Rebuilt baseline projections:",len(result),"for",target_date)
-    # Original V2 snapshot is immutable for its game date. Only use rebuilt baseline on later dates.
-    if SOURCE.exists():
-        original=pd.read_csv(SOURCE)
-        original_dates=set(pd.to_datetime(original["game_date"],errors="coerce").dt.date.dropna())
-        if target_date in original_dates:
-            print("Original V2 snapshot exists for today; preserved. Rebuilt baseline not substituted.")
-            return
+    # Publish the full-slate rolling baseline separately, even when a five-player
+    # original V2 snapshot exists. Never overwrite or relabel original V2.
     result.to_csv(ROOT/"nba_daily_active_projections.csv",index=False)
-    print("Published separate rebuilt baseline for paper screening; not labeled original V2.")
+    print("Published full-slate ROLLING_REBUILD_V0 paper projections; original V2 untouched.")
 if __name__=="__main__":main()
