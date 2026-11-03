@@ -2542,6 +2542,8 @@ elif page == "🏀 NBA Projections":
                     lean = "WAIT"
                     lean_class = "ems-nba-muted"
 
+                edge_value = (projection - line) if pd.notna(projection) and pd.notna(line) else float("nan")
+                edge_label = "—" if pd.isna(edge_value) else f"{edge_value:+.1f}"
                 result = str(record.get("result", "PENDING"))
                 if not result or result.lower() == "nan":
                     result = "PENDING"
@@ -2552,6 +2554,7 @@ elif page == "🏀 NBA Projections":
                     f"<td>{opponent}</td>"
                     f'<td class="ems-nba-projection">{nba_number(projection)}</td>'
                     f"<td>{nba_number(line)}</td>"
+                    f"<td>{edge_label}</td>"
                     f'<td class="{lean_class}">{lean}</td>'
                     f"<td>{nba_number(actual, 0)}</td>"
                     f'<td class="ems-nba-muted">{nba_html.escape(result)}</td>'
@@ -2564,7 +2567,7 @@ elif page == "🏀 NBA Projections":
                 '<div class="ems-nba-scroll"><table class="ems-nba-table">'
                 '<thead><tr>'
                 '<th>PLAYER</th><th>OPP</th><th>PROJ</th>'
-                '<th>O/U</th><th>LEAN</th><th>ACTUAL</th>'
+                '<th>O/U</th><th>EDGE</th><th>LEAN</th><th>ACTUAL</th>'
                 '<th>RESULT</th>'
                 '</tr></thead><tbody>'
                 + "".join(rows_html)
