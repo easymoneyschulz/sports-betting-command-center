@@ -1849,7 +1849,8 @@ pages = [
     "🏀 NBA Projections",
     "📊 Model Performance",
     "📈 Weekly Units",
-    "🔴 Live Scores"
+    "🔴 Live Scores",
+    "👤 My Account"
 ]
 
 
@@ -3174,6 +3175,32 @@ elif page == "🔴 Live Scores":
     ems_show_sport(st.session_state["ems_selected_sport"])
 
 
+
+elif page == "👤 My Account":
+    st.title("My Account")
+    st.caption("EasyMoneySchulz · Personal Betting Command Center")
+    st.markdown("### Browse freely. Track privately.")
+    st.info("Guest mode is available without signing in. Email accounts and permanent private bet storage require the secure account database to be connected.")
+    guest_tab, account_tab = st.tabs(["Continue as Guest", "Create Account / Sign In"])
+    with guest_tab:
+        st.markdown("**Public access stays free.** Browse NFL, college football, NBA points projections, and live scores using the navigation above.")
+        st.markdown("#### What an account will unlock")
+        st.markdown("My Bets · Saved history · Personal bankroll · Profit / loss · ROI · Power Model Review")
+    with account_tab:
+        st.markdown("### Email account access")
+        st.write("Email registration and sign-in will be enabled after secure authentication and per-user database permissions are configured. We won't collect passwords or claim bets are saved until that is ready.")
+        st.caption("Planned account features: add your own NFL/CFB/NBA points picks or follow a published model selection; track each separately.")
+    st.divider()
+    st.subheader("Power Model Review")
+    st.caption("Your private performance summary will appear here once you're signed in and have recorded bets.")
+    a, b, c, d = st.columns(4)
+    a.metric("Net Profit / Loss", "—")
+    b.metric("Win Rate", "—")
+    c.metric("ROI", "—")
+    d.metric("Total Bets", "—")
+    st.markdown("**Performance by category:** NFL · College Football · NBA Player Points")
+    st.markdown("**Performance by source:** My Own Picks · EasyMoneySchulz Model Picks")
+    st.caption("No sample or invented results are counted as real user performance.")
 
 st.divider()
 st.caption(
