@@ -2590,20 +2590,102 @@ elif page == "🏀 NBA Projections":
         st.markdown('<div class="ems-prop-hero"><div class="ems-prop-eyebrow">EASYMONEYSCHULZ / NBA PLAYER POINTS</div><div class="ems-prop-heading">THE TOP 5 BOARD</div><div class="ems-prop-sub">Next slate loading. No verified selections have been published for a future game date.</div></div>',unsafe_allow_html=True)
 
 elif page == "📊 Model Performance":
-    st.subheader("NFL V6.1 — Historical Backtest")
-    a,b = st.columns(2)
-    a.metric("Historical Record",f"{wins}-{losses}-{pushes}")
-    b.metric("Win Rate",f"{win_rate:.2f}%")
+    import html as perf_html
+    import io as perf_io
 
-    st.subheader("Forward Test Status")
-    st.dataframe(
-        forward.groupby(["model","result"]).size().reset_index(name="Count"),
-        use_container_width=True,
-        hide_index=True
+    st.markdown("""
+    <style>
+    .perf-hero{padding:27px 29px;border:1px solid #354052;border-radius:19px;background:linear-gradient(115deg,#161e2d,#202b3b 65%,#102b2b);margin:12px 0 22px}
+    .perf-eyebrow{font-size:11px;font-weight:850;letter-spacing:2.2px;color:#8ed8c7}
+    .perf-title{font-size:clamp(27px,4vw,39px);font-weight:900;color:#fff;letter-spacing:-1px;margin:8px 0}
+    .perf-sub{color:#aab9cd;font-size:13px;line-height:1.6}
+    .perf-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:13px;margin:17px 0 24px}
+    .perf-stat{background:linear-gradient(145deg,#1b2433,#141a25);border:1px solid #344155;border-radius:15px;padding:19px}
+    .perf-stat-label{color:#94a7bf;font-size:11px;letter-spacing:1.1px;font-weight:800}
+    .perf-stat-value{color:#f8fafc;font-size:29px;font-weight:900;margin:9px 0 4px}
+    .perf-stat-note{color:#8295ad;font-size:11px}
+    .perf-section{color:#f4f7fb;font-size:21px;font-weight:850;margin:24px 0 10px}
+    .perf-row{display:flex;align-items:center;gap:14px;background:#192231;border:1px solid #334155;border-radius:13px;padding:16px 19px;margin:10px 0}
+    .perf-model{flex:1;min-width:0}.perf-model-name{font-size:17px;font-weight:850;color:#f4f7fb}
+    .perf-model-note{color:#97aac2;font-size:12px;margin-top:5px}
+    .perf-record{font-size:20px;font-weight:900;color:#f3f6fa;text-align:right}
+    .perf-record-label{color:#96a8bd;font-size:10px;text-align:right;letter-spacing:.8px}
+    .perf-status{font-size:10px;font-weight:850;color:#83e3c4;letter-spacing:1px}
+    @media(max-width:620px){.perf-hero{padding:19px}.perf-stat{padding:14px}.perf-stat-value{font-size:23px}.perf-row{padding:13px}}
+    </style>
+    <div class="perf-hero">
+      <div class="perf-eyebrow">EASY MONEY SCHULZ · ANALYTICS</div>
+      <div class="perf-title">Model Performance</div>
+      <div class="perf-sub">Historical backtests and forward paper-test results, separated so research results are never mistaken for verified bets.</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    @st.cache_data(ttl=120, show_spinner=False)
+    def perf_read_public(name):
+        url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/" + name
+        try:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            return pd.read_csv(perf_io.StringIO(response.text))
+        except (requests.RequestException, ValueError, pd.errors.ParserError):
+            return pd.DataFrame()
+
+    perf_data = perf_read_public("public_predictions.csv")
+    if perf_data.empty:
+        perf_data = df.copy()
+    hist = perf_data[perf_data["test_type"] == "HISTORICAL_BACKTEST"].copy()
+    nfl = hist[hist["model"] == "NFL V6.1"].copy()
+    n_w = int((nfl["result"] == "WIN").sum())
+    n_l = int((nfl["result"] == "LOSS").sum())
+    n_p = int((nfl["result"] == "PUSH").sum())
+    n_rate = 100 * n_w / (n_w + n_l) if n_w + n_l else 0
+    stat_items = [
+        ("NFL HISTORICAL RECORD", f"{n_w}-{n_l}-{n_p}", "Wins · losses · pushes"),
+        ("NFL HISTORICAL HIT RATE", f"{n_rate:.1f}%", "Pushes excluded"),
+        ("NFL GAMES TESTED", f"{len(nfl):,}", "Frozen backtest rows"),
+    ]
+    stat_html = "".join(
+        '<div class="perf-stat"><div class="perf-stat-label">' + perf_html.escape(label) +
+        '</div><div class="perf-stat-value">' + perf_html.escape(value) +
+        '</div><div class="perf-stat-note">' + perf_html.escape(note) + '</div></div>'
+        for label, value, note in stat_items
     )
+    st.markdown('<div class="perf-grid">' + stat_html + '</div>', unsafe_allow_html=True)
 
-
-
+    st.markdown('<div class="perf-section">Forward Research Tracker</div>', unsafe_allow_html=True)
+    cfb_board = perf_read_public("cfb_v4_top5.csv")
+    cfb_graded = perf_read_public("cfb_v4_graded.csv")
+    nba_board = perf_read_public("nba_v2_daily_top5.csv")
+    for model_name, board, graded, label in [
+        ("CFB V4", cfb_board, cfb_graded, "Weekly spread rankings"),
+        ("NBA V2", nba_board, pd.DataFrame(), "Daily player points"),
+        ("NFL V6.1", pd.DataFrame(), pd.DataFrame(), "Weekly NFL research"),
+    ]:
+        if not graded.empty and "result" in graded.columns:
+            results = graded["result"].astype(str).str.upper()
+            w = int((results == "WIN").sum())
+            l = int((results == "LOSS").sum())
+            p = int((results == "PUSH").sum())
+            record = f"{w}-{l}-{p}"
+            record_label = "GRADED PAPER RESULTS"
+        elif not board.empty:
+            record = str(len(board))
+            record_label = "FEATURED PROJECTIONS"
+        else:
+            record = "—"
+            record_label = "AWAITING RESULTS"
+        st.markdown(
+            '<div class="perf-row"><div class="perf-model"><div class="perf-model-name">' +
+            perf_html.escape(model_name) + '</div><div class="perf-model-note">' +
+            perf_html.escape(label) + '</div></div><div><div class="perf-record">' +
+            perf_html.escape(record) + '</div><div class="perf-record-label">' +
+            perf_html.escape(record_label) + '</div></div></div>',
+            unsafe_allow_html=True
+        )
+    if not cfb_graded.empty:
+        with st.expander("CFB V4 — Graded game details"):
+            st.dataframe(cfb_graded, hide_index=True, use_container_width=True)
+    st.caption("This page reads published GitHub data with a 2-minute cache. Automatic refresh of displayed results is not the same as automatic model reruns or grading. Historical, paper, and real-money results remain separate.")
 
 elif page == "📈 Weekly Units":
     import pandas as units_pd
