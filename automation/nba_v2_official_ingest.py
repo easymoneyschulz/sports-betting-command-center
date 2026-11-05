@@ -30,13 +30,15 @@ def ingest(root, target_date):
         time.sleep(.8)
     stats=pd.concat(advanced,ignore_index=True)
     joined=logs.merge(stats,on=['GAME_ID','PLAYER_ID'],how='left',validate='one_to_one',suffixes=('','_ADV'))
-    joined=joined[pd.to_numeric(joined.MIN,errors='coerce').fillna(0)>0].copy()
     def minute_value(v):
         t=str(v)
         if ':' in t:
             m,s=t.split(':',1);return float(m)+float(s)/60
         return float(t)
-    joined['minutes_raw']=joined.MIN_ADV.map(minute_value)
+    joined['minutes_raw']=joined.MIN_ADV.map(lambda v: minute_value(v) if pd.notna(v) else float('nan'))
+    # NBA API minutes may be MM:SS; never discard valid players via numeric coercion.
+    joined=joined[joined['minutes_raw'].gt(0)].copy()
+    if joined.empty: raise ValueError('No players with positive minutes; refusing empty update')
     joined['usg_pct']=pd.to_numeric(joined.USG_PCT,errors='coerce')
     if joined[['minutes_raw','usg_pct','PTS','FGA','FG3A','FTA']].isna().any().any():
         raise ValueError('Missing required advanced stats; no update saved')
