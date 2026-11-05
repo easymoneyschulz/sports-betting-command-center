@@ -15,7 +15,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: nba-v2-recovered-paper
+  group: nba-v2-shared-publishing
   cancel-in-progress: false
 jobs:
   paper:
