@@ -2819,10 +2819,10 @@ elif page == "📈 Weekly Units":
                 nba_bets["date"] = units_pd.to_datetime(nba_bets["date"], errors="coerce")
                 nba_bets["net_units"] = units_pd.to_numeric(nba_bets["net_units"], errors="coerce").fillna(0)
                 nba_bets["net_profit_usd"] = units_pd.to_numeric(nba_bets["net_profit_usd"], errors="coerce").fillna(0)
-                nba_bets = nba_bets[nba_bets["status"] == "won"].copy()
+                nba_bets = nba_bets[nba_bets["status"].isin(["won", "lost"])].copy()
             net = float(weekly["net_units"].sum()) + (float(nba_bets["net_units"].sum()) if not nba_bets.empty else 0)
-            wins = int(weekly["wins"].fillna(0).sum()) + len(nba_bets)
-            losses = int(weekly["losses"].fillna(0).sum())
+            wins = int(weekly["wins"].fillna(0).sum()) + (int((nba_bets["status"] == "won").sum()) if not nba_bets.empty else 0)
+            losses = int(weekly["losses"].fillna(0).sum()) + (int((nba_bets["status"] == "lost").sum()) if not nba_bets.empty else 0)
             rate = 100*wins/(wins+losses) if wins+losses else 0
 
             net_color = "#49d394" if net >= 0 else "#ff4555"
@@ -2999,13 +2999,29 @@ elif page == "📈 Weekly Units":
                 unsafe_allow_html=True
             )
             if not nba_bets.empty:
-                for _, nba_bet in nba_bets.sort_values("date", ascending=False).iterrows():
+                winning_nba = nba_bets[nba_bets["status"] == "won"]
+                for _, nba_bet in winning_nba.sort_values("date", ascending=False).iterrows():
                     st.success(
                         f"🏀 NBA V2 · {nba_bet['date'].strftime('%b %d, %Y')} · "
                         f"{nba_bet['description']} · "
                         f"+{nba_bet['net_units']:.2f} units "
                         f"(${nba_bet['net_profit_usd']:,.2f} net)"
                     )
+                    st.caption(f"Winning picks: {nba_bet['legs']}")
+                losing_nba = nba_bets[nba_bets["status"] == "lost"]
+                if not losing_nba.empty:
+                    st.markdown(
+                        '<div class="ems-u-section">WEEKLY LOSSES</div>',
+                        unsafe_allow_html=True
+                    )
+                    for _, nba_bet in losing_nba.sort_values("date", ascending=False).iterrows():
+                        st.error(
+                            f"🏀 NBA V2 · {nba_bet['date'].strftime('%b %d, %Y')} · "
+                            f"{nba_bet['description']} · "
+                            f"{nba_bet['net_units']:.2f} units "
+                            f"(${nba_bet['net_profit_usd']:,.2f} net)"
+                        )
+                        st.caption(f"Picks: {nba_bet['legs']}")
 
             if chicago_recorded:
                 st.markdown("""
