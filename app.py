@@ -2812,8 +2812,16 @@ elif page == "📈 Weekly Units":
         if weekly.empty:
             st.info("No verified weekly results published yet.")
         else:
-            net = float(weekly["net_units"].sum())
-            wins = int(weekly["wins"].fillna(0).sum())
+            # NBA model wager ledger is separate from existing NFL weekly history.
+            nba_bets_path = UnitsPath(__file__).resolve().parent / "public_data" / "nba_model_wagers.csv"
+            nba_bets = units_pd.read_csv(nba_bets_path) if nba_bets_path.exists() else units_pd.DataFrame()
+            if not nba_bets.empty:
+                nba_bets["date"] = units_pd.to_datetime(nba_bets["date"], errors="coerce")
+                nba_bets["net_units"] = units_pd.to_numeric(nba_bets["net_units"], errors="coerce").fillna(0)
+                nba_bets["net_profit_usd"] = units_pd.to_numeric(nba_bets["net_profit_usd"], errors="coerce").fillna(0)
+                nba_bets = nba_bets[nba_bets["status"] == "won"].copy()
+            net = float(weekly["net_units"].sum()) + (float(nba_bets["net_units"].sum()) if not nba_bets.empty else 0)
+            wins = int(weekly["wins"].fillna(0).sum()) + len(nba_bets)
             losses = int(weekly["losses"].fillna(0).sum())
             rate = 100*wins/(wins+losses) if wins+losses else 0
 
@@ -2848,8 +2856,13 @@ elif page == "📈 Weekly Units":
 
             days = [monday + timedelta(days=i) for i in range(7)]
 
-            # Chicago is our only currently recorded daily result.
+            # Include NBA model wagers in the existing weekly growth chart.
             daily_changes = {}
+            if not nba_bets.empty:
+                for _, nba_bet in nba_bets.iterrows():
+                    if units_pd.notna(nba_bet["date"]):
+                        bet_day = nba_bet["date"].date()
+                        daily_changes[bet_day] = daily_changes.get(bet_day, 0.0) + float(nba_bet["net_units"])
             chicago_row = weekly[
                 weekly["week_start"] == units_pd.Timestamp("2026-11-02")
             ]
@@ -2860,7 +2873,7 @@ elif page == "📈 Weekly Units":
                 and int(chicago_row.iloc[0]["wins"]) == 1
                 and int(chicago_row.iloc[0]["losses"]) == 0
             ):
-                daily_changes[date(2026, 11, 2)] = 2.0
+                daily_changes[date(2026, 11, 2)] = daily_changes.get(date(2026, 11, 2), 0.0) + 2.0
 
             W, H = 850, 360
             L, R, T, B = 72, 35, 30, 60
@@ -2985,6 +2998,14 @@ elif page == "📈 Weekly Units":
                 '<div class="ems-u-section">WEEKLY WINS</div>',
                 unsafe_allow_html=True
             )
+            if not nba_bets.empty:
+                for _, nba_bet in nba_bets.sort_values("date", ascending=False).iterrows():
+                    st.success(
+                        f"🏀 NBA V2 · {nba_bet['date'].strftime('%b %d, %Y')} · "
+                        f"{nba_bet['description']} · "
+                        f"+{nba_bet['net_units']:.2f} units "
+                        f"(${nba_bet['net_profit_usd']:,.2f} net)"
+                    )
 
             if chicago_recorded:
                 st.markdown("""
