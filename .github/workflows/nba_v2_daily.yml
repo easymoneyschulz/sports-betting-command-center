@@ -7,7 +7,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: nba-v2-snapshot
+  group: nba-v2-shared-publishing
   cancel-in-progress: false
 jobs:
   publish:
