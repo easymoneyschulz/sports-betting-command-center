@@ -1,336 +1,53 @@
 game_date,game_id,player_id,player_name,opponent,team,v2_projection,model_version,sample_games
-2026-11-04,401909922,2596112,Javonte Green,Philadelphia 76ers,Detroit Pistons,5.3656,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,3157465,Duncan Robinson,Philadelphia 76ers,Detroit Pistons,16.8511,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,3908845,John Collins,Philadelphia 76ers,Detroit Pistons,8.0222,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,4066372,Kevin Huerter,Philadelphia 76ers,Detroit Pistons,5.9144,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,4278562,Paul Reed,Philadelphia 76ers,Detroit Pistons,12.4133,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,4395702,Isaiah Joe,Philadelphia 76ers,Detroit Pistons,8.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909922,4397882,Tolu Smith,Philadelphia 76ers,Detroit Pistons,1.4875,ROLLING_REBUILD_V0,8
-2026-11-04,401909922,4432166,Cade Cunningham,Philadelphia 76ers,Detroit Pistons,23.26,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,4683771,Ronald Holland II,Philadelphia 76ers,Detroit Pistons,6.7111,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,4684742,Ausar Thompson,Philadelphia 76ers,Detroit Pistons,9.3025,ROLLING_REBUILD_V0,8
-2026-11-04,401909922,5107199,Daniss Jenkins,Philadelphia 76ers,Detroit Pistons,9.2033,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,5107818,Isaac Jones,Philadelphia 76ers,Detroit Pistons,1.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909922,5258459,Ebuka Okorie,Philadelphia 76ers,Detroit Pistons,4.2167,ROLLING_REBUILD_V0,6
-2026-11-04,401909922,1966,LeBron James,Detroit Pistons,Philadelphia 76ers,15.56,ROLLING_REBUILD_V0,7
-2026-11-04,401909922,2581018,Kentavious Caldwell-Pope,Detroit Pistons,Philadelphia 76ers,5.44,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,3059318,Joel Embiid,Detroit Pistons,Philadelphia 76ers,19.6743,ROLLING_REBUILD_V0,7
-2026-11-04,401909922,3912848,Dean Wade,Detroit Pistons,Philadelphia 76ers,3.7443,ROLLING_REBUILD_V0,7
-2026-11-04,401909922,3917376,Jaylen Brown,Detroit Pistons,Philadelphia 76ers,20.605,ROLLING_REBUILD_V0,8
-2026-11-04,401909922,4351851,Anfernee Simons,Detroit Pistons,Philadelphia 76ers,12.2825,ROLLING_REBUILD_V0,8
-2026-11-04,401909922,4431678,Tyrese Maxey,Detroit Pistons,Philadelphia 76ers,28.7067,ROLLING_REBUILD_V0,9
-2026-11-04,401909922,4432446,Jabari Walker,Detroit Pistons,Philadelphia 76ers,4.975,ROLLING_REBUILD_V0,6
-2026-11-04,401909922,4873090,Labaron Philon Jr.,Detroit Pistons,Philadelphia 76ers,3.3317,ROLLING_REBUILD_V0,6
-2026-11-04,401909922,5105637,Adem Bona,Detroit Pistons,Philadelphia 76ers,1.9775,ROLLING_REBUILD_V0,8
-2026-11-04,401909922,5124612,VJ Edgecombe,Detroit Pistons,Philadelphia 76ers,13.0943,ROLLING_REBUILD_V0,7
-2026-11-04,401909923,4277905,Trae Young,Atlanta Hawks,Washington Wizards,18.6525,ROLLING_REBUILD_V0,8
-2026-11-04,401909923,4278129,Deandre Ayton,Atlanta Hawks,Washington Wizards,5.0225,ROLLING_REBUILD_V0,8
-2026-11-04,401909923,4432907,Justin Champagnie,Atlanta Hawks,Washington Wizards,5.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909923,4845374,Bub Carrington,Atlanta Hawks,Washington Wizards,5.5938,ROLLING_REBUILD_V0,8
-2026-11-04,401909923,5104155,Bilal Coulibaly,Atlanta Hawks,Washington Wizards,7.325,ROLLING_REBUILD_V0,8
-2026-11-04,401909923,5144126,Will Riley,Atlanta Hawks,Washington Wizards,1.905,ROLLING_REBUILD_V0,6
-2026-11-04,401909923,5160992,Alex Sarr,Atlanta Hawks,Washington Wizards,9.8143,ROLLING_REBUILD_V0,7
-2026-11-04,401909923,5174563,Kyshawn George,Atlanta Hawks,Washington Wizards,16.1988,ROLLING_REBUILD_V0,8
-2026-11-04,401909923,5238230,Tre Johnson,Atlanta Hawks,Washington Wizards,9.21,ROLLING_REBUILD_V0,7
-2026-11-04,401909923,6583,Anthony Davis,Atlanta Hawks,Washington Wizards,22.4787,ROLLING_REBUILD_V0,8
-2026-11-04,401909923,6609,Khris Middleton,Atlanta Hawks,Washington Wizards,2.6817,ROLLING_REBUILD_V0,6
-2026-11-04,401909923,2490149,CJ McCollum,Washington Wizards,Atlanta Hawks,13.2889,ROLLING_REBUILD_V0,9
-2026-11-04,401909923,3146557,Jock Landale,Washington Wizards,Atlanta Hawks,6.695,ROLLING_REBUILD_V0,8
-2026-11-04,401909923,4278039,Nickeil Alexander-Walker,Washington Wizards,Atlanta Hawks,21.4311,ROLLING_REBUILD_V0,9
-2026-11-04,401909923,4280151,Corey Kispert,Washington Wizards,Atlanta Hawks,6.6,ROLLING_REBUILD_V0,5
-2026-11-04,401909923,4397020,Luguentz Dort,Washington Wizards,Atlanta Hawks,9.4222,ROLLING_REBUILD_V0,9
-2026-11-04,401909923,4397183,Aaron Wiggins,Washington Wizards,Atlanta Hawks,13.4467,ROLLING_REBUILD_V0,9
-2026-11-04,401909923,4431680,Onyeka Okongwu,Washington Wizards,Atlanta Hawks,12.2667,ROLLING_REBUILD_V0,9
-2026-11-04,401909923,4701230,Jalen Johnson,Washington Wizards,Atlanta Hawks,18.255,ROLLING_REBUILD_V0,8
-2026-11-04,401909923,4869342,Dyson Daniels,Washington Wizards,Atlanta Hawks,8.2411,ROLLING_REBUILD_V0,9
-2026-11-04,401909923,4873201,Asa Newell,Washington Wizards,Atlanta Hawks,4.6,ROLLING_REBUILD_V0,5
-2026-11-04,401909923,5149077,Kingston Flemings,Washington Wizards,Atlanta Hawks,8.025,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,3078576,Derrick White,Milwaukee Bucks,Boston Celtics,11.1488,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4065648,Jayson Tatum,Milwaukee Bucks,Boston Celtics,26.7,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4065804,Sam Hauser,Milwaukee Bucks,Boston Celtics,6.86,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4066354,Payton Pritchard,Milwaukee Bucks,Boston Celtics,13.3162,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4251,Paul George,Milwaukee Bucks,Boston Celtics,17.9986,ROLLING_REBUILD_V0,7
-2026-11-04,401909924,4277951,Luka Garza,Milwaukee Bucks,Boston Celtics,8.2189,ROLLING_REBUILD_V0,9
-2026-11-04,401909924,4351852,Mitchell Robinson,Milwaukee Bucks,Boston Celtics,6.86,ROLLING_REBUILD_V0,7
-2026-11-04,401909924,4397251,Ron Harper Jr.,Milwaukee Bucks,Boston Celtics,3.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909924,4397424,Neemias Queta,Milwaukee Bucks,Boston Celtics,10.4762,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4593841,Baylor Scheierman,Milwaukee Bucks,Boston Celtics,5.5711,ROLLING_REBUILD_V0,9
-2026-11-04,401909924,4683689,Jordan Walsh,Milwaukee Bucks,Boston Celtics,4.8533,ROLLING_REBUILD_V0,9
-2026-11-04,401909924,5142621,Chris Cenac Jr.,Milwaukee Bucks,Boston Celtics,4.4,ROLLING_REBUILD_V0,5
-2026-11-04,401909924,5175647,Hugo Gonzalez,Milwaukee Bucks,Boston Celtics,5.5756,ROLLING_REBUILD_V0,9
-2026-11-04,401909924,3133628,Myles Turner,Boston Celtics,Milwaukee Bucks,7.4288,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,3134907,Kyle Kuzma,Boston Celtics,Milwaukee Bucks,10.1512,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4395725,Tyler Herro,Boston Celtics,Milwaukee Bucks,21.1125,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4397475,AJ Green,Boston Celtics,Milwaukee Bucks,7.5575,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4432848,Jaime Jaquez Jr.,Boston Celtics,Milwaukee Bucks,15.4062,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4591725,Ryan Rollins,Boston Celtics,Milwaukee Bucks,10.8962,ROLLING_REBUILD_V0,8
-2026-11-04,401909924,4997526,Ousmane Dieng,Boston Celtics,Milwaukee Bucks,3.2543,ROLLING_REBUILD_V0,7
-2026-11-04,401909924,5082206,Brayden Burries,Boston Celtics,Milwaukee Bucks,10.1511,ROLLING_REBUILD_V0,9
-2026-11-04,401909924,5105623,Kel'el Ware,Boston Celtics,Milwaukee Bucks,11.4178,ROLLING_REBUILD_V0,9
-2026-11-04,401909924,5164559,Nate Ament,Boston Celtics,Milwaukee Bucks,6.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909924,5214640,Kasparas Jakucionis,Boston Celtics,Milwaukee Bucks,8.0833,ROLLING_REBUILD_V0,9
-2026-11-04,401909925,3064514,Julius Randle,Charlotte Hornets,Brooklyn Nets,19.3812,ROLLING_REBUILD_V0,8
-2026-11-04,401909925,3150844,Moritz Wagner,Charlotte Hornets,Brooklyn Nets,11.955,ROLLING_REBUILD_V0,8
-2026-11-04,401909925,4278104,Michael Porter Jr.,Charlotte Hornets,Brooklyn Nets,20.345,ROLLING_REBUILD_V0,8
-2026-11-04,401909925,4432194,Day'Ron Sharpe,Charlotte Hornets,Brooklyn Nets,7.7088,ROLLING_REBUILD_V0,8
-2026-11-04,401909925,4702177,Keon Ellis,Charlotte Hornets,Brooklyn Nets,4.3838,ROLLING_REBUILD_V0,8
-2026-11-04,401909925,4712896,Noah Clowney,Charlotte Hornets,Brooklyn Nets,5.325,ROLLING_REBUILD_V0,8
-2026-11-04,401909925,5101761,Mikel Brown Jr.,Charlotte Hornets,Brooklyn Nets,11.255,ROLLING_REBUILD_V0,6
-2026-11-04,401909925,5174655,Chaney Johnson,Charlotte Hornets,Brooklyn Nets,5.6638,ROLLING_REBUILD_V0,8
-2026-11-04,401909925,5175643,Egor Demin,Charlotte Hornets,Brooklyn Nets,9.6,ROLLING_REBUILD_V0,5
-2026-11-04,401909925,5279130,Nolan Traore,Charlotte Hornets,Brooklyn Nets,12.655,ROLLING_REBUILD_V0,8
-2026-11-04,401909925,2583632,Royce O'Neale,Brooklyn Nets,Charlotte Hornets,5.59,ROLLING_REBUILD_V0,10
-2026-11-04,401909925,3032979,Dennis Schroder,Brooklyn Nets,Charlotte Hornets,9.1,ROLLING_REBUILD_V0,10
-2026-11-04,401909925,3135045,Grayson Allen,Brooklyn Nets,Charlotte Hornets,14.3588,ROLLING_REBUILD_V0,8
-2026-11-04,401909925,4396971,Naz Reid,Brooklyn Nets,Charlotte Hornets,14.1,ROLLING_REBUILD_V0,10
-2026-11-04,401909925,4433249,Moussa Diabate,Brooklyn Nets,Charlotte Hornets,8.7789,ROLLING_REBUILD_V0,9
-2026-11-04,401909925,4433287,Brandon Miller,Brooklyn Nets,Charlotte Hornets,23.335,ROLLING_REBUILD_V0,10
-2026-11-04,401909925,4576060,Ryan Kalkbrenner,Brooklyn Nets,Charlotte Hornets,4.19,ROLLING_REBUILD_V0,10
-2026-11-04,401909925,4602025,Sion James,Brooklyn Nets,Charlotte Hornets,4.575,ROLLING_REBUILD_V0,10
-2026-11-04,401909925,5060701,Christian Anderson,Brooklyn Nets,Charlotte Hornets,4.32,ROLLING_REBUILD_V0,10
-2026-11-04,401909925,5211176,Tidjane Salaun,Brooklyn Nets,Charlotte Hornets,5.5189,ROLLING_REBUILD_V0,9
-2026-11-04,401909925,5239590,Liam McNeeley,Brooklyn Nets,Charlotte Hornets,2.8983,ROLLING_REBUILD_V0,6
-2026-11-04,401909925,5281370,Hannes Steinbach,Brooklyn Nets,Charlotte Hornets,5.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909926,2528426,Jordan Clarkson,Chicago Bulls,New York Knicks,5.28,ROLLING_REBUILD_V0,7
-2026-11-04,401909926,3062679,Josh Hart,Chicago Bulls,New York Knicks,8.0914,ROLLING_REBUILD_V0,7
-2026-11-04,401909926,3136195,Karl-Anthony Towns,Chicago Bulls,New York Knicks,19.6638,ROLLING_REBUILD_V0,8
-2026-11-04,401909926,3147657,Mikal Bridges,Chicago Bulls,New York Knicks,7.3612,ROLLING_REBUILD_V0,8
-2026-11-04,401909926,3914044,Landry Shamet,Chicago Bulls,New York Knicks,10.4312,ROLLING_REBUILD_V0,8
-2026-11-04,401909926,3934672,Jalen Brunson,Chicago Bulls,New York Knicks,24.84,ROLLING_REBUILD_V0,8
-2026-11-04,401909926,3934719,OG Anunoby,Chicago Bulls,New York Knicks,15.7812,ROLLING_REBUILD_V0,8
-2026-11-04,401909926,4277869,Jose Alvarado,Chicago Bulls,New York Knicks,4.6,ROLLING_REBUILD_V0,5
-2026-11-04,401909926,4431823,Miles McBride,Chicago Bulls,New York Knicks,6.4444,ROLLING_REBUILD_V0,9
-2026-11-04,401909926,4432808,James Wiseman,Chicago Bulls,New York Knicks,4.0,ROLLING_REBUILD_V0,5
-2026-11-04,401909926,4433225,Tyler Kolek,Chicago Bulls,New York Knicks,3.8357,ROLLING_REBUILD_V0,7
-2026-11-04,401909926,6585,Andre Drummond,Chicago Bulls,New York Knicks,6.0562,ROLLING_REBUILD_V0,8
-2026-11-04,401909926,2595516,Norman Powell,New York Knicks,Chicago Bulls,19.2011,ROLLING_REBUILD_V0,9
-2026-11-04,401909926,2990984,Buddy Hield,New York Knicks,Chicago Bulls,4.8556,ROLLING_REBUILD_V0,9
-2026-11-04,401909926,4066650,Zach Collins,New York Knicks,Chicago Bulls,1.2,ROLLING_REBUILD_V0,5
-2026-11-04,401909926,4395626,Tre Jones,New York Knicks,Chicago Bulls,9.7133,ROLLING_REBUILD_V0,9
-2026-11-04,401909926,4397189,Jalen Smith,New York Knicks,Chicago Bulls,11.5033,ROLLING_REBUILD_V0,9
-2026-11-04,401909926,4432822,Isaac Okoro,New York Knicks,Chicago Bulls,4.4171,ROLLING_REBUILD_V0,7
-2026-11-04,401909926,4711294,Matas Buzelis,New York Knicks,Chicago Bulls,13.6456,ROLLING_REBUILD_V0,9
-2026-11-04,401909926,4871145,Josh Giddey,New York Knicks,Chicago Bulls,9.8422,ROLLING_REBUILD_V0,9
-2026-11-04,401909926,4898010,Jaylin Sellers,New York Knicks,Chicago Bulls,3.7583,ROLLING_REBUILD_V0,6
-2026-11-04,401909926,5044385,Leonard Miller,New York Knicks,Chicago Bulls,8.0944,ROLLING_REBUILD_V0,9
-2026-11-04,401909926,5095151,Caleb Wilson,New York Knicks,Chicago Bulls,20.7633,ROLLING_REBUILD_V0,9
-2026-11-04,401909926,5242496,Noa Essengue,New York Knicks,Chicago Bulls,4.8375,ROLLING_REBUILD_V0,8
-2026-11-04,401909927,2991070,Jerami Grant,Indiana Pacers,Memphis Grizzlies,9.2786,ROLLING_REBUILD_V0,7
-2026-11-04,401909927,4065733,Ty Jerome,Indiana Pacers,Memphis Grizzlies,25.9514,ROLLING_REBUILD_V0,7
-2026-11-04,401909927,4431785,Scotty Pippen Jr.,Indiana Pacers,Memphis Grizzlies,6.465,ROLLING_REBUILD_V0,6
-2026-11-04,401909927,4432810,Isaiah Stewart,Indiana Pacers,Memphis Grizzlies,13.4517,ROLLING_REBUILD_V0,6
-2026-11-04,401909927,4433083,Cam Spencer,Indiana Pacers,Memphis Grizzlies,9.8962,ROLLING_REBUILD_V0,8
-2026-11-04,401909927,4593016,Quinten Post,Indiana Pacers,Memphis Grizzlies,7.9683,ROLLING_REBUILD_V0,6
-2026-11-04,401909927,4594326,Kris Murray,Indiana Pacers,Memphis Grizzlies,0.4,ROLLING_REBUILD_V0,5
-2026-11-04,401909927,4600663,Zach Edey,Indiana Pacers,Memphis Grizzlies,7.0929,ROLLING_REBUILD_V0,7
-2026-11-04,401909927,4903027,Cedric Coward,Indiana Pacers,Memphis Grizzlies,13.2571,ROLLING_REBUILD_V0,7
-2026-11-04,401909927,5041935,Cameron Boozer,Indiana Pacers,Memphis Grizzlies,17.7562,ROLLING_REBUILD_V0,8
-2026-11-04,401909927,5105550,GG Jackson,Indiana Pacers,Memphis Grizzlies,8.4657,ROLLING_REBUILD_V0,7
-2026-11-04,401909927,5112087,Jaylen Wells,Indiana Pacers,Memphis Grizzlies,11.8375,ROLLING_REBUILD_V0,8
-2026-11-04,401909927,2580365,Larry Nance Jr.,Memphis Grizzlies,Indiana Pacers,3.9211,ROLLING_REBUILD_V0,9
-2026-11-04,401909927,3133603,Kelly Oubre Jr.,Memphis Grizzlies,Indiana Pacers,10.0522,ROLLING_REBUILD_V0,9
-2026-11-04,401909927,3149673,Pascal Siakam,Memphis Grizzlies,Indiana Pacers,19.79,ROLLING_REBUILD_V0,9
-2026-11-04,401909927,4017837,Ivica Zubac,Memphis Grizzlies,Indiana Pacers,10.2,ROLLING_REBUILD_V0,5
-2026-11-04,401909927,4065731,Jay Huff,Memphis Grizzlies,Indiana Pacers,8.3522,ROLLING_REBUILD_V0,9
-2026-11-04,401909927,4278355,Obi Toppin,Memphis Grizzlies,Indiana Pacers,14.2343,ROLLING_REBUILD_V0,7
-2026-11-04,401909927,4395712,Andrew Nembhard,Memphis Grizzlies,Indiana Pacers,17.8386,ROLLING_REBUILD_V0,7
-2026-11-04,401909927,4396909,Aaron Nesmith,Memphis Grizzlies,Indiana Pacers,12.3883,ROLLING_REBUILD_V0,6
-2026-11-04,401909927,4396993,Tyrese Haliburton,Memphis Grizzlies,Indiana Pacers,21.1467,ROLLING_REBUILD_V0,6
-2026-11-04,401909927,4398207,Jalen Slawson,Memphis Grizzlies,Indiana Pacers,3.7767,ROLLING_REBUILD_V0,9
-2026-11-04,401909927,4431752,Kobe Brown,Memphis Grizzlies,Indiana Pacers,8.5733,ROLLING_REBUILD_V0,6
-2026-11-04,401909927,4592829,Quenton Jackson,Memphis Grizzlies,Indiana Pacers,10.515,ROLLING_REBUILD_V0,10
-2026-11-04,401909927,5105854,Braden Smith,Memphis Grizzlies,Indiana Pacers,4.465,ROLLING_REBUILD_V0,6
-2026-11-04,401909927,5106060,Jarace Walker,Memphis Grizzlies,Indiana Pacers,8.7587,ROLLING_REBUILD_V0,8
-2026-11-04,401909928,4277813,Herbert Jones,Utah Jazz,New Orleans Pelicans,7.4178,ROLLING_REBUILD_V0,9
-2026-11-04,401909928,4277956,Jordan Poole,Utah Jazz,New Orleans Pelicans,6.14,ROLLING_REBUILD_V0,6
-2026-11-04,401909928,4395628,Zion Williamson,Utah Jazz,New Orleans Pelicans,19.5578,ROLLING_REBUILD_V0,9
-2026-11-04,401909928,4397136,Saddiq Bey,Utah Jazz,New Orleans Pelicans,14.8533,ROLLING_REBUILD_V0,9
-2026-11-04,401909928,4397688,Trey Murphy III,Utah Jazz,New Orleans Pelicans,14.5467,ROLLING_REBUILD_V0,9
-2026-11-04,401909928,4431675,Trendon Watford,Utah Jazz,New Orleans Pelicans,4.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909928,4576086,Bryce McGowens,Utah Jazz,New Orleans Pelicans,2.5733,ROLLING_REBUILD_V0,6
-2026-11-04,401909928,4683634,Bennedict Mathurin,Utah Jazz,New Orleans Pelicans,7.2167,ROLLING_REBUILD_V0,9
-2026-11-04,401909928,4869780,Derik Queen,Utah Jazz,New Orleans Pelicans,11.4111,ROLLING_REBUILD_V0,9
-2026-11-04,401909928,4997538,Karlo Matkovic,Utah Jazz,New Orleans Pelicans,9.9662,ROLLING_REBUILD_V0,8
-2026-11-04,401909928,5144091,Jeremiah Fears,Utah Jazz,New Orleans Pelicans,13.9167,ROLLING_REBUILD_V0,9
-2026-11-04,401909928,3133602,Svi Mykhailiuk,New Orleans Pelicans,Utah Jazz,3.4175,ROLLING_REBUILD_V0,8
-2026-11-04,401909928,4065663,Josh Okogie,New Orleans Pelicans,Utah Jazz,2.7914,ROLLING_REBUILD_V0,7
-2026-11-04,401909928,4066336,Lauri Markkanen,New Orleans Pelicans,Utah Jazz,16.6271,ROLLING_REBUILD_V0,7
-2026-11-04,401909928,4277919,Mo Bamba,New Orleans Pelicans,Utah Jazz,7.2,ROLLING_REBUILD_V0,5
-2026-11-04,401909928,4277961,Jaren Jackson Jr.,New Orleans Pelicans,Utah Jazz,16.4,ROLLING_REBUILD_V0,5
-2026-11-04,401909928,4397077,Jaxson Hayes,New Orleans Pelicans,Utah Jazz,8.1871,ROLLING_REBUILD_V0,7
-2026-11-04,401909928,4432811,Josh Green,New Orleans Pelicans,Utah Jazz,2.8283,ROLLING_REBUILD_V0,6
-2026-11-04,401909928,4433627,Keyonte George,New Orleans Pelicans,Utah Jazz,18.9075,ROLLING_REBUILD_V0,8
-2026-11-04,401909928,4683766,Isaiah Collier,New Orleans Pelicans,Utah Jazz,6.8375,ROLLING_REBUILD_V0,8
-2026-11-04,401909928,4684793,Kyle Filipowski,New Orleans Pelicans,Utah Jazz,2.255,ROLLING_REBUILD_V0,6
-2026-11-04,401909928,4873138,Ace Bailey,New Orleans Pelicans,Utah Jazz,12.5712,ROLLING_REBUILD_V0,8
-2026-11-04,401909928,5041955,Darryn Peterson,New Orleans Pelicans,Utah Jazz,13.5938,ROLLING_REBUILD_V0,8
-2026-11-04,401909928,5105839,Brice Sensabaugh,New Orleans Pelicans,Utah Jazz,10.2912,ROLLING_REBUILD_V0,8
-2026-11-04,401909929,2991350,Alex Caruso,Cleveland Cavaliers,Oklahoma City Thunder,7.7833,ROLLING_REBUILD_V0,6
-2026-11-04,401909929,3133626,Kenrich Williams,Cleveland Cavaliers,Oklahoma City Thunder,6.3478,ROLLING_REBUILD_V0,9
-2026-11-04,401909929,4222252,Isaiah Hartenstein,Cleveland Cavaliers,Oklahoma City Thunder,8.5511,ROLLING_REBUILD_V0,9
-2026-11-04,401909929,4278073,Shai Gilgeous-Alexander,Cleveland Cavaliers,Oklahoma City Thunder,27.1833,ROLLING_REBUILD_V0,9
-2026-11-04,401909929,4432823,Jaylin Williams,Cleveland Cavaliers,Oklahoma City Thunder,2.6971,ROLLING_REBUILD_V0,7
-2026-11-04,401909929,4593803,Jalen Williams,Cleveland Cavaliers,Oklahoma City Thunder,15.0,ROLLING_REBUILD_V0,5
-2026-11-04,401909929,4683778,Jared McCain,Cleveland Cavaliers,Oklahoma City Thunder,10.5822,ROLLING_REBUILD_V0,9
-2026-11-04,401909929,4684208,Brooks Barnhizer,Cleveland Cavaliers,Oklahoma City Thunder,2.7886,ROLLING_REBUILD_V0,7
-2026-11-04,401909929,4900671,Ajay Mitchell,Cleveland Cavaliers,Oklahoma City Thunder,17.4475,ROLLING_REBUILD_V0,8
-2026-11-04,401909929,5105800,Josh Dix,Cleveland Cavaliers,Oklahoma City Thunder,2.535,ROLLING_REBUILD_V0,6
-2026-11-04,401909929,5174983,Aday Mara,Cleveland Cavaliers,Oklahoma City Thunder,6.9256,ROLLING_REBUILD_V0,9
-2026-11-04,401909929,5241364,Bennett Stirtz,Cleveland Cavaliers,Oklahoma City Thunder,6.1289,ROLLING_REBUILD_V0,9
-2026-11-04,401909929,2995706,Mario Hezonja,Oklahoma City Thunder,Cleveland Cavaliers,8.2662,ROLLING_REBUILD_V0,8
-2026-11-04,401909929,3908809,Donovan Mitchell,Oklahoma City Thunder,Cleveland Cavaliers,20.58,ROLLING_REBUILD_V0,8
-2026-11-04,401909929,3992,James Harden,Oklahoma City Thunder,Cleveland Cavaliers,16.3387,ROLLING_REBUILD_V0,8
-2026-11-04,401909929,4066328,Jarrett Allen,Oklahoma City Thunder,Cleveland Cavaliers,14.3138,ROLLING_REBUILD_V0,8
-2026-11-04,401909929,4066757,Sam Merrill,Oklahoma City Thunder,Cleveland Cavaliers,8.7686,ROLLING_REBUILD_V0,7
-2026-11-04,401909929,4432158,Evan Mobley,Oklahoma City Thunder,Cleveland Cavaliers,18.745,ROLLING_REBUILD_V0,8
-2026-11-04,401909929,4576087,Peyton Watson,Oklahoma City Thunder,Cleveland Cavaliers,10.9543,ROLLING_REBUILD_V0,7
-2026-11-04,401909929,4683747,Jaylon Tyson,Oklahoma City Thunder,Cleveland Cavaliers,8.255,ROLLING_REBUILD_V0,6
-2026-11-04,401909929,4701233,Craig Porter Jr.,Oklahoma City Thunder,Cleveland Cavaliers,1.2167,ROLLING_REBUILD_V0,6
-2026-11-04,401909929,5023693,Tyrese Proctor,Oklahoma City Thunder,Cleveland Cavaliers,5.7457,ROLLING_REBUILD_V0,7
-2026-11-04,401909929,5041951,Meleek Thomas,Oklahoma City Thunder,Cleveland Cavaliers,14.4,ROLLING_REBUILD_V0,5
-2026-11-04,401909930,2990992,Marcus Smart,Minnesota Timberwolves,Houston Rockets,9.8083,ROLLING_REBUILD_V0,6
-2026-11-04,401909930,2991230,Fred VanVleet,Minnesota Timberwolves,Houston Rockets,12.1186,ROLLING_REBUILD_V0,7
-2026-11-04,401909930,3037789,Bogdan Bogdanovic,Minnesota Timberwolves,Houston Rockets,6.8644,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,3102529,Clint Capela,Minnesota Timberwolves,Houston Rockets,3.28,ROLLING_REBUILD_V0,7
-2026-11-04,401909930,3136777,Jae'Sean Tate,Minnesota Timberwolves,Houston Rockets,0.3714,ROLLING_REBUILD_V0,7
-2026-11-04,401909930,3202,Kevin Durant,Minnesota Timberwolves,Houston Rockets,19.3633,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4432639,Jabari Smith Jr.,Minnesota Timberwolves,Houston Rockets,17.6256,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4432827,Oscar Tshiebwe,Minnesota Timberwolves,Houston Rockets,3.0,ROLLING_REBUILD_V0,5
-2026-11-04,401909930,4433192,Tari Eason,Minnesota Timberwolves,Houston Rockets,10.3611,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4592857,Isaiah Crawford,Minnesota Timberwolves,Houston Rockets,2.72,ROLLING_REBUILD_V0,7
-2026-11-04,401909930,4684740,Amen Thompson,Minnesota Timberwolves,Houston Rockets,15.3611,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4711272,Reed Sheppard,Minnesota Timberwolves,Houston Rockets,10.1083,ROLLING_REBUILD_V0,6
-2026-11-04,401909930,4871144,Alperen Sengun,Minnesota Timberwolves,Houston Rockets,22.49,ROLLING_REBUILD_V0,7
-2026-11-04,401909930,5105837,Bruce Thornton,Minnesota Timberwolves,Houston Rockets,2.4186,ROLLING_REBUILD_V0,7
-2026-11-04,401909930,3032976,Rudy Gobert,Houston Rockets,Minnesota Timberwolves,7.185,ROLLING_REBUILD_V0,8
-2026-11-04,401909930,3136196,Trey Lyles,Houston Rockets,Minnesota Timberwolves,6.7044,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4397002,Ayo Dosunmu,Houston Rockets,Minnesota Timberwolves,15.9122,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4431671,Jaden McDaniels,Houston Rockets,Minnesota Timberwolves,16.7044,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4432247,Jaylen Clark,Houston Rockets,Minnesota Timberwolves,5.3611,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4432816,LaMelo Ball,Houston Rockets,Minnesota Timberwolves,16.0567,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4432847,Terrence Shannon Jr.,Houston Rockets,Minnesota Timberwolves,11.1311,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4433247,Jonathan Kuminga,Houston Rockets,Minnesota Timberwolves,12.5733,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4592492,Bones Hyland,Houston Rockets,Minnesota Timberwolves,7.6211,ROLLING_REBUILD_V0,9
-2026-11-04,401909930,4594268,Anthony Edwards,Houston Rockets,Minnesota Timberwolves,30.6,ROLLING_REBUILD_V0,5
-2026-11-04,401909930,4895758,Cody Williams,Houston Rockets,Minnesota Timberwolves,1.6714,ROLLING_REBUILD_V0,7
-2026-11-04,401909930,5061585,Isaiah Evans,Houston Rockets,Minnesota Timberwolves,4.2,ROLLING_REBUILD_V0,5
-2026-11-04,401909930,5279133,Joan Beringer,Houston Rockets,Minnesota Timberwolves,7.335,ROLLING_REBUILD_V0,10
-2026-11-04,401909931,3064290,Aaron Gordon,Toronto Raptors,Denver Nuggets,10.58,ROLLING_REBUILD_V0,7
-2026-11-04,401909931,3112335,Nikola Jokic,Toronto Raptors,Denver Nuggets,20.8425,ROLLING_REBUILD_V0,8
-2026-11-04,401909931,3135046,Tyus Jones,Toronto Raptors,Denver Nuggets,1.9775,ROLLING_REBUILD_V0,8
-2026-11-04,401909931,3138196,Cameron Johnson,Toronto Raptors,Denver Nuggets,8.2,ROLLING_REBUILD_V0,5
-2026-11-04,401909931,3936299,Jamal Murray,Toronto Raptors,Denver Nuggets,27.2288,ROLLING_REBUILD_V0,8
-2026-11-04,401909931,3978,DeMar DeRozan,Toronto Raptors,Denver Nuggets,10.8129,ROLLING_REBUILD_V0,7
-2026-11-04,401909931,4277848,Marvin Bagley III,Toronto Raptors,Denver Nuggets,5.4762,ROLLING_REBUILD_V0,8
-2026-11-04,401909931,4431767,Christian Braun,Toronto Raptors,Denver Nuggets,14.8175,ROLLING_REBUILD_V0,8
-2026-11-04,401909931,4565698,Bryce Hopkins,Toronto Raptors,Denver Nuggets,3.8917,ROLLING_REBUILD_V0,6
-2026-11-04,401909931,4698719,Trevon Brazile,Toronto Raptors,Denver Nuggets,10.045,ROLLING_REBUILD_V0,8
-2026-11-04,401909931,2993874,Kyle Anderson,Denver Nuggets,Toronto Raptors,1.2086,ROLLING_REBUILD_V0,7
-2026-11-04,401909931,3134908,Jakob Poeltl,Denver Nuggets,Toronto Raptors,4.9529,ROLLING_REBUILD_V0,7
-2026-11-04,401909931,4395625,RJ Barrett,Denver Nuggets,Toronto Raptors,20.3567,ROLLING_REBUILD_V0,9
-2026-11-04,401909931,4395724,Immanuel Quickley,Denver Nuggets,Toronto Raptors,17.3478,ROLLING_REBUILD_V0,9
-2026-11-04,401909931,4431684,Trayce Jackson-Davis,Denver Nuggets,Toronto Raptors,4.9522,ROLLING_REBUILD_V0,9
-2026-11-04,401909931,4431893,Jamison Battle,Denver Nuggets,Toronto Raptors,8.675,ROLLING_REBUILD_V0,8
-2026-11-04,401909931,4432241,Jamal Shead,Denver Nuggets,Toronto Raptors,5.9911,ROLLING_REBUILD_V0,9
-2026-11-04,401909931,4432737,Jaden Bradley,Denver Nuggets,Toronto Raptors,2.4175,ROLLING_REBUILD_V0,8
-2026-11-04,401909931,4433134,Scottie Barnes,Denver Nuggets,Toronto Raptors,23.7833,ROLLING_REBUILD_V0,9
-2026-11-04,401909931,4684272,Ja'Kobe Walter,Denver Nuggets,Toronto Raptors,11.9144,ROLLING_REBUILD_V0,9
-2026-11-04,401909931,4702656,Alijah Martin,Denver Nuggets,Toronto Raptors,3.7425,ROLLING_REBUILD_V0,8
-2026-11-04,401909931,5093267,Collin Murray-Boyles,Denver Nuggets,Toronto Raptors,10.3611,ROLLING_REBUILD_V0,9
-2026-11-04,401909931,5149115,Allen Graves,Denver Nuggets,Toronto Raptors,4.93,ROLLING_REBUILD_V0,9
-2026-11-04,401909932,3136193,Devin Booker,Portland Trail Blazers,Phoenix Suns,22.2417,ROLLING_REBUILD_V0,6
-2026-11-04,401909932,3155526,Dillon Brooks,Portland Trail Blazers,Phoenix Suns,16.93,ROLLING_REBUILD_V0,6
-2026-11-04,401909932,3913174,Luke Kennard,Portland Trail Blazers,Phoenix Suns,7.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909932,4066268,Duop Reath,Portland Trail Blazers,Phoenix Suns,5.2,ROLLING_REBUILD_V0,5
-2026-11-04,401909932,4066383,Miles Bridges,Portland Trail Blazers,Phoenix Suns,16.2033,ROLLING_REBUILD_V0,6
-2026-11-04,401909932,4278402,Jordan Goodwin,Portland Trail Blazers,Phoenix Suns,7.28,ROLLING_REBUILD_V0,7
-2026-11-04,401909932,4278585,Collin Gillespie,Portland Trail Blazers,Phoenix Suns,7.605,ROLLING_REBUILD_V0,6
-2026-11-04,401909932,4437244,Jalen Green,Portland Trail Blazers,Phoenix Suns,11.7583,ROLLING_REBUILD_V0,6
-2026-11-04,401909932,4888725,Ryan Dunn,Portland Trail Blazers,Phoenix Suns,5.3014,ROLLING_REBUILD_V0,7
-2026-11-04,401909932,5203685,Khaman Maluach,Portland Trail Blazers,Phoenix Suns,6.9543,ROLLING_REBUILD_V0,7
-2026-11-04,401909932,3995,Jrue Holiday,Phoenix Suns,Portland Trail Blazers,13.3271,ROLLING_REBUILD_V0,7
-2026-11-04,401909932,4066211,Robert Williams III,Phoenix Suns,Portland Trail Blazers,7.0383,ROLLING_REBUILD_V0,6
-2026-11-04,401909932,4279888,Ja Morant,Phoenix Suns,Portland Trail Blazers,16.14,ROLLING_REBUILD_V0,6
-2026-11-04,401909932,4431736,Toumani Camara,Phoenix Suns,Portland Trail Blazers,13.3838,ROLLING_REBUILD_V0,8
-2026-11-04,401909932,4578893,Vit Krejci,Phoenix Suns,Portland Trail Blazers,2.6162,ROLLING_REBUILD_V0,8
-2026-11-04,401909932,4683021,Deni Avdija,Phoenix Suns,Portland Trail Blazers,23.4562,ROLLING_REBUILD_V0,8
-2026-11-04,401909932,4683678,Scoot Henderson,Phoenix Suns,Portland Trail Blazers,8.9275,ROLLING_REBUILD_V0,8
-2026-11-04,401909932,5081727,Sidy Cissoko,Phoenix Suns,Portland Trail Blazers,5.7112,ROLLING_REBUILD_V0,8
-2026-11-04,401909932,5105565,Donovan Clingan,Phoenix Suns,Portland Trail Blazers,9.1175,ROLLING_REBUILD_V0,8
-2026-11-04,401909932,5217746,Yang Hansen,Phoenix Suns,Portland Trail Blazers,4.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909932,6606,Damian Lillard,Phoenix Suns,Portland Trail Blazers,18.8012,ROLLING_REBUILD_V0,8
-2026-11-04,401909933,3064560,Luke Kornet,Dallas Mavericks,San Antonio Spurs,2.6388,ROLLING_REBUILD_V0,8
-2026-11-04,401909933,3134916,Jordan McLaughlin,Dallas Mavericks,San Antonio Spurs,0.4,ROLLING_REBUILD_V0,5
-2026-11-04,401909933,4066259,De'Aaron Fox,Dallas Mavericks,San Antonio Spurs,15.2822,ROLLING_REBUILD_V0,9
-2026-11-04,401909933,4395630,Devin Vassell,Dallas Mavericks,San Antonio Spurs,12.3478,ROLLING_REBUILD_V0,9
-2026-11-04,401909933,4395723,Keldon Johnson,Dallas Mavericks,San Antonio Spurs,9.79,ROLLING_REBUILD_V0,8
-2026-11-04,401909933,4592479,Julian Champagnie,Dallas Mavericks,San Antonio Spurs,11.5488,ROLLING_REBUILD_V0,8
-2026-11-04,401909933,4845367,Stephon Castle,Dallas Mavericks,San Antonio Spurs,14.1578,ROLLING_REBUILD_V0,9
-2026-11-04,401909933,5037871,Dylan Harper,Dallas Mavericks,San Antonio Spurs,17.5667,ROLLING_REBUILD_V0,9
-2026-11-04,401909933,5061568,Carter Bryant,Dallas Mavericks,San Antonio Spurs,3.9344,ROLLING_REBUILD_V0,9
-2026-11-04,401909933,5104157,Victor Wembanyama,Dallas Mavericks,San Antonio Spurs,25.3933,ROLLING_REBUILD_V0,9
-2026-11-04,401909933,5105809,Tarris Reed Jr.,Dallas Mavericks,San Antonio Spurs,2.5733,ROLLING_REBUILD_V0,6
-2026-11-04,401909933,6578,Harrison Barnes,Dallas Mavericks,San Antonio Spurs,4.0229,ROLLING_REBUILD_V0,7
-2026-11-04,401909933,3138160,Caleb Martin,San Antonio Spurs,Dallas Mavericks,5.8,ROLLING_REBUILD_V0,5
-2026-11-04,401909933,4278049,Daniel Gafford,San Antonio Spurs,Dallas Mavericks,10.8062,ROLLING_REBUILD_V0,8
-2026-11-04,401909933,4278078,P.J. Washington,San Antonio Spurs,Dallas Mavericks,12.0611,ROLLING_REBUILD_V0,9
-2026-11-04,401909933,4278594,Naji Marshall,San Antonio Spurs,Dallas Mavericks,10.0317,ROLLING_REBUILD_V0,6
-2026-11-04,401909933,4432107,Marcus Sasser,San Antonio Spurs,Dallas Mavericks,6.2075,ROLLING_REBUILD_V0,8
-2026-11-04,401909933,4432582,Max Christie,San Antonio Spurs,Dallas Mavericks,6.4987,ROLLING_REBUILD_V0,8
-2026-11-04,401909933,4701208,Moussa Cisse,San Antonio Spurs,Dallas Mavericks,2.65,ROLLING_REBUILD_V0,7
-2026-11-04,401909933,4873153,Morez Johnson Jr.,San Antonio Spurs,Dallas Mavericks,7.0588,ROLLING_REBUILD_V0,8
-2026-11-04,401909933,4896372,Walter Clayton Jr.,San Antonio Spurs,Dallas Mavericks,7.3117,ROLLING_REBUILD_V0,6
-2026-11-04,401909933,5041939,Cooper Flagg,San Antonio Spurs,Dallas Mavericks,24.7657,ROLLING_REBUILD_V0,7
-2026-11-04,401909933,5106040,Tobi Lawal,San Antonio Spurs,Dallas Mavericks,2.9817,ROLLING_REBUILD_V0,6
-2026-11-04,401909933,5211175,Zaccharie Risacher,San Antonio Spurs,Dallas Mavericks,8.79,ROLLING_REBUILD_V0,9
-2026-11-04,401909933,5279129,Sergio de Larrea,San Antonio Spurs,Dallas Mavericks,6.255,ROLLING_REBUILD_V0,6
-2026-11-04,401909933,6442,Kyrie Irving,San Antonio Spurs,Dallas Mavericks,21.0317,ROLLING_REBUILD_V0,6
-2026-11-04,401909934,3064440,Zach LaVine,Los Angeles Lakers,Sacramento Kings,22.93,ROLLING_REBUILD_V0,8
-2026-11-04,401909934,3155942,Domantas Sabonis,Los Angeles Lakers,Sacramento Kings,14.1488,ROLLING_REBUILD_V0,8
-2026-11-04,401909934,4065732,De'Andre Hunter,Los Angeles Lakers,Sacramento Kings,13.075,ROLLING_REBUILD_V0,8
-2026-11-04,401909934,4066262,Malik Monk,Los Angeles Lakers,Sacramento Kings,7.6683,ROLLING_REBUILD_V0,6
-2026-11-04,401909934,4279318,Daeqwon Plowden,Los Angeles Lakers,Sacramento Kings,3.2075,ROLLING_REBUILD_V0,8
-2026-11-04,401909934,4431679,Precious Achiuwa,Los Angeles Lakers,Sacramento Kings,11.2956,ROLLING_REBUILD_V0,9
-2026-11-04,401909934,4702384,Nique Clifford,Los Angeles Lakers,Sacramento Kings,1.3587,ROLLING_REBUILD_V0,8
-2026-11-04,401909934,4917149,Alex Karaban,Los Angeles Lakers,Sacramento Kings,2.115,ROLLING_REBUILD_V0,6
-2026-11-04,401909934,5106058,Emanuel Sharp,Los Angeles Lakers,Sacramento Kings,4.7244,ROLLING_REBUILD_V0,9
-2026-11-04,401909934,5107897,Jonathan Mogbo,Los Angeles Lakers,Sacramento Kings,5.0133,ROLLING_REBUILD_V0,6
-2026-11-04,401909934,5142620,Darius Acuff Jr.,Los Angeles Lakers,Sacramento Kings,25.585,ROLLING_REBUILD_V0,8
-2026-11-04,401909934,3155535,Kevon Looney,Sacramento Kings,Los Angeles Lakers,1.6433,ROLLING_REBUILD_V0,6
-2026-11-04,401909934,3907498,Matisse Thybulle,Sacramento Kings,Los Angeles Lakers,8.14,ROLLING_REBUILD_V0,10
-2026-11-04,401909934,3945274,Luka Doncic,Sacramento Kings,Los Angeles Lakers,38.1838,ROLLING_REBUILD_V0,8
-2026-11-04,401909934,4066457,Austin Reaves,Sacramento Kings,Los Angeles Lakers,22.97,ROLLING_REBUILD_V0,10
-2026-11-04,401909934,4277811,Collin Sexton,Sacramento Kings,Los Angeles Lakers,9.8143,ROLLING_REBUILD_V0,7
-2026-11-04,401909934,4278077,Jarred Vanderbilt,Sacramento Kings,Los Angeles Lakers,1.6,ROLLING_REBUILD_V0,5
-2026-11-04,401909934,4278580,Sandro Mamukelashvili,Sacramento Kings,Los Angeles Lakers,10.82,ROLLING_REBUILD_V0,10
-2026-11-04,401909934,4397014,Quentin Grimes,Sacramento Kings,Los Angeles Lakers,8.66,ROLLING_REBUILD_V0,10
-2026-11-04,401909934,4433136,Walker Kessler,Sacramento Kings,Los Angeles Lakers,13.13,ROLLING_REBUILD_V0,10
-2026-11-04,401909934,4433137,Ziaire Williams,Sacramento Kings,Los Angeles Lakers,11.1467,ROLLING_REBUILD_V0,6
-2026-11-04,401909934,4592691,Jake LaRavia,Sacramento Kings,Los Angeles Lakers,5.7789,ROLLING_REBUILD_V0,9
-2026-11-04,401909934,4683774,Bronny James,Sacramento Kings,Los Angeles Lakers,0.7133,ROLLING_REBUILD_V0,6
-2026-11-04,401909934,4868423,Jaden Hardy,Sacramento Kings,Los Angeles Lakers,3.4386,ROLLING_REBUILD_V0,7
-2026-11-04,401909935,2991139,Kris Dunn,Miami Heat,LA Clippers,9.28,ROLLING_REBUILD_V0,7
-2026-11-04,401909935,3448,Brook Lopez,Miami Heat,LA Clippers,11.3113,ROLLING_REBUILD_V0,8
-2026-11-04,401909935,3936099,Derrick Jones Jr.,Miami Heat,LA Clippers,11.9771,ROLLING_REBUILD_V0,7
-2026-11-04,401909935,4066648,Rui Hachimura,Miami Heat,LA Clippers,13.6817,ROLLING_REBUILD_V0,6
-2026-11-04,401909935,4396907,Darius Garland,Miami Heat,LA Clippers,18.5438,ROLLING_REBUILD_V0,8
-2026-11-04,401909935,4432170,Isaiah Jackson,Miami Heat,LA Clippers,9.535,ROLLING_REBUILD_V0,8
-2026-11-04,401909935,4702352,Kobe Sanders,Miami Heat,LA Clippers,12.05,ROLLING_REBUILD_V0,7
-2026-11-04,401909935,5075626,Baba Miller,Miami Heat,LA Clippers,3.3929,ROLLING_REBUILD_V0,7
-2026-11-04,401909935,5105832,Nick Martinelli,Miami Heat,LA Clippers,4.6,ROLLING_REBUILD_V0,5
-2026-11-04,401909935,5106258,Gradey Dick,Miami Heat,LA Clippers,6.045,ROLLING_REBUILD_V0,8
-2026-11-04,401909935,5254165,Keaton Wagler,Miami Heat,LA Clippers,11.8712,ROLLING_REBUILD_V0,8
-2026-11-04,401909935,2528210,Tim Hardaway Jr.,LA Clippers,Miami Heat,7.2889,ROLLING_REBUILD_V0,9
-2026-11-04,401909935,3032977,Giannis Antetokounmpo,LA Clippers,Miami Heat,26.7537,ROLLING_REBUILD_V0,8
-2026-11-04,401909935,3059319,Andrew Wiggins,LA Clippers,Miami Heat,11.2211,ROLLING_REBUILD_V0,9
-2026-11-04,401909935,3064482,Bobby Portis,LA Clippers,Miami Heat,9.2911,ROLLING_REBUILD_V0,9
-2026-11-04,401909935,3899664,Simone Fontecchio,LA Clippers,Miami Heat,4.4,ROLLING_REBUILD_V0,5
-2026-11-04,401909935,4066261,Bam Adebayo,LA Clippers,Miami Heat,17.2357,ROLLING_REBUILD_V0,7
-2026-11-04,401909935,4066993,Dru Smith,LA Clippers,Miami Heat,3.0,ROLLING_REBUILD_V0,5
-2026-11-04,401909935,4278053,Davion Mitchell,LA Clippers,Miami Heat,15.3433,ROLLING_REBUILD_V0,9
-2026-11-04,401909935,4278076,Nick Richards,LA Clippers,Miami Heat,4.045,ROLLING_REBUILD_V0,6
-2026-11-04,401909935,4431772,Myron Gardner,LA Clippers,Miami Heat,1.8217,ROLLING_REBUILD_V0,6
-2026-11-04,401909935,4601025,Pelle Larsson,LA Clippers,Miami Heat,12.3986,ROLLING_REBUILD_V0,7
-2026-11-04,401909935,4997528,Nikola Jovic,LA Clippers,Miami Heat,3.5212,ROLLING_REBUILD_V0,8
-2026-11-04,401909935,5107157,Ryan Conwell,LA Clippers,Miami Heat,5.4371,ROLLING_REBUILD_V0,7
-2026-11-04,401909935,6475,Klay Thompson,LA Clippers,Miami Heat,11.5511,ROLLING_REBUILD_V0,9
+2026-11-05,401909936,3136193,Devin Booker,Orlando Magic,Phoenix Suns,23.9786,ROLLING_REBUILD_V0,7
+2026-11-05,401909936,3155526,Dillon Brooks,Orlando Magic,Phoenix Suns,17.0943,ROLLING_REBUILD_V0,7
+2026-11-05,401909936,3913174,Luke Kennard,Orlando Magic,Phoenix Suns,6.675,ROLLING_REBUILD_V0,6
+2026-11-05,401909936,4066268,Duop Reath,Orlando Magic,Phoenix Suns,5.325,ROLLING_REBUILD_V0,6
+2026-11-05,401909936,4066383,Miles Bridges,Orlando Magic,Phoenix Suns,17.12,ROLLING_REBUILD_V0,7
+2026-11-05,401909936,4278402,Jordan Goodwin,Orlando Magic,Phoenix Suns,7.28,ROLLING_REBUILD_V0,7
+2026-11-05,401909936,4278585,Collin Gillespie,Orlando Magic,Phoenix Suns,7.2343,ROLLING_REBUILD_V0,7
+2026-11-05,401909936,4280245,Jamaree Bouyea,Orlando Magic,Phoenix Suns,7.0,ROLLING_REBUILD_V0,5
+2026-11-05,401909936,4437244,Jalen Green,Orlando Magic,Phoenix Suns,13.5114,ROLLING_REBUILD_V0,7
+2026-11-05,401909936,4888725,Ryan Dunn,Orlando Magic,Phoenix Suns,4.9412,ROLLING_REBUILD_V0,8
+2026-11-05,401909936,5041953,Koa Peat,Orlando Magic,Phoenix Suns,3.6,ROLLING_REBUILD_V0,5
+2026-11-05,401909936,5203685,Khaman Maluach,Orlando Magic,Phoenix Suns,7.1762,ROLLING_REBUILD_V0,8
+2026-11-05,401909936,3133635,Jevon Carter,Phoenix Suns,Orlando Magic,2.8,ROLLING_REBUILD_V0,5
+2026-11-05,401909936,4066320,Desmond Bane,Phoenix Suns,Orlando Magic,18.4067,ROLLING_REBUILD_V0,9
+2026-11-05,401909936,4277847,Wendell Carter Jr.,Phoenix Suns,Orlando Magic,10.0833,ROLLING_REBUILD_V0,9
+2026-11-05,401909936,4278572,Jamal Cain,Phoenix Suns,Orlando Magic,7.1289,ROLLING_REBUILD_V0,9
+2026-11-05,401909936,4348700,Goga Bitadze,Phoenix Suns,Orlando Magic,4.2314,ROLLING_REBUILD_V0,7
+2026-11-05,401909936,4432165,Jalen Suggs,Phoenix Suns,Orlando Magic,8.2,ROLLING_REBUILD_V0,5
+2026-11-05,401909936,4566434,Franz Wagner,Phoenix Suns,Orlando Magic,19.6344,ROLLING_REBUILD_V0,9
+2026-11-05,401909936,4593034,Alex Morales,Phoenix Suns,Orlando Magic,1.2867,ROLLING_REBUILD_V0,6
+2026-11-05,401909936,4702382,Tristan da Silva,Phoenix Suns,Orlando Magic,14.9167,ROLLING_REBUILD_V0,9
+2026-11-05,401909936,5239561,Jase Richardson,Phoenix Suns,Orlando Magic,5.9933,ROLLING_REBUILD_V0,9
+2026-11-05,401909936,6478,Nikola Vucevic,Phoenix Suns,Orlando Magic,4.3838,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,2990969,Georges Niang,Miami Heat,Golden State Warriors,7.69,ROLLING_REBUILD_V0,10
+2026-11-05,401909937,3134903,Gary Payton II,Miami Heat,Golden State Warriors,4.575,ROLLING_REBUILD_V0,10
+2026-11-05,401909937,3213,Al Horford,Miami Heat,Golden State Warriors,6.2786,ROLLING_REBUILD_V0,7
+2026-11-05,401909937,3975,Stephen Curry,Miami Heat,Golden State Warriors,28.1338,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,4066436,De'Anthony Melton,Miami Heat,Golden State Warriors,10.0,ROLLING_REBUILD_V0,10
+2026-11-05,401909937,4397040,Brandon Williams,Miami Heat,Golden State Warriors,11.4788,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,4397886,Charles Bassey,Miami Heat,Golden State Warriors,6.6388,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,4433149,LJ Cryer,Miami Heat,Golden State Warriors,3.5814,ROLLING_REBUILD_V0,7
+2026-11-05,401909937,4703396,Graham Ike,Miami Heat,Golden State Warriors,5.3838,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,4709138,Brandin Podziemski,Miami Heat,Golden State Warriors,16.93,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,4897262,Will Richard,Miami Heat,Golden State Warriors,4.38,ROLLING_REBUILD_V0,10
+2026-11-05,401909937,4897449,Malevy Leons,Miami Heat,Golden State Warriors,0.8,ROLLING_REBUILD_V0,5
+2026-11-05,401909937,4997536,Gui Santos,Miami Heat,Golden State Warriors,7.045,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,5175737,Yaxel Lendeborg,Miami Heat,Golden State Warriors,21.51,ROLLING_REBUILD_V0,10
+2026-11-05,401909937,6589,Draymond Green,Miami Heat,Golden State Warriors,3.6043,ROLLING_REBUILD_V0,7
+2026-11-05,401909937,2528210,Tim Hardaway Jr.,Golden State Warriors,Miami Heat,6.455,ROLLING_REBUILD_V0,10
+2026-11-05,401909937,3032977,Giannis Antetokounmpo,Golden State Warriors,Miami Heat,27.6367,ROLLING_REBUILD_V0,9
+2026-11-05,401909937,3059319,Andrew Wiggins,Golden State Warriors,Miami Heat,10.595,ROLLING_REBUILD_V0,10
+2026-11-05,401909937,3064482,Bobby Portis,Golden State Warriors,Miami Heat,8.3,ROLLING_REBUILD_V0,10
+2026-11-05,401909937,3899664,Simone Fontecchio,Golden State Warriors,Miami Heat,3.1533,ROLLING_REBUILD_V0,6
+2026-11-05,401909937,4066261,Bam Adebayo,Golden State Warriors,Miami Heat,19.8062,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,4066993,Dru Smith,Golden State Warriors,Miami Heat,3.0,ROLLING_REBUILD_V0,5
+2026-11-05,401909937,4278053,Davion Mitchell,Golden State Warriors,Miami Heat,14.335,ROLLING_REBUILD_V0,10
+2026-11-05,401909937,4278076,Nick Richards,Golden State Warriors,Miami Heat,4.045,ROLLING_REBUILD_V0,6
+2026-11-05,401909937,4431772,Myron Gardner,Golden State Warriors,Miami Heat,1.8217,ROLLING_REBUILD_V0,6
+2026-11-05,401909937,4601025,Pelle Larsson,Golden State Warriors,Miami Heat,11.4788,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,4997528,Nikola Jovic,Golden State Warriors,Miami Heat,3.5212,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,5107157,Ryan Conwell,Golden State Warriors,Miami Heat,4.88,ROLLING_REBUILD_V0,8
+2026-11-05,401909937,6475,Klay Thompson,Golden State Warriors,Miami Heat,13.935,ROLLING_REBUILD_V0,10
