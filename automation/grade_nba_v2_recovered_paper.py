@@ -72,6 +72,12 @@ def main():
         print("No verified paper selections to grade");return
     now=datetime.now(ZoneInfo("America/Chicago")).date()
     old["game_date"]=old["game_date"].astype(str).str[:10]
+    # Previously unverified missing boxscore entries must be checked again.
+    unverified=old["result"].eq("DNP_VOID") & old["lineup_status"].eq("DID_NOT_PLAY_OR_UNVERIFIED")
+    old.loc[unverified,"result"]="PENDING"
+    old.loc[unverified,"lineup_status"]="UNVERIFIED"
+    old.loc[unverified,"net_units"]=float("nan")
+    old.loc[unverified,"graded_at_utc"]=""
     eligible=old[(old.result=="PENDING") & (pd.to_datetime(old.game_date,errors="coerce").dt.date<=now)]
     for game_id,rows in eligible.groupby("game_id"):
         try:completed,points=fetch_boxscore(game_id)
@@ -81,9 +87,10 @@ def main():
         for idx,r in rows.iterrows():
             pid=str(r.player_id)
             if pid not in points:
-                old.at[idx,"result"]="DNP_VOID"
-                old.at[idx,"lineup_status"]="DID_NOT_PLAY_OR_UNVERIFIED"
-                old.at[idx,"net_units"]=0.0
+                # Missing ESPN athlete stats do not establish a DNP.
+                old.at[idx,"result"]="PENDING"
+                old.at[idx,"lineup_status"]="UNVERIFIED"
+                old.at[idx,"net_units"]=float("nan")
             else:
                 actual=points[pid]
                 line=float(r.market_line)
@@ -97,7 +104,8 @@ def main():
                     old.at[idx,"result"]="WIN" if won else "LOSS"
                     price=r.over_price if r.decision=="OVER" else r.under_price
                     old.at[idx,"net_units"]=payoff(price,won)
-            old.at[idx,"graded_at_utc"]=datetime.now(ZoneInfo("UTC")).isoformat()
+            if old.at[idx,"result"]!="PENDING":
+                old.at[idx,"graded_at_utc"]=datetime.now(ZoneInfo("UTC")).isoformat()
     TRACKER.parent.mkdir(parents=True,exist_ok=True)
     tmp=TRACKER.with_suffix(".tmp")
     old.reindex(columns=COLUMNS).to_csv(tmp,index=False)
