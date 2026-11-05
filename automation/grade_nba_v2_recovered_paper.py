@@ -84,6 +84,9 @@ def main():
         except (requests.RequestException,KeyError,IndexError,ValueError) as exc:
             print("Boxscore unavailable:",game_id,str(exc)[:120]);continue
         if not completed:continue
+        matched=sum(str(pid) in points for pid in rows.player_id)
+        if matched==0:
+            print(f"GRADING DATA MISMATCH: game {game_id}, {len(rows)} tracked picks, 0 matching ESPN boxscore athlete IDs; preserving PENDING")
         for idx,r in rows.iterrows():
             pid=str(r.player_id)
             if pid not in points:
@@ -111,4 +114,6 @@ def main():
     old.reindex(columns=COLUMNS).to_csv(tmp,index=False)
     tmp.replace(TRACKER)
     print("Tracker:",len(old),"results:",old.result.value_counts().to_dict())
+    if not old.empty and not old.result.isin(["WIN","LOSS","PUSH"]).any():
+        print("WARNING: No verified graded results yet; do not report 0-0 as a completed record.")
 if __name__=="__main__":main()
