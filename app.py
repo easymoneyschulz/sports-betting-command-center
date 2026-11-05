@@ -2441,11 +2441,14 @@ elif page == "🏀 NBA Projections":
                 nba_staked = len(nba_record)
                 nba_roi = (nba_units/nba_staked*100) if nba_staked else 0
                 t1,t2,t3,t4 = st.columns(4)
-                t1.metric("PAPER RECORD",f"{nba_wins}-{nba_losses}")
+                t1.metric("PAPER RECORD",f"{nba_wins}-{nba_losses}" if nba_staked else "Awaiting verified results")
                 t2.metric("WIN RATE",f"{nba_wins/nba_staked*100:.1f}%" if nba_staked else "—")
                 t3.metric("NET UNITS",f"{nba_units:+.2f}u")
                 t4.metric("ROI",f"{nba_roi:+.1f}%" if nba_staked else "—")
-                st.caption("Locked selections only · 1-unit hypothetical stakes · Pushes and DNP voids excluded from win rate.")
+                nba_pending = int(nba_history.result.isin(["PENDING","DNP_VOID"]).sum())
+                st.caption(f"{nba_pending} selections awaiting verified grading · Locked selections only · 1-unit hypothetical stakes · Unverified and void picks excluded from win rate.")
+                if nba_pending and not nba_staked:
+                    st.warning("NBA results have not been verified against final player box scores. A 0–0 record would be misleading; grading is still pending.")
     except (requests.RequestException,ValueError,pd.errors.ParserError):
         pass
 
