@@ -2998,30 +2998,44 @@ elif page == "📈 Weekly Units":
                 '<div class="ems-u-section">WEEKLY WINS</div>',
                 unsafe_allow_html=True
             )
+            # Match the Chicago Bears card design for every NBA wager.
+            # Keep the individual picks visible inside each card.
+            def ems_nba_wager_card(bet):
+                from html import escape as ems_escape
+                is_win = bet["status"] == "won"
+                title = ems_escape(str(bet["description"]))
+                when = bet["date"].strftime("%b %d, %Y")
+                legs = str(bet["legs"]).split("; ")
+                picks_html = "".join(
+                    '<div class="ems-u-meta">' + ems_escape(leg) + '</div>'
+                    for leg in legs
+                )
+                outcome = "✓ WIN" if is_win else "✕ LOSS"
+                result_color = "#49d394" if is_win else "#ff4555"
+                border_color = "#ff4555" if is_win else "#a33440"
+                units = float(bet["net_units"])
+                stake = float(bet["stake_usd"])
+                st.markdown(
+                    f'<div class="ems-u-win" style="border-left-color:{border_color};margin-bottom:12px">'
+                    '<div class="ems-u-logo" style="display:flex;align-items:center;justify-content:center;'
+                    'font-size:39px" aria-label="Basketball">🏀</div>'
+                    '<div class="ems-u-team">'
+                    f'<div class="ems-u-team-name">{title}</div>'
+                    f'<div class="ems-u-meta">{when} · NBA V2 · Model wager</div>'
+                    f'{picks_html}'
+                    '</div>'
+                    '<div class="ems-u-result">'
+                    f'<div class="ems-u-result-spread">${stake:.0f}</div>'
+                    f'<div class="ems-u-result-win" style="color:{result_color}">{outcome}</div>'
+                    f'<div class="ems-u-result-units" style="color:{result_color}">{units:+.2f}u</div>'
+                    '</div></div>',
+                    unsafe_allow_html=True
+                )
+
             if not nba_bets.empty:
                 winning_nba = nba_bets[nba_bets["status"] == "won"]
                 for _, nba_bet in winning_nba.sort_values("date", ascending=False).iterrows():
-                    st.success(
-                        f"🏀 NBA V2 · {nba_bet['date'].strftime('%b %d, %Y')} · "
-                        f"{nba_bet['description']} · "
-                        f"+{nba_bet['net_units']:.2f} units "
-                        f"(${nba_bet['net_profit_usd']:,.2f} net)"
-                    )
-                    st.caption(f"Winning picks: {nba_bet['legs']}")
-                losing_nba = nba_bets[nba_bets["status"] == "lost"]
-                if not losing_nba.empty:
-                    st.markdown(
-                        '<div class="ems-u-section">WEEKLY LOSSES</div>',
-                        unsafe_allow_html=True
-                    )
-                    for _, nba_bet in losing_nba.sort_values("date", ascending=False).iterrows():
-                        st.error(
-                            f"🏀 NBA V2 · {nba_bet['date'].strftime('%b %d, %Y')} · "
-                            f"{nba_bet['description']} · "
-                            f"{nba_bet['net_units']:.2f} units "
-                            f"(${nba_bet['net_profit_usd']:,.2f} net)"
-                        )
-                        st.caption(f"Picks: {nba_bet['legs']}")
+                    ems_nba_wager_card(nba_bet)
 
             if chicago_recorded:
                 st.markdown("""
@@ -3046,7 +3060,15 @@ elif page == "📈 Weekly Units":
                 </div>
                 """, unsafe_allow_html=True)
             else:
-                st.caption("No individual winning wagers listed yet.")
+                if nba_bets.empty or not (nba_bets["status"] == "won").any():
+                    st.caption("No individual winning wagers listed yet.")
+
+            if not nba_bets.empty:
+                losing_nba = nba_bets[nba_bets["status"] == "lost"]
+                if not losing_nba.empty:
+                    st.markdown('<div class="ems-u-section">WEEKLY LOSSES</div>', unsafe_allow_html=True)
+                    for _, nba_bet in losing_nba.sort_values("date", ascending=False).iterrows():
+                        ems_nba_wager_card(nba_bet)
 
     st.caption(
         "Personal wager results are separate from official "
