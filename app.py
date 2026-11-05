@@ -2426,6 +2426,40 @@ elif page == "🏀 NBA Projections":
     st.markdown("### 🏀 NBA V2 — DAILY PLAYER PROPS")
     st.caption("Frozen model · Automated daily · Paper testing only · Top 10 OVER / Top 10 UNDER")
 
+    # Distinct research feed: rolling baseline is NOT the frozen NBA V2 model.
+    # Display it separately rather than silently dropping available paper ideas
+    # or mislabeling them as V2 recommendations.
+    with st.expander("OTHER NBA RESEARCH — ROLLING BASELINE (NOT V2)", expanded=True):
+        st.caption("Experimental V0 paper comparisons only. These are NOT frozen V2 selections or verified wagers.")
+        try:
+            baseline_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_daily_top5.csv"
+            baseline_response = requests.get(baseline_url, timeout=8)
+            baseline_response.raise_for_status()
+            baseline = pd.read_csv(NBAStringIO(baseline_response.text))
+            required_baseline = {"game_date", "player_name", "side", "market_line", "edge", "model_version"}
+            if not required_baseline.issubset(baseline.columns):
+                st.warning("Baseline research file has missing columns.")
+            else:
+                today_str = NBADatetime.now(NBAZoneInfo("America/Chicago")).date().isoformat()
+                baseline = baseline[
+                    baseline["game_date"].astype(str).eq(today_str)
+                    & baseline["model_version"].astype(str).str.contains("NOT NBA V2", regex=False, na=False)
+                ].copy()
+                if baseline.empty:
+                    st.info("No current-day baseline research comparisons published.")
+                else:
+                    baseline["edge"] = pd.to_numeric(baseline["edge"], errors="coerce")
+                    baseline["market_line"] = pd.to_numeric(baseline["market_line"], errors="coerce")
+                    baseline = baseline.sort_values("edge", key=lambda x: x.abs(), ascending=False)
+                    st.caption(f"{len(baseline)} baseline paper comparisons for {today_str}; excluded from frozen V2 records.")
+                    st.dataframe(
+                        baseline.rename(columns={"player_name":"Player", "side":"Side", "market_line":"Line", "edge":"Model edge", "sportsbook":"Book"})[
+                            [c for c in ["Player", "Side", "Line", "Model edge", "Book"] if c in baseline.columns]
+                        ], hide_index=True, use_container_width=True
+                    )
+        except (requests.RequestException, ValueError, pd.errors.ParserError) as err:
+            st.warning(f"Baseline research feed unavailable: {type(err).__name__}")
+
     # Grade only locked pregame paper selections; exclude voids and pushes from win rate.
     try:
         nba_tracker_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_recovered_paper_tracker.csv"
