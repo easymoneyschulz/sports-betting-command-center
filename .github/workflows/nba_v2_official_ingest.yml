@@ -1,0 +1,56 @@
+name: NBA V2 official data automatic collection
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 14 * * *'
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install required libraries
+        run: pip install pandas numpy pyarrow nba_api requests
+      - name: Check private history availability
+        env:
+          NBA_V2_DATA_URL: ${{ secrets.NBA_V2_DATA_URL }}
+        shell: bash
+        run: |
+          if [[ -z "$NBA_V2_DATA_URL" ]]; then
+            echo "::error::NBA_V2_DATA_URL not configured; no history access and no updates"
+            exit 1
+          fi
+          curl --fail --location --retry 3 --output /tmp/nba-v2-data.zip "$NBA_V2_DATA_URL"
+          python - <<'PY'
+          import zipfile
+          from pathlib import Path
+          with zipfile.ZipFile('/tmp/nba-v2-data.zip') as z:
+              for member in z.infolist():
+                  path=Path(member.filename)
+                  if path.is_absolute() or '..' in path.parts:
+                      raise ValueError('Unsafe archive member')
+              z.extractall('.')
+          assert Path('nba_v2_recovery/nba_original_player_games.parquet').is_file(), 'History absent'
+          PY
+      - name: Import official advanced NBA stats
+        run: |
+          python - <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from automation.nba_v2_official_ingest import ingest
+          day=datetime.now(ZoneInfo('America/Chicago')).date().isoformat()
+          print('Target:',day)
+          print('Verified advanced updates:',ingest('.',day))
+          PY
+      - name: Archive verified updates for review
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nba-v2-official-updates
+          path: nba_v2_outputs/staging/*.csv
+          if-no-files-found: warn
+          retention-days: 30

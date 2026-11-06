@@ -1,0 +1,14 @@
+{
+  "window_minimums": {
+    "5": 3,
+    "10": 5,
+    "20": 8
+  },
+  "std_last10_minimum": 5,
+  "season_average_minimum": 3,
+  "exclude_zero_minutes": true,
+  "validation": {
+    "checked": 53086,
+    "mismatches": 0
+  }
+}
