@@ -68,38 +68,53 @@ def render():
               <div class="td-meter"><div class="td-fill" style="width:{pct:.1f}%"></div></div></div>""",
               unsafe_allow_html=True)
 
-        st.markdown("### 🧩 SUNDAY PARLAY LAB")
-        st.caption("Research calculator · Enter your actual sportsbook odds · No automatic betting recommendations")
+        st.markdown("### 🔥 SUNDAY TOP 15")
+        st.caption("Automatically ranked by model touchdown probability · Unverified research estimates")
         sunday=data.copy()
         if "kickoff_utc" in sunday:
             sunday=sunday[pd.to_datetime(sunday["kickoff_utc"],utc=True,errors="coerce").dt.tz_convert("America/Chicago").dt.dayofweek==6]
-        sunday=sunday.sort_values("td_probability",ascending=False).head(20).copy()
+        sunday=sunday.sort_values("td_probability",ascending=False).head(15)
         if sunday.empty:
-            st.info("No Sunday research projections available yet.")
+            st.info("Sunday research projections are not available yet.")
         else:
-            sunday["display"]=sunday["player_name"].astype(str)+" · "+sunday["team"].astype(str)+" vs "+sunday["opponent"].astype(str)
-            choices=st.multiselect("Select 2–4 Sunday TD scorers",sunday["display"].tolist(),max_selections=4)
-            stake=st.number_input("Parlay stake ($)",min_value=1.0,max_value=1000.0,value=10.0,step=5.0)
-            if len(choices)>=2:
-                import math
-                chosen=sunday[sunday["display"].isin(choices)].copy()
-                decimals=[]
-                for _,leg in chosen.iterrows():
-                    odds=st.number_input("American odds · "+str(leg["player_name"]),min_value=-10000,max_value=10000,value=100,step=5,key="td_odds_"+str(leg["player_id"]))
-                    if -99<=odds<=99:
-                        st.warning("Valid American odds must be at least +100 or at most -100.")
-                        decimals=[]
-                        break
-                    decimals.append(1+odds/100 if odds>0 else 1+100/abs(odds))
-                if decimals:
-                    combined=math.prod(decimals)
-                    naive=math.prod(chosen["td_probability"].astype(float))
-                    a,b,c=st.columns(3)
-                    a.metric("Potential total payout",f"${stake*combined:,.2f}")
-                    b.metric("Break-even chance",f"{1/combined:.1%}")
-                    c.metric("Naive model chance",f"{naive:.1%}")
-                    st.caption("Naive probability assumes independence. Same-game legs may be correlated; this is not a validated parlay probability or certified edge.")
+            for rank,(_,p) in enumerate(sunday.iterrows(),1):
+                name=escape(str(p["player_name"]))
+                team=escape(str(p["team"]))
+                opp=escape(str(p["opponent"]))
+                pct=float(p["td_probability"])*100
+                st.markdown(f"""<div class="td-card"><div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+                  <div><div class="td-eyebrow">#{rank:02d} · SUNDAY TD RANKING</div><div class="td-player">{name}</div>
+                  <div class="td-matchup">{team} vs {opp} · {escape(str(p["position"]))}</div></div>
+                  <div class="td-percent">{pct:.1f}%</div></div>
+                  <div class="td-meter"><div class="td-fill" style="width:{pct:.1f}%"></div></div></div>""",unsafe_allow_html=True)
+        st.markdown("### 🧩 AUTOMATIC SUNDAY PARLAY")
+        st.caption("The model builds a parlay only when independently verified odds and roster status establish qualifying value.")
+        # No invented lines, implied independence, or unsupported betting edges.
+        required={"sportsbook","american_odds","roster_verified","odds_timestamp_utc"}
+        if not required.issubset(sunday.columns):
+            st.warning("NO QUALIFYING PARLAY — live sportsbook odds and verified player status are not connected yet.")
+        else:
+            import math
+            qualified=sunday.copy()
+            qualified["american_odds"]=pd.to_numeric(qualified["american_odds"],errors="coerce")
+            qualified["odds_timestamp_utc"]=pd.to_datetime(qualified["odds_timestamp_utc"],utc=True,errors="coerce")
+            qualified=qualified[(qualified["roster_verified"]==True)&
+                ((pd.Timestamp.now(tz="UTC")-qualified["odds_timestamp_utc"])<=pd.Timedelta(minutes=30))]
+            qualified=qualified[(qualified["american_odds"]<=-100)|(qualified["american_odds"]>=100)].copy()
+            qualified["decimal_odds"]=qualified["american_odds"].apply(
+                lambda x: 1+x/100 if x>0 else 1+100/abs(x))
+            qualified["edge"]=qualified["td_probability"]-1/qualified["decimal_odds"]
+            qualified=qualified[qualified["edge"]>=0.05].sort_values("edge",ascending=False)
+            # Only independent-game legs are considered for the simple joint-probability estimate.
+            qualified=qualified.drop_duplicates("game_id").head(3)
+            if len(qualified)<2:
+                st.warning("NO QUALIFYING PARLAY — fewer than two independently matched, value-qualified games.")
             else:
-                st.caption("Select at least two players to build a parlay.")
+                st.success(f"Research parlay candidate: {len(qualified)} legs · Requires further validation")
+                for _,leg in qualified.iterrows():
+                    st.markdown(f"**{escape(str(leg['player_name']))}** · {leg['team']} vs {leg['opponent']} · "
+                        f"{float(leg['td_probability']):.1%} model · {int(leg['american_odds']):+d} odds · "
+                        f"{float(leg['edge']):+.1%} estimated edge")
+                st.caption("Different games reduce direct game-level correlation, but outcomes are not guaranteed independent. No wager is placed.")
     except Exception as e:
         st.error("Touchdown snapshot failed validation; projections are hidden.")
