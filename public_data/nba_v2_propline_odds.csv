@@ -1,244 +1,121 @@
 event_id,commence_time,home_team,away_team,player_name,sportsbook,market_line,over_price,under_price,odds_timestamp_utc
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Anthony Black,betmgm,15.5,-115,-115,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Desmond Bane,betmgm,21.5,-105,-125,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Devin Booker,betmgm,25.5,-105,-125,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Dillon Brooks,betmgm,15.5,-135,100,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Franz Wagner,betmgm,22.5,-135,100,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jalen Green,betmgm,16.5,-105,-125,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jase Richardson,betmgm,7.5,-135,100,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Miles Bridges,betmgm,16.5,-110,-120,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Tristan da Silva,betmgm,12.5,-105,-125,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Wendell Carter Jr.,betmgm,11.5,-140,105,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Collin Gillespie,betmgm,8.5,-135,100,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Oso Ighodaro,betmgm,7.5,-110,-120,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jamal Cain,betmgm,5.5,-120,-110,2026-11-06T02:10:46.717871Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Anthony Black (ORL),bovada,14.5,-105,-125,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Collin Gillespie (PHX),bovada,8.5,105,-135,2026-11-06T02:47:05.358715Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Desmond Bane (ORL),bovada,20.5,-115,-115,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Devin Booker (PHX),bovada,28.5,-115,-115,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Dillon Brooks (PHX),bovada,17.5,-115,-115,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Franz Wagner (ORL),bovada,25.5,-120,-110,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jalen Green (PHX),bovada,13.5,-120,-110,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jamal Cain (ORL),bovada,5.5,105,-135,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jase Richardson (ORL),bovada,10.5,105,-135,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Khaman Maluach (PHX),bovada,5.5,105,-135,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Miles Bridges (PHX),bovada,16.5,-120,-110,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Oso Ighodaro (PHX),bovada,8.5,110,-145,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Tristan da Silva (ORL),bovada,14.5,-110,-120,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Wendell Carter Jr. (ORL),bovada,10.5,-115,-115,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Luke Kennard (PHX),bovada,5.5,-130,100,2026-11-06T02:47:54.973103Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Anthony Black,draftkings,11.5,-110,-120,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Desmond Bane,draftkings,19.5,-110,-120,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Devin Booker,draftkings,28.5,100,-130,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Dillon Brooks,draftkings,17.5,-115,-115,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Franz Wagner,draftkings,24.5,-110,-120,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jalen Green,draftkings,12.5,-125,-105,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jamal Cain,draftkings,8.5,105,-135,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jase Richardson,draftkings,10.5,110,-140,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Miles Bridges,draftkings,13.5,-125,-105,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Tristan da Silva,draftkings,9.5,-115,-115,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Wendell Carter Jr.,draftkings,12.5,-120,-110,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Collin Gillespie,draftkings,8.5,-125,-105,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Oso Ighodaro,draftkings,7.5,-125,-105,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Luke Kennard,draftkings,9.5,-115,-115,2026-11-06T02:47:38.419120Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Franz Wagner,fanduel,24.5,-136,102,2026-11-06T02:47:48.449197Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Desmond Bane,fanduel,19.5,-102,-130,2026-11-06T02:47:48.449197Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Anthony Black,fanduel,11.5,-118,-112,2026-11-06T02:47:44.105794Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Wendell Carter Jr.,fanduel,12.5,-128,-104,2026-11-06T02:47:44.105794Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jase Richardson,fanduel,10.5,108,-144,2026-11-06T02:47:54.443727Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Tristan da Silva,fanduel,10.5,102,-136,2026-11-06T02:47:40.672176Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jamal Cain,fanduel,6.5,-122,-108,2026-11-06T02:47:49.455718Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Devin Booker,fanduel,29.5,-130,-102,2026-11-06T02:47:48.449197Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Miles Bridges,fanduel,13.5,-136,102,2026-11-06T02:47:49.455718Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Jalen Green,fanduel,11.5,-122,-108,2026-11-06T02:47:48.449197Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Dillon Brooks,fanduel,17.5,-125,-106,2026-11-06T02:47:50.412382Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Khaman Maluach,fanduel,2.5,102,-136,2026-11-06T02:47:49.455718Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Collin Gillespie,fanduel,8.5,108,-144,2026-11-06T02:47:49.455718Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Oso Ighodaro,fanduel,7.5,-118,-112,2026-11-06T02:47:48.449197Z
-633771,2026-11-06T02:00:00Z,Phoenix Suns,Orlando Magic,Luke Kennard,fanduel,9.5,-112,-118,2026-11-06T02:47:42.670751Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins,betmgm,10.5,-135,100,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo,betmgm,18.5,-105,-125,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski,betmgm,16.5,-105,-125,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell,betmgm,11.5,-110,-120,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green,betmgm,5.5,105,-140,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo,betmgm,28.5,-115,-115,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson,betmgm,11.5,-115,-115,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry,betmgm,27.5,-115,-115,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Will Richard,betmgm,5.5,-120,-110,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg,betmgm,19.5,-110,-120,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang,betmgm,7.5,-120,-110,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton,betmgm,9.5,-135,100,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson,betmgm,10.5,-110,-120,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bobby Portis,betmgm,8.5,-115,-115,2026-11-06T02:46:41.649610Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins,betrivers,10.5,-124,-110,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo,betrivers,18.5,-127,-107,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski,betrivers,15.5,-130,-105,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell,betrivers,12.5,-103,-132,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton,betrivers,10.5,-109,-124,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green,betrivers,5.5,-118,-114,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang,betrivers,7.5,-118,-114,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo,betrivers,28.5,-122,-112,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson,betrivers,12.5,-110,-122,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson,betrivers,10.5,-129,-106,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry,betrivers,28.5,-118,-114,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Will Richard,betrivers,5.5,-118,-114,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg,betrivers,19.5,-112,-122,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bobby Portis,betrivers,8.5,-112,-121,2026-11-06T02:47:45.603552Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton (GSW),bovada,10.5,105,-135,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton (GSW),bovada,11.5,140,-185,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton (GSW),bovada,12.5,180,-245,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski (GSW),bovada,13.5,-280,205,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski (GSW),bovada,14.5,-210,155,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski (GSW),bovada,15.5,-160,120,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski (GSW),bovada,16.5,-125,-105,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,16.5,-240,175,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski (GSW),bovada,17.5,100,-130,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,17.5,-185,140,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski (GSW),bovada,18.5,130,-170,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,18.5,-145,110,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,19.5,-115,-115,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,20.5,110,-145,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,21.5,135,-180,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,22.5,165,-220,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,23.5,-260,190,2026-11-06T02:44:57.389370Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,23.5,205,-280,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,24.5,-260,190,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,25.5,-215,160,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,25.5,-210,155,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,26.5,-180,135,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,26.5,-170,130,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,27.5,-145,110,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,27.5,-135,105,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,28.5,-120,-110,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,28.5,-115,-115,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,29.5,100,-130,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,29.5,105,-135,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,30.5,120,-160,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,30.5,125,-165,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,31.5,145,-190,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,31.5,150,-200,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,32.5,170,-230,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green (GSW),bovada,4.5,-180,135,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green (GSW),bovada,5.5,-115,-115,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang (GSW),bovada,5.5,-260,190,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green (GSW),bovada,6.5,130,-170,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang (GSW),bovada,6.5,-170,130,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton (GSW),bovada,7.5,-260,190,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green (GSW),bovada,7.5,180,-245,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang (GSW),bovada,7.5,-120,-110,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton (GSW),bovada,8.5,-180,135,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang (GSW),bovada,8.5,115,-150,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton (GSW),bovada,9.5,-130,100,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang (GSW),bovada,9.5,160,-215,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo (MIA),bovada,18.5,-110,-120,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo (MIA),bovada,19.5,115,-150,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo (MIA),bovada,20.5,140,-185,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo (MIA),bovada,21.5,175,-240,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski (GSW),bovada,19.5,160,-215,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo (MIA),bovada,17.5,-135,105,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,24.5,-275,200,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins (MIA),bovada,10.5,-150,115,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell (MIA),bovada,10.5,-180,135,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson (MIA),bovada,10.5,-180,135,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins (MIA),bovada,11.5,-110,-120,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell (MIA),bovada,11.5,-130,100,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson (MIA),bovada,11.5,-130,100,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins (MIA),bovada,12.5,120,-160,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell (MIA),bovada,12.5,100,-130,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson (MIA),bovada,12.5,100,-130,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins (MIA),bovada,13.5,155,-210,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell (MIA),bovada,13.5,130,-170,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson (MIA),bovada,13.5,130,-170,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell (MIA),bovada,14.5,170,-230,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson (MIA),bovada,14.5,170,-230,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins (MIA),bovada,9.5,-200,150,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,15.5,-280,205,2026-11-06T02:44:57.389370Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski (GSW),bovada,20.5,200,-275,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson (MIA),bovada,9.5,-250,185,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo (MIA),bovada,16.5,-180,135,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins (MIA),bovada,8.5,-290,210,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,32.5,175,-240,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson (MIA),bovada,10.5,-125,-105,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson (MIA),bovada,11.5,105,-135,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson (MIA),bovada,12.5,140,-185,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson (MIA),bovada,13.5,180,-245,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo (MIA),bovada,15.5,-230,170,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson (MIA),bovada,8.5,-245,180,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell (MIA),bovada,9.5,-250,185,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson (MIA),bovada,9.5,-170,130,2026-11-06T02:46:59.953140Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo (MIA),bovada,14.5,-290,210,2026-11-06T02:44:57.389370Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski,draftkings,16.5,-106,-120,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton,draftkings,10.5,-109,-117,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green,draftkings,5.5,-106,-120,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang,draftkings,7.5,-118,-108,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo,draftkings,28.5,-119,-107,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry,draftkings,28.5,-115,-111,2026-11-06T02:48:14.708407Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Will Richard,draftkings,5.5,-115,-110,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg,draftkings,19.5,-107,-120,2026-11-06T02:48:04.828523Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo,draftkings,18.5,-109,-117,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins,draftkings,11.5,101,-129,2026-11-06T02:48:14.708407Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell,draftkings,12.5,100,-127,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson,draftkings,11.5,-126,-101,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson,draftkings,10.5,-128,100,2026-11-06T02:48:14.708407Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bobby Portis,draftkings,8.5,-107,-120,2026-11-06T02:47:59.282530Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry,fanduel,28.5,-108,-118,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg,fanduel,18.5,-120,-106,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski,fanduel,15.5,-120,-106,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo,fanduel,27.5,-115,-113,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton,fanduel,10.5,-104,-122,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green,fanduel,4.5,-130,102,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang,fanduel,7.5,-108,-118,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Will Richard,fanduel,5.5,-125,-102,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo,fanduel,18.5,-111,-115,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins,fanduel,10.5,-128,100,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell,fanduel,11.5,-120,-104,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson,fanduel,11.5,-102,-125,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson,fanduel,10.5,-125,-102,2026-11-06T02:47:26.504662Z
-626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bobby Portis,fanduel,8.5,102,-130,2026-11-06T02:47:26.504662Z
-135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Donovan Mitchell,fanduel,24.5,-106,-125,2026-11-06T02:47:27.094223Z
-135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Evan Mobley,fanduel,18.5,-108,-122,2026-11-06T02:47:27.094223Z
-135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,James Harden,fanduel,17.5,-108,-122,2026-11-06T02:47:27.094223Z
-135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Jarrett Allen,fanduel,12.5,-132,100,2026-11-06T02:47:27.094223Z
-135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Jaylen Brown,fanduel,19.5,-112,-118,2026-11-06T02:47:27.094223Z
-135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Joel Embiid,fanduel,20.5,-108,-122,2026-11-06T02:47:27.094223Z
-135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,LeBron James,fanduel,16.5,-128,-104,2026-11-06T02:47:27.094223Z
-135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Tyrese Maxey,fanduel,24.5,-130,-102,2026-11-06T02:47:27.094223Z
-135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,VJ Edgecombe,fanduel,11.5,-118,-112,2026-11-06T02:47:27.094223Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Shai Gilgeous-Alexander,fanduel,32.5,-104,-128,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Ajay Mitchell,fanduel,18.5,-114,-114,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Isaiah Hartenstein,fanduel,8.5,-130,-102,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Kenrich Williams,fanduel,10.5,-108,-122,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Aday Mara,fanduel,8.5,-114,-114,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Jared McCain,fanduel,12.5,-130,-102,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Alex Caruso,fanduel,8.5,-110,-120,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Ty Jerome,fanduel,22.5,-110,-120,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Cameron Boozer,fanduel,16.5,-106,-125,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Cedric Coward,fanduel,12.5,-128,-104,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Jaylen Wells,fanduel,10.5,-132,100,2026-11-06T02:47:27.236052Z
-626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Zach Edey,fanduel,7.5,-136,102,2026-11-06T02:47:27.236052Z
-626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Ace Bailey,fanduel,12.5,-130,-102,2026-11-06T02:47:27.002475Z
-626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Darryn Peterson,fanduel,13.5,-102,-130,2026-11-06T02:47:27.002475Z
-626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Jaxson Hayes,fanduel,8.5,-110,-120,2026-11-06T02:47:27.002475Z
-626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Keyonte George,fanduel,21.5,-108,-122,2026-11-06T02:47:27.002475Z
-626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Lauri Markkanen,fanduel,21.5,-110,-122,2026-11-06T02:47:27.002475Z
-626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Collin Murray-Boyles,fanduel,11.5,-130,-102,2026-11-06T02:47:27.406693Z
-626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Immanuel Quickley,fanduel,18.5,-122,-108,2026-11-06T02:47:27.406693Z
-626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Ja'Kobe Walter,fanduel,11.5,-130,-102,2026-11-06T02:47:27.406693Z
-626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,RJ Barrett,fanduel,22.5,-114,-114,2026-11-06T02:47:27.406693Z
-626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Scottie Barnes,fanduel,22.5,-136,102,2026-11-06T02:47:27.406693Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Austin Reaves,fanduel,21.5,-118,-112,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Jake Laravia,fanduel,5.5,-114,-114,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Luka Doncic,fanduel,34.5,-125,-106,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Matisse Thybulle,fanduel,6.5,-112,-118,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Quentin Grimes,fanduel,6.5,-128,-104,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Sandro Mamukelashvili,fanduel,8.5,-112,-118,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Walker Kessler,fanduel,12.5,-104,-125,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Ziaire Williams,fanduel,7.5,-122,-108,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Damian Lillard,fanduel,21.5,-102,-130,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Deni Avdija,fanduel,23.5,-120,-110,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Donovan Clingan,fanduel,12.5,-102,-130,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Jrue Holiday,fanduel,12.5,-130,-102,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Robert Williams III,fanduel,5.5,-132,100,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Scoot Henderson,fanduel,11.5,-122,-108,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Sidy Cissoko,fanduel,5.5,-102,-130,2026-11-06T02:47:27.346823Z
-135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Toumani Camara,fanduel,11.5,-122,-108,2026-11-06T02:47:27.346823Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins,betmgm,7.5,-120,-110,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo,betmgm,22.5,-110,-120,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski,betmgm,14.5,-115,-115,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green,betmgm,4.5,100,-135,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo,betmgm,30.5,-105,-125,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson,betmgm,8.5,-125,-105,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry,betmgm,21.5,-105,-125,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Will Richard,betmgm,12.5,-130,-105,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton,betmgm,6.5,-140,105,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bobby Portis,betmgm,3.5,-125,-105,2026-11-06T04:07:38.001237Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins (MIA),bovada,6.5,-135,105,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo (MIA),bovada,20.5,105,-135,2026-11-06T04:43:13.325538Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bobby Portis (MIA),bovada,3.5,-120,-110,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski (GSW),bovada,12.5,-110,-120,2026-11-06T04:43:13.325538Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell (MIA),bovada,11.5,100,-130,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton (GSW),bovada,6.5,-145,110,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green (GSW),bovada,4.5,120,-155,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang (GSW),bovada,6.5,120,-155,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo (MIA),bovada,30.5,-110,-120,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson (MIA),bovada,7.5,-135,105,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson (MIA),bovada,9.5,100,-130,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry (GSW),bovada,22.5,-135,105,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Will Richard (GSW),bovada,13.5,115,-150,2026-11-06T04:41:12.067965Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg (GSW),bovada,18.5,105,-135,2026-11-06T04:43:13.325538Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski,draftkings,9.5,-120,-110,2026-11-06T04:50:28.516510Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton,draftkings,6.5,-105,-125,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang,draftkings,5.5,-154,120,2026-11-06T04:50:28.516510Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo,draftkings,27.5,-115,-115,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry,draftkings,28.5,-125,-105,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Will Richard,draftkings,10.5,-115,-115,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg,draftkings,19.5,-125,-105,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo,draftkings,18.5,-115,-115,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Andrew Wiggins,draftkings,4.5,105,-135,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell,draftkings,8.5,-130,100,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson,draftkings,13.5,-135,105,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson,draftkings,8.5,-130,100,2026-11-06T04:50:58.959238Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Stephen Curry,fanduel,28.5,-106,-125,2026-11-06T04:51:14.735017Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Yaxel Lendeborg,fanduel,19.5,-102,-130,2026-11-06T04:51:13.733202Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Brandin Podziemski,fanduel,9.5,-112,-118,2026-11-06T04:51:14.735017Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Giannis Antetokounmpo,fanduel,27.5,-112,-118,2026-11-06T04:51:00.612356Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,De'Anthony Melton,fanduel,6.5,-102,-130,2026-11-06T04:51:00.612356Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Draymond Green,fanduel,2.5,124,-166,2026-11-06T04:51:13.733202Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Georges Niang,fanduel,5.5,-130,-102,2026-11-06T04:50:59.556319Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Will Richard,fanduel,10.5,-102,-130,2026-11-06T04:51:13.733202Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bam Adebayo,fanduel,18.5,104,-138,2026-11-06T04:51:13.733202Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Davion Mitchell,fanduel,8.5,-122,-108,2026-11-06T04:51:20.619592Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Klay Thompson,fanduel,13.5,-148,114,2026-11-06T04:51:12.774333Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Pelle Larsson,fanduel,8.5,-108,-122,2026-11-06T04:51:14.735017Z
+626437,2026-11-06T03:00:00Z,Golden State Warriors,Miami Heat,Bobby Portis,fanduel,2.5,-138,104,2026-11-06T04:51:13.733202Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Donovan Mitchell,betrivers,24.5,-109,-124,2026-11-06T04:50:36.872311Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Evan Mobley,betrivers,18.5,-108,-125,2026-11-06T04:50:36.872311Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,James Harden,betrivers,17.5,-108,-127,2026-11-06T04:50:36.872311Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Jarrett Allen,betrivers,12.5,-124,-109,2026-11-06T04:50:36.872311Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Jaylen Brown,betrivers,19.5,-110,-122,2026-11-06T04:50:36.872311Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Joel Embiid,betrivers,19.5,-127,-108,2026-11-06T04:50:36.872311Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,LeBron James,betrivers,16.5,-114,-118,2026-11-06T04:50:36.872311Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Tyrese Maxey,betrivers,24.5,-114,-118,2026-11-06T04:50:36.872311Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,VJ Edgecombe,betrivers,11.5,-110,-122,2026-11-06T04:50:36.872311Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Donovan Mitchell,fanduel,24.5,-104,-128,2026-11-06T04:49:48.773449Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Evan Mobley,fanduel,18.5,-112,-118,2026-11-06T04:49:48.773449Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,James Harden,fanduel,17.5,-104,-128,2026-11-06T04:49:48.773449Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Jarrett Allen,fanduel,12.5,-132,100,2026-11-06T04:49:48.773449Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Jaylen Brown,fanduel,19.5,-110,-120,2026-11-06T04:49:48.773449Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Joel Embiid,fanduel,20.5,-102,-130,2026-11-06T04:49:48.773449Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,LeBron James,fanduel,16.5,-128,-104,2026-11-06T04:49:48.773449Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,Tyrese Maxey,fanduel,24.5,-120,-110,2026-11-06T04:49:48.773449Z
+135443,2026-11-07T00:40:00Z,Cleveland Cavaliers,Philadelphia 76ers,VJ Edgecombe,fanduel,11.5,-114,-114,2026-11-06T04:49:48.773449Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Shai Gilgeous-Alexander,fanduel,32.5,-102,-130,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Ajay Mitchell,fanduel,18.5,-136,102,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Isaiah Hartenstein,fanduel,8.5,-132,100,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Kenrich Williams,fanduel,10.5,-112,-118,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Aday Mara,fanduel,8.5,-114,-114,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Jared McCain,fanduel,12.5,-132,100,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Alex Caruso,fanduel,8.5,-110,-120,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Ty Jerome,fanduel,21.5,102,-136,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Cameron Boozer,fanduel,16.5,-110,-120,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Cedric Coward,fanduel,12.5,-130,-102,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Jaylen Wells,fanduel,10.5,-128,-104,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Zach Edey,fanduel,7.5,-132,100,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Cam Spencer,fanduel,7.5,-118,-112,2026-11-06T04:49:48.937795Z
+626405,2026-11-07T01:00:00Z,Memphis Grizzlies,Oklahoma City Thunder,Jerami Grant,fanduel,11.5,106,-140,2026-11-06T04:49:48.937795Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Ace Bailey,fanduel,12.5,-130,-102,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Darryn Peterson,fanduel,13.5,-102,-130,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Jaxson Hayes,fanduel,8.5,-106,-125,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Keyonte George,fanduel,21.5,-106,-125,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Lauri Markkanen,fanduel,21.5,-110,-120,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Cooper Flagg,fanduel,26.5,-104,-128,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Daniel Gafford,fanduel,9.5,-114,-114,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Kyrie Irving,fanduel,21.5,-102,-130,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Max Christie,fanduel,9.5,-114,-114,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,Naji Marshall,fanduel,11.5,-120,-110,2026-11-06T04:49:48.657306Z
+626416,2026-11-07T01:00:00Z,Dallas Mavericks,Utah Jazz,P.J. Washington,fanduel,12.5,-125,-104,2026-11-06T04:49:48.657306Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Collin Murray-Boyles,fanduel,11.5,-130,-102,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Immanuel Quickley,fanduel,18.5,-125,-106,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Ja'Kobe Walter,fanduel,11.5,-132,100,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,RJ Barrett,fanduel,22.5,-114,-114,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Scottie Barnes,fanduel,22.5,-128,-104,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Brayden Burries,fanduel,11.5,-122,-108,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Jaime Jaquez Jr.,fanduel,14.5,-106,-125,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Kyle Kuzma,fanduel,10.5,-102,-130,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Myles Turner,fanduel,10.5,-106,-125,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Tyler Herro,fanduel,20.5,-102,-130,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Ryan Rollins,fanduel,10.5,-122,-108,2026-11-06T04:49:49.231407Z
+626417,2026-11-07T01:00:00Z,Milwaukee Bucks,Toronto Raptors,Kel'el Ware,fanduel,8.5,-102,-130,2026-11-06T04:49:49.231407Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Austin Reaves,fanduel,21.5,-106,-125,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Jake Laravia,fanduel,5.5,-110,-120,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Luka Doncic,fanduel,34.5,-125,-106,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Matisse Thybulle,fanduel,6.5,-112,-118,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Quentin Grimes,fanduel,6.5,-130,-102,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Sandro Mamukelashvili,fanduel,8.5,-104,-128,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Walker Kessler,fanduel,12.5,-106,-125,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Ziaire Williams,fanduel,7.5,-120,-110,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Damian Lillard,fanduel,21.5,-102,-130,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Deni Avdija,fanduel,23.5,-120,-110,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Donovan Clingan,fanduel,12.5,-102,-130,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Jrue Holiday,fanduel,12.5,-120,-110,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Robert Williams III,fanduel,5.5,-132,100,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Scoot Henderson,fanduel,11.5,-112,-118,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Sidy Cissoko,fanduel,5.5,-102,-130,2026-11-06T04:49:49.152785Z
+135583,2026-11-07T03:10:00Z,Los Angeles Lakers,Portland Trail Blazers,Toumani Camara,fanduel,11.5,-122,-108,2026-11-06T04:49:49.152785Z
