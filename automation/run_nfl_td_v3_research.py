@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """NFL anytime TD V3 scheduled RESEARCH predictions. No wagers or publishing."""
-import argparse, json
+import argparse, json, base64, zlib
 from datetime import datetime, timezone
 from pathlib import Path
 import joblib
@@ -102,17 +102,21 @@ def run(outdir, modeldir):
         def_rows.append(row)
     pool=pool.merge(pd.DataFrame(def_rows),on="opponent",how="left",validate="many_to_one")
     for pos in POSITIONS: pool[f"position_{pos}"]=(pool["position"]==pos).astype(int)
-    meta=json.loads((modeldir/"metadata.json").read_text())
-    cols=meta["v3_features"]
+    compressed=(modeldir/"fitted_coefficients.txt").read_text().strip()
+    fitted=json.loads(zlib.decompress(base64.b64decode(compressed)))
+    cols=fitted["features"]
     if len(cols)!=34 or len(pool)!=len(pool[["game_id","player_id"]].drop_duplicates()):
         raise RuntimeError("Feature count or candidate uniqueness failed")
     X=pool[cols].apply(pd.to_numeric,errors="coerce")
     if not np.isfinite(X.to_numpy()).all(): raise RuntimeError("Invalid model features")
-    model=joblib.load(modeldir/"nfl_td_v3.joblib")
-    calibrator=joblib.load(modeldir/"nfl_td_sigmoid.joblib")
-    if list(model.feature_names_in_)!=cols: raise RuntimeError("Model schema mismatch")
-    raw=np.clip(model.predict_proba(X)[:,1],1e-6,1-1e-6)
-    p=calibrator.predict_proba(np.log(raw/(1-raw)).reshape(-1,1))[:,1]
+    # Exact StandardScaler + LogisticRegression + sigmoid-calibrator arithmetic.
+    z=(X.to_numpy(dtype=float)-np.array(fitted["mean"]))/np.array(fitted["scale"])
+    linear=z@np.array(fitted["coef"])+fitted["intercept"]
+    raw=1/(1+np.exp(-np.clip(linear,-700,700)))
+    raw=np.clip(raw,1e-6,1-1e-6)
+    logit=np.log(raw/(1-raw))
+    calibrated_linear=logit*fitted["cal_coef"]+fitted["cal_intercept"]
+    p=1/(1+np.exp(-np.clip(calibrated_linear,-700,700)))
     out=pool[["player_id","player_name","position","team","opponent","game_id","kickoff_utc"]].copy()
     out["td_probability"]=p
     out["run_timestamp_utc"]=now.isoformat()
