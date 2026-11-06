@@ -100,5 +100,30 @@ def render():
                     f"{float(leg['td_probability']):.1%} model probability")
             st.caption("Ranked by individual touchdown probability, not sportsbook value. "
                 "Different games reduce direct game-level correlation, but the legs are not guaranteed independent.")
+        st.markdown("### 📊 TOUCHDOWN MODEL TRACKER")
+        history_path=path.parent/"nfl_td_projection_history.csv"
+        parlay_path=path.parent/"nfl_td_parlay_history.csv"
+        if history_path.exists():
+            history=pd.read_csv(history_path)
+            graded=history[history["result"].isin(["HIT","MISS"])]
+            wins=int((graded["result"]=="HIT").sum())
+            losses=int((graded["result"]=="MISS").sum())
+            x,y,z=st.columns(3)
+            x.metric("Graded player picks",len(graded))
+            y.metric("Anytime TD hits",wins)
+            z.metric("Hit rate",f"{wins/len(graded):.1%}" if len(graded) else "Pending")
+            st.caption(f"Frozen player-game predictions: {len(history)} · Awaiting final scores: {int((history['result']=='PENDING').sum())}")
+            if len(graded):
+                st.dataframe(graded[["player_name","team","opponent","td_probability","result"]].tail(100),hide_index=True,use_container_width=True)
+        else:
+            st.info("Historical grading starts after the first daily tracking workflow runs.")
+        if parlay_path.exists():
+            tracked=pd.read_csv(parlay_path)
+            groups=tracked.groupby("week_key").agg(result=("parlay_result","first"),legs=("leg","count"))
+            completed=groups[groups.result.isin(["WIN","LOSS"])]
+            st.markdown("#### Sunday 3-leg parlay record")
+            st.metric("Completed parlays",f"{int((completed.result=='WIN').sum())} W – {int((completed.result=='LOSS').sum())} L")
+            st.dataframe(tracked.tail(60),hide_index=True,use_container_width=True)
+        st.caption("Model research record only; no wager stake, sportsbook payout or ROI is assumed.")
     except Exception as e:
         st.error("Touchdown snapshot failed validation; projections are hidden.")
