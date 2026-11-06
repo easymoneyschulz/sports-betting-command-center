@@ -1,0 +1,41 @@
+name: NFL Anytime TD V3 Research
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * 4"
+    - cron: "0 14 * * 0"
+permissions:
+  contents: write
+jobs:
+  touchdown-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify model bundle exists
+        id: models
+        shell: bash
+        run: |
+          if test -s automation/models/nfl_td_v3/fitted_coefficients.txt; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::TD model bundle not installed; skipping predictions."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Install Python dependencies
+        if: steps.models.outputs.ready == 'true'
+        run: pip install nflreadpy pandas numpy pyarrow
+      - name: Generate research-only TD predictions
+        if: steps.models.outputs.ready == 'true'
+        run: python automation/run_nfl_td_v3_research.py --output-dir research_snapshots/nfl_td
+      - name: Upload research snapshot
+        if: steps.models.outputs.ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-td-v3-research-${{ github.run_id }}
+          path: research_snapshots/nfl_td/*.csv
+          if-no-files-found: error
+          retention-days: 90
