@@ -2628,20 +2628,20 @@ elif page == "🏀 NBA Projections":
                 nba_rows=nba_props.iloc[(nba_page-1)*nba_page_size:nba_page*nba_page_size].to_dict("records")
                 nba_card_markup = []
                 for entry in nba_rows:
-                name=nba_card_html.escape(str(entry["player_name"]))
-                team=nba_card_html.escape(str(entry["team"]))
-                opponent=nba_card_html.escape(str(entry["opponent"]))
-                status=str(entry["decision"])
-                color={"OVER":"#60e3ac","UNDER":"#ffb76c","PASS":"#b6c4da","WAIT":"#a6b0c1"}.get(status,"#a6b0c1")
-                line=pd.to_numeric(entry["market_line"],errors="coerce")
-                edge=pd.to_numeric(entry["edge"],errors="coerce")
-                line_text=f"{line:.1f}" if pd.notna(line) else "—"
-                edge_text=f"{edge:+.1f}" if pd.notna(edge) else "—"
-                book=nba_card_html.escape(str(entry.get("sportsbook") or "Awaiting verified sportsbook"))
-                participation=nba_card_html.escape(str(entry.get("lineup_status") or "UNCONFIRMED"))
-                pid=str(entry["player_id"])
-                pid=pid if pid.isdigit() else "0"
-                logo=nba_team_logos.get(str(entry["team"]),"nba")
+                    name=nba_card_html.escape(str(entry["player_name"]))
+                    team=nba_card_html.escape(str(entry["team"]))
+                    opponent=nba_card_html.escape(str(entry["opponent"]))
+                    status=str(entry["decision"])
+                    color={"OVER":"#60e3ac","UNDER":"#ffb76c","PASS":"#b6c4da","WAIT":"#a6b0c1"}.get(status,"#a6b0c1")
+                    line=pd.to_numeric(entry["market_line"],errors="coerce")
+                    edge=pd.to_numeric(entry["edge"],errors="coerce")
+                    line_text=f"{line:.1f}" if pd.notna(line) else "—"
+                    edge_text=f"{edge:+.1f}" if pd.notna(edge) else "—"
+                    book=nba_card_html.escape(str(entry.get("sportsbook") or "Awaiting verified sportsbook"))
+                    participation=nba_card_html.escape(str(entry.get("lineup_status") or "UNCONFIRMED"))
+                    pid=str(entry["player_id"])
+                    pid=pid if pid.isdigit() else "0"
+                    logo=nba_team_logos.get(str(entry["team"]),"nba")
 
                     nba_card_markup.append(f"""<div class="nba-v2-card">
                             <div class="nba-v2-top"><div class="nba-v2-portrait"><img class="nba-v2-head" loading="lazy" decoding="async" src="https://cdn.nba.com/headshots/nba/latest/1040x760/{pid}.png" alt="{name} player headshot"></div>
