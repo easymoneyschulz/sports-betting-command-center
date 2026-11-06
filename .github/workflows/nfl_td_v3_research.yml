@@ -1,0 +1,30 @@
+name: NFL Anytime TD V3 Research (Safe Staging)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check prerequisites without publishing
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import ast
+          source = Path("automation/run_nfl_td_v3.py").read_text()
+          ast.parse(source)
+          required = ["nfl_td_v3.joblib", "nfl_td_sigmoid.joblib", "metadata.json"]
+          root = Path("automation/models/nfl_td_v3")
+          missing = [x for x in required if not (root / x).is_file()]
+          print("Runner syntax: VALID")
+          print("Missing model artifacts:", missing)
+          print("Live data builder: NOT YET VERIFIED")
+          print("Research publishing: DISABLED")
+          print("Betting picks: DISABLED")
+          PY
