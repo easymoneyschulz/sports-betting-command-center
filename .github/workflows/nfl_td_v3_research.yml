@@ -27,7 +27,7 @@ jobs:
           fi
       - name: Install Python dependencies
         if: steps.models.outputs.ready == 'true'
-        run: pip install nflreadpy pandas numpy pyarrow
+        run: pip install nflreadpy pandas numpy pyarrow joblib
       - name: Generate research-only TD predictions
         if: steps.models.outputs.ready == 'true'
         run: python automation/run_nfl_td_v3_research.py --output-dir research_snapshots/nfl_td
