@@ -75,6 +75,8 @@ def run(outdir, modeldir):
         future[["game_id","home_team","away_team","kickoff_utc"]].rename(columns={"home_team":"team","away_team":"opponent"}),
         future[["game_id","away_team","home_team","kickoff_utc"]].rename(columns={"away_team":"team","home_team":"opponent"})
     ],ignore_index=True)
+    # Historical player-game ID must not shadow the upcoming matchup game ID.
+    recent = recent.rename(columns={"game_id":"last_played_game_id"})
     pool = recent.merge(matchups,on="team",how="inner",validate="many_to_one")
     if pool.empty: raise RuntimeError("No eligible candidate players")
     feature_rows=[]
