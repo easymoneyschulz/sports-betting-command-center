@@ -2465,6 +2465,33 @@ elif page == "🏀 NBA Projections":
         except (requests.RequestException, ValueError, pd.errors.ParserError) as err:
             st.warning(f"Baseline research feed unavailable: {type(err).__name__}")
 
+    # Mobile-safe NBA panel styling; grading and model remain unchanged.
+    st.markdown("""
+    <style>
+    @media (max-width: 700px) {
+      [data-testid="stMetricValue"] {
+        font-size: clamp(1.35rem, 5.4vw, 2rem) !important;
+        overflow-wrap: anywhere !important;
+        white-space: normal !important;
+        line-height: 1.25 !important;
+      }
+      [data-testid="stMetric"] { min-width: 0 !important; padding: 14px !important; }
+      [data-testid="stHorizontalBlock"] { flex-wrap: wrap !important; }
+      [data-testid="stHorizontalBlock"] > [data-testid="stColumn"] {
+        min-width: min(100%, 145px) !important;
+        flex: 1 1 145px !important;
+      }
+      [data-testid="stExpander"] summary,
+      [data-testid="stExpander"] summary * {
+        background-color: #181a20 !important;
+        color: #f3f4f6 !important;
+        opacity: 1 !important;
+      }
+      .ems-pro-wordmark { overflow: visible !important; overflow-wrap: anywhere !important; }
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
     # Grade only locked pregame paper selections; exclude voids and pushes from win rate.
     try:
         nba_tracker_url = "https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/public_data/nba_v2_recovered_paper_tracker.csv"
@@ -2480,7 +2507,7 @@ elif page == "🏀 NBA Projections":
                 nba_staked = len(nba_record)
                 nba_roi = (nba_units/nba_staked*100) if nba_staked else 0
                 t1,t2,t3,t4 = st.columns(4)
-                t1.metric("PAPER RECORD",f"{nba_wins}-{nba_losses}" if nba_staked else "Awaiting verified results")
+                t1.metric("PAPER RECORD",f"{nba_wins}-{nba_losses}" if nba_staked else "Not graded")
                 t2.metric("WIN RATE",f"{nba_wins/nba_staked*100:.1f}%" if nba_staked else "—")
                 t3.metric("NET UNITS",f"{nba_units:+.2f}u")
                 t4.metric("ROI",f"{nba_roi:+.1f}%" if nba_staked else "—")
