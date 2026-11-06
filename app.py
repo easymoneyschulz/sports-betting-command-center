@@ -1844,6 +1844,7 @@ div[data-testid="stTabs"] [data-baseweb="tab-highlight"] {
 pages = [
     "🏠 Overview",
     "🏈 NFL Picks",
+    "🏈 Anytime TD",
     "🏟️ College Football",
     "🏀 NBA Projections",
     "📊 Model Performance",
@@ -2414,6 +2415,10 @@ elif page == "🏟️ College Football":
     except Exception:
         st.warning("The CFB weekly board is temporarily unavailable.")
     st.caption("V4 research rankings, not verified wagers. 'Model Lean' meets the 3-point paper-test threshold; 'Slight Lean' is below it. Weekly automatic reruns have not yet been verified.")
+
+elif page == "🏈 Anytime TD":
+    from td_dashboard import render
+    render()
 
 elif page == "🏀 NBA Projections":
     import html as nba_html
