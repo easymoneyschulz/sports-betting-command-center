@@ -24,7 +24,7 @@ def kickoff_times(g):
 def run(outdir, modeldir):
     now = pd.Timestamp.now(tz="UTC")
     season = now.year
-    schedules = frame(nfl.load_schedules([season]))
+    schedules = frame(nfl.load_schedules(list(range(max(2021, season-5), season+1))))
     games = schedules[(schedules["game_type"]=="REG")].copy()
     games["kickoff_utc"] = kickoff_times(games)
     future = games[(games["kickoff_utc"]>now) & games["home_score"].isna() & games["away_score"].isna()].sort_values("kickoff_utc")
