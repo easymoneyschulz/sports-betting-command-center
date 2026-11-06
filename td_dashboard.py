@@ -56,7 +56,7 @@ def render():
             data=data[(data["team"].astype(str)+" vs "+data["opponent"].astype(str))==selected]
         positions=st.multiselect("Positions",["QB","RB","WR","TE"],default=["QB","RB","WR","TE"])
         data=data[data["position"].isin(positions)]
-        for _,p in data.sort_values("td_probability",ascending=False).head(50).iterrows():
+        for _,p in data.sort_values("td_probability",ascending=False).head(20).iterrows():
             name=escape(str(p["player_name"]))
             team=escape(str(p["team"]))
             opp=escape(str(p["opponent"]))
@@ -67,5 +67,39 @@ def render():
               <div class="td-percent">{pct:.1f}%</div></div>
               <div class="td-meter"><div class="td-fill" style="width:{pct:.1f}%"></div></div></div>""",
               unsafe_allow_html=True)
+
+        st.markdown("### 🧩 SUNDAY PARLAY LAB")
+        st.caption("Research calculator · Enter your actual sportsbook odds · No automatic betting recommendations")
+        sunday=data.copy()
+        if "kickoff_utc" in sunday:
+            sunday=sunday[pd.to_datetime(sunday["kickoff_utc"],utc=True,errors="coerce").dt.tz_convert("America/Chicago").dt.dayofweek==6]
+        sunday=sunday.sort_values("td_probability",ascending=False).head(20).copy()
+        if sunday.empty:
+            st.info("No Sunday research projections available yet.")
+        else:
+            sunday["display"]=sunday["player_name"].astype(str)+" · "+sunday["team"].astype(str)+" vs "+sunday["opponent"].astype(str)
+            choices=st.multiselect("Select 2–4 Sunday TD scorers",sunday["display"].tolist(),max_selections=4)
+            stake=st.number_input("Parlay stake ($)",min_value=1.0,max_value=1000.0,value=10.0,step=5.0)
+            if len(choices)>=2:
+                import math
+                chosen=sunday[sunday["display"].isin(choices)].copy()
+                decimals=[]
+                for _,leg in chosen.iterrows():
+                    odds=st.number_input("American odds · "+str(leg["player_name"]),min_value=-10000,max_value=10000,value=100,step=5,key="td_odds_"+str(leg["player_id"]))
+                    if -99<=odds<=99:
+                        st.warning("Valid American odds must be at least +100 or at most -100.")
+                        decimals=[]
+                        break
+                    decimals.append(1+odds/100 if odds>0 else 1+100/abs(odds))
+                if decimals:
+                    combined=math.prod(decimals)
+                    naive=math.prod(chosen["td_probability"].astype(float))
+                    a,b,c=st.columns(3)
+                    a.metric("Potential total payout",f"${stake*combined:,.2f}")
+                    b.metric("Break-even chance",f"{1/combined:.1%}")
+                    c.metric("Naive model chance",f"{naive:.1%}")
+                    st.caption("Naive probability assumes independence. Same-game legs may be correlated; this is not a validated parlay probability or certified edge.")
+            else:
+                st.caption("Select at least two players to build a parlay.")
     except Exception as e:
         st.error("Touchdown snapshot failed validation; projections are hidden.")
