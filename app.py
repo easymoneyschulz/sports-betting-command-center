@@ -2602,7 +2602,7 @@ elif page == "🏀 NBA Projections":
             d.metric("WAITING FOR LINES",int(nba_count.get("WAIT",0)))
             st.markdown("""
             <style>
-            .nba-v2-card{background:linear-gradient(135deg,#171e2d,#10141e);border:1px solid #334057;border-radius:17px;padding:19px;margin:10px 0 18px;color:#edf3ff;min-height:238px}
+            .nba-v2-responsive-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;width:100%;min-width:0}\n            .nba-v2-responsive-grid .nba-v2-card{min-width:0;max-width:100%;box-sizing:border-box;margin:0;overflow:hidden}\n            .nba-v2-responsive-grid .nba-v2-top>div:last-child{min-width:0;overflow-wrap:anywhere}\n            .nba-v2-responsive-grid .nba-v2-stats>div{min-width:0}\n            @media(max-width:850px){.nba-v2-responsive-grid{grid-template-columns:minmax(0,1fr)}.nba-v2-responsive-grid .nba-v2-card{padding:14px}.nba-v2-responsive-grid .nba-v2-name{font-size:17px}.nba-v2-responsive-grid .nba-v2-num{font-size:22px}.nba-v2-responsive-grid .nba-v2-portrait{width:76px;height:76px;flex-basis:76px}.nba-v2-responsive-grid .nba-v2-head{width:76px;height:76px}.nba-v2-responsive-grid .nba-v2-logo{width:30px;height:30px}.nba-v2-responsive-grid .nba-v2-stats{gap:6px}}\n            .nba-v2-card{background:linear-gradient(135deg,#171e2d,#10141e);border:1px solid #334057;border-radius:17px;padding:19px;margin:10px 0 18px;color:#edf3ff;min-height:238px}
             .nba-v2-top{display:flex;align-items:center;gap:12px}
             .nba-v2-head{height:94px;width:94px;object-fit:contain;object-position:center bottom;display:block}
             .nba-v2-portrait{height:96px;width:96px;flex:0 0 96px;overflow:hidden;border-radius:14px;background:#19253b url("https://raw.githubusercontent.com/easymoneyschulz/sports-betting-command-center/main/assets/emp_player_shield.svg") center / 82px 82px no-repeat;border:1px solid #33445d}
@@ -2626,32 +2626,32 @@ elif page == "🏀 NBA Projections":
             if nba_props.empty:st.info("No players match these filters.")
             else:
                 nba_rows=nba_props.iloc[(nba_page-1)*nba_page_size:nba_page*nba_page_size].to_dict("records")
-                for i in range(0,len(nba_rows),2):
-                    columns=st.columns(2)
-                    for j,entry in enumerate(nba_rows[i:i+2]):
-                        with columns[j]:
-                            name=nba_card_html.escape(str(entry["player_name"]))
-                            team=nba_card_html.escape(str(entry["team"]))
-                            opponent=nba_card_html.escape(str(entry["opponent"]))
-                            status=str(entry["decision"])
-                            color={"OVER":"#60e3ac","UNDER":"#ffb76c","PASS":"#b6c4da","WAIT":"#a6b0c1"}.get(status,"#a6b0c1")
-                            line=pd.to_numeric(entry["market_line"],errors="coerce")
-                            edge=pd.to_numeric(entry["edge"],errors="coerce")
-                            line_text=f"{line:.1f}" if pd.notna(line) else "—"
-                            edge_text=f"{edge:+.1f}" if pd.notna(edge) else "—"
-                            book=nba_card_html.escape(str(entry.get("sportsbook") or "Awaiting verified sportsbook"))
-                            participation=nba_card_html.escape(str(entry.get("lineup_status") or "UNCONFIRMED"))
-                            pid=str(entry["player_id"])
-                            pid=pid if pid.isdigit() else "0"
-                            logo=nba_team_logos.get(str(entry["team"]),"nba")
-                            st.markdown(f"""<div class="nba-v2-card">
+                nba_card_markup = []
+                for entry in nba_rows:
+                name=nba_card_html.escape(str(entry["player_name"]))
+                team=nba_card_html.escape(str(entry["team"]))
+                opponent=nba_card_html.escape(str(entry["opponent"]))
+                status=str(entry["decision"])
+                color={"OVER":"#60e3ac","UNDER":"#ffb76c","PASS":"#b6c4da","WAIT":"#a6b0c1"}.get(status,"#a6b0c1")
+                line=pd.to_numeric(entry["market_line"],errors="coerce")
+                edge=pd.to_numeric(entry["edge"],errors="coerce")
+                line_text=f"{line:.1f}" if pd.notna(line) else "—"
+                edge_text=f"{edge:+.1f}" if pd.notna(edge) else "—"
+                book=nba_card_html.escape(str(entry.get("sportsbook") or "Awaiting verified sportsbook"))
+                participation=nba_card_html.escape(str(entry.get("lineup_status") or "UNCONFIRMED"))
+                pid=str(entry["player_id"])
+                pid=pid if pid.isdigit() else "0"
+                logo=nba_team_logos.get(str(entry["team"]),"nba")
+
+                    nba_card_markup.append(f"""<div class="nba-v2-card">
                             <div class="nba-v2-top"><div class="nba-v2-portrait"><img class="nba-v2-head" loading="lazy" decoding="async" src="https://cdn.nba.com/headshots/nba/latest/1040x760/{pid}.png" alt="{name} player headshot"></div>
                             <img class="nba-v2-logo" src="https://a.espncdn.com/i/teamlogos/nba/500/{logo}.png">
                             <div><div class="nba-v2-name">{name}</div><div class="nba-v2-match">{team} vs {opponent}</div><span class="nba-v2-tag" style="color:{color}">{status}</span></div></div>
                             <div class="nba-v2-stats"><div><div class="nba-v2-label">V2 projection</div><div class="nba-v2-num">{float(entry["v2_projection"]):.1f}</div></div>
                             <div><div class="nba-v2-label">Book line</div><div class="nba-v2-num">{line_text}</div></div>
                             <div><div class="nba-v2-label">Edge</div><div class="nba-v2-num" style="color:{color}">{edge_text}</div></div></div>
-                            <div class="nba-v2-foot">{book} · {participation.replace("_"," ")} · Paper testing only</div></div>""",unsafe_allow_html=True)
+                            <div class="nba-v2-foot">{book} · {participation.replace("_"," ")} · Paper testing only</div></div>""")
+                st.markdown('<div class="nba-v2-responsive-grid">' + "".join(nba_card_markup) + '</div>', unsafe_allow_html=True)
             st.caption("OVER/UNDER requires a verified same-game sportsbook line and at least a 3-point edge. WAIT means no matched line; PASS means edge below threshold. Odds and injury status should be checked before wagering.")
     except (requests.RequestException,ValueError,KeyError,pd.errors.ParserError) as nba_error:
         st.info("NBA V2 comparison cards are awaiting the next automated publish.")
