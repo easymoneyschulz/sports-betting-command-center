@@ -88,33 +88,17 @@ def render():
                   <div class="td-percent">{pct:.1f}%</div></div>
                   <div class="td-meter"><div class="td-fill" style="width:{pct:.1f}%"></div></div></div>""",unsafe_allow_html=True)
         st.markdown("### 🧩 AUTOMATIC SUNDAY PARLAY")
-        st.caption("The model builds a parlay only when independently verified odds and roster status establish qualifying value.")
-        # No invented lines, implied independence, or unsupported betting edges.
-        required={"sportsbook","american_odds","roster_verified","odds_timestamp_utc"}
-        if not required.issubset(sunday.columns):
-            st.warning("NO QUALIFYING PARLAY — live sportsbook odds and verified player status are not connected yet.")
+        st.caption("Three highest-probability Sunday touchdown candidates from separate games · No sportsbook odds used")
+        candidates=sunday.sort_values("td_probability",ascending=False).drop_duplicates("game_id").head(3)
+        if len(candidates)<3:
+            st.warning("Not enough distinct Sunday games for a three-player parlay.")
         else:
-            import math
-            qualified=sunday.copy()
-            qualified["american_odds"]=pd.to_numeric(qualified["american_odds"],errors="coerce")
-            qualified["odds_timestamp_utc"]=pd.to_datetime(qualified["odds_timestamp_utc"],utc=True,errors="coerce")
-            qualified=qualified[(qualified["roster_verified"]==True)&
-                ((pd.Timestamp.now(tz="UTC")-qualified["odds_timestamp_utc"])<=pd.Timedelta(minutes=30))]
-            qualified=qualified[(qualified["american_odds"]<=-100)|(qualified["american_odds"]>=100)].copy()
-            qualified["decimal_odds"]=qualified["american_odds"].apply(
-                lambda x: 1+x/100 if x>0 else 1+100/abs(x))
-            qualified["edge"]=qualified["td_probability"]-1/qualified["decimal_odds"]
-            qualified=qualified[qualified["edge"]>=0.05].sort_values("edge",ascending=False)
-            # Only independent-game legs are considered for the simple joint-probability estimate.
-            qualified=qualified.drop_duplicates("game_id").head(3)
-            if len(qualified)<2:
-                st.warning("NO QUALIFYING PARLAY — fewer than two independently matched, value-qualified games.")
-            else:
-                st.success(f"Research parlay candidate: {len(qualified)} legs · Requires further validation")
-                for _,leg in qualified.iterrows():
-                    st.markdown(f"**{escape(str(leg['player_name']))}** · {leg['team']} vs {leg['opponent']} · "
-                        f"{float(leg['td_probability']):.1%} model · {int(leg['american_odds']):+d} odds · "
-                        f"{float(leg['edge']):+.1%} estimated edge")
-                st.caption("Different games reduce direct game-level correlation, but outcomes are not guaranteed independent. No wager is placed.")
+            st.warning("RESEARCH PARLAY ONLY — player availability is unverified; check active rosters before betting.")
+            for rank,(_,leg) in enumerate(candidates.iterrows(),1):
+                st.markdown(f"**{rank}. {escape(str(leg['player_name']))} — Anytime TD** · "
+                    f"{escape(str(leg['team']))} vs {escape(str(leg['opponent']))} · "
+                    f"{float(leg['td_probability']):.1%} model probability")
+            st.caption("Ranked by individual touchdown probability, not sportsbook value. "
+                "Different games reduce direct game-level correlation, but the legs are not guaranteed independent.")
     except Exception as e:
         st.error("Touchdown snapshot failed validation; projections are hidden.")
