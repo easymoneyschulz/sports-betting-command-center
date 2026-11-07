@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
-      ODDS_API_KEY: ${{ secrets.odd_API_key }}
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
     steps:
       - name: Check existing secret and NCAA odds access
         shell: bash
@@ -17,7 +17,7 @@ jobs:
           import os, json, urllib.parse, urllib.request
           key = os.environ.get("ODDS_API_KEY", "")
           if not key:
-              raise SystemExit("Existing GitHub secret odd_API_key is missing or empty")
+              raise SystemExit("Existing GitHub secret ODDS_API_KEY is missing or empty")
           url = "https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds/?" + urllib.parse.urlencode({
               "apiKey": key, "regions": "us", "markets": "spreads,totals",
               "oddsFormat": "american"
