@@ -1,0 +1,32 @@
+name: CFB V4 Saturday Board Publisher
+on:
+  workflow_dispatch:
+  schedule:
+    # 8:00 a.m. CST on Saturdays; 9:00 a.m. during daylight saving time.
+    - cron: "0 14 * * 6"
+permissions:
+  contents: write
+concurrency:
+  group: cfb-v4-board-publisher
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate and publish existing frozen CFB picks
+        run: python automation/publish_cfb_v4_board.py
+      - name: Commit generated board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public_data/cfb_v4_board.json public_data/cfb_v4_board.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish CFB V4 research board"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
