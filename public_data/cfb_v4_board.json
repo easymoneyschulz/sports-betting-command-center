@@ -1,0 +1,72 @@
+{
+  "generated_at_utc": "2026-11-07T04:51:04.637919+00:00",
+  "source": "Frozen CFB V4 selections",
+  "note": "Publisher does not run the model or refresh betting lines.",
+  "picks": [
+    {
+      "game_id": "401856853",
+      "start_date": "2026-11-07 05:00:00+00:00",
+      "home_team": "Baylor",
+      "away_team": "Iowa State",
+      "selected_side": "Baylor",
+      "selected_spread": "-10.0",
+      "selected_price": "-105",
+      "predicted_edge": "2.046683790285975",
+      "decision": "PASS",
+      "sportsbook": "draftkings",
+      "model_home_margin": "12.046683790285975"
+    },
+    {
+      "game_id": "401858292",
+      "start_date": "2026-11-07 17:00:00+00:00",
+      "home_team": "UConn",
+      "away_team": "North Carolina",
+      "selected_side": "UConn",
+      "selected_spread": "7.0",
+      "selected_price": "-115",
+      "predicted_edge": "2.2750903707182424",
+      "decision": "PASS",
+      "sportsbook": "draftkings",
+      "model_home_margin": "-4.724909629281758"
+    },
+    {
+      "game_id": "401860911",
+      "start_date": "2026-11-07 23:00:00+00:00",
+      "home_team": "Colorado State",
+      "away_team": "Boise State",
+      "selected_side": "Colorado State",
+      "selected_spread": "17.5",
+      "selected_price": "-110",
+      "predicted_edge": "3.083158963406067",
+      "decision": "PAPER LEAN",
+      "sportsbook": "draftkings",
+      "model_home_margin": "-14.416841036593931"
+    },
+    {
+      "game_id": "401858291",
+      "start_date": "2026-11-08 00:30:00+00:00",
+      "home_team": "Notre Dame",
+      "away_team": "Miami",
+      "selected_side": "Notre Dame",
+      "selected_spread": "-5.5",
+      "selected_price": "-110",
+      "predicted_edge": "2.168429773855653",
+      "decision": "PASS",
+      "sportsbook": "draftkings",
+      "model_home_margin": "7.668429773855653"
+    },
+    {
+      "game_id": "401870795",
+      "start_date": "2026-11-08 01:00:00+00:00",
+      "home_team": "New Mexico State",
+      "away_team": "Liberty",
+      "selected_side": "New Mexico State",
+      "selected_spread": "17.5",
+      "selected_price": "-118",
+      "predicted_edge": "2.2296694867254523",
+      "decision": "PASS",
+      "sportsbook": "draftkings",
+      "model_home_margin": "-15.270330513274548"
+    }
+  ]
+}
