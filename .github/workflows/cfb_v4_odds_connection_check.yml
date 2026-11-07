@@ -1,0 +1,32 @@
+name: NCAA V4 Odds API Connection Check
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-odds-access:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      ODDS_API_KEY: ${{ secrets.odd_API_key }}
+    steps:
+      - name: Check existing secret and NCAA odds access
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, json, urllib.parse, urllib.request
+          key = os.environ.get("ODDS_API_KEY", "")
+          if not key:
+              raise SystemExit("Existing GitHub secret odd_API_key is missing or empty")
+          url = "https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds/?" + urllib.parse.urlencode({
+              "apiKey": key, "regions": "us", "markets": "spreads,totals",
+              "oddsFormat": "american"
+          })
+          request = urllib.request.Request(url, headers={"User-Agent": "cfb-v4-check/1.0"})
+          with urllib.request.urlopen(request, timeout=30) as response:
+              games = json.load(response)
+          if not isinstance(games, list):
+              raise SystemExit("Unexpected Odds API response")
+          print(f"Odds API connection OK; received {len(games)} NCAA games.")
+          print("No picks generated or existing records modified.")
+          PY
