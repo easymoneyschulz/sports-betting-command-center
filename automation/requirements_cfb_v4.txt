@@ -1,0 +1,8 @@
+# Frozen NCAA V4 model was trained using scikit-learn 1.6.1.
+# Do not upgrade without checking model serialization compatibility.
+scikit-learn==1.6.1
+pandas>=2.2,<3
+numpy>=1.26,<3
+joblib>=1.4,<2
+pyarrow>=17,<24
+requests>=2.31,<3
