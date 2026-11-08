@@ -1,0 +1,20 @@
+name: NBA V2 safe integration readiness
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 15 * * *'
+permissions:
+  contents: read
+jobs:
+  readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify NBA V2 assets are available before any prediction
+        shell: bash
+        run: |
+          test -f automation/nba_v2_daily.py || { echo 'NBA V2 runner not installed; no predictions published'; exit 0; }
+          test -f nba_v2_recovery/models/nba_v2_rebuilt_candidate.joblib || { echo 'NBA V2 model not installed; no predictions published'; exit 0; }
+          test -f nba_v2_recovery/nba_original_player_games.parquet || { echo 'NBA V2 history not installed; no predictions published'; exit 0; }
+          echo 'NBA V2 assets present. Run validated pregame scoring only with a verified slate and fresh advanced stats.'
+          echo 'No predictions published by this readiness workflow.'
