@@ -110,9 +110,17 @@ def main():
                 rosters[team_id] = roster_ids(team_id)
             # Current roster verification is mandatory. Recent historical team
             # labels alone are not trustworthy after trades or API anomalies.
-            # Only players whose most recent recorded team is the slated team.\n            # Historical team rows can include traded players and ESPN boxscore\n            # team-label anomalies; do not claim they belong to this roster.\n            recent = logs.sort_values('game_date').drop_duplicates('player_id', keep='last')\n            eligible_ids = set(recent.loc[recent.team == team, 'player_id']) & rosters[team_id]\n            for pid, g in logs[(logs.team == team) & logs.player_id.isin(eligible_ids)].groupby('player_id'):
+            # Only players whose most recent recorded team is the slated team.
+            # Historical team rows can include traded players and ESPN boxscore
+            # team-label anomalies; do not claim they belong to this roster.
+            recent = logs.sort_values('game_date').drop_duplicates('player_id', keep='last')
+            eligible_ids = rosters[team_id]
+            for pid, g in logs[logs.player_id.isin(eligible_ids)].groupby('player_id'):
                 g = g.sort_values('game_date')
-                # Early-season slates rarely have 20 current-season games.\n                # Permit >=5 observed games; the 10/20-game features use all\n                # available prior games, with the actual sample count retained.\n                if len(g) < 5: continue
+                # Early-season slates rarely have 20 current-season games.
+                # Permit >=5 observed games; the 10/20-game features use all
+                # available prior games, with the actual sample count retained.
+                if len(g) < 5: continue
                 f = {'home': int(side == 'home'), 'prior_games': len(g)}
                 for stat in ('pts','minutes','usg_pct','fga','fg3a','fta'):
                     for n in ((5,10,20) if stat != 'usg_pct' else (5,10,20)):
@@ -127,7 +135,7 @@ def main():
                 if not 0 <= pred <= 65: continue
                 result.append(dict(game_date=today.isoformat(), game_id=str(event['id']),
                     player_id=pid, player_name=g.player_name.iloc[-1], team=team,
-                    opponent=opponent, v2_projection=round(pred, 4),
+                    opponent=opponent, roster_verified=True, v2_projection=round(pred, 4),
                     model_version='NBA V2 RECOVERED CANDIDATE PAPER'))
     if not result:
         raise RuntimeError(f'No eligible V2 projections: box_rows={len(logs)}, distinct_players={logs.player_id.nunique()}, upcoming_events={len(events)}')
