@@ -59,8 +59,20 @@ def main():
         return
     src["v2_projection"] = pd.to_numeric(src["v2_projection"], errors="coerce")
     src = src.dropna(subset=["v2_projection"])
+    # A player can appear in more than one ESPN box-score/team record.
+    # Collapse only genuinely identical player/game predictions; reject
+    # conflicting identities instead of selecting an arbitrary record.
+    if {"player_id", "game_id"}.issubset(src.columns):
+        src = src.drop_duplicates(subset=["player_id", "game_id", "v2_projection"])
     if src["player_name"].duplicated().any():
-        raise ValueError("Ambiguous duplicate player projections")
+        duplicates = src[src["player_name"].duplicated(keep=False)]
+        # A single name with conflicting teams or games is unsafe to match
+        # against name-only sportsbook odds. Exclude it from paper rankings.
+        print("Excluding ambiguous player names:", sorted(duplicates["player_name"].unique().tolist()))
+        src = src[~src["player_name"].isin(duplicates["player_name"])].copy()
+    if src.empty:
+        print("No unambiguous candidate projections for odds matching")
+        return
     odds["commence_time"] = pd.to_datetime(odds["commence_time"], utc=True, errors="coerce")
     odds["odds_timestamp_utc"] = pd.to_datetime(odds["odds_timestamp_utc"], utc=True, errors="coerce")
     now = pd.Timestamp.now(tz="UTC")
