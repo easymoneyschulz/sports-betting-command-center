@@ -1,193 +1,39 @@
 event_id,commence_time,home_team,away_team,player_name,sportsbook,market_line,over_price,under_price,odds_timestamp_utc
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Cooper Flagg,betmgm,24.5,-115,-115,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Daniel Gafford,betmgm,7.5,-118,-111,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Day'Ron Sharpe,betmgm,8.5,-125,-105,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Julius Randle,betmgm,20.5,-105,-125,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Kyrie Irving,betmgm,20.5,-120,-110,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Michael Porter Jr.,betmgm,21.5,-115,-115,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Nolan Traore,betmgm,12.5,-135,100,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,PJ Washington,betmgm,13.5,-110,-120,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Naji Marshall,betmgm,11.5,-120,-110,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Moritz Wagner,betmgm,9.5,100,-135,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Danny Wolf,betmgm,8.5,-140,105,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Noah Clowney,betmgm,6.5,105,-140,2026-11-09T00:30:12.278439Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Cooper Flagg (DAL),bovada,25.5,-120,-110,2026-11-09T02:45:09.340135Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Daniel Gafford (DAL),bovada,18.5,165,-220,2026-11-09T02:45:09.340135Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Danny Wolf (BKN),bovada,5.5,130,-170,2026-11-09T02:45:09.340135Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,6.5,110,-145,2026-11-09T02:45:09.340135Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Kyrie Irving (DAL),bovada,18.5,125,-165,2026-11-09T02:46:23.283671Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Morez Johnson Jr. (DAL),bovada,4.5,-125,-105,2026-11-09T02:46:23.283671Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Moritz Wagner (BKN),bovada,10.5,100,-130,2026-11-09T02:46:23.283671Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Naji Marshall (DAL),bovada,10.5,115,-150,2026-11-09T02:46:23.283671Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Nolan Traoré (BKN),bovada,15.5,-125,-105,2026-11-09T02:45:09.340135Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,P.J. Washington (DAL),bovada,7.5,-120,-110,2026-11-09T02:45:09.340135Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Zaccharie Risacher (DAL),bovada,8.5,-110,-120,2026-11-09T02:46:23.283671Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Julius Randle (BKN),bovada,13.5,-120,-110,2026-11-09T02:45:09.340135Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Caleb Martin (DAL),bovada,2.5,350,-550,2026-11-09T02:45:09.340135Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Cooper Flagg,fanduel,26.5,100,-132,2026-11-09T02:45:41.121247Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Zaccharie Risacher,fanduel,8.5,104,-138,2026-11-09T02:47:16.866865Z
-633778,2026-11-09T00:30:00Z,Dallas Mavericks,Brooklyn Nets,Morez Johnson Jr.,fanduel,6.5,128,-172,2026-11-09T02:47:16.866865Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Brayden Burries,betmgm,10.5,-135,100,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Derrick White,betmgm,13.5,-105,-125,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Jaime Jaquez,betmgm,13.5,-120,-111,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Jayson Tatum,betmgm,26.5,-115,-115,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Kyle Kuzma,betmgm,9.5,-120,-111,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Myles Turner,betmgm,9.5,100,-135,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Neemias Queta,betmgm,9.5,-125,-105,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Paul George,betmgm,17.5,-111,-118,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Tyler Herro,betmgm,19.5,-120,-110,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Payton Pritchard,betmgm,13.5,-120,-110,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Ryan Rollins,betmgm,9.5,-120,-110,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,AJ Green,betmgm,6.5,-125,-105,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Kel'el Ware,betmgm,7.5,-110,-120,2026-11-09T01:02:21.271895Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,AJ Green (MIL),bovada,4.5,-165,125,2026-11-09T02:46:46.210120Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Brayden Burries (MIL),bovada,8.5,-135,105,2026-11-09T02:47:35.618569Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Derrick White (BOS),bovada,11.5,-120,-110,2026-11-09T02:47:35.618569Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Jaime Jaquez Jr. (MIL),bovada,6.5,110,-145,2026-11-09T02:47:35.618569Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Jayson Tatum (BOS),bovada,26.5,-110,-120,2026-11-09T02:47:35.618569Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Kel'el Ware (MIL),bovada,3.5,-120,-110,2026-11-09T02:47:35.618569Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Kyle Kuzma (MIL),bovada,28.5,100,-130,2026-11-09T02:47:35.618569Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Mitchell Robinson (BOS),bovada,8.5,-125,-105,2026-11-09T02:45:09.423678Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Myles Turner (MIL),bovada,3.5,110,-145,2026-11-09T02:47:35.618569Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Neemias Queta (BOS),bovada,10.5,-135,105,2026-11-09T02:45:09.423678Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Paul George (BOS),bovada,27.5,-110,-120,2026-11-09T02:47:35.618569Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Payton Pritchard (BOS),bovada,4.5,-135,105,2026-11-09T02:47:35.618569Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Ryan Rollins (MIL),bovada,4.5,-110,-120,2026-11-09T02:45:09.423678Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Sam Hauser (BOS),bovada,3.5,120,-155,2026-11-09T02:45:09.423678Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Tyler Herro (MIL),bovada,17.5,110,-145,2026-11-09T02:46:46.210120Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Derrick White,draftkings,11.5,-125,-105,2026-11-09T02:46:13.516912Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Jaime Jaquez Jr.,draftkings,6.5,110,-140,2026-11-09T02:46:13.516912Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Jayson Tatum,draftkings,23.5,-115,-115,2026-11-09T02:47:23.730759Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Kyle Kuzma,draftkings,26.5,-105,-125,2026-11-09T02:46:13.516912Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Myles Turner,draftkings,3.5,105,-135,2026-11-09T02:46:13.516912Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Paul George,draftkings,27.5,-120,-110,2026-11-09T02:46:13.516912Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Tyler Herro,draftkings,15.5,-135,105,2026-11-09T02:47:23.730759Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Payton Pritchard,draftkings,7.5,100,-130,2026-11-09T02:45:04.568874Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Ryan Rollins,draftkings,8.5,-135,105,2026-11-09T02:47:23.730759Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Mitchell Robinson,draftkings,13.5,-125,-105,2026-11-09T02:47:23.730759Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Sam Hauser,draftkings,4.5,-110,-120,2026-11-09T02:47:23.730759Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Jayson Tatum,fanduel,24.5,-132,100,2026-11-09T02:46:45.596054Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Derrick White,fanduel,11.5,-132,100,2026-11-09T02:46:45.596054Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Payton Pritchard,fanduel,6.5,118,-158,2026-11-09T02:46:45.596054Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Tyler Herro,fanduel,16.5,-114,-114,2026-11-09T02:46:45.596054Z
-633779,2026-11-09T01:00:00Z,Milwaukee Bucks,Boston Celtics,Ryan Rollins,fanduel,8.5,-136,102,2026-11-09T02:46:45.596054Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Andrew Wiggins,betmgm,11.5,-130,-105,2026-11-09T02:47:26.125546Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Davion Mitchell,betmgm,14.5,-105,-130,2026-11-09T02:47:26.125546Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,De'Andre Hunter,betmgm,14.5,-110,-120,2026-11-09T02:47:26.125546Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Keegan Murray,betmgm,6.5,-140,105,2026-11-09T02:47:26.125546Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Pelle Larsson,betmgm,8.5,100,-135,2026-11-09T02:47:26.125546Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Malik Monk,betmgm,7.5,105,-140,2026-11-09T02:47:26.125546Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Precious Achiuwa,betmgm,11.5,-105,-125,2026-11-09T02:47:09.248235Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Dylan Cardwell,betmgm,4.5,-115,-115,2026-11-09T02:47:09.248235Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Andrew Wiggins (MIA),bovada,12.5,115,-150,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Bam Adebayo (MIA),bovada,20.5,110,-145,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Bobby Portis (MIA),bovada,10.5,-115,-115,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Darius Acuff Jr. (SAC),bovada,28.5,-110,-120,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Davion Mitchell (MIA),bovada,13.5,-105,-125,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,De'Andre Hunter (SAC),bovada,13.5,-130,100,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Giannis Antetokounmpo (MIA),bovada,27.5,110,-145,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Keegan Murray (SAC),bovada,9.5,105,-135,2026-11-09T02:45:40.064398Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Klay Thompson (MIA),bovada,13.5,-130,100,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Malik Monk (SAC),bovada,8.5,-120,-110,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Pelle Larsson (MIA),bovada,8.5,-135,105,2026-11-09T02:46:23.638414Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Zach LaVine (SAC),bovada,20.5,-120,-110,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Dylan Cardwell (SAC),bovada,2.5,-115,-115,2026-11-09T02:46:14.010069Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Precious Achiuwa (SAC),bovada,11.5,-135,105,2026-11-09T02:47:25.654175Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Andrew Wiggins,draftkings,12.5,-110,-120,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Bam Adebayo,draftkings,20.5,-130,100,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Bobby Portis,draftkings,9.5,105,-135,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Davion Mitchell,draftkings,14.5,-105,-125,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Giannis Antetokounmpo,draftkings,28.5,-120,-110,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Klay Thompson,draftkings,13.5,-120,-110,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Pelle Larsson,draftkings,7.5,100,-130,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Darius Acuff Jr.,draftkings,28.5,-105,-125,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,De'Andre Hunter,draftkings,14.5,100,-130,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Zach LaVine,draftkings,23.5,-115,-115,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Malik Monk,draftkings,7.5,105,-135,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Precious Achiuwa,draftkings,11.5,-105,-125,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Dylan Cardwell,draftkings,5.5,-105,-125,2026-11-09T02:46:16.954332Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Giannis Antetokounmpo,fanduel,28.5,-104,-128,2026-11-09T02:47:14.482284Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Bam Adebayo,fanduel,21.5,-114,-114,2026-11-09T02:47:24.264089Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Davion Mitchell,fanduel,13.5,-118,-112,2026-11-09T02:47:14.482284Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Andrew Wiggins,fanduel,11.5,100,-132,2026-11-09T02:47:24.264089Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Klay Thompson,fanduel,13.5,-108,-122,2026-11-09T02:47:24.264089Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Bobby Portis,fanduel,8.5,-144,108,2026-11-09T02:47:24.264089Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Pelle Larsson,fanduel,8.5,-114,-114,2026-11-09T02:47:24.264089Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Darius Acuff Jr.,fanduel,29.5,106,-140,2026-11-09T02:47:24.264089Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Zach LaVine,fanduel,23.5,104,-138,2026-11-09T02:47:15.220541Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,De'Andre Hunter,fanduel,14.5,-122,-108,2026-11-09T02:47:24.264089Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Precious Achiuwa,fanduel,10.5,-125,-106,2026-11-09T02:47:24.264089Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Malik Monk,fanduel,6.5,-140,106,2026-11-09T02:47:24.264089Z
-633780,2026-11-09T02:00:00Z,Sacramento Kings,Miami Heat,Dylan Cardwell,fanduel,5.5,-104,-128,2026-11-09T02:47:24.264089Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Brook Lopez,betmgm,14.5,-135,100,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Darius Garland,betmgm,22.5,-125,-105,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Dejounte Murray,betmgm,13.5,-135,100,2026-11-09T02:46:37.884358Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Jeremiah Fears,betmgm,12.5,100,-135,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Karlo Matkovic,betmgm,3.5,-140,105,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Rui Hachimura,betmgm,13.5,-125,-105,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Trey Murphy,betmgm,18.5,-105,-125,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Zion Williamson,betmgm,21.5,-115,-115,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Saddiq Bey,betmgm,14.5,-135,100,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Derik Queen,betmgm,10.5,105,-140,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Herbert Jones,betmgm,5.5,-120,-110,2026-11-09T02:47:38.016078Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Brook Lopez (LAC),bovada,16.5,105,-135,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Darius Garland (LAC),bovada,22.5,-120,-110,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Dejounte Murray (NOP),bovada,14.5,-125,-105,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Derik Queen (NOP),bovada,8.5,-105,-125,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Derrick Jones Jr. (LAC),bovada,8.5,-115,-115,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Herbert Jones (NOP),bovada,6.5,105,-135,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Karlo Matkovic (NOP),bovada,4.5,-105,-125,2026-11-09T02:46:23.916857Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Keaton Wagler (LAC),bovada,11.5,105,-135,2026-11-09T02:46:14.900195Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Kobe Sanders (LAC),bovada,4.5,-135,105,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Max Strus (LAC),bovada,10.5,100,-130,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Rui Hachimura (LAC),bovada,14.5,-120,-110,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Saddiq Bey (NOP),bovada,15.5,-120,-110,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Trey Murphy (NOP),bovada,18.5,-120,-110,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Jeremiah Fears (NOP),bovada,11.5,110,-145,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Zion Williamson (NOP),bovada,21.5,-110,-120,2026-11-09T02:47:36.943736Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Kris Dunn (LAC),bovada,5.5,100,-130,2026-11-09T02:46:14.900195Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Brook Lopez,draftkings,15.5,-120,-110,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Darius Garland,draftkings,23.5,-125,-105,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Derrick Jones Jr.,draftkings,8.5,-110,-120,2026-11-09T02:46:14.899016Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Keaton Wagler,draftkings,9.5,-125,-105,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Kris Dunn,draftkings,5.5,110,-140,2026-11-09T02:46:14.899016Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Max Strus,draftkings,11.5,-115,-115,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Rui Hachimura,draftkings,14.5,-125,-105,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Dejounte Murray,draftkings,13.5,-130,100,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Jeremiah Fears,draftkings,11.5,100,-130,2026-11-09T02:46:14.899016Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Karlo Matkovic,draftkings,4.5,-105,-125,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Saddiq Bey,draftkings,15.5,-110,-120,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Trey Murphy III,draftkings,17.5,-125,-105,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Zion Williamson,draftkings,21.5,-115,-115,2026-11-09T02:46:14.899016Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Derik Queen,draftkings,10.5,-105,-125,2026-11-09T02:46:14.899016Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Kobe Sanders,draftkings,3.5,-125,-105,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Herbert Jones,draftkings,5.5,100,-130,2026-11-09T02:47:24.263245Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Brook Lopez,fanduel,15.5,-132,100,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Darius Garland,fanduel,22.5,-118,-112,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Dejounte Murray,fanduel,14.5,-130,-102,2026-11-09T02:47:38.101911Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Derrick Jones Jr.,fanduel,8.5,-125,-106,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Jeremiah Fears,fanduel,11.5,-108,-122,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Karlo Matkovic,fanduel,4.5,-102,-130,2026-11-09T02:47:29.702909Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Keaton Wagler,fanduel,9.5,-138,104,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Kris Dunn,fanduel,4.5,-148,114,2026-11-09T02:47:17.191049Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Max Strus,fanduel,11.5,-125,-106,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Rui Hachimura,fanduel,15.5,-102,-130,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Saddiq Bey,fanduel,14.5,-108,-122,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Trey Murphy III,fanduel,18.5,-128,-104,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Zion Williamson,fanduel,21.5,-128,-104,2026-11-09T02:47:38.101911Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Derik Queen,fanduel,9.5,-118,-112,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Kobe Sanders,fanduel,3.5,-112,-118,2026-11-09T02:47:33.645618Z
-633781,2026-11-09T02:00:00Z,Los Angeles Clippers,New Orleans Pelicans,Herbert Jones,fanduel,4.5,-130,-102,2026-11-09T02:47:33.645618Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,De'Aaron Fox,fanduel,13.5,-102,-130,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Devin Vassell,fanduel,11.5,104,-138,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Dylan Harper,fanduel,16.5,-108,-122,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Stephon Castle,fanduel,15.5,102,-136,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Victor Wembanyama,fanduel,27.5,-114,-114,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Julian Champagnie,fanduel,9.5,-114,-118,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Devin Booker,fanduel,23.5,-122,-108,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Miles Bridges,fanduel,14.5,-130,-102,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Dillon Brooks,fanduel,14.5,-128,-104,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Jalen Green,fanduel,14.5,-130,-102,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Oso Ighodaro,fanduel,5.5,-136,102,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Collin Gillespie,fanduel,8.5,-130,-102,2026-11-09T02:46:04.327821Z
-641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Khaman Maluach,fanduel,5.5,-118,-112,2026-11-09T02:46:04.327821Z
+641574,2026-11-10T00:00:00Z,Detroit Pistons,Washington Wizards,Ausar Thompson,fanduel,10.5,-108,-122,2026-11-09T04:52:34.965059Z
+641574,2026-11-10T00:00:00Z,Detroit Pistons,Washington Wizards,Cade Cunningham,fanduel,25.5,-128,-104,2026-11-09T04:52:34.965059Z
+641574,2026-11-10T00:00:00Z,Detroit Pistons,Washington Wizards,Daniss Jenkins,fanduel,10.5,-102,-130,2026-11-09T04:52:34.965059Z
+641574,2026-11-10T00:00:00Z,Detroit Pistons,Washington Wizards,Duncan Robinson,fanduel,15.5,-136,102,2026-11-09T04:52:34.965059Z
+641574,2026-11-10T00:00:00Z,Detroit Pistons,Washington Wizards,John Collins,fanduel,11.5,-102,-128,2026-11-09T04:52:34.965059Z
+641574,2026-11-10T00:00:00Z,Detroit Pistons,Washington Wizards,Kevin Huerter,fanduel,7.5,-120,-110,2026-11-09T04:52:34.965059Z
+641574,2026-11-10T00:00:00Z,Detroit Pistons,Washington Wizards,Paul Reed,fanduel,11.5,-136,102,2026-11-09T04:52:34.965059Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Collin Gillespie,betrivers,8.5,-115,-117,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,De'Aaron Fox,betrivers,13.5,-107,-127,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Devin Booker,betrivers,23.5,-115,-118,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Devin Vassell,betrivers,10.5,-132,-103,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Dillon Brooks,betrivers,14.5,-118,-115,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Dylan Harper,betrivers,16.5,-115,-117,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Jalen Green,betrivers,14.5,-122,-112,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Julian Champagnie,betrivers,9.5,-118,-114,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Khaman Maluach,betrivers,5.5,-122,-110,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Miles Bridges,betrivers,15.5,-114,-118,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Oso Ighodaro,betrivers,5.5,-134,-103,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Stephon Castle,betrivers,15.5,-105,-129,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Victor Wembanyama,betrivers,27.5,-118,-115,2026-11-09T04:51:19.243683Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,De'Aaron Fox,fanduel,13.5,100,-132,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Devin Vassell,fanduel,11.5,100,-132,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Dylan Harper,fanduel,16.5,-112,-118,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Stephon Castle,fanduel,15.5,104,-138,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Victor Wembanyama,fanduel,27.5,-118,-112,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Julian Champagnie,fanduel,9.5,-112,-118,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Devin Booker,fanduel,23.5,-120,-110,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Miles Bridges,fanduel,14.5,-130,-102,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Dillon Brooks,fanduel,14.5,-128,-104,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Jalen Green,fanduel,14.5,-132,100,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Oso Ighodaro,fanduel,5.5,-136,102,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Collin Gillespie,fanduel,8.5,-122,-108,2026-11-09T04:52:35.349463Z
+641564,2026-11-10T02:00:00Z,Phoenix Suns,San Antonio Spurs,Khaman Maluach,fanduel,5.5,-122,-108,2026-11-09T04:52:35.349463Z
+646675,2026-11-11T01:00:00Z,Philadelphia 76ers,Boston Celtics,Jaylen Brown,fanduel,22.5,-120,-110,2026-11-09T04:52:35.626063Z
+646675,2026-11-11T01:00:00Z,Philadelphia 76ers,Boston Celtics,Jayson Tatum,fanduel,26.5,-122,-108,2026-11-09T04:52:35.626063Z
+646675,2026-11-11T01:00:00Z,Philadelphia 76ers,Boston Celtics,Joel Embiid,fanduel,19.5,-125,-106,2026-11-09T04:52:35.626063Z
+646675,2026-11-11T01:00:00Z,Philadelphia 76ers,Boston Celtics,LeBron James,fanduel,15.5,-114,-114,2026-11-09T04:52:35.626063Z
+646675,2026-11-11T01:00:00Z,Philadelphia 76ers,Boston Celtics,Tyrese Maxey,fanduel,23.5,-114,-114,2026-11-09T04:52:35.626063Z
