@@ -89,9 +89,12 @@ def main():
         # Accept standard team abbreviations; never match a player to an unrelated game.
         codes = {"Philadelphia 76ers":"PHI","Detroit Pistons":"DET","Boston Celtics":"BOS","Los Angeles Lakers":"LAL","Sacramento Kings":"SAC","Washington Wizards":"WAS","Dallas Mavericks":"DAL","Toronto Raptors":"TOR","Phoenix Suns":"PHX","Oklahoma City Thunder":"OKC","Denver Nuggets":"DEN","New York Knicks":"NYK","Brooklyn Nets":"BKN","Atlanta Hawks":"ATL","Chicago Bulls":"CHI","Charlotte Hornets":"CHA","Cleveland Cavaliers":"CLE","Golden State Warriors":"GSW","Houston Rockets":"HOU","Indiana Pacers":"IND","LA Clippers":"LAC","Memphis Grizzlies":"MEM","Miami Heat":"MIA","Milwaukee Bucks":"MIL","Minnesota Timberwolves":"MIN","New Orleans Pelicans":"NOP","Orlando Magic":"ORL","Portland Trail Blazers":"POR","San Antonio Spurs":"SAS","Utah Jazz":"UTA"}
         def valid_match(row):
-            opponent = str(row["opponent"]).strip().casefold()
-            return any(opponent in (str(t).casefold(), codes.get(str(t), "").casefold())
-                       for t in (row["home_team"], row["away_team"]))
+            def same(a, b):
+                return str(a).strip().casefold() == str(b).strip().casefold() or codes.get(str(a), "").casefold() == str(b).strip().casefold()
+            team = row.get("team", "")
+            opponent = row["opponent"]
+            home, away = row["home_team"], row["away_team"]
+            return (same(home, team) and same(away, opponent)) or (same(away, team) and same(home, opponent))
         merged = merged[merged.apply(valid_match, axis=1)]
     if merged.empty:
         print("No verified matching games/players; no new selections.")
