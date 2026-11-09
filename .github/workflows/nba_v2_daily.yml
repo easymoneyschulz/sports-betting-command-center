@@ -84,8 +84,28 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Publish verified NBA odds and V2 snapshot"
-            git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
+            # Avoid rebasing generated CSVs across concurrent publisher commits.
+            # Re-run from latest main on conflict rather than silently choosing
+            # one version and risking lost results.
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                echo "NBA snapshot published successfully"
+                exit 0
+              fi
+              echo "::warning::main advanced during publish; retrying with a fresh checkout"
+              git fetch origin main
+              git reset --soft origin/main
+              git reset
+              for path in public_data/nba_rolling_game_logs.csv public_data/nba_daily_rebuilt_projections.csv public_data/nba_daily_active_projections.csv public_data/nba_v2_recovered_prop_comparison.csv public_data/nba_v2_recovered_candidate_predictions.csv public_data/nba_v2_daily_top5.csv public_data/nba_v2_propline_odds.csv public_data/nba_v2_latest_player_points.csv; do
+                if [ -f "$path" ]; then git add "$path"; fi
+              done
+              if git diff --cached --quiet; then
+                echo "No snapshot changes to publish"
+                exit 0
+              fi
+              git commit -m "Publish verified NBA odds and V2 snapshot"
+            done
+            echo "::error::NBA publish could not push after 3 attempts"
+            exit 1
           fi
 
