@@ -2595,6 +2595,8 @@ elif page == "🏀 NBA Projections":
             nba_props["abs_edge"]=pd.to_numeric(nba_props.edge,errors="coerce").abs()
             nba_props=nba_props.sort_values(["abs_edge","v2_projection"],ascending=[False,False],na_position="last")
             nba_count=nba_props.decision.value_counts()
+            if int(nba_count.get("OVER",0)) == 0 and int(nba_count.get("UNDER",0)) > 0:
+                st.warning("MODEL VALIDATION WARNING: No OVER signals on this slate. The recovered candidate may be systematically underprojecting player points. Paper testing only; do not treat these as verified betting edges.")
             a,b,c,d=st.columns(4)
             a.metric("OVER",int(nba_count.get("OVER",0)))
             b.metric("UNDER",int(nba_count.get("UNDER",0)))
@@ -2644,7 +2646,7 @@ elif page == "🏀 NBA Projections":
                     logo=nba_team_logos.get(str(entry["team"]),"nba")
 
                     nba_card_markup.append(f"""<div class="nba-v2-card">
-                            <div class="nba-v2-top"><div class="nba-v2-portrait"><img class="nba-v2-head" loading="lazy" decoding="async" src="https://cdn.nba.com/headshots/nba/latest/1040x760/{pid}.png" alt="{name} player headshot"></div>
+                            <div class="nba-v2-top"><div class="nba-v2-portrait"><img class="nba-v2-head" loading="lazy" decoding="async" src="https://a.espncdn.com/i/headshots/nba/players/full/{pid}.png" onerror="this.onerror=null;this.src=\'https://a.espncdn.com/i/headshots/nba/players/full/{pid}.png?fallback=1\'" alt="{name} player headshot"></div>
                             <img class="nba-v2-logo" src="https://a.espncdn.com/i/teamlogos/nba/500/{logo}.png">
                             <div><div class="nba-v2-name">{name}</div><div class="nba-v2-match">{team} vs {opponent}</div><span class="nba-v2-tag" style="color:{color}">{status}</span></div></div>
                             <div class="nba-v2-stats"><div><div class="nba-v2-label">V2 projection</div><div class="nba-v2-num">{float(entry["v2_projection"]):.1f}</div></div>
