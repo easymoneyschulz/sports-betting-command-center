@@ -46,14 +46,16 @@ jobs:
           NBA_V2_MODEL_B64: ${{ secrets.NBA_V2_MODEL_B64 }}
         run: |
           if [ -z "$NBA_V2_MODEL_B64" ]; then
-            echo "::error::Missing NBA_V2_MODEL_B64 secret. Recovered model not deployed."
-            exit 1
+            echo "::warning::Missing NBA_V2_MODEL_B64 secret. Recovered model not deployed."
+            echo "NBA_V2_READY=false" >> "$GITHUB_ENV"
+            exit 0
           fi
           mkdir -p models
           printf '%s' "$NBA_V2_MODEL_B64" | base64 --decode > models/nba_v2_frozen_2026_model.joblib
           echo 'f5ac39a7f1e94ce3b1ec4e918986e9e74dce280557f03db4b38b344be0dcb27f  models/nba_v2_frozen_2026_model.joblib' | sha256sum -c -
+          echo 'NBA_V2_READY=true' >> "$GITHUB_ENV"
       - name: Generate recovered NBA V2 candidate paper predictions
-        if: steps.central_time.outputs.run == 'true'
+        if: steps.central_time.outputs.run == 'true' && env.NBA_V2_READY == 'true'
         run: python automation/run_nba_v2_recovered_candidate.py
       - name: Validate and format original model snapshots
         if: steps.central_time.outputs.run == 'true'
@@ -62,7 +64,7 @@ jobs:
         if: steps.central_time.outputs.run == 'true'
         run: python automation/match_nba_recovered_odds.py
       - name: Rank daily NBA V2 paper opportunities
-        if: steps.central_time.outputs.run == 'true'
+        if: steps.central_time.outputs.run == 'true' && env.NBA_V2_READY == 'true'
         run: python automation/rank_nba_v2_daily.py
       - name: Commit only changed public NBA snapshot
         if: steps.central_time.outputs.run == 'true'
