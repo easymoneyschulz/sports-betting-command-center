@@ -83,7 +83,7 @@ def main():
         for side in ('home', 'away'):
             team = teams[side].get('displayName')
             opponent = teams['away' if side == 'home' else 'home'].get('displayName')
-            for pid, g in logs[logs.team == team].groupby('player_id'):
+            # Only players whose most recent recorded team is the slated team.\n            # Historical team rows can include traded players and ESPN boxscore\n            # team-label anomalies; do not claim they belong to this roster.\n            recent = logs.sort_values('game_date').drop_duplicates('player_id', keep='last')\n            eligible_ids = set(recent.loc[recent.team == team, 'player_id'])\n            for pid, g in logs[(logs.team == team) & logs.player_id.isin(eligible_ids)].groupby('player_id'):
                 g = g.sort_values('game_date')
                 # Early-season slates rarely have 20 current-season games.\n                # Permit >=5 observed games; the 10/20-game features use all\n                # available prior games, with the actual sample count retained.\n                if len(g) < 5: continue
                 f = {'home': int(side == 'home'), 'prior_games': len(g)}
