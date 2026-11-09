@@ -7,6 +7,7 @@ import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1] / "public_data"
 CARDS = ROOT / "nba_v2_recovered_prop_comparison.csv"
+SOURCE = ROOT / "nba_v2_recovered_candidate_predictions.csv"
 ODDS = ROOT / "nba_v2_propline_odds.csv"
 CODES = dict(zip(
     ["Atlanta Hawks","Boston Celtics","Brooklyn Nets","Charlotte Hornets","Chicago Bulls",
@@ -25,10 +26,14 @@ def key(s):
     return "".join(c for c in unicodedata.normalize("NFKD",str(s)) if c.isalnum()).casefold()
 
 def main():
-    if not CARDS.exists() or not ODDS.exists():
+    if not SOURCE.exists() or not ODDS.exists():
         print("No verified comparison or odds; preserving snapshot")
         return
-    cards = pd.read_csv(CARDS, dtype={"player_id":str})
+    cards = pd.read_csv(SOURCE, dtype={"player_id":str})
+    if "roster_verified" not in cards or not cards.roster_verified.astype(str).str.lower().eq("true").all():
+        raise ValueError("Candidate source is not roster-verified")
+    if not cards.model_version.eq("NBA V2 RECOVERED CANDIDATE PAPER").all():
+        raise ValueError("Unexpected candidate model version")
     odds = pd.read_csv(ODDS)
     required_cards = {"game_date","player_name","team","opponent","roster_verified","v2_projection"}
     required_odds = {"commence_time","player_name","home_team","away_team","market_line",
@@ -52,8 +57,10 @@ def main():
     cards["row_id"] = range(len(cards))
     valid = cards.roster_verified.astype(str).str.lower().eq("true")
     joined = cards[valid].merge(odds,on=["name_key","date"],suffixes=("","_odds"))
-    joined = joined[((joined.team==joined.home_code)&(joined.opponent==joined.away_code)) |
-                    ((joined.team==joined.away_code)&(joined.opponent==joined.home_code))]
+    joined["team_code"] = joined.team.map(CODES).fillna(joined.team)
+    joined["opponent_code"] = joined.opponent.map(CODES).fillna(joined.opponent)
+    joined = joined[((joined.team_code==joined.home_code)&(joined.opponent_code==joined.away_code)) |
+                    ((joined.team_code==joined.away_code)&(joined.opponent_code==joined.home_code))]
     # Fail closed when two games could match a single player.
     ambiguity = joined.groupby("row_id")["tip"].nunique()
     joined = joined[~joined.row_id.isin(ambiguity[ambiguity>1].index)]
