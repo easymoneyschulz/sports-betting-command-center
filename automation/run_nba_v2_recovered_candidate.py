@@ -8,6 +8,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import joblib
+import hashlib
 import numpy as np
 import pandas as pd
 from build_nba_rolling_baseline import ROOT, slate, event_teams, get, BASE
@@ -52,6 +53,9 @@ def main():
     path = Path(os.environ.get('NBA_V2_MODEL_PATH', 'models/nba_v2_frozen_2026_model.joblib'))
     if not path.is_file():
         raise FileNotFoundError(f'Missing recovered V2 model artifact: {path}')
+    expected = 'f5ac39a7f1e94ce3b1ec4e918986e9e74dce280557f03db4b38b344be0dcb27f'
+    actual = hashlib.sha256(path.read_bytes()).hexdigest()
+    if actual != expected: raise ValueError('Model artifact SHA-256 mismatch')
     artifact = joblib.load(path)
     if artifact['features'] != FEATURES:
         raise ValueError('Model feature order mismatch')
@@ -88,8 +92,9 @@ def main():
                         f[f'{stat}_last{n}'] = g[stat].tail(n).mean()
                 f['pts_std_last10'] = g.pts.tail(10).std()
                 f['season_pts_avg_prior'] = g.pts.mean()
-                # Usage is absent in some ESPN box scores. Do not impute a made-up usage rate.
-                if any(not np.isfinite(f[k]) for k in FEATURES): continue
+                # Missing ESPN usage rates are handled by the SAVED TRAINING IMPUTER,
+                # not fabricated or substituted with a rolling projection.
+                if not all(np.isfinite(f[k]) for k in FEATURES if not k.startswith('usg_pct_')): continue
                 x = pd.DataFrame([f], columns=FEATURES)
                 pred = float(artifact['model'].predict(artifact['imputer'].transform(x))[0])
                 if not 0 <= pred <= 65: continue
