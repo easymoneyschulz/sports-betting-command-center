@@ -85,7 +85,7 @@ def main():
             opponent = teams['away' if side == 'home' else 'home'].get('displayName')
             for pid, g in logs[logs.team == team].groupby('player_id'):
                 g = g.sort_values('game_date')
-                if len(g) < 20: continue
+                # Early-season slates rarely have 20 current-season games.\n                # Permit >=5 observed games; the 10/20-game features use all\n                # available prior games, with the actual sample count retained.\n                if len(g) < 5: continue
                 f = {'home': int(side == 'home'), 'prior_games': len(g)}
                 for stat in ('pts','minutes','usg_pct','fga','fg3a','fta'):
                     for n in ((5,10,20) if stat != 'usg_pct' else (5,10,20)):
@@ -103,7 +103,7 @@ def main():
                     opponent=opponent, v2_projection=round(pred, 4),
                     model_version='NBA V2 RECOVERED CANDIDATE PAPER'))
     if not result:
-        raise RuntimeError('No eligible V2 projections: missing feature coverage or ESPN data')
+        raise RuntimeError(f'No eligible V2 projections: box_rows={len(logs)}, distinct_players={logs.player_id.nunique()}, upcoming_events={len(events)}')
     ROOT.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(result).to_csv(ROOT / 'nba_v2_recovered_candidate_predictions.csv', index=False)
     print('Recovered candidate paper projections:', len(result))
