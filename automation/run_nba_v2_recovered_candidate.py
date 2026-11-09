@@ -49,6 +49,27 @@ def box_rows(event_id, day):
                     usg_pct=parse_number(vals.get('USG%'))))
     return rows
 
+def roster_ids(team_id):
+    """Use current ESPN team roster; never infer roster from old box-score team labels."""
+    payload = get(BASE + f'/teams/{team_id}/roster')
+    ids = set()
+    def walk(node):
+        if isinstance(node, dict):
+            # Athlete entries have a player id plus displayName and/or position.
+            if 'id' in node and ('displayName' in node or 'fullName' in node) and (
+                'position' in node or 'jersey' in node or 'experience' in node
+            ):
+                ids.add(str(node['id']))
+            for key, value in node.items():
+                if key not in ('team', 'coach', 'coaches', 'staff'):
+                    walk(value)
+        elif isinstance(node, list):
+            for item in node: walk(item)
+    walk(payload.get('athletes', []))
+    if not ids:
+        raise RuntimeError(f'ESPN roster unavailable for team {team_id}; refusing unverified predictions')
+    return ids
+
 def main():
     path = Path(os.environ.get('NBA_V2_MODEL_PATH', 'models/nba_v2_frozen_2026_model.joblib'))
     if not path.is_file():
@@ -76,6 +97,7 @@ def main():
     logs = pd.DataFrame(rows).drop_duplicates(['game_id', 'player_id'])
     logs = logs.sort_values(['player_id', 'game_date'])
     result = []
+    rosters = {}
     for event in events:
         if event.get('status', {}).get('type', {}).get('completed'): continue
         teams = event_teams(event)
@@ -83,7 +105,12 @@ def main():
         for side in ('home', 'away'):
             team = teams[side].get('displayName')
             opponent = teams['away' if side == 'home' else 'home'].get('displayName')
-            # Only players whose most recent recorded team is the slated team.\n            # Historical team rows can include traded players and ESPN boxscore\n            # team-label anomalies; do not claim they belong to this roster.\n            recent = logs.sort_values('game_date').drop_duplicates('player_id', keep='last')\n            eligible_ids = set(recent.loc[recent.team == team, 'player_id'])\n            for pid, g in logs[(logs.team == team) & logs.player_id.isin(eligible_ids)].groupby('player_id'):
+            team_id = str(teams[side].get('id', ''))
+            if team_id not in rosters:
+                rosters[team_id] = roster_ids(team_id)
+            # Current roster verification is mandatory. Recent historical team
+            # labels alone are not trustworthy after trades or API anomalies.
+            # Only players whose most recent recorded team is the slated team.\n            # Historical team rows can include traded players and ESPN boxscore\n            # team-label anomalies; do not claim they belong to this roster.\n            recent = logs.sort_values('game_date').drop_duplicates('player_id', keep='last')\n            eligible_ids = set(recent.loc[recent.team == team, 'player_id']) & rosters[team_id]\n            for pid, g in logs[(logs.team == team) & logs.player_id.isin(eligible_ids)].groupby('player_id'):
                 g = g.sort_values('game_date')
                 # Early-season slates rarely have 20 current-season games.\n                # Permit >=5 observed games; the 10/20-game features use all\n                # available prior games, with the actual sample count retained.\n                if len(g) < 5: continue
                 f = {'home': int(side == 'home'), 'prior_games': len(g)}
