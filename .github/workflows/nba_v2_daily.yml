@@ -43,15 +43,17 @@ jobs:
       - name: Restore private recovered model from Actions secret
         if: steps.central_time.outputs.run == 'true'
         env:
-          NBA_V2_MODEL_B64: ${{ secrets.NBA_V2_MODEL_B64 }}
+          NBA_V2_MODEL_PART1: ${{ secrets.NBA_V2_MODEL_PART1 }}
+          NBA_V2_MODEL_PART2: ${{ secrets.NBA_V2_MODEL_PART2 }}
+          NBA_V2_MODEL_PART3: ${{ secrets.NBA_V2_MODEL_PART3 }}
         run: |
-          if [ -z "$NBA_V2_MODEL_B64" ]; then
-            echo "::warning::Missing NBA_V2_MODEL_B64 secret. Recovered model not deployed."
+          if [ -z "$NBA_V2_MODEL_PART1" ] || [ -z "$NBA_V2_MODEL_PART2" ] || [ -z "$NBA_V2_MODEL_PART3" ]; then
+            echo "::warning::Missing one or more NBA_V2_MODEL_PART1/2/3 secrets. Recovered model not deployed."
             echo "NBA_V2_READY=false" >> "$GITHUB_ENV"
             exit 0
           fi
           mkdir -p models
-          printf '%s' "$NBA_V2_MODEL_B64" | base64 --decode > models/nba_v2_frozen_2026_model.joblib
+          printf '%s%s%s' "$NBA_V2_MODEL_PART1" "$NBA_V2_MODEL_PART2" "$NBA_V2_MODEL_PART3" | base64 --decode | xz --decompress > models/nba_v2_frozen_2026_model.joblib
           echo 'f5ac39a7f1e94ce3b1ec4e918986e9e74dce280557f03db4b38b344be0dcb27f  models/nba_v2_frozen_2026_model.joblib' | sha256sum -c -
           echo 'NBA_V2_READY=true' >> "$GITHUB_ENV"
       - name: Generate recovered NBA V2 candidate paper predictions
