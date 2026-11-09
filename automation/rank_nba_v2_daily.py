@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1] / "public_data"
-SOURCE = ROOT / "nba_v2_source_predictions.csv"
+SOURCE = ROOT / "nba_v2_recovered_candidate_predictions.csv"
 REBUILT = ROOT / "nba_daily_active_projections.csv"
 ODDS = ROOT / "nba_v2_propline_odds.csv"
 OUTPUT = ROOT / "nba_v2_daily_top5.csv"
@@ -40,12 +40,14 @@ def main():
     # Fail closed: never substitute a rolling baseline for the trained NBA V2.
     # An original V2 source must be generated for this slate by the trained model.
     if not original.empty:
+        if "model_version" not in original.columns or not original["model_version"].eq("NBA V2 RECOVERED CANDIDATE PAPER").all():
+            raise ValueError("Refusing unverified recovered-model source")
         original = original[pd.to_datetime(original["game_date"], errors="coerce").dt.date == target_date]
     if original.empty:
         print("NO CURRENT ORIGINAL NBA V2 PROJECTIONS: skipping publication; baseline is not V2.")
         return
     src = original.copy()
-    model_label = "NBA V2 ORIGINAL"
+    model_label = "NBA V2 RECOVERED CANDIDATE PAPER"
     odds = pd.read_csv(ODDS)
     required = {"game_date", "player_name", "v2_projection"}
     if src.empty or not required.issubset(src.columns):
@@ -101,7 +103,7 @@ def main():
     merged["status"] = "PAPER"
     merged["model_version"] = model_label
     merged[cols + ["status", "model_version"]].to_csv(OUTPUT, index=False)
-    print(f"Published {len(merged)} verified original NBA V2 paper leans for {target_date}")
+    print(f"Published {len(merged)} recovered candidate PAPER leans for {target_date}")
 
 
 if __name__ == "__main__":
