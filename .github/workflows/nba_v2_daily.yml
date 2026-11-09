@@ -68,6 +68,9 @@ jobs:
           if [ -f public_data/nba_v2_recovered_prop_comparison.csv ]; then
             git add public_data/nba_v2_recovered_prop_comparison.csv
           fi
+          if [ -f public_data/nba_v2_recovered_prop_comparison.csv ]; then
+            git add public_data/nba_v2_recovered_prop_comparison.csv
+          fi
           if [ -f public_data/nba_v2_recovered_candidate_predictions.csv ]; then
             git add public_data/nba_v2_recovered_candidate_predictions.csv
           fi
