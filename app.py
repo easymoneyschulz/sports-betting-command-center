@@ -2429,7 +2429,7 @@ elif page == "🏀 NBA Projections":
     from datetime import datetime as NBADatetime
     from zoneinfo import ZoneInfo as NBAZoneInfo
     st.markdown("### 🏀 NBA V2 — DAILY PLAYER PROPS")
-    st.caption("Frozen model · Automated daily · Paper testing only · Top 10 OVER / Top 10 UNDER")
+    st.caption("Recovered candidate model · Automated daily · Paper testing only · Roster-verified games")
 
     # Distinct research feed: rolling baseline is NOT the frozen NBA V2 model.
     # Display it separately rather than silently dropping available paper ideas
@@ -2526,7 +2526,7 @@ elif page == "🏀 NBA Projections":
         nba_props = pd.read_csv(NBAStringIO(nba_res.text), dtype={"player_id":str})
         nba_need = {"game_date","player_id","player_name","team","opponent","v2_projection","market_line","sportsbook","decision","edge","model_version"}
         if not nba_need.issubset(nba_props): raise ValueError("Incomplete NBA V2 comparison data")
-        nba_props = nba_props[nba_props.model_version=="NBA_V2_RECOVERED_FROZEN_PAPER"].copy()
+        nba_props = nba_props[nba_props.model_version=="NBA V2 RECOVERED CANDIDATE PAPER"].copy()
         # Never display betting signals from pre-validation or unverifiable roster snapshots.
         if "roster_verified" not in nba_props.columns:
             st.warning("NBA V2 picks paused: waiting for the new roster-verified model run. Existing historical tracking is preserved.")
