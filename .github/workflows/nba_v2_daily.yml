@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: '3.11'
       - if: steps.central_time.outputs.run == 'true'
-        run: pip install pandas requests numpy
+        run: pip install pandas requests numpy "scikit-learn==1.6.1" joblib
       - name: Fetch PropLine NBA player-points odds
         if: steps.central_time.outputs.run == 'true'
         env:
@@ -40,6 +40,21 @@ jobs:
       - name: Build NBA daily player baseline
         if: steps.central_time.outputs.run == 'true'
         run: python automation/build_nba_rolling_baseline.py
+      - name: Restore private recovered model from Actions secret
+        if: steps.central_time.outputs.run == 'true'
+        env:
+          NBA_V2_MODEL_B64: ${{ secrets.NBA_V2_MODEL_B64 }}
+        run: |
+          if [ -z "$NBA_V2_MODEL_B64" ]; then
+            echo "::error::Missing NBA_V2_MODEL_B64 secret. Recovered model not deployed."
+            exit 1
+          fi
+          mkdir -p models
+          printf '%s' "$NBA_V2_MODEL_B64" | base64 --decode > models/nba_v2_frozen_2026_model.joblib
+          echo 'f5ac39a7f1e94ce3b1ec4e918986e9e74dce280557f03db4b38b344be0dcb27f  models/nba_v2_frozen_2026_model.joblib' | sha256sum -c -
+      - name: Generate recovered NBA V2 candidate paper predictions
+        if: steps.central_time.outputs.run == 'true'
+        run: python automation/run_nba_v2_recovered_candidate.py
       - name: Validate and format original model snapshots
         if: steps.central_time.outputs.run == 'true'
         run: python automation/publish_nba_v2.py
@@ -57,6 +72,9 @@ jobs:
           done
           if [ -f public_data/nba_v2_recovered_prop_comparison.csv ]; then
             git add public_data/nba_v2_recovered_prop_comparison.csv
+          fi
+          if [ -f public_data/nba_v2_recovered_candidate_predictions.csv ]; then
+            git add public_data/nba_v2_recovered_candidate_predictions.csv
           fi
           if [ -f public_data/nba_v2_daily_top5.csv ]; then
             git add public_data/nba_v2_daily_top5.csv
