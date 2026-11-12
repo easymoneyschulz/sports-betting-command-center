@@ -1,0 +1,923 @@
+away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_score,home_team,neutral_site,start_date
+23,26,San José State,True,False,401864494,30,42,USC,False,2026-08-29T19:00Z
+153,15,North Carolina,True,False,401856766,2628,10,TCU,True,2026-08-29T16:00Z
+152,8,NC State,True,True,401858202,258,34,Virginia,False,2026-08-29T19:30Z
+55,7,Jacksonville State,True,False,401864577,2449,33,North Dakota State,False,2026-08-29T21:30Z
+16,17,Sacramento State,True,True,401866408,2199,28,Eastern Michigan,False,2026-08-29T22:30Z
+62,27,Hawai'i,True,False,401858201,24,37,Stanford,False,2026-08-29T23:00Z
+166,17,New Mexico State,True,False,401864570,52,34,Florida State,False,2026-08-29T23:00Z
+235,27,Memphis,True,False,401862693,2439,21,UNLV,False,2026-08-30T02:00Z
+70,14,Idaho,True,False,401856768,254,66,Utah,False,2026-09-04T01:00Z
+2029,14,Arkansas-Pine Bluff,True,False,401856663,142,54,Missouri,False,2026-09-04T00:00Z
+113,37,Massachusetts,True,False,401858423,164,21,Rutgers,False,2026-09-03T22:00Z
+2065,6,Bethune-Cookman,True,False,401856767,2116,73,UCF,False,2026-09-03T23:00Z
+2006,16,Akron,True,False,401858204,154,38,Wake Forest,False,2026-09-03T23:00Z
+2771,7,Merrimack,True,False,401864424,48,42,Delaware,False,2026-09-03T23:00Z
+2698,0,West Georgia,True,False,401864425,338,47,Kennesaw State,False,2026-09-03T23:00Z
+399,17,UAlbany,True,False,401866409,2084,21,Buffalo,False,2026-09-03T23:00Z
+38,14,Colorado,True,False,401856776,59,13,Georgia Tech,False,2026-09-04T00:00Z
+2197,7,Eastern Illinois,True,False,401858422,135,59,Minnesota,False,2026-09-04T00:00Z
+5,23,UAB,True,False,401858424,356,42,Illinois,False,2026-09-04T01:00Z
+2390,45,Miami,True,True,401858206,24,6,Stanford,False,2026-09-05T01:00Z
+2638,0,UTEP,True,False,401856664,201,51,Oklahoma,False,2026-09-05T00:00Z
+278,0,Fresno State,True,False,401858436,30,39,USC,False,2026-09-05T01:00Z
+23,27,San José State,True,False,401864495,2199,21,Eastern Michigan,False,2026-09-04T22:30Z
+282,19,Indiana State,True,False,401858435,2509,44,Purdue,False,2026-09-04T23:00Z
+2448,10,North Carolina A&T,True,False,401866623,2247,59,Georgia State,False,2026-09-04T23:00Z
+2341,6,Long Island University,True,False,401856769,2305,51,Kansas,False,2026-09-05T00:00Z
+2649,20,Toledo,True,False,401858429,127,30,Michigan State,False,2026-09-05T00:00Z
+2050,3,Ball State,True,False,401858432,194,56,Ohio State,False,2026-09-05T16:30Z
+68,27,Boise State,True,False,401858433,2483,34,Oregon,False,2026-09-05T19:30Z
+2634,3,Tennessee State,True,False,401856658,61,63,Georgia,False,2026-09-05T19:00Z
+326,7,Texas State,True,False,401856667,251,59,Texas,False,2026-09-05T19:30Z
+249,16,North Texas,True,False,401858425,84,52,Indiana,False,2026-09-05T16:00Z
+2623,0,Missouri State,True,False,401856668,245,50,Texas A&M,False,2026-09-05T23:00Z
+228,10,Clemson,True,False,401856660,99,51,LSU,False,2026-09-06T01:40Z
+2000,10,Abilene Christian,True,False,401856770,2641,33,Texas Tech,False,2026-09-05T23:00Z
+151,10,East Carolina,True,False,401856634,333,48,Alabama,False,2026-09-05T16:00Z
+3101,7,Utah Tech,True,False,401856775,252,63,BYU,False,2026-09-06T00:00Z
+2711,12,Western Michigan,True,False,401858428,130,13,Michigan,False,2026-09-05T23:30Z
+276,0,Marshall,True,False,401858434,213,45,Penn State,False,2026-09-05T19:30Z
+231,9,Furman,True,False,401856666,2633,56,Tennessee,False,2026-09-05T19:30Z
+2459,0,Northern Illinois,True,False,401858426,2294,40,Iowa,False,2026-09-05T20:15Z
+204,20,Oregon State,True,False,401856778,248,33,Houston,False,2026-09-05T16:00Z
+324,24,Coastal Carolina,True,False,401856780,277,31,West Virginia,False,2026-09-05T16:00Z
+160,3,New Hampshire,True,False,401858208,183,66,Syracuse,False,2026-09-05T16:00Z
+195,21,Ohio,True,False,401858430,158,49,Nebraska,False,2026-09-05T16:00Z
+322,7,Lafayette,True,False,401861962,41,56,UConn,False,2026-09-05T16:00Z
+2803,3,Bryant,True,False,401862701,349,59,Army,False,2026-09-05T16:00Z
+2627,20,Tarleton State,True,False,401866410,189,13,Bowling Green,False,2026-09-05T16:00Z
+2335,13,Liberty,True,False,401869960,256,20,James Madison,False,2026-09-05T16:00Z
+193,14,Miami (OH),True,False,401858207,221,59,Pittsburgh,False,2026-09-05T16:30Z
+2309,0,Kent State,True,False,401856665,2579,57,South Carolina,False,2026-09-05T16:45Z
+2754,13,Youngstown State,True,False,401856659,96,45,Kentucky,False,2026-09-05T17:00Z
+2546,10,Southeast Missouri State,True,False,401856779,66,38,Iowa State,False,2026-09-05T17:00Z
+2184,0,Duquesne,True,False,401864496,2005,34,Air Force,False,2026-09-05T17:00Z
+227,14,Rhode Island,True,False,401862698,218,38,Temple,False,2026-09-05T18:00Z
+239,16,Baylor,True,False,401856636,2,17,Auburn,True,2026-09-05T19:30Z
+103,15,Boston College,True,False,401856777,2132,34,Cincinnati,False,2026-09-05T19:30Z
+2655,3,Tulane,True,False,401858209,150,17,Duke,False,2026-09-05T19:30Z
+2643,43,The Citadel,True,False,401862694,2429,41,Charlotte,False,2026-09-05T19:30Z
+119,15,Towson,True,False,401862696,2426,42,Navy,False,2026-09-05T19:30Z
+292,16,UT Rio Grande Valley,True,False,401862700,2636,45,UTSA,False,2026-09-05T19:30Z
+2230,0,Fordham,True,False,401864499,2449,38,North Dakota State,False,2026-09-05T19:30Z
+311,3,Maine,True,False,401866627,2026,55,App State,False,2026-09-05T19:30Z
+197,10,Oklahoma State,True,False,401856772,202,24,Tulsa,False,2026-09-05T19:45Z
+2453,14,North Alabama,True,False,401856635,8,31,Arkansas,False,2026-09-05T20:15Z
+2016,3,Alcorn State,True,False,401868356,2572,49,Southern Miss,False,2026-09-05T21:00Z
+2751,13,Wyoming,True,False,401860878,36,35,Colorado State,False,2026-09-05T22:00Z
+2450,10,Norfolk State,True,False,401867973,295,31,Old Dominion,False,2026-09-05T22:00Z
+2046,9,Austin Peay,True,False,401856669,238,28,Vanderbilt,False,2026-09-05T23:00Z
+2447,3,Nicholls,True,False,401856771,2306,71,Kansas State,False,2026-09-05T23:00Z
+304,29,Idaho State,True,False,401860880,328,17,Utah State,False,2026-09-05T23:00Z
+2032,24,Arkansas State,True,False,401862695,235,42,Memphis,False,2026-09-05T23:00Z
+2277,3,Houston Christian,True,False,401862697,242,31,Rice,False,2026-09-05T23:00Z
+2229,9,Florida International,True,False,401862699,58,19,South Florida,False,2026-09-05T23:00Z
+2198,7,Eastern Kentucky,True,False,401868140,55,49,Jacksonville State,False,2026-09-05T23:00Z
+2127,0,Charleston Southern,True,False,401868170,290,31,Georgia Southern,False,2026-09-05T23:00Z
+2545,14,SE Louisiana,True,False,401868316,6,39,South Alabama,False,2026-09-05T23:00Z
+2534,21,Sam Houston,True,False,401870763,2653,24,Troy,False,2026-09-05T23:00Z
+2433,13,UL Monroe,True,False,401856662,344,62,Mississippi State,False,2026-09-05T23:30Z
+2678,3,VMI,True,False,401858211,259,73,Virginia Tech,False,2026-09-05T23:30Z
+2466,6,Northwestern State,True,False,401869129,2348,80,Louisiana Tech,False,2026-09-05T23:30Z
+2226,21,Florida Atlantic,True,False,401856637,57,66,Florida,False,2026-09-05T23:45Z
+93,14,Murray State,True,False,401867866,2393,38,Middle Tennessee,False,2026-09-05T23:45Z
+2261,0,Hampton,True,False,401858427,120,62,Maryland,False,2026-09-06T00:00Z
+2571,18,South Dakota State,True,False,401858431,77,34,Northwestern,False,2026-09-06T00:00Z
+2320,7,Lamar,True,False,401869142,309,38,Louisiana,False,2026-09-06T00:00Z
+2385,14,Mercyhurst,True,False,401870790,166,51,New Mexico State,False,2026-09-06T01:00Z
+2464,7,Northern Arizona,True,False,401856773,12,35,Arizona,False,2026-09-06T01:30Z
+2502,20,Portland State,True,False,401860879,21,53,San Diego State,False,2026-09-06T01:30Z
+2415,7,Morgan State,True,False,401856774,9,70,Arizona State,False,2026-09-06T02:00Z
+2439,21,UNLV,True,True,401864497,62,6,Hawai'i,False,2026-09-06T02:00Z
+2117,7,Central Michigan,True,False,401864498,167,38,New Mexico,False,2026-09-06T02:00Z
+2400,0,Mississippi Valley State,True,False,401866411,16,52,Sacramento State,False,2026-09-06T02:00Z
+26,45,UCLA,True,False,401858210,25,24,California,False,2026-09-06T02:30Z
+98,14,Western Kentucky,True,False,401864432,2440,49,Nevada,False,2026-09-06T02:30Z
+275,13,Wisconsin,True,False,401858438,87,41,Notre Dame,True,2026-09-06T23:30Z
+97,38,Louisville,True,False,401856661,145,41,Ole Miss,True,2026-09-06T23:30Z
+265,10,Washington State,True,False,401858437,264,24,Washington,False,2026-09-06T20:00Z
+2567,27,SMU,True,True,401858212,52,24,Florida State,False,2026-09-07T23:30Z
+50,7,Florida A&M,True,False,401858213,2390,77,Miami,False,2026-09-11T00:00Z
+142,38,Missouri,True,False,401856678,2305,21,Kansas,False,2026-09-12T00:00Z
+222,13,Villanova,True,False,401858215,97,59,Louisville,False,2026-09-11T23:00Z
+2450,3,Norfolk State,True,False,401858220,258,59,Virginia,False,2026-09-11T23:00Z
+257,0,Richmond,True,False,401858222,152,73,NC State,False,2026-09-11T23:00Z
+164,21,Rutgers,True,False,401858214,103,28,Boston College,False,2026-09-11T23:30Z
+194,23,Ohio State,True,False,401856682,251,24,Texas,False,2026-09-12T23:30Z
+98,20,Western Kentucky,True,False,401856673,61,70,Georgia,False,2026-09-12T16:45Z
+242,0,Rice,True,False,401859184,87,52,Notre Dame,False,2026-09-12T19:30Z
+47,0,Howard,True,False,401858439,84,55,Indiana,False,2026-09-12T16:00Z
+2483,31,Oregon,True,False,401856782,197,39,Oklahoma State,False,2026-09-12T17:30Z
+2348,14,Louisiana Tech,True,False,401867796,99,45,LSU,False,2026-09-12T23:30Z
+2429,9,Charlotte,True,False,401856676,145,41,Ole Miss,False,2026-09-12T23:45Z
+9,20,Arizona State,True,False,401856683,245,48,Texas A&M,False,2026-09-12T16:00Z
+201,10,Oklahoma,True,False,401856679,130,17,Michigan,False,2026-09-12T16:00Z
+333,45,Alabama,True,True,401856674,96,17,Kentucky,False,2026-09-12T19:30Z
+2641,35,Texas Tech,True,False,401856783,204,24,Oregon State,False,2026-09-12T23:30Z
+309,30,Louisiana,True,False,401858445,30,49,USC,False,2026-09-13T03:00Z
+12,17,Arizona,True,True,401856810,252,28,BYU,False,2026-09-12T19:30Z
+213,27,Penn State,True,False,401858442,218,9,Temple,False,2026-09-12T16:00Z
+302,10,UC Davis,True,False,401858223,2567,56,SMU,False,2026-09-12T20:00Z
+2633,45,Tennessee,True,False,401856681,59,24,Georgia Tech,False,2026-09-12T23:00Z
+328,14,Utah State,True,False,401858446,264,16,Washington,False,2026-09-12T19:30Z
+8,10,Arkansas,True,False,401856670,254,43,Utah,False,2026-09-13T02:30Z
+66,13,Iowa State,True,False,401856788,2294,16,Iowa,False,2026-09-12T23:30Z
+2582,6,Southern,True,False,401856787,248,77,Houston,False,2026-09-12T23:00Z
+265,7,Washington State,True,False,401856781,2306,34,Kansas State,False,2026-09-12T16:00Z
+2193,3,East Tennessee State,True,False,401858218,153,35,North Carolina,False,2026-09-12T16:00Z
+295,21,Old Dominion,True,False,401858221,259,44,Virginia Tech,False,2026-09-12T16:00Z
+154,38,Wake Forest,True,False,401858224,2509,36,Purdue,False,2026-09-12T16:00Z
+58,28,South Florida,True,True,401862702,349,24,Army,False,2026-09-12T16:00Z
+2026,27,App State,True,False,401864571,151,24,East Carolina,False,2026-09-12T16:00Z
+2747,15,Wofford,True,False,401866416,2309,36,Kent State,False,2026-09-12T16:00Z
+2681,3,Wagner,True,False,401867929,256,87,James Madison,False,2026-09-12T16:00Z
+2241,23,Gardner-Webb,True,False,401868187,2335,24,Liberty,False,2026-09-12T16:00Z
+2630,7,UT Martin,True,False,401856791,277,52,West Virginia,False,2026-09-12T17:00Z
+2142,10,Colgate,True,False,401866415,2117,13,Central Michigan,False,2026-09-12T17:00Z
+107,7,Holy Cross,True,False,401866417,193,45,Miami (OH),False,2026-09-12T17:00Z
+2619,17,Stony Brook,True,False,401866413,2050,41,Ball State,False,2026-09-12T18:00Z
+344,38,Mississippi State,True,False,401856677,135,13,Minnesota,False,2026-09-12T19:30Z
+2692,21,Weber State,True,False,401856785,38,52,Colorado,False,2026-09-12T19:30Z
+2116,7,UCF,True,False,401856790,221,12,Pittsburgh,False,2026-09-12T19:30Z
+25,21,California,True,True,401858216,183,18,Syracuse,False,2026-09-12T19:30Z
+150,31,Duke,True,False,401858217,356,27,Illinois,False,2026-09-12T19:30Z
+2199,7,Eastern Michigan,True,False,401858440,127,35,Michigan State,False,2026-09-12T19:30Z
+120,38,Maryland,True,False,401858444,41,14,UConn,False,2026-09-12T19:30Z
+2636,31,UTSA,True,False,401860884,326,26,Texas State,False,2026-09-12T19:30Z
+2433,20,UL Monroe,True,False,401862708,5,26,UAB,False,2026-09-12T19:30Z
+2523,10,Robert Morris,True,False,401866412,2006,45,Akron,False,2026-09-12T19:30Z
+2115,10,Central Connecticut,True,False,401866419,2649,63,Toledo,False,2026-09-12T19:30Z
+2529,10,Sacred Heart,True,False,401866420,113,37,Massachusetts,False,2026-09-12T19:30Z
+2439,6,UNLV,True,False,401862705,249,44,North Texas,False,2026-09-12T19:45Z
+2458,13,Northern Colorado,True,False,401864506,2751,21,Wyoming,False,2026-09-12T20:00Z
+2385,7,Mercyhurst,True,False,401865252,167,70,New Mexico,False,2026-09-12T20:00Z
+2011,17,Alabama State,True,False,401868326,2653,34,Troy,False,2026-09-12T20:00Z
+48,26,Delaware,True,False,401856684,238,35,Vanderbilt,False,2026-09-12T20:15Z
+2097,3,Campbell,True,False,401856672,57,52,Florida,False,2026-09-12T21:30Z
+235,20,Memphis,True,False,401860881,68,38,Boise State,False,2026-09-12T22:00Z
+2084,20,Buffalo,True,False,401866414,2229,33,Florida International,False,2026-09-12T22:00Z
+55,27,Jacksonville State,True,False,401866418,195,29,Ohio,False,2026-09-12T22:00Z
+2405,14,Monmouth,True,False,401866421,2711,49,Western Michigan,False,2026-09-12T22:30Z
+119,9,Towson,True,False,401856680,2579,45,South Carolina,False,2026-09-12T23:00Z
+2717,10,Western Carolina,True,False,401856786,2132,62,Cincinnati,False,2026-09-12T23:00Z
+189,7,Bowling Green,True,False,401858441,158,56,Nebraska,False,2026-09-12T23:00Z
+253,24,Southern Utah,True,False,401860882,36,58,Colorado State,False,2026-09-12T23:00Z
+202,23,Tulsa,True,False,401862707,2534,17,Sam Houston,False,2026-09-12T23:00Z
+2287,28,Illinois State,True,False,401864503,2459,24,Northern Illinois,False,2026-09-12T23:00Z
+6,24,South Alabama,True,False,401864575,2655,28,Tulane,False,2026-09-12T23:00Z
+2698,7,West Georgia,True,False,401868241,2032,52,Arkansas State,False,2026-09-12T23:00Z
+2247,31,Georgia State,True,False,401869955,338,17,Kennesaw State,False,2026-09-12T23:00Z
+2393,26,Middle Tennessee,True,False,401871045,276,28,Marshall,False,2026-09-12T23:00Z
+2815,14,Lindenwood,True,False,401871046,2623,48,Missouri State,False,2026-09-12T23:00Z
+21,10,San Diego State,True,False,401858443,26,28,UCLA,False,2026-09-12T23:15Z
+2710,9,Western Illinois,True,False,401858447,275,36,Wisconsin,False,2026-09-12T23:15Z
+2426,30,Navy,True,True,401862703,2226,38,Florida Atlantic,False,2026-09-12T23:30Z
+2230,7,Fordham,True,False,401868008,324,45,Coastal Carolina,False,2026-09-12T23:30Z
+2755,7,Grambling,True,False,401856789,2628,63,TCU,False,2026-09-13T00:00Z
+2504,3,Prairie View A&M,True,False,401856784,239,44,Baylor,False,2026-09-13T00:08Z
+2572,8,Southern Miss,True,False,401856671,2,43,Auburn,False,2026-09-13T00:50Z
+13,20,Cal Poly,True,False,401864504,23,30,San José State,False,2026-09-13T01:00Z
+2640,10,Texas Southern,True,False,401864505,2638,51,UTEP,False,2026-09-13T01:00Z
+290,7,Georgia Southern,True,False,401858219,228,22,Clemson,False,2026-09-13T01:30Z
+2449,38,North Dakota State,True,True,401864502,2005,32,Air Force,False,2026-09-13T02:00Z
+16,3,Sacramento State,True,False,401860883,278,49,Fresno State,False,2026-09-13T02:30Z
+147,20,Montana State,True,False,401864500,2440,7,Nevada,False,2026-09-13T02:30Z
+166,19,New Mexico State,True,False,401864578,62,29,Hawai'i,False,2026-09-13T03:59Z
+183,13,Syracuse,True,True,401858225,221,27,Pittsburgh,False,2026-09-17T23:30Z
+2390,33,Miami,True,True,401858226,154,20,Wake Forest,False,2026-09-18T23:30Z
+248,26,Houston,True,True,401856811,2641,28,Texas Tech,False,2026-09-19T00:00Z
+2502,0,Portland State,True,False,401858455,2483,84,Oregon,False,2026-09-19T02:30Z
+2636,6,UTSA,True,False,401856693,251,30,Texas,False,2026-09-20T00:00Z
+61,45,Georgia,True,True,401856686,8,17,Arkansas,False,2026-09-19T16:00Z
+127,10,Michigan State,True,False,401858453,87,27,Notre Dame,False,2026-09-19T23:30Z
+98,0,Western Kentucky,True,False,401858449,84,38,Indiana,False,2026-09-19T20:00Z
+2309,3,Kent State,True,False,401858454,194,59,Ohio State,False,2026-09-19T16:00Z
+99,24,LSU,True,True,401856688,145,32,Ole Miss,False,2026-09-19T23:30Z
+96,31,Kentucky,True,True,401856694,245,21,Texas A&M,False,2026-09-19T19:40Z
+52,36,Florida State,True,False,401856685,333,50,Alabama,False,2026-09-19T21:15Z
+252,41,BYU,True,False,401856795,36,23,Colorado State,False,2026-09-20T00:15Z
+30,42,USC,True,True,401858457,164,35,Rutgers,False,2026-09-19T19:30Z
+2084,13,Buffalo,True,False,401858456,213,55,Penn State,False,2026-09-19T16:00Z
+338,9,Kennesaw State,True,False,401856692,2633,42,Tennessee,False,2026-09-19T23:45Z
+2567,31,SMU,True,True,401858230,97,41,Louisville,False,2026-09-19T19:30Z
+328,0,Utah State,True,False,401856801,254,33,Utah,False,2026-09-19T19:30Z
+2460,0,Northern Iowa,True,False,401858471,2294,55,Iowa,False,2026-09-19T20:00Z
+2638,17,UTEP,True,False,401858450,130,52,Michigan,False,2026-09-19T19:30Z
+2653,17,Troy,True,False,401856689,142,27,Missouri,False,2026-09-19T23:00Z
+167,6,New Mexico,True,False,401856690,201,14,Oklahoma,False,2026-09-19T23:30Z
+277,38,West Virginia,True,False,401856802,258,27,Virginia,True,2026-09-19T23:30Z
+324,14,Coastal Carolina,True,False,401869940,48,22,Delaware,False,2026-09-19T15:30Z
+2655,20,Tulane,True,False,401856792,2306,31,Kansas State,False,2026-09-19T16:00Z
+189,7,Bowling Green,True,False,401856798,66,55,Iowa State,False,2026-09-19T16:00Z
+9,24,Arizona State,True,True,401856812,2305,17,Kansas,True,2026-09-19T16:00Z
+2382,11,Mercer,True,False,401858228,59,44,Georgia Tech,False,2026-09-19T16:00Z
+153,20,North Carolina,True,True,401858229,228,28,Clemson,False,2026-09-19T16:00Z
+2006,7,Akron,True,False,401858451,135,41,Minnesota,False,2026-09-19T16:00Z
+249,35,North Texas,True,False,401860889,326,49,Texas State,False,2026-09-19T16:00Z
+2199,10,Eastern Michigan,True,False,401858460,275,54,Wisconsin,False,2026-09-19T16:30Z
+152,31,NC State,True,False,401856695,238,35,Vanderbilt,False,2026-09-19T16:45Z
+2751,10,Wyoming,True,False,401864508,2117,24,Central Michigan,False,2026-09-19T17:00Z
+311,16,Maine,True,False,401858227,103,22,Boston College,False,2026-09-19T18:00Z
+79,10,Southern Illinois,True,False,401858448,356,48,Illinois,False,2026-09-19T18:00Z
+218,48,Temple,True,False,401862774,2649,49,Toledo,False,2026-09-19T19:00Z
+193,31,Miami (OH),True,False,401856797,2132,35,Cincinnati,False,2026-09-19T19:30Z
+2681,7,Wagner,True,False,401858233,25,49,California,False,2026-09-19T19:30Z
+2184,7,Duquesne,True,False,401860890,265,48,Washington State,False,2026-09-19T19:30Z
+284,14,Stonehill,True,False,401866424,113,36,Massachusetts,False,2026-09-19T19:30Z
+24,7,Stanford,True,True,401858231,150,35,Duke,False,2026-09-19T20:00Z
+2050,15,Ball State,True,False,401866422,2335,51,Liberty,False,2026-09-19T20:00Z
+2348,19,Louisiana Tech,True,False,401867804,239,36,Baylor,False,2026-09-19T20:00Z
+2545,38,SE Louisiana,True,False,401868317,2433,35,UL Monroe,False,2026-09-19T20:30Z
+344,41,Mississippi State,True,True,401856691,2579,34,South Carolina,False,2026-09-19T21:35Z
+151,20,East Carolina,True,False,401862710,295,17,Old Dominion,False,2026-09-19T22:00Z
+2229,10,Florida International,True,False,401862771,2226,16,Florida Atlantic,False,2026-09-19T22:00Z
+276,30,Marshall,True,False,401871047,2623,24,Missouri State,False,2026-09-19T22:30Z
+57,44,Florida,True,True,401856687,2,39,Auburn,False,2026-09-19T23:00Z
+2247,30,Georgia State,True,False,401856800,2116,44,UCF,False,2026-09-19T23:00Z
+93,0,Murray State,True,False,401856803,197,59,Oklahoma State,False,2026-09-19T23:00Z
+41,48,UConn,True,False,401861963,2572,20,Southern Miss,False,2026-09-19T23:00Z
+2630,21,UT Martin,True,False,401862772,235,45,Memphis,False,2026-09-19T23:00Z
+2711,28,Western Michigan,True,False,401862773,242,21,Rice,False,2026-09-19T23:00Z
+2169,17,Delaware State,True,False,401862777,58,59,South Florida,False,2026-09-19T23:00Z
+2440,20,Nevada,True,False,401864443,2393,27,Middle Tennessee,False,2026-09-19T23:00Z
+195,36,Ohio,True,False,401866423,6,41,South Alabama,False,2026-09-19T23:00Z
+290,27,Georgia Southern,True,False,401869948,55,31,Jacksonville State,False,2026-09-19T23:00Z
+2447,0,Nicholls,True,False,401870764,2534,59,Sam Houston,False,2026-09-19T23:00Z
+155,7,North Dakota,True,False,401858452,158,34,Nebraska,False,2026-09-19T23:15Z
+331,16,Eastern Washington,True,False,401858459,264,48,Washington,False,2026-09-19T23:15Z
+38,7,Colorado,True,False,401856796,77,41,Northwestern,False,2026-09-19T23:30Z
+259,35,Virginia Tech,True,False,401858232,120,26,Maryland,False,2026-09-19T23:30Z
+2032,7,Arkansas State,True,False,401856799,2628,31,TCU,False,2026-09-20T00:00Z
+2837,0,East Texas A&M,True,False,401862775,202,42,Tulsa,False,2026-09-20T00:00Z
+5,14,UAB,True,False,401862776,309,21,Louisiana,False,2026-09-20T00:00Z
+2429,21,Charlotte,True,False,401864574,2026,26,App State,False,2026-09-20T01:30Z
+233,24,South Dakota,True,False,401860885,68,38,Boise State,False,2026-09-20T02:00Z
+256,26,James Madison,True,False,401860887,21,13,San Diego State,False,2026-09-20T02:00Z
+2459,17,Northern Illinois,True,False,401856793,12,42,Arizona,False,2026-09-20T02:30Z
+2449,31,North Dakota State,True,False,401864507,16,10,Sacramento State,False,2026-09-20T02:30Z
+2509,38,Purdue,True,True,401858458,26,52,UCLA,False,2026-09-20T03:00Z
+149,17,Montana,True,False,401860886,204,52,Oregon State,False,2026-09-20T03:00Z
+278,26,Fresno State,True,False,401860888,23,10,San José State,False,2026-09-20T03:00Z
+2335,34,Liberty,True,False,401869941,324,17,Coastal Carolina,False,2026-09-24T23:30Z
+77,23,Northwestern,True,True,401858461,84,29,Indiana,False,2026-09-26T00:00Z
+349,21,Army,True,True,401862779,218,17,Temple,False,2026-09-25T20:00Z
+47,7,Howard,True,False,401858468,164,58,Rutgers,False,2026-09-25T23:00Z
+2426,20,Navy,True,True,401862778,5,24,UAB,False,2026-09-25T23:00Z
+228,24,Clemson,True,True,401858234,25,10,California,False,2026-09-26T02:30Z
+251,20,Texas,True,True,401856704,2633,17,Tennessee,False,2026-09-26T16:00Z
+201,13,Oklahoma,True,True,401856700,61,41,Georgia,False,2026-09-26T19:30Z
+87,49,Notre Dame,True,False,401858467,2509,10,Purdue,False,2026-09-26T18:00Z
+145,28,Ole Miss,True,True,401856699,57,52,Florida,False,2026-09-26T19:30Z
+2117,3,Central Michigan,True,False,401858238,2390,52,Miami,False,2026-09-26T22:30Z
+356,19,Illinois,True,True,401858465,194,42,Ohio State,False,2026-09-26T16:00Z
+2579,18,South Carolina,True,True,401856696,333,49,Alabama,False,2026-09-26T23:10Z
+245,6,Texas A&M,True,True,401856702,99,35,LSU,False,2026-09-26T23:30Z
+2534,14,Sam Houston,True,False,401856805,2641,49,Texas Tech,False,2026-09-26T16:00Z
+2483,41,Oregon,True,True,401858469,30,27,USC,False,2026-09-26T23:30Z
+275,24,Wisconsin,True,True,401858466,213,20,Penn State,False,2026-09-26T21:00Z
+254,31,Utah,True,True,401856816,66,17,Iowa State,False,2026-09-26T19:30Z
+154,30,Wake Forest,True,True,401858243,97,27,Louisville,False,2026-09-26T16:00Z
+2294,20,Iowa,True,True,401858463,130,19,Michigan,False,2026-09-26T19:30Z
+142,24,Missouri,True,True,401856703,344,31,Mississippi State,False,2026-09-26T23:45Z
+2623,24,Missouri State,True,False,401858241,2567,34,SMU,False,2026-09-27T01:00Z
+248,42,Houston,True,False,401856806,290,28,Georgia Southern,False,2026-09-26T20:00Z
+38,13,Colorado,True,True,401856813,239,23,Baylor,False,2026-09-26T16:00Z
+2083,0,Bucknell,True,False,401858236,221,59,Pittsburgh,False,2026-09-26T16:00Z
+259,21,Virginia Tech,True,True,401858242,103,14,Boston College,False,2026-09-26T16:00Z
+21,16,San Diego State,True,False,401860893,2649,41,Toledo,False,2026-09-26T16:00Z
+36,45,Colorado State,True,False,401860896,2636,59,UTSA,False,2026-09-26T16:00Z
+2439,38,UNLV,True,False,401864512,2006,10,Akron,False,2026-09-26T16:00Z
+2050,13,Ball State,True,True,401866425,2309,26,Kent State,False,2026-09-26T16:00Z
+6,21,South Alabama,True,False,401864576,96,45,Kentucky,False,2026-09-26T16:45Z
+2815,3,Lindenwood,True,False,401866427,2199,29,Eastern Michigan,False,2026-09-26T17:00Z
+26,54,UCLA,True,True,401858462,120,3,Maryland,False,2026-09-26T17:30Z
+2459,14,Northern Illinois,True,False,401864511,2247,35,Georgia State,False,2026-09-26T18:00Z
+2110,7,Central Arkansas,True,False,401858237,52,34,Florida State,False,2026-09-26T19:00Z
+62,10,Hawai'i,True,True,401864510,2751,27,Wyoming,False,2026-09-26T19:00Z
+2628,13,TCU,True,True,401856815,2116,21,UCF,False,2026-09-26T19:30Z
+2729,7,William & Mary,True,False,401858244,150,62,Duke,False,2026-09-26T19:30Z
+68,32,Boise State,True,False,401860897,2711,7,Western Michigan,False,2026-09-26T19:30Z
+41,21,UConn,True,False,401861970,193,24,Miami (OH),False,2026-09-26T19:30Z
+167,42,New Mexico,True,False,401864579,166,18,New Mexico State,False,2026-09-26T19:30Z
+2523,28,Robert Morris,True,False,401866426,2084,31,Buffalo,False,2026-09-26T19:30Z
+284,7,Stonehill,True,False,401866428,195,35,Ohio,False,2026-09-26T19:30Z
+2241,35,Gardner-Webb,True,False,401868188,276,36,Marshall,False,2026-09-26T19:30Z
+2428,9,North Carolina Central,True,False,401862781,151,42,East Carolina,False,2026-09-26T20:00Z
+238,15,Vanderbilt,True,True,401856698,2,21,Auburn,False,2026-09-26T20:15Z
+158,31,Nebraska,True,True,401858464,127,13,Michigan State,False,2026-09-26T21:00Z
+58,14,South Florida,True,False,401862785,189,6,Bowling Green,False,2026-09-26T21:00Z
+48,3,Delaware,True,False,401858239,258,42,Virginia,False,2026-09-26T22:00Z
+2916,10,Incarnate Word,True,False,401860892,326,63,Texas State,False,2026-09-26T22:00Z
+2341,3,Long Island University,True,False,401867909,2229,20,Florida International,False,2026-09-26T22:00Z
+256,46,James Madison,True,True,401869961,295,20,Old Dominion,False,2026-09-26T22:00Z
+309,34,Louisiana,True,False,401862780,2429,7,Charlotte,False,2026-09-26T22:30Z
+2306,26,Kansas State,True,True,401856814,2132,31,Cincinnati,False,2026-09-26T23:00Z
+197,41,Oklahoma State,True,True,401856881,277,24,West Virginia,False,2026-09-26T23:00Z
+2572,21,Southern Miss,True,False,401862784,2655,24,Tulane,False,2026-09-26T23:00Z
+338,14,Kennesaw State,True,False,401869931,2032,17,Arkansas State,False,2026-09-26T23:00Z
+2385,7,Mercyhurst,True,False,401870745,98,52,Western Kentucky,False,2026-09-26T23:00Z
+2393,13,Middle Tennessee,True,True,401871048,55,23,Jacksonville State,False,2026-09-26T23:00Z
+12,34,Arizona,True,False,401856804,265,24,Washington State,False,2026-09-26T23:30Z
+2653,10,Troy,True,False,401860894,328,21,Utah State,False,2026-09-26T23:30Z
+2277,14,Houston Christian,True,False,401862783,249,63,North Texas,False,2026-09-26T23:30Z
+2026,31,App State,True,False,401864572,152,41,NC State,False,2026-09-26T23:30Z
+202,6,Tulsa,True,False,401856697,8,34,Arkansas,False,2026-09-27T00:00Z
+2226,45,Florida Atlantic,True,False,401862782,2433,17,UL Monroe,False,2026-09-27T00:00Z
+204,33,Oregon State,True,False,401860895,2638,7,UTEP,False,2026-09-27T01:00Z
+113,35,Massachusetts,True,True,401866429,16,6,Sacramento State,False,2026-09-27T01:00Z
+242,24,Rice,True,False,401860891,278,38,Fresno State,False,2026-09-27T02:00Z
+59,27,Georgia Tech,True,True,401858240,24,34,Stanford,False,2026-09-27T02:30Z
+2005,36,Air Force,True,True,401864509,2440,33,Nevada,False,2026-09-27T02:30Z
+135,27,Minnesota,True,True,401858470,264,24,Washington,False,2026-09-27T03:00Z
+98,13,Western Kentucky,True,True,401871049,166,34,New Mexico State,False,2026-10-02T00:00Z
+249,45,North Texas,True,True,401862786,202,44,Tulsa,False,2026-10-02T01:00Z
+221,35,Pittsburgh,True,True,401858245,259,33,Virginia Tech,False,2026-10-02T23:00Z
+2335,30,Liberty,True,True,401871050,48,14,Delaware,False,2026-10-02T23:00Z
+213,13,Penn State,True,True,401858476,77,34,Northwestern,False,2026-10-03T00:00Z
+238,14,Vanderbilt,True,True,401856705,61,38,Georgia,False,2026-10-03T16:45Z
+87,37,Notre Dame,True,False,401858250,153,26,North Carolina,False,2026-10-03T16:00Z
+2390,41,Miami,True,True,401858249,228,13,Clemson,False,2026-10-03T23:30Z
+194,31,Ohio State,True,True,401858473,2294,14,Iowa,False,2026-10-03T19:30Z
+84,47,Indiana,True,True,401858477,164,15,Rutgers,False,2026-10-04T00:00Z
+333,56,Alabama,True,True,401856707,344,23,Mississippi State,False,2026-10-03T16:00Z
+57,17,Florida,True,True,401856708,142,45,Missouri,False,2026-10-03T19:50Z
+252,17,BYU,True,True,401856818,2628,10,TCU,False,2026-10-03T23:00Z
+2377,14,McNeese,True,False,401856706,99,63,LSU,False,2026-10-03T23:45Z
+2641,29,Texas Tech,True,True,401856821,38,7,Colorado,False,2026-10-03T23:30Z
+2,14,Auburn,True,True,401856710,2633,24,Tennessee,False,2026-10-03T19:30Z
+264,21,Washington,True,True,401858478,30,25,USC,False,2026-10-03T23:30Z
+2116,17,UCF,True,True,401856819,248,27,Houston,False,2026-10-03T16:00Z
+103,16,Boston College,True,True,401858246,2567,25,SMU,False,2026-10-03T16:00Z
+328,18,Utah State,True,True,401860898,68,37,Boise State,False,2026-10-03T23:30Z
+96,35,Kentucky,True,True,401856709,2579,34,South Carolina,False,2026-10-03T20:15Z
+235,59,Memphis,True,True,401862787,2429,8,Charlotte,False,2026-10-03T15:00Z
+2393,0,Middle Tennessee,True,False,401856807,2305,55,Kansas,False,2026-10-03T16:00Z
+277,42,West Virginia,True,True,401856822,66,45,Iowa State,False,2026-10-03T16:00Z
+24,3,Stanford,True,True,401858251,154,57,Wake Forest,False,2026-10-03T16:00Z
+183,42,Syracuse,True,False,401858252,41,41,UConn,False,2026-10-03T16:00Z
+130,14,Michigan,True,True,401858474,135,20,Minnesota,False,2026-10-03T16:00Z
+2426,9,Navy,True,False,401862791,2005,14,Air Force,False,2026-10-03T16:00Z
+127,3,Michigan State,True,True,401858479,275,31,Wisconsin,False,2026-10-03T16:30Z
+2711,20,Western Michigan,True,True,401866432,2084,17,Buffalo,False,2026-10-03T17:00Z
+2649,39,Toledo,True,True,401866431,2050,24,Ball State,False,2026-10-03T18:00Z
+25,31,California,True,False,401858247,2439,39,UNLV,False,2026-10-03T19:30Z
+97,28,Louisville,True,True,401858248,152,31,NC State,False,2026-10-03T19:30Z
+258,7,Virginia,True,True,401858253,52,38,Florida State,False,2026-10-03T19:30Z
+2535,14,Samford,True,False,401862793,5,33,UAB,False,2026-10-03T19:30Z
+2751,0,Wyoming,True,True,401864515,2449,28,North Dakota State,False,2026-10-03T19:30Z
+2006,17,Akron,True,True,401866430,2117,41,Central Michigan,False,2026-10-03T19:30Z
+2199,38,Eastern Michigan,True,True,401866433,113,14,Massachusetts,False,2026-10-03T19:30Z
+195,13,Ohio,True,True,401866434,2309,10,Kent State,False,2026-10-03T19:30Z
+189,24,Bowling Green,True,True,401866477,193,20,Miami (OH),False,2026-10-03T19:30Z
+295,10,Old Dominion,True,True,401869956,2247,42,Georgia State,False,2026-10-03T19:30Z
+276,17,Marshall,True,True,401869962,256,45,James Madison,False,2026-10-03T19:45Z
+120,23,Maryland,True,True,401858475,158,48,Nebraska,False,2026-10-03T20:00Z
+2638,7,UTEP,True,True,401864514,167,61,New Mexico,False,2026-10-03T20:00Z
+2509,24,Purdue,True,True,401858472,356,17,Illinois,False,2026-10-03T20:15Z
+204,56,Oregon State,True,True,401860899,36,26,Colorado State,False,2026-10-03T22:00Z
+2640,10,Texas Southern,True,False,401862790,2226,66,Florida Atlantic,False,2026-10-03T22:00Z
+8,7,Arkansas,True,True,401856711,245,34,Texas A&M,False,2026-10-03T23:00Z
+2636,16,UTSA,True,True,401862788,242,14,Rice,False,2026-10-03T23:00Z
+290,31,Georgia Southern,True,True,401869942,324,24,Coastal Carolina,False,2026-10-03T23:00Z
+2433,35,UL Monroe,True,True,401871089,6,52,South Alabama,False,2026-10-03T23:00Z
+218,17,Temple,True,True,401862792,58,13,South Florida,False,2026-10-03T23:30Z
+349,29,Army,True,False,401869842,2348,31,Louisiana Tech,False,2026-10-03T23:30Z
+2032,20,Arkansas State,True,True,401869932,309,23,Louisiana,False,2026-10-04T00:00Z
+278,26,Fresno State,True,True,401860921,265,6,Washington State,False,2026-10-04T01:30Z
+239,55,Baylor,True,True,401856817,9,19,Arizona State,False,2026-10-04T02:30Z
+326,29,Texas State,True,True,401860900,21,31,San Diego State,False,2026-10-04T02:30Z
+2132,7,Cincinnati,True,True,401856820,12,34,Arizona,False,2026-10-04T03:00Z
+23,20,San José State,True,True,401864513,62,16,Hawai'i,False,2026-10-04T03:59Z
+2572,34,Southern Miss,True,True,401871090,2653,55,Troy,False,2026-10-07T00:00Z
+55,27,Jacksonville State,True,True,401871051,338,26,Kennesaw State,False,2026-10-07T23:00Z
+166,3,New Mexico State,True,True,401871066,2229,22,Florida International,False,2026-10-08T00:04Z
+2534,3,Sam Houston,True,True,401870766,2335,35,Liberty,False,2026-10-08T23:00Z
+2623,13,Missouri State,True,True,401871052,98,34,Western Kentucky,False,2026-10-08T23:00Z
+58,24,South Florida,True,True,401862794,2636,31,UTSA,False,2026-10-08T23:30Z
+6,56,South Alabama,True,True,401869933,2032,49,Arkansas State,False,2026-10-08T23:30Z
+66,10,Iowa State,True,True,401856826,252,24,BYU,False,2026-10-10T02:30Z
+2294,41,Iowa,True,True,401858487,264,24,Washington,False,2026-10-10T01:00Z
+52,20,Florida State,True,True,401858254,97,44,Louisville,False,2026-10-09T23:00Z
+265,16,Washington State,True,True,401860922,328,17,Utah State,False,2026-10-10T01:00Z
+2751,16,Wyoming,True,True,401864519,23,13,San José State,False,2026-10-10T01:00Z
+251,24,Texas,True,True,401856717,201,27,Oklahoma,True,2026-10-10T19:30Z
+61,20,Georgia,True,True,401856712,333,17,Alabama,False,2026-10-10T23:30Z
+24,7,Stanford,True,False,401858257,87,58,Notre Dame,False,2026-10-10T19:30Z
+120,16,Maryland,True,True,401858483,194,45,Ohio State,False,2026-10-10T20:15Z
+84,20,Indiana,True,True,401858481,158,17,Nebraska,False,2026-10-10T16:00Z
+145,52,Ole Miss,True,True,401856718,238,17,Vanderbilt,False,2026-10-10T19:30Z
+99,34,LSU,True,True,401856715,96,35,Kentucky,False,2026-10-10T23:00Z
+2305,24,Kansas,True,True,401856827,254,41,Utah,False,2026-10-11T00:00Z
+26,17,UCLA,True,True,401858484,2483,15,Oregon,False,2026-10-10T19:30Z
+245,6,Texas A&M,True,True,401856716,142,27,Missouri,False,2026-10-10T16:00Z
+2633,24,Tennessee,True,True,401856713,8,17,Arkansas,False,2026-10-10T20:15Z
+2579,38,South Carolina,True,True,401856714,57,19,Florida,False,2026-10-10T16:45Z
+2116,28,UCF,True,True,401856824,197,42,Oklahoma State,False,2026-10-10T16:00Z
+30,31,USC,True,True,401858485,213,23,Penn State,False,2026-10-10T23:30Z
+248,35,Houston,True,True,401856825,2306,16,Kansas State,False,2026-10-10T19:30Z
+68,38,Boise State,True,True,401860901,278,31,Fresno State,False,2026-10-11T02:30Z
+153,21,North Carolina,True,True,401858256,221,17,Pittsburgh,False,2026-10-10T16:00Z
+12,52,Arizona,True,True,401856823,277,31,West Virginia,False,2026-10-10T16:00Z
+154,38,Wake Forest,True,True,401858260,152,14,NC State,False,2026-10-10T16:00Z
+2655,17,Tulane,True,True,401862795,349,20,Army,False,2026-10-10T16:00Z
+16,10,Sacramento State,True,True,401866436,189,38,Bowling Green,False,2026-10-10T16:00Z
+2050,14,Ball State,True,False,401858482,77,45,Northwestern,False,2026-10-10T16:30Z
+242,12,Rice,True,True,401862797,151,28,East Carolina,False,2026-10-10T17:00Z
+295,10,Old Dominion,True,True,401869843,2026,3,App State,False,2026-10-10T17:00Z
+193,20,Miami (OH),True,True,401866440,113,19,Massachusetts,False,2026-10-10T18:00Z
+150,25,Duke,True,True,401858255,59,28,Georgia Tech,False,2026-10-10T19:30Z
+259,20,Virginia Tech,True,True,401858259,25,25,California,False,2026-10-10T19:30Z
+356,38,Illinois,True,True,401858480,127,37,Michigan State,False,2026-10-10T19:30Z
+2429,10,Charlotte,True,True,401862796,249,50,North Texas,False,2026-10-10T19:30Z
+202,26,Tulsa,True,True,401862799,2426,34,Navy,False,2026-10-10T19:30Z
+2199,25,Eastern Michigan,True,True,401866435,2006,23,Akron,False,2026-10-10T19:30Z
+2084,23,Buffalo,True,True,401866437,2649,8,Toledo,False,2026-10-10T19:30Z
+2117,14,Central Michigan,True,True,401866438,195,31,Ohio,False,2026-10-10T19:30Z
+2309,7,Kent State,True,True,401866439,2711,38,Western Michigan,False,2026-10-10T19:30Z
+41,34,UConn,True,False,401861964,218,20,Temple,False,2026-10-10T19:45Z
+21,14,San Diego State,True,True,401860902,204,66,Oregon State,False,2026-10-10T22:00Z
+5,13,UAB,True,True,401862798,235,38,Memphis,False,2026-10-10T23:00Z
+2440,30,Nevada,True,True,401864517,2638,13,UTEP,False,2026-10-10T23:00Z
+2449,7,North Dakota State,True,True,401864518,2439,13,UNLV,False,2026-10-10T23:00Z
+324,27,Coastal Carolina,True,True,401869943,276,21,Marshall,False,2026-10-10T23:00Z
+183,25,Syracuse,True,True,401858258,258,28,Virginia,False,2026-10-10T23:30Z
+2005,28,Air Force,True,True,401864516,2459,7,Northern Illinois,False,2026-10-10T23:30Z
+309,31,Louisiana,True,True,401869965,2348,32,Louisiana Tech,False,2026-10-10T23:30Z
+135,13,Minnesota,True,True,401858486,2509,41,Purdue,False,2026-10-11T00:00Z
+256,27,James Madison,True,True,401869949,290,24,Georgia Southern,False,2026-10-11T00:10Z
+62,12,Hawai'i,True,False,401856808,9,30,Arizona State,False,2026-10-11T02:30Z
+48,30,Delaware,True,True,401871067,2393,33,Middle Tennessee,False,2026-10-13T23:00Z
+2229,24,Florida International,True,True,401871053,55,27,Jacksonville State,False,2026-10-14T00:00Z
+338,21,Kennesaw State,True,True,401871054,2623,24,Missouri State,False,2026-10-14T23:30Z
+98,16,Western Kentucky,True,True,401871068,2534,3,Sam Houston,False,2026-10-15T00:00Z
+151,17,East Carolina,True,True,401862800,5,30,UAB,False,2026-10-15T23:30Z
+290,23,Georgia Southern,True,True,401869950,295,15,Old Dominion,False,2026-10-15T23:30Z
+36,27,Colorado State,True,True,401860923,326,66,Texas State,False,2026-10-16T00:00Z
+235,17,Memphis,True,True,401862801,2655,31,Tulane,False,2026-10-16T23:30Z
+264,38,Washington,True,True,401858493,2509,26,Purdue,False,2026-10-17T00:00Z
+2026,35,App State,True,True,401869844,324,32,Coastal Carolina,False,2026-10-17T00:00Z
+2,27,Auburn,True,True,401856719,61,24,Georgia,False,2026-10-17T19:30Z
+87,24,Notre Dame,True,False,401856809,252,28,BYU,False,2026-10-17T23:30Z
+52,35,Florida State,True,True,401858263,2390,43,Miami,False,2026-10-17T23:00Z
+194,19,Ohio State,True,True,401858488,84,15,Indiana,False,2026-10-17T16:00Z
+333,10,Alabama,True,True,401856723,2633,26,Tennessee,False,2026-10-17T19:30Z
+57,27,Florida,True,True,401856724,251,24,Texas,False,2026-10-17T16:00Z
+142,3,Missouri,True,True,401856721,145,31,Ole Miss,False,2026-10-17T19:30Z
+9,25,Arizona State,True,True,401856828,2641,53,Texas Tech,False,2026-10-17T19:30Z
+254,27,Utah,True,True,401856833,38,24,Colorado,False,2026-10-18T02:15Z
+275,7,Wisconsin,True,True,401858494,26,17,UCLA,False,2026-10-17T23:30Z
+96,21,Kentucky,True,True,401856722,201,13,Oklahoma,False,2026-10-17T23:30Z
+344,0,Mississippi State,True,True,401856720,99,31,LSU,False,2026-10-17T16:00Z
+197,32,Oklahoma State,True,True,401856831,248,35,Houston,False,2026-10-17T23:30Z
+154,41,Wake Forest,True,True,401858269,25,7,California,False,2026-10-18T02:30Z
+258,13,Virginia,True,True,401858268,2567,23,SMU,False,2026-10-17T16:00Z
+77,24,Northwestern,True,True,401858491,127,21,Michigan State,False,2026-10-17T16:00Z
+2132,42,Cincinnati,True,True,401856829,277,45,West Virginia,False,2026-10-17T16:00Z
+2305,24,Kansas,True,True,401856830,2306,35,Kansas State,False,2026-10-17T16:00Z
+2127,0,Charleston Southern,True,False,401858261,228,37,Clemson,False,2026-10-17T16:00Z
+221,21,Pittsburgh,True,True,401858267,103,27,Boston College,False,2026-10-17T16:00Z
+2226,24,Florida Atlantic,True,True,401862802,349,56,Army,False,2026-10-17T16:00Z
+2050,32,Ball State,True,True,401866441,189,31,Bowling Green,False,2026-10-17T16:00Z
+2247,22,Georgia State,True,True,401869957,256,49,James Madison,False,2026-10-17T16:00Z
+164,37,Rutgers,True,True,401858489,120,30,Maryland,False,2026-10-17T16:30Z
+2643,0,The Citadel,True,False,401856725,245,41,Texas A&M,False,2026-10-17T17:00Z
+2429,38,Charlotte,True,True,401862803,218,31,Temple,False,2026-10-17T17:00Z
+113,18,Massachusetts,True,True,401866442,2084,25,Buffalo,False,2026-10-17T17:00Z
+2711,21,Western Michigan,True,True,401866443,2117,14,Central Michigan,False,2026-10-17T17:30Z
+59,24,Georgia Tech,True,True,401858264,259,34,Virginia Tech,False,2026-10-17T19:30Z
+153,24,North Carolina,True,True,401858266,150,20,Duke,False,2026-10-17T19:30Z
+213,18,Penn State,True,True,401858490,130,21,Michigan,False,2026-10-17T19:30Z
+2459,23,Northern Illinois,True,True,401864522,2751,41,Wyoming,False,2026-10-17T19:30Z
+2439,31,UNLV,True,True,401864524,2005,41,Air Force,False,2026-10-17T19:30Z
+2649,34,Toledo,True,True,401866444,2199,14,Eastern Michigan,False,2026-10-17T19:30Z
+2006,14,Akron,True,True,401866478,193,34,Miami (OH),False,2026-10-17T19:30Z
+202,38,Tulsa,True,True,401862805,242,17,Rice,False,2026-10-17T20:30Z
+2653,6,Troy,True,True,401869966,309,33,Louisiana,False,2026-10-17T21:00Z
+265,30,Washington State,True,True,401860903,204,48,Oregon State,False,2026-10-17T22:00Z
+8,31,Arkansas,True,True,401856726,238,21,Vanderbilt,False,2026-10-17T23:00Z
+2628,17,TCU,True,True,401856832,239,6,Baylor,False,2026-10-17T23:00Z
+2309,2,Kent State,True,False,401862806,58,29,South Florida,False,2026-10-17T23:00Z
+2440,17,Nevada,True,True,401864520,2449,31,North Dakota State,False,2026-10-17T23:00Z
+2032,23,Arkansas State,True,True,401869934,2572,13,Southern Miss,False,2026-10-17T23:00Z
+2210,7,Elon,True,False,401858262,24,34,Stanford,False,2026-10-17T23:30Z
+97,34,Louisville,True,True,401858265,183,26,Syracuse,False,2026-10-17T23:30Z
+2426,34,Navy,True,True,401862804,2636,38,UTSA,False,2026-10-18T00:00Z
+2348,24,Louisiana Tech,True,True,401871091,2433,0,UL Monroe,False,2026-10-18T00:00Z
+23,24,San José State,True,True,401864523,2638,11,UTEP,False,2026-10-18T01:00Z
+195,48,Ohio,True,True,401866445,16,7,Sacramento State,False,2026-10-18T02:00Z
+278,23,Fresno State,True,True,401860904,21,26,San Diego State,False,2026-10-18T02:30Z
+167,21,New Mexico,True,True,401864521,62,10,Hawai'i,False,2026-10-18T02:30Z
+158,14,Nebraska,True,True,401858492,2483,17,Oregon,False,2026-10-18T03:00Z
+2393,26,Middle Tennessee,True,True,401871055,2229,23,Florida International,False,2026-10-20T23:00Z
+2623,38,Missouri State,True,True,401871069,48,61,Delaware,False,2026-10-20T23:00Z
+6,13,South Alabama,True,True,401871092,276,20,Marshall,False,2026-10-20T23:30Z
+166,30,New Mexico State,True,True,401871070,2534,24,Sam Houston,False,2026-10-22T00:00Z
+256,31,James Madison,True,True,401869845,2026,34,App State,False,2026-10-22T23:00Z
+2335,34,Liberty,True,True,401871056,338,6,Kennesaw State,False,2026-10-22T23:00Z
+151,34,East Carolina,True,True,401862807,235,41,Memphis,False,2026-10-22T23:30Z
+150,19,Duke,True,True,401858271,258,16,Virginia,False,2026-10-23T23:00Z
+113,16,Massachusetts,True,False,401861965,41,35,UConn,False,2026-10-23T23:00Z
+349,38,Army,True,True,401862808,202,35,Tulsa,False,2026-10-24T00:30Z
+2005,14,Air Force,True,True,401864525,2751,28,Wyoming,False,2026-10-24T01:00Z
+152,28,NC State,True,True,401858272,24,31,Stanford,False,2026-10-24T02:30Z
+221,23,Pittsburgh,True,True,401858274,2390,52,Miami,False,2026-10-24T16:00Z
+252,31,BYU,True,True,401856835,2116,39,UCF,False,2026-10-24T19:30Z
+84,13,Indiana,True,True,401858496,130,6,Michigan,False,2026-10-24T16:00Z
+145,27,Ole Miss,True,True,401856732,251,34,Texas,False,2026-10-24T23:30Z
+2641,24,Texas Tech,True,True,401856840,2132,37,Cincinnati,False,2026-10-24T16:00Z
+127,10,Michigan State,True,True,401858499,26,28,UCLA,False,2026-10-24T19:30Z
+248,13,Houston,True,True,401856837,254,21,Utah,False,2026-10-25T02:15Z
+2633,24,Tennessee,True,True,401856731,2579,27,South Carolina,False,2026-10-24T19:30Z
+238,17,Vanderbilt,True,True,401856729,96,34,Kentucky,False,2026-10-24T23:30Z
+245,20,Texas A&M,True,True,401856727,333,31,Alabama,False,2026-10-24T19:30Z
+2294,10,Iowa,True,True,401858497,135,13,Minnesota,False,2026-10-24T19:30Z
+30,7,USC,True,True,401858500,275,24,Wisconsin,False,2026-10-24T23:30Z
+99,38,LSU,True,True,401856728,2,17,Auburn,False,2026-10-24T16:00Z
+68,31,Boise State,True,True,401860907,265,10,Washington State,False,2026-10-24T22:00Z
+25,20,California,True,True,401858270,2567,59,SMU,False,2026-10-24T16:00Z
+164,14,Rutgers,True,True,401858498,77,42,Northwestern,False,2026-10-24T16:00Z
+66,3,Iowa State,True,True,401856838,12,39,Arizona,False,2026-10-24T23:30Z
+277,24,West Virginia,True,True,401856841,2628,20,TCU,False,2026-10-24T16:00Z
+242,49,Rice,True,True,401862809,2226,51,Florida Atlantic,False,2026-10-24T16:00Z
+2711,38,Western Michigan,True,True,401866450,2649,45,Toledo,False,2026-10-24T16:00Z
+239,24,Baylor,True,True,401856834,2305,25,Kansas,False,2026-10-24T17:00Z
+2006,20,Akron,True,True,401866446,2309,35,Kent State,False,2026-10-24T17:00Z
+193,28,Miami (OH),True,True,401866476,2117,27,Central Michigan,False,2026-10-24T17:00Z
+2483,10,Oregon,True,True,401858495,356,21,Illinois,False,2026-10-24T19:00Z
+201,23,Oklahoma,True,True,401856730,344,15,Mississippi State,False,2026-10-24T19:30Z
+103,49,Boston College,True,True,401858273,59,27,Georgia Tech,False,2026-10-24T19:30Z
+249,49,North Texas,True,True,401862810,2426,39,Navy,False,2026-10-24T19:30Z
+62,56,Hawai'i,True,True,401864526,2459,21,Northern Illinois,False,2026-10-24T19:30Z
+16,17,Sacramento State,True,True,401866447,2050,34,Ball State,False,2026-10-24T19:30Z
+189,24,Bowling Green,True,True,401866448,2084,31,Buffalo,False,2026-10-24T19:30Z
+2306,17,Kansas State,True,True,401856839,9,28,Arizona State,False,2026-10-24T19:45Z
+2199,20,Eastern Michigan,True,True,401866449,195,24,Ohio,False,2026-10-24T20:00Z
+2433,21,UL Monroe,True,True,401871094,2653,14,Troy,False,2026-10-24T20:00Z
+23,13,San José State,True,True,401864528,2440,28,Nevada,False,2026-10-24T21:00Z
+309,31,Louisiana,True,True,401869967,2572,35,Southern Miss,False,2026-10-24T21:00Z
+295,0,Old Dominion,True,True,401871093,2348,26,Louisiana Tech,False,2026-10-24T21:00Z
+21,49,San Diego State,True,True,401860905,36,56,Colorado State,False,2026-10-24T22:30Z
+38,24,Colorado,True,True,401856836,197,57,Oklahoma State,False,2026-10-24T23:00Z
+259,20,Virginia Tech,True,True,401858276,228,16,Clemson,False,2026-10-24T23:00Z
+2247,32,Georgia State,True,True,401869935,2032,38,Arkansas State,False,2026-10-24T23:00Z
+183,31,Syracuse,True,True,401858275,153,30,North Carolina,False,2026-10-24T23:30Z
+328,17,Utah State,True,True,401860906,326,20,Texas State,False,2026-10-24T23:30Z
+2636,42,UTSA,True,True,401862811,2655,19,Tulane,False,2026-10-25T00:00Z
+2449,16,North Dakota State,True,True,401864527,167,21,New Mexico,False,2026-10-25T02:20Z
+48,35,Delaware,True,True,401871071,98,21,Western Kentucky,False,2026-10-27T23:00Z
+2534,3,Sam Houston,True,True,401871072,2623,24,Missouri State,False,2026-10-28T00:00Z
+338,44,Kennesaw State,True,True,401871058,2393,28,Middle Tennessee,False,2026-10-28T23:00Z
+55,24,Jacksonville State,True,True,401871057,166,0,New Mexico State,False,2026-10-29T00:00Z
+2226,41,Florida Atlantic,True,True,401862812,249,48,North Texas,False,2026-10-29T23:30Z
+2653,24,Troy,True,True,401869963,256,21,James Madison,False,2026-10-29T23:30Z
+2655,38,Tulane,True,True,401862813,2429,31,Charlotte,False,2026-10-30T23:00Z
+239,41,Baylor,True,True,401856844,2116,9,UCF,False,2026-10-30T23:30Z
+2309,10,Kent State,True,True,401866451,16,31,Sacramento State,False,2026-10-31T02:30Z
+2390,38,Miami,True,True,401858282,153,35,North Carolina,False,2026-10-31T23:30Z
+194,18,Ohio State,True,True,401858509,30,30,USC,False,2026-10-31T23:30Z
+57,8,Florida,True,True,401856734,61,27,Georgia,True,2026-10-31T19:30Z
+135,16,Minnesota,True,True,401858501,84,23,Indiana,False,2026-10-31T19:30Z
+87,35,Notre Dame,True,False,401859185,2426,13,Navy,True,2026-10-31T16:00Z
+254,49,Utah,True,True,401856848,2132,25,Cincinnati,False,2026-10-31T19:45Z
+2440,0,Nevada,True,False,401858508,26,27,UCLA,False,2026-10-31T20:15Z
+9,20,Arizona State,True,True,401856843,252,27,BYU,False,2026-10-31T19:30Z
+344,3,Mississippi State,True,True,401856737,251,31,Texas,False,2026-10-31T23:30Z
+2,15,Auburn,True,True,401856735,145,45,Ole Miss,False,2026-10-31T16:45Z
+12,26,Arizona,True,True,401856842,2641,34,Texas Tech,False,2026-10-31T16:00Z
+258,7,Virginia,True,True,401858284,154,51,Wake Forest,False,2026-10-31T19:45Z
+2567,27,SMU,True,True,401858278,183,30,Syracuse,False,2026-10-31T16:00Z
+77,26,Northwestern,True,True,401858505,2483,34,Oregon,False,2026-10-31T19:30Z
+326,45,Texas State,True,True,401860908,68,46,Boise State,False,2026-11-01T02:00Z
+142,34,Missouri,True,True,401856733,8,10,Arkansas,False,2026-10-31T23:45Z
+197,49,Oklahoma State,True,True,401856847,66,51,Iowa State,False,2026-10-31T23:00Z
+275,0,Wisconsin,True,True,401858502,2294,30,Iowa,False,2026-10-31T16:00Z
+25,10,California,True,True,401858277,152,31,NC State,False,2026-10-31T16:00Z
+103,2,Boston College,True,True,401858279,150,47,Duke,False,2026-10-31T16:00Z
+356,20,Illinois,True,True,401858503,120,17,Maryland,False,2026-10-31T16:00Z
+5,10,UAB,True,True,401862816,58,30,South Florida,False,2026-10-31T16:00Z
+189,10,Bowling Green,True,True,401866452,2711,23,Western Michigan,False,2026-10-31T16:00Z
+130,28,Michigan,True,True,401858507,164,21,Rutgers,False,2026-10-31T16:30Z
+276,36,Marshall,True,True,401871096,295,23,Old Dominion,False,2026-10-31T17:00Z
+2306,24,Kansas State,True,True,401856846,38,27,Colorado,False,2026-10-31T18:00Z
+324,31,Coastal Carolina,True,True,401869944,2247,20,Georgia State,False,2026-10-31T18:00Z
+41,26,UConn,True,False,401861966,2005,35,Air Force,False,2026-10-31T19:00Z
+218,9,Temple,True,True,401862815,151,17,East Carolina,False,2026-10-31T19:00Z
+2348,35,Louisiana Tech,True,True,401871097,6,20,South Alabama,False,2026-10-31T19:00Z
+24,24,Stanford,True,True,401858283,97,52,Louisville,False,2026-10-31T19:15Z
+2305,16,Kansas,True,True,401856845,2628,22,TCU,False,2026-10-31T19:30Z
+36,14,Colorado State,True,True,401860910,328,31,Utah State,False,2026-10-31T19:30Z
+2638,7,UTEP,True,True,401864531,2449,31,North Dakota State,False,2026-10-31T19:30Z
+2229,10,Florida International,True,True,401871059,2335,49,Liberty,False,2026-10-31T19:30Z
+2572,35,Southern Miss,True,True,401871095,2433,21,UL Monroe,False,2026-10-31T19:30Z
+167,21,New Mexico,True,True,401864529,23,16,San José State,False,2026-10-31T20:00Z
+2579,42,South Carolina,True,True,401856736,201,25,Oklahoma,False,2026-10-31T20:15Z
+2509,17,Purdue,True,True,401858506,213,31,Penn State,False,2026-10-31T20:15Z
+2026,3,App State,True,True,401869846,290,19,Georgia Southern,False,2026-10-31T22:30Z
+228,36,Clemson,True,True,401858280,52,24,Florida State,False,2026-10-31T23:00Z
+265,20,Washington State,True,True,401860909,21,26,San Diego State,False,2026-10-31T23:00Z
+59,11,Georgia Tech,True,True,401858281,221,34,Pittsburgh,False,2026-10-31T23:30Z
+264,17,Washington,True,True,401858504,158,10,Nebraska,False,2026-11-01T00:00Z
+349,22,Army,True,True,401862814,235,49,Memphis,False,2026-11-01T00:00Z
+2459,24,Northern Illinois,True,True,401864530,2439,31,UNLV,False,2026-11-01T02:30Z
+204,22,Oregon State,True,True,401860924,278,38,Fresno State,False,2026-11-01T03:00Z
+195,28,Ohio,True,True,401866453,2006,20,Akron,False,2026-11-04T00:00Z
+2084,34,Buffalo,True,True,401866454,193,31,Miami (OH),False,2026-11-04T01:00Z
+2050,30,Ball State,True,True,401866455,113,31,Massachusetts,False,2026-11-05T00:00Z
+2649,20,Toledo,True,True,401866457,16,17,Sacramento State,False,2026-11-05T00:00Z
+2117,35,Central Michigan,True,True,401866456,2199,7,Eastern Michigan,True,2026-11-05T00:30Z
+2636,29,UTSA,True,True,401862817,2226,60,Florida Atlantic,False,2026-11-06T00:30Z
+256,54,James Madison,True,True,401869964,2572,23,Southern Miss,False,2026-11-06T01:00Z
+2628,28,TCU,True,True,401856855,12,29,Arizona,False,2026-11-07T03:15Z
+259,28,Virginia Tech,True,True,401858288,2567,51,SMU,False,2026-11-07T00:00Z
+58,17,South Florida,True,True,401862818,151,20,East Carolina,False,2026-11-07T00:30Z
+158,13,Nebraska,True,True,401858510,356,24,Illinois,False,2026-11-07T01:00Z
+167,31,New Mexico,True,True,401864533,2440,3,Nevada,False,2026-11-07T02:00Z
+2390,24,Miami,True,False,401858291,87,31,Notre Dame,False,2026-11-08T00:30Z
+61,42,Georgia,True,True,401856741,145,7,Ole Miss,False,2026-11-08T00:30Z
+252,20,BYU,True,True,401856849,254,28,Utah,False,2026-11-07T17:00Z
+333,31,Alabama,True,True,401856740,99,13,LSU,False,2026-11-07T20:30Z
+96,6,Kentucky,True,True,401856745,2633,34,Tennessee,False,2026-11-07T23:15Z
+251,34,Texas,True,True,401856743,142,20,Missouri,False,2026-11-07T17:00Z
+26,34,UCLA,True,True,401858512,135,20,Minnesota,False,2026-11-07T17:00Z
+2483,41,Oregon,True,True,401858514,194,28,Ohio State,False,2026-11-07T20:30Z
+277,48,West Virginia,True,True,401856856,2641,53,Texas Tech,False,2026-11-08T02:30Z
+2771,0,Merrimack,True,False,401858290,154,77,Wake Forest,False,2026-11-07T20:30Z
+2132,24,Cincinnati,True,True,401856851,248,31,Houston,False,2026-11-07T20:30Z
+2294,24,Iowa,True,True,401858513,77,10,Northwestern,False,2026-11-08T00:30Z
+245,9,Texas A&M,True,True,401856744,2579,17,South Carolina,False,2026-11-07T20:00Z
+201,23,Oklahoma,True,True,401856739,57,7,Florida,False,2026-11-08T00:45Z
+68,64,Boise State,True,True,401860911,36,38,Colorado State,False,2026-11-07T23:00Z
+66,31,Iowa State,True,True,401856853,239,42,Baylor,False,2026-11-07T17:00Z
+228,18,Clemson,True,True,401858285,183,13,Syracuse,False,2026-11-07T17:00Z
+52,31,Florida State,True,True,401858289,103,24,Boston College,False,2026-11-07T17:00Z
+153,38,North Carolina,True,False,401858292,41,21,UConn,False,2026-11-07T17:00Z
+202,60,Tulsa,True,True,401862822,2655,10,Tulane,False,2026-11-07T17:00Z
+150,41,Duke,True,True,401858286,152,3,NC State,False,2026-11-07T17:30Z
+120,34,Maryland,True,True,401858515,2509,29,Purdue,False,2026-11-07T17:30Z
+8,23,Arkansas,True,True,401856738,2,26,Auburn,False,2026-11-07T17:45Z
+197,66,Oklahoma State,True,True,401856854,2306,28,Kansas State,False,2026-11-07T18:00Z
+295,21,Old Dominion,True,True,401869945,324,8,Coastal Carolina,False,2026-11-07T18:00Z
+2247,39,Georgia State,True,True,401869927,2026,23,App State,False,2026-11-07T19:30Z
+2433,19,UL Monroe,True,True,401869936,2032,17,Arkansas State,False,2026-11-07T20:00Z
+48,40,Delaware,True,True,401871073,338,42,Kennesaw State,False,2026-11-07T20:00Z
+213,28,Penn State,True,True,401858516,264,25,Washington,False,2026-11-07T20:30Z
+2429,12,Charlotte,True,True,401862819,5,23,UAB,False,2026-11-07T20:30Z
+218,35,Temple,True,True,401862820,2426,42,Navy,False,2026-11-07T20:30Z
+276,13,Marshall,True,True,401869951,290,49,Georgia Southern,False,2026-11-07T20:30Z
+98,42,Western Kentucky,True,True,401871076,2393,51,Middle Tennessee,False,2026-11-07T20:30Z
+2116,33,UCF,True,True,401856850,2305,32,Kansas,False,2026-11-07T20:45Z
+242,23,Rice,True,True,401862821,249,52,North Texas,False,2026-11-07T21:00Z
+2459,19,Northern Illinois,True,True,401864534,23,30,San José State,False,2026-11-07T21:00Z
+2623,20,Missouri State,True,True,401871074,2229,23,Florida International,False,2026-11-07T21:00Z
+2348,41,Louisiana Tech,True,True,401871098,2653,17,Troy,False,2026-11-07T21:00Z
+238,25,Vanderbilt,True,True,401856742,344,23,Mississippi State,False,2026-11-07T21:15Z
+164,10,Rutgers,True,True,401858517,275,31,Wisconsin,False,2026-11-07T21:15Z
+6,26,South Alabama,True,True,401869968,309,28,Louisiana,False,2026-11-07T22:00Z
+2534,14,Sam Houston,True,True,401871075,55,47,Jacksonville State,False,2026-11-08T00:00Z
+38,10,Colorado,True,True,401856852,9,20,Arizona State,False,2026-11-08T00:30Z
+97,44,Louisville,True,True,401858287,59,17,Georgia Tech,False,2026-11-08T00:30Z
+127,15,Michigan State,True,True,401858511,130,6,Michigan,False,2026-11-08T00:30Z
+2005,24,Air Force,True,False,401862823,349,21,Army,False,2026-11-08T00:30Z
+2335,30,Liberty,True,True,401870795,166,14,New Mexico State,False,2026-11-08T01:00Z
+278,10,Fresno State,True,True,401860913,328,17,Utah State,False,2026-11-08T02:30Z
+62,17,Hawai'i,True,True,401864532,2638,14,UTEP,False,2026-11-08T02:30Z
+326,42,Texas State,True,True,401860912,204,21,Oregon State,False,2026-11-08T03:30Z
+2751,41,Wyoming,True,True,401864535,2439,35,UNLV,False,2026-11-08T03:30Z
+235,0,Memphis,False,True,401862824,58,0,South Florida,False,2026-11-13T01:00Z
+309,0,Louisiana,False,True,401869969,2433,0,UL Monroe,False,2026-11-13T02:00Z
+2711,42,Western Michigan,True,True,401866458,2006,14,Akron,False,2026-11-11T00:00Z
+2309,28,Kent State,True,True,401866459,189,33,Bowling Green,False,2026-11-11T00:00Z
+195,17,Ohio,True,True,401866460,193,34,Miami (OH),False,2026-11-11T01:00Z
+2084,28,Buffalo,True,True,401866461,2050,7,Ball State,False,2026-11-12T00:30Z
+16,7,Sacramento State,True,True,401866462,2117,28,Central Michigan,False,2026-11-12T00:30Z
+113,0,Massachusetts,True,True,401866463,2649,24,Toledo,False,2026-11-12T00:30Z
+52,0,Florida State,False,True,401858293,221,0,Pittsburgh,False,2026-11-14T00:00Z
+356,0,Illinois,False,True,401858526,26,0,UCLA,False,2026-11-14T02:00Z
+248,0,Houston,False,True,401856860,38,0,Colorado,False,2026-11-14T03:15Z
+150,0,Duke,False,True,401858296,2390,0,Miami,False,2026-11-14T17:00Z
+154,0,Wake Forest,False,True,401858301,2567,0,SMU,False,2026-11-14T17:00Z
+77,0,Northwestern,False,True,401858522,194,0,Ohio State,False,2026-11-14T17:00Z
+2132,0,Cincinnati,False,True,401856859,66,0,Iowa State,False,2026-11-14T17:00Z
+2,0,Auburn,False,True,401856886,344,0,Mississippi State,False,2026-11-14T17:00Z
+183,0,Syracuse,False,True,401858300,152,0,NC State,False,2026-11-14T17:00Z
+275,0,Wisconsin,False,True,401858520,120,0,Maryland,False,2026-11-14T17:00Z
+256,0,James Madison,False,False,401861967,41,0,UConn,False,2026-11-14T17:00Z
+59,0,Georgia Tech,False,True,401858297,228,0,Clemson,False,2026-11-14T17:30Z
+158,0,Nebraska,False,True,401858525,164,0,Rutgers,False,2026-11-14T17:30Z
+333,0,Alabama,False,True,401856889,238,0,Vanderbilt,False,2026-11-14T17:45Z
+151,0,East Carolina,False,True,401862825,2429,0,Charlotte,False,2026-11-14T18:00Z
+5,0,UAB,False,True,401862829,218,0,Temple,False,2026-11-14T18:00Z
+2032,0,Arkansas State,False,True,401869937,324,0,Coastal Carolina,False,2026-11-14T18:00Z
+2306,0,Kansas State,False,True,401856862,2628,0,TCU,False,2026-11-14T19:00Z
+2655,0,Tulane,False,True,401862828,242,0,Rice,False,2026-11-14T19:00Z
+338,0,Kennesaw State,False,True,401870769,2534,0,Sam Houston,False,2026-11-14T19:00Z
+2633,0,Tennessee,False,True,401856888,245,0,Texas A&M,False,2026-11-14T20:00Z
+166,0,New Mexico State,False,True,401870796,2623,0,Missouri State,False,2026-11-14T20:00Z
+2229,0,Florida International,False,True,401871060,48,0,Delaware,False,2026-11-14T20:00Z
+142,0,Missouri,False,True,401856883,61,0,Georgia,False,2026-11-14T20:30Z
+103,0,Boston College,False,False,401858294,87,0,Notre Dame,False,2026-11-14T20:30Z
+30,0,USC,False,True,401858518,84,0,Indiana,False,2026-11-14T20:30Z
+239,0,Baylor,False,True,401856858,252,0,BYU,False,2026-11-14T20:30Z
+130,0,Michigan,False,True,401858523,2483,0,Oregon,False,2026-11-14T20:30Z
+9,0,Arizona State,False,True,401856857,2116,0,UCF,False,2026-11-14T20:30Z
+25,0,California,False,True,401858295,258,0,Virginia,False,2026-11-14T20:30Z
+2226,0,Florida Atlantic,False,True,401862826,202,0,Tulsa,False,2026-11-14T20:30Z
+2440,0,Nevada,False,True,401864536,2459,0,Northern Illinois,False,2026-11-14T20:30Z
+290,0,Georgia Southern,False,True,401869952,2247,0,Georgia State,False,2026-11-14T20:30Z
+55,0,Jacksonville State,False,True,401870752,98,0,Western Kentucky,False,2026-11-14T20:30Z
+2393,0,Middle Tennessee,False,True,401871061,2335,0,Liberty,False,2026-11-14T20:30Z
+278,0,Fresno State,False,True,401860916,326,0,Texas State,False,2026-11-14T21:00Z
+145,0,Ole Miss,False,True,401856887,201,0,Oklahoma,False,2026-11-14T21:15Z
+264,0,Washington,False,True,401858521,127,0,Michigan State,False,2026-11-14T21:15Z
+2572,0,Southern Miss,False,True,401871099,2348,0,Louisiana Tech,False,2026-11-14T22:00Z
+2305,0,Kansas,False,True,401856861,277,0,West Virginia,False,2026-11-14T22:30Z
+204,0,Oregon State,False,True,401860914,68,0,Boise State,False,2026-11-14T23:00Z
+2026,0,App State,False,True,401869928,276,0,Marshall,False,2026-11-14T23:00Z
+57,0,Florida,False,True,401856884,96,0,Kentucky,False,2026-11-14T23:15Z
+97,0,Louisville,False,True,401858298,153,0,North Carolina,False,2026-11-15T00:00Z
+135,0,Minnesota,False,True,401858524,213,0,Penn State,False,2026-11-15T00:00Z
+23,0,San José State,False,True,401864538,2005,0,Air Force,False,2026-11-15T00:00Z
+2653,0,Troy,False,True,401871100,6,0,South Alabama,False,2026-11-15T00:00Z
+254,0,Utah,False,True,401856864,12,0,Arizona,False,2026-11-15T00:30Z
+251,0,Texas,False,True,401856885,99,0,LSU,False,2026-11-15T00:30Z
+2509,0,Purdue,False,True,401858519,2294,0,Iowa,False,2026-11-15T00:30Z
+24,0,Stanford,False,True,401858299,259,0,Virginia Tech,False,2026-11-15T00:30Z
+2439,0,UNLV,False,True,401864539,167,0,New Mexico,False,2026-11-15T00:30Z
+2579,0,South Carolina,False,True,401856882,8,0,Arkansas,False,2026-11-15T00:45Z
+249,0,North Texas,False,True,401862827,2636,0,UTSA,False,2026-11-15T02:00Z
+2641,0,Texas Tech,False,True,401856863,197,0,Oklahoma State,False,2026-11-15T02:30Z
+328,0,Utah State,False,True,401860915,21,0,San Diego State,False,2026-11-15T02:30Z
+2751,0,Wyoming,False,True,401864540,2638,0,UTEP,False,2026-11-15T03:00Z
+36,0,Colorado State,False,True,401860917,265,0,Washington State,False,2026-11-15T03:30Z
+2449,0,North Dakota State,False,True,401864537,62,0,Hawai'i,False,2026-11-15T04:00Z
+2199,0,Eastern Michigan,False,True,401866465,2711,0,Western Michigan,False,2026-11-17T23:00Z
+2050,0,Ball State,False,True,401866464,195,0,Ohio,False,2026-11-18T00:00Z
+193,0,Miami (OH),False,True,401866466,2309,0,Kent State,False,2026-11-18T00:00Z
+2006,0,Akron,False,True,401866467,113,0,Massachusetts,False,2026-11-19T00:00Z
+2117,0,Central Michigan,False,True,401866469,2084,0,Buffalo,False,2026-11-19T00:30Z
+242,0,Rice,False,True,401862830,218,0,Temple,False,2026-11-20T00:30Z
+66,0,Iowa State,False,True,401856869,2116,0,UCF,False,2026-11-20T23:00Z
+228,0,Clemson,False,True,401858303,150,0,Duke,False,2026-11-21T00:30Z
+189,0,Bowling Green,False,True,401866468,2649,0,Toledo,False,2026-11-21T00:30Z
+2483,0,Oregon,False,True,401858529,127,0,Michigan State,False,2026-11-21T01:00Z
+2638,0,UTEP,False,True,401864545,2005,0,Air Force,False,2026-11-21T01:00Z
+167,0,New Mexico,False,True,401864542,2751,0,Wyoming,False,2026-11-21T02:00Z
+254,0,Utah,False,True,401856872,2628,0,TCU,False,2026-11-21T05:00Z
+26,0,UCLA,False,True,401858528,130,0,Michigan,False,2026-11-21T05:00Z
+259,0,Virginia Tech,False,True,401858302,2390,0,Miami,False,2026-11-21T05:00Z
+84,0,Indiana,False,True,401858535,264,0,Washington,False,2026-11-21T05:00Z
+252,0,BYU,False,True,401856866,2305,0,Kansas,False,2026-11-21T05:00Z
+2641,0,Texas Tech,False,True,401856871,239,0,Baylor,False,2026-11-21T05:00Z
+154,0,Wake Forest,False,True,401858310,59,0,Georgia Tech,False,2026-11-21T05:00Z
+248,0,Houston,False,True,401856868,277,0,West Virginia,False,2026-11-21T05:00Z
+194,0,Ohio State,False,True,401858531,158,0,Nebraska,False,2026-11-21T05:00Z
+12,0,Arizona,False,True,401856865,2306,0,Kansas State,False,2026-11-21T05:00Z
+221,0,Pittsburgh,False,True,401858306,97,0,Louisville,False,2026-11-21T05:00Z
+249,0,North Texas,False,True,401862835,2655,0,Tulane,False,2026-11-21T05:00Z
+2636,0,UTSA,False,True,401862836,5,0,UAB,False,2026-11-21T05:00Z
+2747,0,Wofford,False,False,401856749,145,0,Ole Miss,False,2026-11-21T17:00Z
+238,0,Vanderbilt,False,True,401856748,57,0,Florida,False,2026-11-21T17:00Z
+245,0,Texas A&M,False,True,401856752,201,0,Oklahoma,False,2026-11-21T17:00Z
+38,0,Colorado,False,True,401856867,2132,0,Cincinnati,False,2026-11-21T17:00Z
+183,0,Syracuse,False,True,401858309,103,0,Boston College,False,2026-11-21T17:00Z
+77,0,Northwestern,False,True,401858530,135,0,Minnesota,False,2026-11-21T17:00Z
+275,0,Wisconsin,False,True,401858533,2509,0,Purdue,False,2026-11-21T17:00Z
+151,0,East Carolina,False,True,401862831,349,0,Army,False,2026-11-21T17:00Z
+235,0,Memphis,False,True,401862834,2426,0,Navy,False,2026-11-21T17:00Z
+153,0,North Carolina,False,True,401858305,258,0,Virginia,False,2026-11-21T17:30Z
+2635,0,Tennessee Tech,False,False,401856750,344,0,Mississippi State,False,2026-11-21T18:00Z
+98,0,Western Kentucky,False,True,401871080,2335,0,Liberty,False,2026-11-21T18:00Z
+236,0,Chattanooga,False,False,401856746,333,0,Alabama,False,2026-11-21T19:00Z
+2429,0,Charlotte,False,True,401862832,202,0,Tulsa,False,2026-11-21T19:00Z
+2623,0,Missouri State,False,True,401871079,55,0,Jacksonville State,False,2026-11-21T19:00Z
+2393,0,Middle Tennessee,False,True,401871081,2534,0,Sam Houston,False,2026-11-21T19:00Z
+2294,0,Iowa,False,True,401858527,356,0,Illinois,False,2026-11-21T19:30Z
+58,0,South Florida,False,True,401862833,2226,0,Florida Atlantic,False,2026-11-21T19:30Z
+2433,0,UL Monroe,False,True,401869929,2026,0,App State,False,2026-11-21T19:30Z
+324,0,Coastal Carolina,False,True,401869946,309,0,Louisiana,False,2026-11-21T20:00Z
+48,0,Delaware,False,True,401871077,166,0,New Mexico State,False,2026-11-21T20:00Z
+2229,0,Florida International,False,True,401871078,338,0,Kennesaw State,False,2026-11-21T20:00Z
+8,0,Arkansas,False,True,401856755,251,0,Texas,False,2026-11-21T20:30Z
+99,0,LSU,False,True,401856754,2633,0,Tennessee,False,2026-11-21T20:30Z
+2535,0,Samford,False,False,401856747,2,0,Auburn,False,2026-11-21T20:30Z
+152,0,NC State,False,True,401858304,52,0,Florida State,False,2026-11-21T20:30Z
+164,0,Rutgers,False,True,401858532,213,0,Penn State,False,2026-11-21T20:30Z
+295,0,Old Dominion,False,False,401861968,41,0,UConn,False,2026-11-21T20:30Z
+2459,0,Northern Illinois,False,True,401864543,2449,0,North Dakota State,False,2026-11-21T21:00Z
+290,0,Georgia Southern,False,True,401869953,2653,0,Troy,False,2026-11-21T21:00Z
+2247,0,Georgia State,False,True,401869958,276,0,Marshall,False,2026-11-21T21:00Z
+6,0,South Alabama,False,True,401871101,2572,0,Southern Miss,False,2026-11-21T21:00Z
+265,0,Washington State,False,True,401860920,326,0,Texas State,False,2026-11-21T23:00Z
+120,0,Maryland,False,True,401858534,30,0,USC,False,2026-11-21T23:15Z
+2439,0,UNLV,False,True,401864544,23,0,San José State,False,2026-11-22T00:00Z
+2032,0,Arkansas State,False,True,401869938,2348,0,Louisiana Tech,False,2026-11-22T00:00Z
+61,0,Georgia,False,True,401856753,2579,0,South Carolina,False,2026-11-22T00:30Z
+2567,0,SMU,False,False,401858307,87,0,Notre Dame,False,2026-11-22T00:30Z
+96,0,Kentucky,False,True,401856751,142,0,Missouri,False,2026-11-22T00:30Z
+24,0,Stanford,False,True,401858308,25,0,California,False,2026-11-22T00:30Z
+36,0,Colorado State,False,True,401860918,278,0,Fresno State,False,2026-11-22T00:30Z
+21,0,San Diego State,False,True,401860925,68,0,Boise State,False,2026-11-22T02:30Z
+197,0,Oklahoma State,False,True,401856870,9,0,Arizona State,False,2026-11-22T03:15Z
+328,0,Utah State,False,True,401860919,204,0,Oregon State,False,2026-11-22T03:30Z
+62,0,Hawai'i,False,True,401864541,2440,0,Nevada,False,2026-11-22T03:30Z
+193,0,Miami (OH),False,True,401866471,2711,0,Western Michigan,False,2026-11-24T05:00Z
+2309,0,Kent State,False,True,401866470,2199,0,Eastern Michigan,False,2026-11-25T00:00Z
+2628,0,TCU,False,True,401856879,2641,0,Texas Tech,False,2026-11-27T01:00Z
+218,0,Temple,False,True,401862838,235,0,Memphis,False,2026-11-27T05:00Z
+202,0,Tulsa,False,True,401862840,2636,0,UTSA,False,2026-11-27T05:00Z
+158,0,Nebraska,False,True,401858536,2294,0,Iowa,False,2026-11-27T17:00Z
+344,0,Mississippi State,False,True,401856762,145,0,Ole Miss,False,2026-11-27T17:00Z
+2084,0,Buffalo,False,True,401866472,2006,0,Akron,False,2026-11-27T17:00Z
+2649,0,Toledo,False,True,401866473,195,0,Ohio,False,2026-11-27T17:00Z
+2026,0,App State,False,True,401869930,6,0,South Alabama,False,2026-11-27T20:00Z
+57,0,Florida,False,False,401856759,52,0,Florida State,False,2026-11-27T20:30Z
+2449,0,North Dakota State,False,True,401864549,23,0,San José State,False,2026-11-27T20:30Z
+2005,0,Air Force,False,True,401864546,167,0,New Mexico,False,2026-11-27T21:30Z
+251,0,Texas,False,True,401856756,245,0,Texas A&M,False,2026-11-28T00:30Z
+135,0,Minnesota,False,True,401858544,275,0,Wisconsin,False,2026-11-28T00:30Z
+277,0,West Virginia,False,True,401856880,254,0,Utah,False,2026-11-28T02:00Z
+59,0,Georgia Tech,False,False,401856760,61,0,Georgia,False,2026-11-28T05:00Z
+2,0,Auburn,False,True,401856757,333,0,Alabama,False,2026-11-28T05:00Z
+30,0,USC,False,True,401858543,26,0,UCLA,False,2026-11-28T05:00Z
+87,0,Notre Dame,False,False,401858314,183,0,Syracuse,False,2026-11-28T05:00Z
+103,0,Boston College,False,True,401858311,2390,0,Miami,False,2026-11-28T05:00Z
+2633,0,Tennessee,False,True,401856765,238,0,Vanderbilt,False,2026-11-28T05:00Z
+2509,0,Purdue,False,True,401858538,84,0,Indiana,False,2026-11-28T05:00Z
+2132,0,Cincinnati,False,True,401856876,252,0,BYU,False,2026-11-28T05:00Z
+97,0,Louisville,False,False,401856761,96,0,Kentucky,False,2026-11-28T05:00Z
+150,0,Duke,False,True,401858312,154,0,Wake Forest,False,2026-11-28T05:00Z
+239,0,Baylor,False,True,401856874,248,0,Houston,False,2026-11-28T05:00Z
+264,0,Washington,False,True,401858541,2483,0,Oregon,False,2026-11-28T05:00Z
+2579,0,South Carolina,False,False,401856764,228,0,Clemson,False,2026-11-28T05:00Z
+99,0,LSU,False,True,401856758,8,0,Arkansas,False,2026-11-28T05:00Z
+201,0,Oklahoma,False,True,401856763,142,0,Missouri,False,2026-11-28T05:00Z
+9,0,Arizona State,False,True,401856873,12,0,Arizona,False,2026-11-28T05:00Z
+2305,0,Kansas,False,True,401856877,197,0,Oklahoma State,False,2026-11-28T05:00Z
+2116,0,UCF,False,True,401856875,38,0,Colorado,False,2026-11-28T05:00Z
+2306,0,Kansas State,False,True,401856878,66,0,Iowa State,False,2026-11-28T05:00Z
+152,0,NC State,False,True,401858313,153,0,North Carolina,False,2026-11-28T05:00Z
+221,0,Pittsburgh,False,True,401858315,25,0,California,False,2026-11-28T05:00Z
+2567,0,SMU,False,True,401858316,24,0,Stanford,False,2026-11-28T05:00Z
+258,0,Virginia,False,True,401858317,259,0,Virginia Tech,False,2026-11-28T05:00Z
+356,0,Illinois,False,True,401858537,77,0,Northwestern,False,2026-11-28T05:00Z
+213,0,Penn State,False,True,401858539,120,0,Maryland,False,2026-11-28T05:00Z
+127,0,Michigan State,False,True,401858542,164,0,Rutgers,False,2026-11-28T05:00Z
+-2,0,TBD,False,True,401860926,36,0,Colorado State,False,2026-11-28T05:00Z
+-2,0,TBD,False,True,401860927,278,0,Fresno State,False,2026-11-28T05:00Z
+-2,0,TBD,False,False,401860928,328,0,Utah State,False,2026-11-28T05:00Z
+-2,0,TBD,False,True,401860929,265,0,Washington State,False,2026-11-28T05:00Z
+41,0,UConn,False,False,401861969,2751,0,Wyoming,False,2026-11-28T05:00Z
+2226,0,Florida Atlantic,False,True,401862837,151,0,East Carolina,False,2026-11-28T05:00Z
+2655,0,Tulane,False,True,401862839,58,0,South Florida,False,2026-11-28T05:00Z
+349,0,Army,False,True,401862841,242,0,Rice,False,2026-11-28T05:00Z
+2426,0,Navy,False,True,401862842,2429,0,Charlotte,False,2026-11-28T05:00Z
+5,0,UAB,False,True,401862843,249,0,North Texas,False,2026-11-28T05:00Z
+2638,0,UTEP,False,True,401864550,2459,0,Northern Illinois,False,2026-11-28T05:00Z
+324,0,Coastal Carolina,False,True,401869947,256,0,James Madison,False,2026-11-28T05:00Z
+2348,0,Louisiana Tech,False,True,401869954,290,0,Georgia Southern,False,2026-11-28T05:00Z
+309,0,Louisiana,False,True,401869959,2247,0,Georgia State,False,2026-11-28T05:00Z
+276,0,Marshall,False,True,401871102,2433,0,UL Monroe,False,2026-11-28T05:00Z
+2572,0,Southern Miss,False,True,401871103,295,0,Old Dominion,False,2026-11-28T05:00Z
+-2,0,TBD,False,False,401934095,-1,0,TBD,False,2026-11-28T05:00Z
+-2,0,TBD,False,False,401934096,-1,0,TBD,False,2026-11-28T05:00Z
+-2,0,TBD,False,False,401934097,-1,0,TBD,False,2026-11-28T05:00Z
+-2,0,TBD,False,False,401934098,-1,0,TBD,False,2026-11-28T05:00Z
+-2,0,TBD,False,False,401934099,-1,0,TBD,False,2026-11-28T05:00Z
+-2,0,TBD,False,False,401934100,-1,0,TBD,False,2026-11-28T05:00Z
+-2,0,TBD,False,False,401934101,-1,0,TBD,False,2026-11-28T05:00Z
+-2,0,TBD,False,False,401934102,-1,0,TBD,False,2026-11-28T05:00Z
+130,0,Michigan,False,True,401858540,194,0,Ohio State,False,2026-11-28T17:00Z
+2117,0,Central Michigan,False,True,401866474,2050,0,Ball State,False,2026-11-28T17:00Z
+113,0,Massachusetts,False,True,401866475,189,0,Bowling Green,False,2026-11-28T17:00Z
+338,0,Kennesaw State,False,True,401870804,98,0,Western Kentucky,False,2026-11-28T18:00Z
+2335,0,Liberty,False,True,401871063,2623,0,Missouri State,False,2026-11-28T19:00Z
+2534,0,Sam Houston,False,True,401871082,2229,0,Florida International,False,2026-11-28T19:00Z
+166,0,New Mexico State,False,True,401871083,2393,0,Middle Tennessee,False,2026-11-28T19:00Z
+2653,0,Troy,False,True,401869939,2032,0,Arkansas State,False,2026-11-28T20:00Z
+55,0,Jacksonville State,False,True,401871062,48,0,Delaware,False,2026-11-28T20:30Z
+2440,0,Nevada,False,True,401864548,2439,0,UNLV,False,2026-11-29T02:00Z
+16,0,Sacramento State,False,False,401864547,62,0,Hawai'i,False,2026-11-29T04:00Z
+-2,0,TBD,False,False,401869535,-1,0,TBD,False,2026-12-05T00:00Z
+-2,0,TBD,False,False,401869546,-1,0,TBD,False,2026-12-05T00:00Z
+-2,0,TBD,False,False,401869533,-1,0,TBD,True,2026-12-05T01:00Z
+-2,0,TBD,False,False,401869542,-1,0,TBD,False,2026-12-05T01:00Z
+-2,0,TBD,False,False,401874049,-1,0,TBD,False,2026-12-05T02:00Z
+-2,0,TBD,False,False,401934103,-1,0,TBD,False,2026-12-05T05:00Z
+-2,0,TBD,False,False,401934104,-1,0,TBD,False,2026-12-05T05:00Z
+-2,0,TBD,False,False,401934105,-1,0,TBD,False,2026-12-05T05:00Z
+-2,0,TBD,False,False,401934106,-1,0,TBD,False,2026-12-05T05:00Z
+-2,0,TBD,False,False,401934107,-1,0,TBD,False,2026-12-05T05:00Z
+-2,0,TBD,False,False,401934108,-1,0,TBD,False,2026-12-05T05:00Z
+-2,0,TBD,False,False,401934109,-1,0,TBD,False,2026-12-05T05:00Z
+-2,0,TBD,False,False,401934110,-1,0,TBD,False,2026-12-05T05:00Z
+-2,0,TBD,False,False,401858318,-1,0,TBD,True,2026-12-05T17:00Z
+-2,0,TBD,False,False,401869536,-1,0,TBD,True,2026-12-05T17:00Z
+-2,0,TBD,False,False,401869545,-1,0,TBD,True,2026-12-05T21:00Z
+-2,0,TBD,False,False,401869532,-1,0,TBD,False,2026-12-06T01:00Z
+-2,0,TBD,False,False,401869534,-1,0,TBD,True,2026-12-06T01:00Z
+-2,0,TBD,False,False,401934111,-1,0,TBD,False,2026-12-12T02:00Z
+-2,0,TBD,False,False,401934114,-1,0,TBD,False,2026-12-12T05:00Z
+-2,0,TBD,False,False,401934112,-1,0,TBD,False,2026-12-12T17:00Z
+2426,0,Navy,False,True,401862844,349,0,Army,True,2026-12-12T20:00Z
+-2,0,TBD,False,False,401934113,-1,0,TBD,False,2026-12-13T01:00Z
