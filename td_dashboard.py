@@ -87,19 +87,30 @@ def render():
                   <div class="td-matchup">{team} vs {opp} · {escape(str(p["position"]))}</div></div>
                   <div class="td-percent">{pct:.1f}%</div></div>
                   <div class="td-meter"><div class="td-fill" style="width:{pct:.1f}%"></div></div></div>""",unsafe_allow_html=True)
-        st.markdown("### 🧩 AUTOMATIC SUNDAY PARLAY")
-        st.caption("Three highest-probability Sunday touchdown candidates from separate games · No sportsbook odds used")
-        candidates=sunday.sort_values("td_probability",ascending=False).drop_duplicates("game_id").head(3)
-        if len(candidates)<3:
-            st.warning("Not enough distinct Sunday games for a three-player parlay.")
+        st.markdown("### 🎯 FIVE-LEG TD LONG SHOT")
+        st.caption("Target +2500 to +5000 · Five separate games · Verified odds required")
+        import json
+        five_path=path.parent/"nfl_td_five_leg_latest.json"
+        if not five_path.exists():
+            st.info("Five-leg research builder has not published a result yet.")
         else:
-            st.warning("RESEARCH PARLAY ONLY — player availability is unverified; check active rosters before betting.")
-            for rank,(_,leg) in enumerate(candidates.iterrows(),1):
-                st.markdown(f"**{rank}. {escape(str(leg['player_name']))} — Anytime TD** · "
-                    f"{escape(str(leg['team']))} vs {escape(str(leg['opponent']))} · "
-                    f"{float(leg['td_probability']):.1%} model probability")
-            st.caption("Ranked by individual touchdown probability, not sportsbook value. "
-                "Different games reduce direct game-level correlation, but the legs are not guaranteed independent.")
+            try:
+                five=json.loads(five_path.read_text(encoding="utf-8"))
+                if five.get("status")=="PAPER_PICK" and len(five.get("legs",[]))==5:
+                    st.metric("Combined American odds",f"+{int(five['combined_american_odds'])}")
+                    st.metric("Estimated hit probability (independence assumption)",
+                              f"{float(five['estimated_hit_probability_independence']):.2%}")
+                    st.caption("Research only. Recheck player status, current odds and correlations before any wager.")
+                    for i,leg in enumerate(five["legs"],1):
+                        st.markdown(f"**{i}. {escape(str(leg['player_name']))} — Anytime TD** "
+                                    f"· {escape(str(leg['team']))} vs {escape(str(leg['opponent']))} "
+                                    f"· {float(leg['td_probability']):.1%} model "
+                                    f"· {int(leg['american_odds']):+d} American odds")
+                else:
+                    st.warning("NO PLAY — "+str(five.get("reason","No qualifying five-leg parlay.")))
+                    st.caption("The model will not invent sportsbook prices or force five low-value legs.")
+            except (ValueError, KeyError, TypeError, OSError):
+                st.error("Five-leg parlay output is invalid; showing no selection.")
         st.markdown("### 📊 TOUCHDOWN MODEL TRACKER")
         history_path=path.parent/"nfl_td_projection_history.csv"
         parlay_path=path.parent/"nfl_td_parlay_history.csv"
