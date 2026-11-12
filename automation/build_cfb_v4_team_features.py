@@ -97,7 +97,7 @@ def build():
                    "penalty_yards": "penalty_yards", "possession_minutes": "possession_minutes",
                    "interceptions_thrown": "interceptions", "fumbles_lost": "fumblesLost"}
         for dest, src in mapping.items():
-            out["pregame_" + dest] = h[src].mean()
+            out["pregame_" + dest] = recent[src].mean()
         # Opponent-strength estimate: opponents' own earlier margins, never future results.
         sos = []
         for g in recent.itertuples(index=False):
@@ -133,7 +133,7 @@ def build():
     out.to_csv(DATA / "cfb_v4_team_features_2026.csv", index=False)
     print(json.dumps({"historical_team_games": len(hist), "upcoming_teams_covered": len(out),
                       "present_features": len(present), "missing_features": missing,
-                      "warning": "Historical SOS and adjusted-margin formulas are provisional until validated against original V4 notebook outputs."}, indent=2))
+                      "note": "Recent-form and opponent-pre-game-margin calculations follow notebook Steps 85-87; market fields require verified odds."}, indent=2))
     if len(out) == 0:
         raise RuntimeError("No upcoming matchups with sufficient historical data")
     return out
