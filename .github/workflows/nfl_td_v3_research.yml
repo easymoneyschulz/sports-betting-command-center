@@ -56,10 +56,27 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public_data/nfl_td_v3_latest.csv public_data/nfl_td_five_leg_latest.json
-          if git diff --cached --quiet; then
-            echo "No changed TD snapshot"
-          else
+          # Keep generated outputs separate while synchronizing the branch.
+          mkdir -p /tmp/td-publish
+          cp public_data/nfl_td_v3_latest.csv /tmp/td-publish/
+          cp public_data/nfl_td_five_leg_latest.json /tmp/td-publish/
+          cp public_data/nfl_td_verified_odds.csv /tmp/td-publish/
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/td-publish/nfl_td_v3_latest.csv public_data/
+            cp /tmp/td-publish/nfl_td_five_leg_latest.json public_data/
+            cp /tmp/td-publish/nfl_td_verified_odds.csv public_data/
+            git add public_data/nfl_td_v3_latest.csv public_data/nfl_td_five_leg_latest.json public_data/nfl_td_verified_odds.csv
+            if git diff --cached --quiet; then
+              echo "No changed TD snapshot"
+              exit 0
+            fi
             git commit -m "Update NFL TD V3 research snapshot [skip ci]"
-            git push origin HEAD:main
-          fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push raced with another update; retrying ($attempt/5)"
+          done
+          echo "::error::Could not publish TD snapshot after five attempts"
+          exit 1
