@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-12T16:17:17.485404+00:00",
+  "generated_at_utc": "2026-11-12T16:25:50.921988+00:00",
   "strategy": "V3 five-leg TD long shot",
   "status": "NO_PLAY",
-  "reason": "No verified current anytime TD odds available",
+  "reason": "No five qualifying legs from distinct games at +2500 to +5000",
   "legs": []
 }
