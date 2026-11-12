@@ -44,8 +44,11 @@ def main():
             if not merged.empty:
                 merged["decimal_odds"]=merged.american_odds.map(decimal_odds)
                 merged["edge"]=merged.td_probability-1/merged.decimal_odds
-                merged=merged[merged.edge>=.03].sort_values("edge",ascending=False).head(25)
+                merged=merged.sort_values(["edge","td_probability"],ascending=False).head(35)
                 best=None
+                best_target=None
+                # Show a clearly labeled research candidate even when the target
+                # payout/edge conditions cannot all be satisfied.
                 for combo in itertools.combinations(merged.to_dict("records"),5):
                     if len({x["game_id"] for x in combo})!=5: continue
                     if len({x["sportsbook"] for x in combo})!=1: continue
@@ -55,13 +58,23 @@ def main():
                         payout*=x["decimal_odds"]
                         prob*=x["td_probability"]
                     american=(payout-1)*100
-                    if not 2500<=american<=5000: continue
-                    # Independence approximation only: different games minimize direct correlation.
-                    score=prob*payout
-                    if best is None or score>best[0]: best=(score,combo,american,prob)
+                    expected_multiplier=prob*payout
+                    # Prefer higher estimated probability, then estimated value,
+                    # for long shots within the requested payout range.
+                    if 2000<=american<=6000:
+                        score=(prob,expected_multiplier)
+                        if best_target is None or score>best_target[0]:
+                            best_target=(score,combo,american,prob)
+                    # Fallback: nearest odds range, then strongest hit probability.
+                    distance=max(2000-american,0,american-6000)
+                    fallback_score=(-distance,prob,expected_multiplier)
+                    if best is None or fallback_score>best[0]:
+                        best=(fallback_score,combo,american,prob)
+                selected=best_target if best_target is not None else best
+                best=selected
                 if best:
                     _,combo,american,prob=best
-                    result.update(status="PAPER_PICK",reason="Research only; roster and odds must be rechecked before betting",
+                    result.update(status="PAPER_PICK",reason=("Research candidate within target odds; not a recommended wager" if best_target else "Closest available five-leg research candidate; outside target odds"),
                                   combined_american_odds=round(american),estimated_hit_probability_independence=round(prob,5),
                                   estimated_profit_on_20=round(20*american/100,2),
                                   legs=[{"player_name":x["player_name"],"player_id":x["player_id"],
@@ -70,7 +83,7 @@ def main():
                                          "american_odds":int(x["american_odds"]),"sportsbook":x["sportsbook"],
                                          "edge":round(x["edge"],4)} for x in combo])
                 else:
-                    result["reason"]="No five qualifying legs from distinct games at +2500 to +5000"
+                    result["reason"]="Fewer than five eligible players from distinct games at one sportsbook"
     out=Path(a.output)
     out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(result,indent=2)+"\n")
