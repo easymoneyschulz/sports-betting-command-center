@@ -9,6 +9,20 @@ import requests
 BASE="https://api.the-odds-api.com/v4/sports/americanfootball_nfl"
 def norm(s):
     return re.sub(r"[^a-z0-9]","",str(s).lower())
+def player_alias(name):
+    """NFLverse abbreviates player names (J.Gibbs); sportsbook uses Jahmyr Gibbs."""
+    parts=re.findall(r"[a-z0-9]+",str(name).lower())
+    if len(parts)<2: return None
+    return parts[0][0], "".join(parts[1:])
+
+def match_player(group, sportsbook_name):
+    exact=group[group.player_name.map(norm)==norm(sportsbook_name)]
+    if len(exact)==1: return exact
+    target=player_alias(sportsbook_name)
+    if target is None: return group.iloc[0:0]
+    abbreviated=group[group.player_name.map(player_alias)==target]
+    return abbreviated if len(abbreviated)==1 else group.iloc[0:0]
+
 def main():
     key=os.environ.get("ODDS_API_KEY")
     if not key: raise RuntimeError("ODDS_API_KEY is missing")
@@ -74,7 +88,7 @@ def main():
                         player=norm(name)
                     else:
                         continue
-                    matches=g[g.player_name.map(norm)==player]
+                    matches=match_player(g, description if name.lower() in positive else name)
                     if len(matches)!=1:continue
                     price=outcome.get("price")
                     if not isinstance(price,(int,float)) or (-100<price<100):continue
