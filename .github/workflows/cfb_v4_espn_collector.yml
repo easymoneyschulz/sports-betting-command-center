@@ -1,0 +1,43 @@
+name: CFB V4 ESPN Data Collector
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 11 * * 2,4,6"
+permissions:
+  contents: write
+concurrency:
+  group: cfb-v4-espn-collector
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Download and validate 2026 ESPN CFB data
+        run: python automation/collect_cfb_espn_2026.py
+      - name: Publish validated raw data
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/cfb-data
+          cp automation/data/cfb/* /tmp/cfb-data/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p automation/data/cfb
+            cp /tmp/cfb-data/* automation/data/cfb/
+            git add automation/data/cfb/
+            if git diff --cached --quiet; then
+              echo "CFB raw data already current"
+              exit 0
+            fi
+            git commit -m "Refresh 2026 ESPN CFB source data [skip ci]"
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
