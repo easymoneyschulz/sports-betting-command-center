@@ -30,7 +30,7 @@ def main():
         raise ValueError("No upcoming CFB games in source; refusing to republish stale picks")
     current.sort(key=lambda r: r["start_date"])
     payload = {"generated_at_utc": now.isoformat(), "source": "Frozen CFB V4 selections",
-               "note": "Publisher does not run the model or refresh betting lines.",
+               "note": "Research-only V4 projections. Reconstructed features are not independently validated against original training outputs. No wagering recommendation.",
                "picks": current}
     (OUT / "cfb_v4_board.json").write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     cards = []
@@ -56,8 +56,8 @@ time{font-size:.78rem;color:#b5b6bd}.card h2{font-size:1.45rem;margin:22px 0 6px
 small{display:block;font-size:.66rem;letter-spacing:.09em;color:#9a9ba5;margin-bottom:7px}strong{font-size:1.15rem}
 .footer{margin-top:28px;font-size:.8rem}a{color:#ff717a}
 </style></head><body><main><header><div class="eyebrow">EASYMONEYSCHULZ · COLLEGE FOOTBALL</div>
-<h1>CFB V4 Research Board</h1><p>Frozen model selections · Times shown in Central · Research only, not a live sportsbook feed</p></header>
-<section class="grid">""" + "\n".join(cards) + """</section><p class="footer">Published """ + now.astimezone(CT).strftime("%b %d, %Y at %-I:%M %p CT") + """. Source: existing frozen CFB V4 selections. This publisher does not recalculate predictions, refresh odds, or record bets. PASS means no recommended wager.</p></main></body></html>"""
+<h1>CFB V4 Research Board</h1><p>V4 MODEL RESEARCH · Feature reconstruction not independently validated · Times in Central</p></header>
+<section class="grid">""" + "\n".join(cards) + """</section><p class="footer">Published """ + now.astimezone(CT).strftime("%b %d, %Y at %-I:%M %p CT") + """. Source: staged V4 research predictions. Feature calculations are not independently backtested. This publisher does not recalculate predictions, refresh odds, or record bets. PAPER LEAN is not a wagering recommendation; PASS means no wager.</p></main></body></html>"""
     (OUT / "cfb_v4_board.html").write_text(page, encoding="utf-8")
     print(f"Published {len(current)} existing CFB selections; model and locked wagers unchanged.")
 
