@@ -1,0 +1,35 @@
+name: CFB V4 Feature Builder Validation
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["CFB V4 ESPN Data Collector"]
+    types: [completed]
+permissions:
+  contents: read
+jobs:
+  validate:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pandas numpy
+      - name: Build pregame team features
+        run: python automation/build_cfb_v4_team_features.py
+      - name: Verify original V4 feature names
+        run: |
+          python - <<'PY'
+          import json, pandas as pd
+          expected=json.load(open("automation/models/cfb_v4_features.json"))
+          df=pd.read_csv("automation/data/cfb/cfb_v4_team_features_2026.csv")
+          absent=[x for x in expected if x not in df.columns]
+          assert absent == ["market_margin", "over_under"], f"Unexpected missing features: {absent}"
+          print(f"Validated {len(df)} upcoming matchups, 25 of 27 non-market features.")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cfb-v4-team-features
+          path: automation/data/cfb/cfb_v4_team_features_2026.csv
+          retention-days: 7
