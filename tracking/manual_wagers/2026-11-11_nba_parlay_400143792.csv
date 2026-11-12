@@ -1,0 +1,5 @@
+wager_id,date_placed,sportsbook,bet_type,player,market,line,selection,risk_usd,to_win_usd,status
+400143792,2026-11-11,BetWager,4-leg parlay,Trevon Brazile,points,4.5,over,25,300,pending
+400143792,2026-11-11,BetWager,4-leg parlay,Nikola Jokic,points,25.5,under,25,300,pending
+400143792,2026-11-11,BetWager,4-leg parlay,Shai Gilgeous-Alexander,points,34.5,under,25,300,pending
+400143792,2026-11-11,BetWager,4-leg parlay,Luka Doncic,points,34.5,under,25,300,pending
