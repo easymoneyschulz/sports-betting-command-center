@@ -1,0 +1,49 @@
+name: CFB V4 End-to-End Prediction Test
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      CFB_V4_MODEL_BASE64: ${{ secrets.CFB_V4_MODEL_BASE64 }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install frozen V4 dependencies
+        run: pip install -r automation/requirements_cfb_v4.txt
+      - name: Check required credentials
+        shell: bash
+        run: |
+          if [ -z "$ODDS_API_KEY" ]; then echo "::error::Missing ODDS_API_KEY repository secret"; exit 1; fi
+          if [ -z "$CFB_V4_MODEL_BASE64" ]; then echo "::error::Missing CFB_V4_MODEL_BASE64 repository secret"; exit 1; fi
+      - name: Restore original model from secret
+        shell: bash
+        run: |
+          mkdir -p /tmp/cfb-v4
+          printf '%s' "$CFB_V4_MODEL_BASE64" | base64 --decode > /tmp/cfb-v4/v4_model.joblib
+          test -s /tmp/cfb-v4/v4_model.joblib
+      - name: Build pregame features
+        run: python automation/build_cfb_v4_team_features.py
+      - name: Retrieve and match live odds
+        run: python automation/connect_cfb_v4_odds.py
+      - name: Run original V4 trained model
+        run: |
+          python automation/run_cfb_v4_predictions.py \
+            --input automation/data/cfb/cfb_v4_model_input_2026.csv \
+            --model /tmp/cfb-v4/v4_model.joblib \
+            --features automation/models/cfb_v4_features.json \
+            --output automation/data/cfb/cfb_v4_predictions_test.csv
+      - name: Upload test predictions without publishing
+        uses: actions/upload-artifact@v4
+        with:
+          name: cfb-v4-verified-predictions-test
+          path: |
+            automation/data/cfb/cfb_v4_model_input_2026.csv
+            automation/data/cfb/cfb_v4_predictions_test.csv
+          retention-days: 7
