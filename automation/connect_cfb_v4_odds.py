@@ -60,11 +60,13 @@ def main():
         raise RuntimeError("Ambiguous sportsbook games: duplicate team/kickoff")
     source["home_key"]=source.home_team.map(clean)
     source["away_key"]=source.away_team.map(clean)
-    matched=source.merge(market,left_on=["home_key","away_key","verified_kickoff"],
-        right_on=["odds_home","odds_away","verified_kickoff"],how="inner",validate="one_to_one")
+    matched=source.merge(market,left_on=["home_key","away_key"],
+        right_on=["odds_home","odds_away"],how="inner",validate="one_to_one",suffixes=("_espn","_odds"))
+    matched=matched.loc[(matched.verified_kickoff_espn - matched.verified_kickoff_odds).abs() <= pd.Timedelta(hours=2)].copy()
+    matched["start_date"]=matched["verified_kickoff_espn"].dt.strftime("%Y-%m-%dT%H:%M:%SZ")
     matched["market_margin"]=-pd.to_numeric(matched.home_spread,errors="coerce")
     matched=matched.dropna(subset=["market_margin","over_under","home_price","away_price"])
-    expected=json.loads((DATA.parents[1]/"models/cfb_v4_features.json").read_text())
+    expected=json.loads((DATA.parents[2]/"models/cfb_v4_features.json").read_text())
     matched=matched.dropna(subset=expected)
     if matched.empty:raise RuntimeError("No fully verified, complete 27-feature matchups; no picks published")
     matched["odds_retrieved_at_utc"]=datetime.now(timezone.utc).isoformat()
