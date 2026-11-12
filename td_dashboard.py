@@ -88,7 +88,7 @@ def render():
                   <div class="td-percent">{pct:.1f}%</div></div>
                   <div class="td-meter"><div class="td-fill" style="width:{pct:.1f}%"></div></div></div>""",unsafe_allow_html=True)
         st.markdown("### 🎯 FIVE-LEG TD LONG SHOT")
-        st.caption("Target +2500 to +5000 · Five separate games · Verified odds required")
+        st.caption("Target +2000 to +6000 · Five separate games · Verified odds required")
         import json
         five_path=path.parent/"nfl_td_five_leg_latest.json"
         if not five_path.exists():
@@ -100,7 +100,7 @@ def render():
                     st.metric("Combined American odds",f"+{int(five['combined_american_odds'])}")
                     st.metric("Estimated hit probability (independence assumption)",
                               f"{float(five['estimated_hit_probability_independence']):.2%}")
-                    st.caption("Research only. Recheck player status, current odds and correlations before any wager.")
+                    st.caption(str(five.get("reason","Research candidate only.")))\n                    st.caption("Recheck player status, current odds and correlations before any wager.")
                     for i,leg in enumerate(five["legs"],1):
                         st.markdown(f"**{i}. {escape(str(leg['player_name']))} — Anytime TD** "
                                     f"· {escape(str(leg['team']))} vs {escape(str(leg['opponent']))} "
