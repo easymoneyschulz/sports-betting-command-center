@@ -1,7 +1,66 @@
 {
-  "generated_at_utc": "2026-11-12T16:25:50.921988+00:00",
+  "generated_at_utc": "2026-11-12T16:29:03.096381+00:00",
   "strategy": "V3 five-leg TD long shot",
-  "status": "NO_PLAY",
-  "reason": "No five qualifying legs from distinct games at +2500 to +5000",
-  "legs": []
+  "status": "PAPER_PICK",
+  "reason": "Research candidate within target odds; not a recommended wager",
+  "legs": [
+    {
+      "player_name": "B.Allen",
+      "player_id": "00-0039794",
+      "game_id": "2026_10_BUF_NYJ",
+      "team": "NYJ",
+      "opponent": "BUF",
+      "td_probability": 0.5486,
+      "american_odds": 180,
+      "sportsbook": "draftkings",
+      "edge": 0.1915
+    },
+    {
+      "player_name": "T.Pollard",
+      "player_id": "00-0035261",
+      "game_id": "2026_10_JAX_TEN",
+      "team": "TEN",
+      "opponent": "JAX",
+      "td_probability": 0.6485,
+      "american_odds": 110,
+      "sportsbook": "draftkings",
+      "edge": 0.1724
+    },
+    {
+      "player_name": "J.Warren",
+      "player_id": "00-0037228",
+      "game_id": "2026_10_PIT_CIN",
+      "team": "PIT",
+      "opponent": "CIN",
+      "td_probability": 0.6148,
+      "american_odds": 105,
+      "sportsbook": "draftkings",
+      "edge": 0.127
+    },
+    {
+      "player_name": "J.Gibbs",
+      "player_id": "00-0039139",
+      "game_id": "2026_10_NE_DET",
+      "team": "DET",
+      "opponent": "NE",
+      "td_probability": 0.7725,
+      "american_odds": -290,
+      "sportsbook": "draftkings",
+      "edge": 0.0289
+    },
+    {
+      "player_name": "C.Hubbard",
+      "player_id": "00-0036555",
+      "game_id": "2026_10_CAR_NO",
+      "team": "CAR",
+      "opponent": "NO",
+      "td_probability": 0.6097,
+      "american_odds": -160,
+      "sportsbook": "draftkings",
+      "edge": -0.0057
+    }
+  ],
+  "combined_american_odds": 2534,
+  "estimated_hit_probability_independence": 0.10303,
+  "estimated_profit_on_20": 506.84
 }
