@@ -27,7 +27,7 @@ jobs:
           fi
       - name: Install Python dependencies
         if: steps.models.outputs.ready == 'true'
-        run: pip install nflreadpy pandas numpy pyarrow joblib
+        run: pip install nflreadpy pandas numpy pyarrow joblib requests
       - name: Generate research-only TD predictions
         if: steps.models.outputs.ready == 'true'
         run: python automation/run_nfl_td_v3_research.py --output-dir research_snapshots/nfl_td
@@ -42,7 +42,13 @@ jobs:
       - name: Validate and stage public research snapshot
         if: steps.models.outputs.ready == 'true'
         run: python automation/publish_nfl_td_research.py
+      - name: Fetch verified anytime TD odds
+        if: steps.models.outputs.ready == 'true'
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python automation/fetch_nfl_td_odds.py
       - name: Build five-leg research parlay
+        if: steps.models.outputs.ready == 'true'
         run: python automation/build_nfl_td_five_leg.py
       - name: Commit latest research snapshot for Streamlit
         if: steps.models.outputs.ready == 'true'
