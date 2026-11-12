@@ -61,8 +61,19 @@ def main():
                 if pd.isna(updated) or updated>now or updated<now-pd.Timedelta(hours=6):continue
                 for outcome in market.get("outcomes",[]):
                     diagnostics["outcomes"]+=1
-                    if str(outcome.get("name","")).lower() not in ("yes","over"):continue
-                    player=norm(outcome.get("description",""))
+                    # Providers may put the player in name and the Yes side in description,
+                    # or the reverse. Only accept an unambiguous positive TD outcome.
+                    name=str(outcome.get("name","")).strip()
+                    description=str(outcome.get("description","")).strip()
+                    positive={"yes","over"}
+                    if name.lower() in positive:
+                        player=norm(description)
+                    elif description.lower() in positive:
+                        player=norm(name)
+                    elif not description and name.lower() not in ("no","under"):
+                        player=norm(name)
+                    else:
+                        continue
                     matches=g[g.player_name.map(norm)==player]
                     if len(matches)!=1:continue
                     price=outcome.get("price")
