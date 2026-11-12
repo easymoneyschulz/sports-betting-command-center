@@ -1,0 +1,67 @@
+name: CFB V4 Research Board Live Publisher
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 12 * * 4,5,6"
+permissions:
+  contents: write
+concurrency:
+  group: cfb-v4-board-publisher
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+      CFB_V4_MODEL_BASE64: ${{ secrets.CFB_V4_MODEL_BASE64 }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r automation/requirements_cfb_v4.txt
+      - name: Require model and odds credentials
+        shell: bash
+        run: |
+          test -n "$ODDS_API_KEY" || { echo "::error::ODDS_API_KEY missing"; exit 1; }
+          test -n "$CFB_V4_MODEL_BASE64" || { echo "::error::CFB_V4_MODEL_BASE64 missing"; exit 1; }
+      - name: Restore original model
+        shell: bash
+        run: |
+          mkdir -p /tmp/cfb-v4
+          printf '%s' "$CFB_V4_MODEL_BASE64" | base64 --decode > /tmp/cfb-v4/v4_model.joblib
+          test -s /tmp/cfb-v4/v4_model.joblib
+      - name: Build verified matchups and model predictions
+        run: |
+          python automation/build_cfb_v4_team_features.py
+          python automation/connect_cfb_v4_odds.py
+          python automation/run_cfb_v4_predictions.py \
+            --input automation/data/cfb/cfb_v4_model_input_2026.csv \
+            --model /tmp/cfb-v4/v4_model.joblib \
+            --features automation/models/cfb_v4_features.json \
+            --output /tmp/cfb-v4/predictions.csv
+      - name: Stage fresh research selections and generate board
+        run: |
+          python automation/stage_cfb_v4_research_board.py \
+            --input /tmp/cfb-v4/predictions.csv \
+            --output public_data/cfb_v4_top5.csv
+          python automation/publish_cfb_v4_board.py
+      - name: Publish validated research files to main
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/cfb-v4/publish
+          cp public_data/cfb_v4_top5.csv public_data/cfb_v4_board.json public_data/cfb_v4_board.html /tmp/cfb-v4/publish/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/cfb-v4/publish/* public_data/
+            git add public_data/cfb_v4_top5.csv public_data/cfb_v4_board.json public_data/cfb_v4_board.html
+            if git diff --cached --quiet; then echo "Board unchanged"; exit 0; fi
+            git commit -m "Publish refreshed CFB V4 research projections [skip ci]"
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
