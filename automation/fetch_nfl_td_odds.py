@@ -25,6 +25,7 @@ def main():
         return response.json()
     events=get(BASE+"/events",{})
     rows=[]
+    diagnostics={"events":len(events),"matched_games":0,"markets":0,"outcomes":0,"player_matches":0}
     for event in events:
         kickoff=pd.to_datetime(event.get("commence_time"),utc=True,errors="coerce")
         if pd.isna(kickoff) or kickoff<=now: continue
@@ -47,6 +48,7 @@ def main():
                     games.append((game_id,g))
         if len(games)!=1: continue
         game_id,g=games[0]
+        diagnostics["matched_games"]+=1
         data=get(BASE+"/events/"+event["id"]+"/odds",{
             "regions":"us","markets":"player_anytime_td","oddsFormat":"american",
             "bookmakers":"draftkings,fanduel"})
@@ -54,15 +56,18 @@ def main():
             if book.get("key") not in ("draftkings","fanduel"):continue
             for market in book.get("markets",[]):
                 if market.get("key")!="player_anytime_td":continue
+                diagnostics["markets"]+=1
                 updated=pd.to_datetime(market.get("last_update"),utc=True,errors="coerce")
                 if pd.isna(updated) or updated>now or updated<now-pd.Timedelta(hours=6):continue
                 for outcome in market.get("outcomes",[]):
+                    diagnostics["outcomes"]+=1
                     if str(outcome.get("name","")).lower() not in ("yes","over"):continue
                     player=norm(outcome.get("description",""))
                     matches=g[g.player_name.map(norm)==player]
                     if len(matches)!=1:continue
                     price=outcome.get("price")
                     if not isinstance(price,(int,float)) or (-100<price<100):continue
+                    diagnostics["player_matches"]+=1
                     p=matches.iloc[0]
                     rows.append(dict(game_id=game_id,player_id=str(p.player_id),
                         american_odds=int(price),sportsbook=book["key"],
@@ -75,5 +80,6 @@ def main():
         df=df.sort_values("sportsbook",key=lambda s:s.map({"draftkings":0,"fanduel":1}))
         df=df.drop_duplicates(["game_id","player_id"],keep="first")
     df.to_csv(out,index=False)
+    print("Odds matching diagnostics:",diagnostics)
     print(f"Verified {len(df)} player anytime-TD prices; no synthetic odds")
 if __name__=="__main__":main()
