@@ -684,22 +684,10 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 62,17,Hawai'i,True,True,401864532,2638,14,UTEP,False,2026-11-08T02:30Z
 326,42,Texas State,True,True,401860912,204,21,Oregon State,False,2026-11-08T03:30Z
 2751,41,Wyoming,True,True,401864535,2439,35,UNLV,False,2026-11-08T03:30Z
-235,0,Memphis,False,True,401862824,58,0,South Florida,False,2026-11-13T01:00Z
-309,0,Louisiana,False,True,401869969,2433,0,UL Monroe,False,2026-11-13T02:00Z
-2711,42,Western Michigan,True,True,401866458,2006,14,Akron,False,2026-11-11T00:00Z
-2309,28,Kent State,True,True,401866459,189,33,Bowling Green,False,2026-11-11T00:00Z
-195,17,Ohio,True,True,401866460,193,34,Miami (OH),False,2026-11-11T01:00Z
-2084,28,Buffalo,True,True,401866461,2050,7,Ball State,False,2026-11-12T00:30Z
-16,7,Sacramento State,True,True,401866462,2117,28,Central Michigan,False,2026-11-12T00:30Z
-113,0,Massachusetts,True,True,401866463,2649,24,Toledo,False,2026-11-12T00:30Z
-52,0,Florida State,False,True,401858293,221,0,Pittsburgh,False,2026-11-14T00:00Z
-356,0,Illinois,False,True,401858526,26,0,UCLA,False,2026-11-14T02:00Z
-248,0,Houston,False,True,401856860,38,0,Colorado,False,2026-11-14T03:15Z
 150,0,Duke,False,True,401858296,2390,0,Miami,False,2026-11-14T17:00Z
 154,0,Wake Forest,False,True,401858301,2567,0,SMU,False,2026-11-14T17:00Z
 77,0,Northwestern,False,True,401858522,194,0,Ohio State,False,2026-11-14T17:00Z
 2132,0,Cincinnati,False,True,401856859,66,0,Iowa State,False,2026-11-14T17:00Z
-2,0,Auburn,False,True,401856886,344,0,Mississippi State,False,2026-11-14T17:00Z
 183,0,Syracuse,False,True,401858300,152,0,NC State,False,2026-11-14T17:00Z
 275,0,Wisconsin,False,True,401858520,120,0,Maryland,False,2026-11-14T17:00Z
 256,0,James Madison,False,False,401861967,41,0,UConn,False,2026-11-14T17:00Z
@@ -710,7 +698,6 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 5,0,UAB,False,True,401862829,218,0,Temple,False,2026-11-14T18:00Z
 2032,0,Arkansas State,False,True,401869937,324,0,Coastal Carolina,False,2026-11-14T18:00Z
 2306,0,Kansas State,False,True,401856862,2628,0,TCU,False,2026-11-14T19:00Z
-2655,0,Tulane,False,True,401862828,242,0,Rice,False,2026-11-14T19:00Z
 338,0,Kennesaw State,False,True,401870769,2534,0,Sam Houston,False,2026-11-14T19:00Z
 2633,0,Tennessee,False,True,401856888,245,0,Texas A&M,False,2026-11-14T20:00Z
 166,0,New Mexico State,False,True,401870796,2623,0,Missouri State,False,2026-11-14T20:00Z
@@ -718,28 +705,28 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 142,0,Missouri,False,True,401856883,61,0,Georgia,False,2026-11-14T20:30Z
 103,0,Boston College,False,False,401858294,87,0,Notre Dame,False,2026-11-14T20:30Z
 30,0,USC,False,True,401858518,84,0,Indiana,False,2026-11-14T20:30Z
-239,0,Baylor,False,True,401856858,252,0,BYU,False,2026-11-14T20:30Z
 130,0,Michigan,False,True,401858523,2483,0,Oregon,False,2026-11-14T20:30Z
-9,0,Arizona State,False,True,401856857,2116,0,UCF,False,2026-11-14T20:30Z
+2305,0,Kansas,False,True,401856861,277,0,West Virginia,False,2026-11-14T20:30Z
 25,0,California,False,True,401858295,258,0,Virginia,False,2026-11-14T20:30Z
-2226,0,Florida Atlantic,False,True,401862826,202,0,Tulsa,False,2026-11-14T20:30Z
 2440,0,Nevada,False,True,401864536,2459,0,Northern Illinois,False,2026-11-14T20:30Z
 290,0,Georgia Southern,False,True,401869952,2247,0,Georgia State,False,2026-11-14T20:30Z
 55,0,Jacksonville State,False,True,401870752,98,0,Western Kentucky,False,2026-11-14T20:30Z
 2393,0,Middle Tennessee,False,True,401871061,2335,0,Liberty,False,2026-11-14T20:30Z
 278,0,Fresno State,False,True,401860916,326,0,Texas State,False,2026-11-14T21:00Z
-145,0,Ole Miss,False,True,401856887,201,0,Oklahoma,False,2026-11-14T21:15Z
-264,0,Washington,False,True,401858521,127,0,Michigan State,False,2026-11-14T21:15Z
+2,0,Auburn,False,True,401856886,344,0,Mississippi State,False,2026-11-14T21:15Z
+2655,0,Tulane,False,True,401862828,242,0,Rice,False,2026-11-14T21:30Z
 2572,0,Southern Miss,False,True,401871099,2348,0,Louisiana Tech,False,2026-11-14T22:00Z
-2305,0,Kansas,False,True,401856861,277,0,West Virginia,False,2026-11-14T22:30Z
+9,0,Arizona State,False,True,401856857,2116,0,UCF,False,2026-11-14T22:30Z
+264,0,Washington,False,True,401858521,127,0,Michigan State,False,2026-11-14T22:30Z
 204,0,Oregon State,False,True,401860914,68,0,Boise State,False,2026-11-14T23:00Z
 2026,0,App State,False,True,401869928,276,0,Marshall,False,2026-11-14T23:00Z
 57,0,Florida,False,True,401856884,96,0,Kentucky,False,2026-11-14T23:15Z
+239,0,Baylor,False,True,401856858,252,0,BYU,False,2026-11-15T00:00Z
 97,0,Louisville,False,True,401858298,153,0,North Carolina,False,2026-11-15T00:00Z
 135,0,Minnesota,False,True,401858524,213,0,Penn State,False,2026-11-15T00:00Z
 23,0,San José State,False,True,401864538,2005,0,Air Force,False,2026-11-15T00:00Z
 2653,0,Troy,False,True,401871100,6,0,South Alabama,False,2026-11-15T00:00Z
-254,0,Utah,False,True,401856864,12,0,Arizona,False,2026-11-15T00:30Z
+2226,0,Florida Atlantic,False,True,401862826,202,0,Tulsa,False,2026-11-15T00:15Z
 251,0,Texas,False,True,401856885,99,0,LSU,False,2026-11-15T00:30Z
 2509,0,Purdue,False,True,401858519,2294,0,Iowa,False,2026-11-15T00:30Z
 24,0,Stanford,False,True,401858299,259,0,Virginia Tech,False,2026-11-15T00:30Z
@@ -749,8 +736,21 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 2641,0,Texas Tech,False,True,401856863,197,0,Oklahoma State,False,2026-11-15T02:30Z
 328,0,Utah State,False,True,401860915,21,0,San Diego State,False,2026-11-15T02:30Z
 2751,0,Wyoming,False,True,401864540,2638,0,UTEP,False,2026-11-15T03:00Z
+254,0,Utah,False,True,401856864,12,0,Arizona,False,2026-11-15T03:30Z
 36,0,Colorado State,False,True,401860917,265,0,Washington State,False,2026-11-15T03:30Z
 2449,0,North Dakota State,False,True,401864537,62,0,Hawai'i,False,2026-11-15T04:00Z
+2711,42,Western Michigan,True,True,401866458,2006,14,Akron,False,2026-11-11T00:00Z
+2309,28,Kent State,True,True,401866459,189,33,Bowling Green,False,2026-11-11T00:00Z
+195,17,Ohio,True,True,401866460,193,34,Miami (OH),False,2026-11-11T01:00Z
+2084,28,Buffalo,True,True,401866461,2050,7,Ball State,False,2026-11-12T00:30Z
+16,7,Sacramento State,True,True,401866462,2117,28,Central Michigan,False,2026-11-12T00:30Z
+113,0,Massachusetts,True,True,401866463,2649,24,Toledo,False,2026-11-12T00:30Z
+235,52,Memphis,True,True,401862824,58,41,South Florida,False,2026-11-13T01:00Z
+309,42,Louisiana,True,True,401869969,2433,21,UL Monroe,False,2026-11-13T02:00Z
+356,14,Illinois,True,True,401858526,26,22,UCLA,False,2026-11-14T02:00Z
+248,32,Houston,True,True,401856860,38,42,Colorado,False,2026-11-14T03:15Z
+52,16,Florida State,True,True,401858293,221,10,Pittsburgh,False,2026-11-14T00:00Z
+145,0,Ole Miss,False,True,401856887,201,0,Oklahoma,False,2026-11-15T18:00Z
 2199,0,Eastern Michigan,False,True,401866465,2711,0,Western Michigan,False,2026-11-17T23:00Z
 2050,0,Ball State,False,True,401866464,195,0,Ohio,False,2026-11-18T00:00Z
 193,0,Miami (OH),False,True,401866466,2309,0,Kent State,False,2026-11-18T00:00Z
@@ -821,8 +821,8 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 197,0,Oklahoma State,False,True,401856870,9,0,Arizona State,False,2026-11-22T03:15Z
 328,0,Utah State,False,True,401860919,204,0,Oregon State,False,2026-11-22T03:30Z
 62,0,Hawai'i,False,True,401864541,2440,0,Nevada,False,2026-11-22T03:30Z
-193,0,Miami (OH),False,True,401866471,2711,0,Western Michigan,False,2026-11-24T05:00Z
 2309,0,Kent State,False,True,401866470,2199,0,Eastern Michigan,False,2026-11-25T00:00Z
+193,0,Miami (OH),False,True,401866471,2711,0,Western Michigan,False,2026-11-25T00:00Z
 2628,0,TCU,False,True,401856879,2641,0,Texas Tech,False,2026-11-27T01:00Z
 218,0,Temple,False,True,401862838,235,0,Memphis,False,2026-11-27T05:00Z
 202,0,Tulsa,False,True,401862840,2636,0,UTSA,False,2026-11-27T05:00Z
