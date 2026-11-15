@@ -1,20 +1,9 @@
 {
-  "generated_at_utc": "2026-11-12T16:29:03.096381+00:00",
+  "generated_at_utc": "2026-11-15T14:41:00.028311+00:00",
   "strategy": "V3 five-leg TD long shot",
   "status": "PAPER_PICK",
   "reason": "Research candidate within target odds; not a recommended wager",
   "legs": [
-    {
-      "player_name": "B.Allen",
-      "player_id": "00-0039794",
-      "game_id": "2026_10_BUF_NYJ",
-      "team": "NYJ",
-      "opponent": "BUF",
-      "td_probability": 0.5486,
-      "american_odds": 180,
-      "sportsbook": "draftkings",
-      "edge": 0.1915
-    },
     {
       "player_name": "T.Pollard",
       "player_id": "00-0035261",
@@ -22,9 +11,9 @@
       "team": "TEN",
       "opponent": "JAX",
       "td_probability": 0.6485,
-      "american_odds": 110,
+      "american_odds": 140,
       "sportsbook": "draftkings",
-      "edge": 0.1724
+      "edge": 0.2319
     },
     {
       "player_name": "J.Warren",
@@ -38,15 +27,26 @@
       "edge": 0.127
     },
     {
-      "player_name": "J.Gibbs",
-      "player_id": "00-0039139",
-      "game_id": "2026_10_NE_DET",
-      "team": "DET",
-      "opponent": "NE",
-      "td_probability": 0.7725,
-      "american_odds": -290,
+      "player_name": "J.Cook",
+      "player_id": "00-0037248",
+      "game_id": "2026_10_BUF_NYJ",
+      "team": "BUF",
+      "opponent": "NYJ",
+      "td_probability": 0.6331,
+      "american_odds": -155,
       "sportsbook": "draftkings",
-      "edge": 0.0289
+      "edge": 0.0253
+    },
+    {
+      "player_name": "C.Lamb",
+      "player_id": "00-0036358",
+      "game_id": "2026_10_SF_DAL",
+      "team": "DAL",
+      "opponent": "SF",
+      "td_probability": 0.5487,
+      "american_odds": -110,
+      "sportsbook": "draftkings",
+      "edge": 0.0249
     },
     {
       "player_name": "C.Hubbard",
@@ -55,12 +55,12 @@
       "team": "CAR",
       "opponent": "NO",
       "td_probability": 0.6097,
-      "american_odds": -160,
+      "american_odds": -155,
       "sportsbook": "draftkings",
-      "edge": -0.0057
+      "edge": 0.0018
     }
   ],
-  "combined_american_odds": 2534,
-  "estimated_hit_probability_independence": 0.10303,
-  "estimated_profit_on_20": 506.84
+  "combined_american_odds": 2442,
+  "estimated_hit_probability_independence": 0.08445,
+  "estimated_profit_on_20": 488.44
 }
