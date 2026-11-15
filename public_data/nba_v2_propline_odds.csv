@@ -1,697 +1,561 @@
 event_id,commence_time,home_team,away_team,player_name,sportsbook,market_line,over_price,under_price,odds_timestamp_utc
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon,betmgm,13.5,-120,-110,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson,betmgm,12.5,-125,-105,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun,betmgm,12.5,-110,-120,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones,betmgm,7.5,-115,-115,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray,betmgm,23.5,-120,-110,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears,betmgm,18.5,-115,-115,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic,betmgm,26.5,-125,-105,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey,betmgm,18.5,-105,-125,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson,betmgm,20.5,-105,-125,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan,betmgm,10.5,-120,-111,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi,betmgm,5.5,-110,-120,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole,betmgm,10.5,-105,-125,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic,betmgm,6.5,-105,-125,2026-11-14T22:28:01.434734Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon,betrivers,13.5,-112,-121,2026-11-14T22:29:55.190446Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson,betrivers,12.5,-118,-114,2026-11-14T22:28:55.083187Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun,betrivers,11.5,-122,-110,2026-11-14T22:29:55.190446Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan,betrivers,10.5,-118,-115,2026-11-14T22:29:55.190446Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones,betrivers,8.5,-108,-125,2026-11-14T22:28:55.083187Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray,betrivers,24.5,-106,-129,2026-11-14T22:29:55.190446Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears,betrivers,18.5,-120,-113,2026-11-14T22:28:55.083187Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokić,betrivers,27.5,-114,-118,2026-11-14T22:29:55.190446Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey,betrivers,18.5,-118,-114,2026-11-14T22:29:55.190446Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson,betrivers,20.5,-127,-107,2026-11-14T22:29:55.190446Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi,betrivers,4.5,-125,-108,2026-11-14T22:29:55.190446Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole,betrivers,10.5,-109,-124,2026-11-14T22:28:55.083187Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic,betrivers,6.5,-107,-127,2026-11-14T22:28:55.083187Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon (DEN),bovada,10.5,-280,205,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson (DEN),bovada,10.5,-230,170,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun (DEN),bovada,10.5,-165,125,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan (DEN),bovada,10.5,-105,-125,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones (NOP),bovada,10.5,190,-260,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon (DEN),bovada,11.5,-200,150,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson (DEN),bovada,11.5,-165,125,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun (DEN),bovada,11.5,-120,-110,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan (DEN),bovada,11.5,125,-165,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon (DEN),bovada,12.5,-150,115,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson (DEN),bovada,12.5,-125,-105,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun (DEN),bovada,12.5,110,-145,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan (DEN),bovada,12.5,165,-220,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon (DEN),bovada,13.5,-115,-115,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson (DEN),bovada,13.5,105,-135,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun (DEN),bovada,13.5,145,-190,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon (DEN),bovada,14.5,115,-150,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson (DEN),bovada,14.5,135,-180,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun (DEN),bovada,14.5,185,-250,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon (DEN),bovada,15.5,145,-190,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson (DEN),bovada,15.5,170,-230,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears (NOP),bovada,15.5,-230,170,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey (NOP),bovada,15.5,-230,170,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon (DEN),bovada,16.5,185,-250,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears (NOP),bovada,16.5,-180,135,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey (NOP),bovada,16.5,-180,135,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears (NOP),bovada,17.5,-135,105,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey (NOP),bovada,17.5,-135,105,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears (NOP),bovada,18.5,-110,-120,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey (NOP),bovada,18.5,-110,-120,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson (NOP),bovada,18.5,-190,145,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears (NOP),bovada,19.5,115,-150,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey (NOP),bovada,19.5,115,-150,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson (NOP),bovada,19.5,-150,115,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,20.5,-260,190,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears (NOP),bovada,20.5,140,-185,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey (NOP),bovada,20.5,140,-185,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson (NOP),bovada,20.5,-120,-110,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,21.5,-210,155,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears (NOP),bovada,21.5,175,-240,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey (NOP),bovada,21.5,175,-240,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson (NOP),bovada,21.5,105,-135,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,22.5,-165,125,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson (NOP),bovada,22.5,130,-170,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,23.5,-135,105,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,23.5,-220,165,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson (NOP),bovada,23.5,155,-210,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,24.5,-110,-120,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,24.5,-180,135,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson (NOP),bovada,24.5,190,-260,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,25.5,110,-145,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,25.5,-145,110,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,26.5,135,-180,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,26.5,-120,-110,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,27.5,165,-220,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,27.5,100,-130,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,28.5,200,-275,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,28.5,120,-160,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,29.5,145,-190,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,30.5,175,-240,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,31.5,210,-290,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones (NOP),bovada,6.5,-200,150,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones (NOP),bovada,7.5,-135,105,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan (DEN),bovada,8.5,-200,150,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones (NOP),bovada,8.5,105,-135,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun (DEN),bovada,9.5,-220,165,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan (DEN),bovada,9.5,-145,110,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones (NOP),bovada,9.5,145,-190,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,22.5,-280,205,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan (DEN),bovada,7.5,-295,215,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson (NOP),bovada,17.5,-245,180,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi (NOP),bovada,3.5,-280,205,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi (NOP),bovada,4.5,-170,130,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi (NOP),bovada,5.5,-110,-120,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi (NOP),bovada,6.5,135,-180,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi (NOP),bovada,7.5,190,-260,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole (NOP),bovada,10.5,-110,-120,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole (NOP),bovada,11.5,120,-160,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole (NOP),bovada,12.5,160,-215,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole (NOP),bovada,13.5,210,-290,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic (NOP),bovada,4.5,-200,150,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic (NOP),bovada,5.5,-130,100,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic (NOP),bovada,6.5,115,-150,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic (NOP),bovada,7.5,160,-215,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole (NOP),bovada,8.5,-210,155,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole (NOP),bovada,9.5,-150,115,2026-11-14T22:29:13.451878Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones (NOP),bovada,5.5,-280,205,2026-11-14T22:27:13.054790Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears,draftkings,18.5,-110,-116,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson,draftkings,20.5,-116,-110,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon,draftkings,13.5,-113,-112,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson,draftkings,12.5,-121,-106,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun,draftkings,11.5,-124,-103,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray,draftkings,24.5,-106,-120,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic,draftkings,26.5,-122,-104,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan,draftkings,10.5,-101,-126,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones,draftkings,7.5,-124,-103,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey,draftkings,18.5,-110,-116,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi,draftkings,5.5,-122,-104,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole,draftkings,10.5,-106,-120,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic,draftkings,5.5,-126,-101,2026-11-14T22:28:30.302409Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic,fanduel,26.5,-113,-113,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray,fanduel,24.5,100,-128,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon,fanduel,13.5,102,-130,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cam Johnson,fanduel,12.5,-118,-108,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun,fanduel,11.5,-122,-104,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan,fanduel,10.5,-106,-120,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears,fanduel,18.5,-111,-115,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson,fanduel,20.5,-125,-102,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones,fanduel,7.5,-122,-104,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi,fanduel,5.5,-128,100,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole,fanduel,10.5,102,-130,2026-11-14T22:29:37.403247Z
-672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic,fanduel,5.5,-122,-104,2026-11-14T22:29:37.403247Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg,betmgm,24.5,-110,-120,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford,betmgm,8.5,120,-160,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell,betmgm,24.5,-105,-125,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden,betmgm,18.5,100,-135,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen,betmgm,13.5,-125,-105,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving,betmgm,22.5,-115,-115,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,PJ Washington,betmgm,13.5,-105,-125,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson,betmgm,13.5,-105,-125,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher,betmgm,6.5,100,-135,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall,betmgm,10.5,-105,-125,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin,betmgm,4.5,100,-135,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama,betmgm,7.5,-135,100,2026-11-14T22:28:01.673589Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin,betrivers,4.5,-112,-121,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg,betrivers,24.5,-121,-112,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford,betrivers,7.5,-130,-104,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell,betrivers,23.5,-122,-110,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden,betrivers,17.5,-109,-124,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen,betrivers,13.5,-110,-122,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving,betrivers,22.5,-114,-118,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall,betrivers,9.5,-129,-106,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington,betrivers,12.5,-124,-109,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson,betrivers,13.5,-103,-132,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher,betrivers,5.5,-134,-103,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama,betrivers,7.5,-124,-109,2026-11-14T22:28:55.219177Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,10.5,205,-280,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,10.5,-260,190,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,11.5,-185,140,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,12.5,-135,105,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,13.5,-105,-125,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,14.5,120,-160,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,15.5,155,-210,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,16.5,200,-275,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,19.5,-260,190,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,20.5,-275,200,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,20.5,-200,150,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,21.5,-220,165,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,21.5,-165,125,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,22.5,-170,130,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,22.5,-130,100,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,23.5,-145,110,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,23.5,-105,-125,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,24.5,-115,-115,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,24.5,115,-150,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,25.5,105,-135,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,25.5,140,-185,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,26.5,130,-170,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,26.5,170,-230,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,27.5,155,-210,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,28.5,185,-250,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,4.5,-230,170,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,5.5,-150,115,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,6.5,-180,135,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,6.5,100,-130,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,7.5,-125,-105,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,7.5,140,-185,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,8.5,110,-145,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,8.5,200,-275,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,9.5,150,-200,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,10.5,-120,-110,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen (CLE),bovada,11.5,-215,160,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,11.5,115,-150,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen (CLE),bovada,12.5,-160,120,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,12.5,145,-190,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen (CLE),bovada,13.5,-120,-110,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen (CLE),bovada,14.5,110,-145,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden (CLE),bovada,15.5,-245,180,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen (CLE),bovada,15.5,140,-185,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden (CLE),bovada,16.5,-185,140,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen (CLE),bovada,16.5,175,-240,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden (CLE),bovada,17.5,-145,110,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden (CLE),bovada,18.5,-115,-115,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden (CLE),bovada,19.5,110,-145,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden (CLE),bovada,20.5,135,-180,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell (CLE),bovada,21.5,-185,140,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden (CLE),bovada,21.5,170,-230,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell (CLE),bovada,22.5,-145,110,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell (CLE),bovada,23.5,-120,-110,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell (CLE),bovada,24.5,105,-135,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell (CLE),bovada,25.5,125,-165,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell (CLE),bovada,26.5,150,-200,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell (CLE),bovada,27.5,180,-245,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin (DAL),bovada,3.5,-190,145,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin (DAL),bovada,4.5,-120,-110,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin (DAL),bovada,5.5,125,-165,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,5.5,-280,205,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin (DAL),bovada,6.5,185,-250,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,8.5,-230,170,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,9.5,-165,125,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson (CLE),bovada,10.5,-260,190,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson (CLE),bovada,11.5,-185,140,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson (CLE),bovada,12.5,-135,105,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson (CLE),bovada,13.5,-105,-125,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson (CLE),bovada,14.5,120,-160,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson (CLE),bovada,15.5,155,-210,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson (CLE),bovada,16.5,200,-275,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,13.5,190,-260,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell (CLE),bovada,20.5,-230,170,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen (CLE),bovada,10.5,-295,215,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden (CLE),bovada,22.5,205,-280,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,27.5,205,-280,2026-11-14T22:29:13.597322Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell,draftkings,23.5,-115,-110,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden,draftkings,18.5,-102,-125,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen,draftkings,13.5,-119,-107,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson,draftkings,13.5,-101,-126,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin,draftkings,4.5,-117,-109,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg,draftkings,24.5,-113,-113,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford,draftkings,7.5,-124,-103,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving,draftkings,22.5,-116,-110,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall,draftkings,10.5,-116,-110,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington,draftkings,12.5,-125,-102,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher,draftkings,6.5,100,-127,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama,draftkings,7.5,-129,101,2026-11-14T22:28:30.432315Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Donovan Mitchell,fanduel,24.5,-102,-125,2026-11-14T22:29:37.183776Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,James Harden,fanduel,17.5,-120,-106,2026-11-14T22:29:37.183776Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jarrett Allen,fanduel,13.5,-122,-104,2026-11-14T22:29:54.527082Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Peyton Watson,fanduel,13.5,100,-128,2026-11-14T22:29:54.527082Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington,fanduel,12.5,-122,-104,2026-11-14T22:29:54.527082Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg,fanduel,24.5,-111,-115,2026-11-14T22:29:37.183776Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford,fanduel,7.5,-128,100,2026-11-14T22:29:37.183776Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving,fanduel,22.5,-104,-122,2026-11-14T22:29:37.183776Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall,fanduel,10.5,-104,-120,2026-11-14T22:29:54.527082Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher,fanduel,5.5,-128,100,2026-11-14T22:29:37.183776Z
-672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama,fanduel,7.5,-108,-118,2026-11-14T22:29:37.183776Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu,betmgm,18.5,-110,-120,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro,betmgm,7.5,-125,-105,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels,betmgm,17.5,-115,-115,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga,betmgm,14.5,-105,-125,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joshua Giddey,betmgm,14.5,-105,-125,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball,betmgm,21.5,-105,-125,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis,betmgm,16.5,-115,-115,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell,betmgm,20.5,-111,-118,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert,betmgm,10.5,-115,-115,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jalen Smith,betmgm,12.5,-110,-120,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr.,betmgm,10.5,-105,-125,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer,betmgm,5.5,-135,100,2026-11-14T22:29:59.854579Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu,betrivers,17.5,-130,-105,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro,betrivers,8.5,-104,-130,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels,betrivers,17.5,-118,-114,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga,betrivers,14.5,-110,-122,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey,betrivers,14.5,-108,-125,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball,betrivers,21.5,-113,-121,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis,betrivers,16.5,-120,-113,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Nic Claxton,betrivers,7.5,-117,-115,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell,betrivers,21.5,102,-137,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert,betrivers,10.5,-117,-115,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr.,betrivers,10.5,-118,-115,2026-11-14T22:28:55.414399Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,10.5,200,-275,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Nic Claxton (CHI),bovada,10.5,200,-275,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,10.5,-110,-120,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,10.5,-120,-110,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,11.5,-245,180,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,11.5,120,-160,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,11.5,110,-145,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,12.5,-210,155,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,12.5,-180,135,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,12.5,160,-215,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,12.5,145,-190,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,13.5,-160,120,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,13.5,-135,105,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,13.5,-245,180,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,13.5,210,-290,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,14.5,-275,200,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,14.5,-120,-110,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,14.5,-105,-125,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,14.5,-185,140,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,15.5,-245,180,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,15.5,-210,155,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,15.5,110,-145,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,15.5,120,-160,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,15.5,-145,110,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,16.5,-185,140,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,16.5,-160,120,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,16.5,135,-180,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,16.5,155,-210,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,16.5,-110,-120,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,17.5,-145,110,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,17.5,-125,-105,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,17.5,170,-230,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,17.5,-295,215,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,17.5,115,-150,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,18.5,-115,-115,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,18.5,100,-130,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,18.5,-230,170,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,18.5,145,-190,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,18.5,-170,130,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,19.5,110,-145,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,19.5,125,-165,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,19.5,-180,135,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,19.5,180,-245,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,19.5,-135,105,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,20.5,135,-180,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,20.5,155,-210,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,20.5,-145,110,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,20.5,-110,-120,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,21.5,170,-230,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,21.5,190,-260,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,21.5,-115,-115,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,21.5,115,-150,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,22.5,110,-145,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,22.5,140,-185,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,23.5,130,-170,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,23.5,170,-230,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,24.5,160,-215,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,24.5,210,-290,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,25.5,200,-275,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,5.5,-295,215,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Nic Claxton (CHI),bovada,5.5,-295,215,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,6.5,-190,145,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Nic Claxton (CHI),bovada,6.5,-190,145,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,7.5,-130,100,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Nic Claxton (CHI),bovada,7.5,-130,100,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,8.5,110,-145,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Nic Claxton (CHI),bovada,8.5,110,-145,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,8.5,-210,155,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,8.5,-230,170,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,9.5,145,-190,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Nic Claxton (CHI),bovada,9.5,145,-190,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,9.5,-150,115,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,9.5,-165,125,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,13.5,190,-260,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,11.5,-290,210,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,22.5,205,-280,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,17.5,200,-275,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,17.5,-220,165,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,16.5,-290,210,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jalen Smith (MINN),bovada,10.5,-230,170,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jalen Smith (MINN),bovada,11.5,-165,125,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jalen Smith (MINN),bovada,12.5,-125,-105,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jalen Smith (MINN),bovada,13.5,105,-135,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jalen Smith (MINN),bovada,14.5,135,-180,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jalen Smith (MINN),bovada,15.5,170,-230,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer (MIN),bovada,4.5,-185,140,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer (MIN),bovada,5.5,-120,-110,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer (MIN),bovada,6.5,120,-160,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer (MIN),bovada,7.5,170,-230,2026-11-14T22:29:13.874492Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr.,draftkings,10.5,-115,-110,2026-11-14T22:28:33.536521Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball,draftkings,21.5,-107,-119,2026-11-14T22:28:33.536521Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu,draftkings,18.5,-103,-124,2026-11-14T22:28:33.536521Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels,draftkings,17.5,-114,-112,2026-11-14T22:28:33.536521Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga,draftkings,14.5,-111,-115,2026-11-14T22:28:33.536521Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert,draftkings,10.5,-110,-116,2026-11-14T22:28:30.715888Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro,draftkings,7.5,-125,-102,2026-11-14T22:28:30.715888Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey,draftkings,13.5,-127,100,2026-11-14T22:28:30.715888Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis,draftkings,16.5,-106,-121,2026-11-14T22:28:30.715888Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Nicolas Claxton,draftkings,7.5,-122,-105,2026-11-14T22:28:33.536521Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell,draftkings,20.5,-104,-123,2026-11-14T22:28:30.715888Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jalen Smith,draftkings,12.5,-111,-115,2026-11-14T22:28:30.715888Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer,draftkings,5.5,-120,-106,2026-11-14T22:28:33.536521Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu,fanduel,18.5,-111,-115,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels,fanduel,17.5,-108,-118,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga,fanduel,13.5,-130,102,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball,fanduel,20.5,-120,-106,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert,fanduel,10.5,-111,-115,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr.,fanduel,10.5,-115,-111,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro,fanduel,7.5,-128,100,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey,fanduel,14.5,102,-130,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis,fanduel,16.5,-104,-122,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Nic Claxton,fanduel,7.5,-125,-102,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell,fanduel,20.5,102,-130,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jalen Smith,fanduel,12.5,-115,-111,2026-11-14T22:29:36.659120Z
-672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer,fanduel,5.5,-125,-102,2026-11-14T22:29:36.659120Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson,betmgm,10.5,-115,-115,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo,betmgm,17.5,-115,-115,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham,betmgm,24.5,-125,-105,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins,betmgm,13.5,-150,110,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell,betmgm,14.5,-105,-125,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson,betmgm,15.5,-115,-115,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo,betmgm,28.5,-115,-115,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins,betmgm,11.5,-115,-115,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson,betmgm,13.5,-110,-120,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins,betmgm,9.5,100,-135,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed,betmgm,11.5,-120,-110,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter,betmgm,10.5,-105,-125,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis,betmgm,6.5,-105,-125,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell,betmgm,8.5,-105,-125,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green,betmgm,5.5,-105,-125,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ron Holland,betmgm,5.5,-105,-125,2026-11-14T22:28:01.521991Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson,betrivers,9.5,-150,110,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo,betrivers,17.5,-121,-112,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham,betrivers,25.5,-115,-117,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins,betrivers,14.5,-120,-113,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell,betrivers,13.5,-112,-121,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson,betrivers,15.5,-118,-114,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo,betrivers,28.5,-114,-118,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins,betrivers,11.5,-110,-122,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson,betrivers,12.5,-124,-109,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter,betrivers,9.5,-121,-112,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed,betrivers,11.5,-114,-118,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins,betrivers,9.5,-114,-118,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis,betrivers,6.5,-106,-129,2026-11-14T22:28:55.497505Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,21.5,-260,190,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,22.5,-210,155,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,23.5,-165,125,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,24.5,-135,105,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,25.5,-110,-120,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,26.5,110,-145,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,27.5,135,-180,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,28.5,160,-215,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,29.5,190,-260,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,10.5,-275,200,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,11.5,-245,180,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,11.5,-190,145,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,12.5,-180,135,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,12.5,-145,110,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,13.5,-135,105,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,13.5,-110,-120,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,14.5,-105,-125,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,14.5,120,-160,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,15.5,120,-160,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,15.5,150,-200,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,16.5,155,-210,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,16.5,190,-260,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,17.5,200,-275,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,12.5,-290,210,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,13.5,-215,160,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,14.5,-250,185,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,14.5,-165,125,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,15.5,-190,145,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,15.5,-125,-105,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,16.5,-150,115,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,16.5,105,-135,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,17.5,-115,-115,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,17.5,130,-170,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,18.5,110,-145,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,18.5,165,-220,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,19.5,135,-180,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,19.5,205,-280,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,20.5,170,-230,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,24.5,-275,200,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,25.5,-215,160,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,26.5,-180,135,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,27.5,-145,110,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,28.5,-120,-110,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,29.5,100,-130,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,30.5,120,-160,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,31.5,145,-190,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,32.5,170,-230,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,10.5,-150,115,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,11.5,-215,160,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,11.5,-110,-120,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,12.5,-160,120,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,12.5,120,-160,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,13.5,-120,-110,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,13.5,155,-210,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,14.5,110,-145,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,15.5,140,-185,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,16.5,175,-240,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,8.5,-290,210,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,9.5,-200,150,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,14.5,200,-275,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,21.5,210,-290,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,33.5,205,-280,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,10.5,115,-150,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,11.5,150,-200,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,12.5,200,-275,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,7.5,-240,175,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,8.5,-165,125,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,9.5,-120,-110,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,10.5,-105,-125,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,10.5,105,-135,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,10.5,-150,115,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,11.5,125,-165,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,11.5,140,-185,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,11.5,-110,-120,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,12.5,165,-220,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,12.5,180,-245,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,12.5,120,-160,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,13.5,155,-210,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,14.5,200,-275,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis (MIA),bovada,5.5,-200,150,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis (MIA),bovada,6.5,-130,100,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,7.5,-295,215,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis (MIA),bovada,7.5,110,-145,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,7.5,-260,190,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,8.5,-200,150,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis (MIA),bovada,8.5,150,-200,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,8.5,-185,140,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,9.5,-145,110,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis (MIA),bovada,9.5,210,-290,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,9.5,-130,100,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,9.5,-200,150,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,10.5,-295,215,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ronald Holland (DET),bovada,3.5,-230,170,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green (DET),bovada,4.5,-185,140,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ronald Holland (DET),bovada,4.5,-135,105,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green (DET),bovada,5.5,-120,-110,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ronald Holland (DET),bovada,5.5,110,-145,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green (DET),bovada,6.5,120,-160,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ronald Holland (DET),bovada,6.5,160,-215,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green (DET),bovada,7.5,170,-230,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,8.5,-290,210,2026-11-14T22:29:14.007172Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo,draftkings,17.5,-114,-111,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell,draftkings,13.5,-116,-110,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo,draftkings,28.5,-119,-107,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson,draftkings,13.5,-109,-117,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson,draftkings,10.5,-104,-123,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham,draftkings,25.5,-107,-119,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins,draftkings,14.5,-106,-121,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson,draftkings,15.5,-122,-105,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins,draftkings,11.5,-108,-118,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins,draftkings,9.5,-108,-118,2026-11-14T22:29:21.846992Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter,draftkings,9.5,-127,-101,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed,draftkings,10.5,-128,100,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis,draftkings,6.5,-112,-114,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green,draftkings,5.5,-119,-107,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ron Holland II,draftkings,5.5,109,-139,2026-11-14T22:28:32.150013Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham,fanduel,25.5,104,-132,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson,fanduel,10.5,-108,-118,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins,fanduel,14.5,102,-130,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson,fanduel,15.5,-111,-115,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins,fanduel,11.5,-106,-120,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo,fanduel,28.5,-113,-113,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo,fanduel,17.5,-113,-113,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell,fanduel,13.5,-113,-113,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson,fanduel,12.5,-128,100,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins,fanduel,9.5,-115,-111,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed,fanduel,10.5,-132,104,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter,fanduel,9.5,-113,-113,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis,fanduel,6.5,-115,-111,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green,fanduel,5.5,100,-128,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ron Holland II,fanduel,4.5,-125,-102,2026-11-14T22:29:37.681616Z
-697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell,fanduel,8.5,-106,-120,2026-11-14T22:29:37.681616Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer,betmgm,19.5,-105,-125,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward,betmgm,14.5,-115,-115,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe,betmgm,8.5,-115,-115,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin,betmgm,10.5,-110,-120,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells,betmgm,11.5,-105,-125,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle,betmgm,20.5,-115,-115,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr.,betmgm,21.5,-120,-110,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Zach Edey,betmgm,9.5,115,-155,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr.,betmgm,11.5,-110,-120,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant,betmgm,11.5,-135,100,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore,betmgm,10.5,-120,-111,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer,betmgm,12.5,-105,-125,2026-11-14T22:28:02.048722Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer,betrivers,19.5,-121,-113,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward,betrivers,14.5,-129,-105,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe,betrivers,8.5,-115,-117,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin,betrivers,10.5,-108,-127,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells,betrivers,11.5,-120,-113,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant,betrivers,11.5,-121,-112,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle,betrivers,20.5,-117,-115,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr.,betrivers,22.5,-120,-113,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore,betrivers,10.5,-125,-108,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Zach Edey,betrivers,8.5,-121,-112,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr.,betrivers,12.5,-112,-121,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer,betrivers,12.5,-108,-125,2026-11-14T22:28:55.315200Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant (MEM),bovada,10.5,-165,125,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,10.5,-120,-110,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Zach Edey (MEM),bovada,10.5,170,-230,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant (MEM),bovada,11.5,-120,-110,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,11.5,110,-145,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant (MEM),bovada,12.5,110,-145,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,12.5,145,-190,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant (MEM),bovada,13.5,145,-190,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,13.5,190,-260,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer (MEM),bovada,16.5,-240,175,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer (MEM),bovada,17.5,-185,140,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,17.5,-230,170,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer (MEM),bovada,18.5,-145,110,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,18.5,-180,135,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer (MEM),bovada,19.5,-115,-115,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,19.5,-145,110,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer (MEM),bovada,20.5,110,-145,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,20.5,-115,-115,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer (MEM),bovada,21.5,135,-180,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,21.5,110,-145,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,22.5,135,-180,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,23.5,165,-220,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,24.5,200,-275,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Zach Edey (MEM),bovada,6.5,-230,170,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Zach Edey (MEM),bovada,7.5,-150,115,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Zach Edey (MEM),bovada,8.5,-110,-120,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant (MEM),bovada,9.5,-220,165,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,9.5,-165,125,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Zach Edey (MEM),bovada,9.5,125,-165,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,10.5,155,-210,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells (MEM),bovada,10.5,-170,130,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,11.5,205,-280,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells (MEM),bovada,11.5,-125,-105,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward (MEM),bovada,12.5,-250,185,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells (MEM),bovada,12.5,105,-135,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward (MEM),bovada,13.5,-185,140,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells (MEM),bovada,13.5,135,-180,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward (MEM),bovada,14.5,-145,110,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward (MEM),bovada,15.5,-110,-120,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward (MEM),bovada,16.5,115,-150,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr. (BKN),bovada,19.5,-215,160,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr. (BKN),bovada,20.5,-170,130,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr. (BKN),bovada,21.5,-135,105,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr. (BKN),bovada,22.5,-110,-120,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr. (BKN),bovada,23.5,110,-145,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr. (BKN),bovada,24.5,135,-180,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr. (BKN),bovada,25.5,165,-220,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr. (BKN),bovada,26.5,200,-275,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,7.5,-170,130,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,8.5,-120,-110,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,9.5,115,-150,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells (MEM),bovada,9.5,-240,175,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,6.5,-250,185,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,10.5,-110,-120,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,11.5,120,-160,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,12.5,160,-215,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,13.5,210,-290,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,8.5,-210,155,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,9.5,-150,115,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,8.5,-230,170,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr. (BKN),bovada,18.5,-275,200,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr. (BKN),bovada,10.5,-190,145,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr. (BKN),bovada,11.5,-135,105,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr. (BKN),bovada,12.5,-105,-125,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr. (BKN),bovada,13.5,125,-165,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr. (BKN),bovada,14.5,160,-215,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr. (BKN),bovada,15.5,205,-280,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr. (BKN),bovada,9.5,-260,190,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward (MEM),bovada,17.5,150,-200,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer (MEM),bovada,22.5,165,-220,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer (MEM),bovada,23.5,205,-280,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells (MEM),bovada,14.5,175,-240,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant (MEM),bovada,14.5,185,-250,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer (MEM),bovada,11.5,-145,110,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer (MEM),bovada,12.5,-110,-120,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer (MEM),bovada,13.5,120,-160,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer (MEM),bovada,14.5,155,-210,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer (MEM),bovada,15.5,200,-275,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer (MEM),bovada,10.5,-200,150,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward (MEM),bovada,18.5,185,-250,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer (MEM),bovada,9.5,-280,205,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf (BKN),bovada,10.5,185,-250,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf (BKN),bovada,6.5,-210,155,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf (BKN),bovada,7.5,-145,110,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf (BKN),bovada,8.5,100,-130,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf (BKN),bovada,9.5,135,-180,2026-11-14T22:29:13.727047Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer,draftkings,19.5,-113,-113,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward,draftkings,15.5,-109,-117,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Zach Edey,draftkings,8.5,-110,-116,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells,draftkings,11.5,-124,-103,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant,draftkings,11.5,-120,-107,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe,draftkings,8.5,-115,-111,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin,draftkings,10.5,-108,-118,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle,draftkings,20.5,-112,-114,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr.,draftkings,22.5,-107,-119,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore,draftkings,10.5,-116,-110,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr.,draftkings,12.5,-103,-124,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer,draftkings,12.5,-106,-120,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf,draftkings,8.5,101,-129,2026-11-14T22:28:30.563807Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle,fanduel,20.5,-115,-111,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Michael Porter Jr.,fanduel,22.5,-102,-125,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin,fanduel,10.5,102,-130,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer,fanduel,19.5,102,-130,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward,fanduel,14.5,-113,-113,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells,fanduel,11.5,-128,100,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Zach Edey,fanduel,8.5,-113,-113,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe,fanduel,8.5,-111,-115,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jerami Grant,fanduel,11.5,-111,-115,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore,fanduel,10.5,-113,-113,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr.,fanduel,11.5,-132,104,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer,fanduel,12.5,100,-128,2026-11-14T22:29:36.923446Z
-697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf,fanduel,8.5,106,-136,2026-11-14T22:29:36.923446Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon,betmgm,13.5,-111,-120,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson,betmgm,12.5,-125,-105,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun,betmgm,12.5,-105,-125,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones,betmgm,7.5,-130,-105,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray,betmgm,23.5,-120,-110,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears,betmgm,18.5,-125,-105,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic,betmgm,26.5,-125,-105,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey,betmgm,18.5,-105,-125,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson,betmgm,20.5,-115,-115,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan,betmgm,10.5,-120,-110,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi,betmgm,5.5,-115,-115,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole,betmgm,10.5,-115,-115,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic,betmgm,6.5,-105,-125,2026-11-15T00:10:13.781918Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon,betrivers,13.5,-118,-115,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson,betrivers,12.5,-115,-117,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun,betrivers,11.5,-121,-112,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan,betrivers,10.5,-118,-115,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones,betrivers,8.5,-108,-127,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray,betrivers,23.5,-127,-107,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears,betrivers,18.5,-117,-115,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokić,betrivers,27.5,-112,-121,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey,betrivers,18.5,-130,-104,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson,betrivers,20.5,-125,-108,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi,betrivers,5.5,-121,-112,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole,betrivers,10.5,-118,-115,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic,betrivers,6.5,-105,-129,2026-11-15T00:09:11.234642Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon (DEN),bovada,14.5,100,-130,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson (DEN),bovada,10.5,105,-135,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun (DEN),bovada,10.5,-120,-110,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan (DEN),bovada,12.5,110,-145,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones (NOP),bovada,5.5,-105,-125,2026-11-15T00:48:44.436851Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray (DEN),bovada,20.5,-105,-125,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears (NOP),bovada,20.5,-120,-110,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole (NOP),bovada,9.5,-115,-115,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic (NOP),bovada,7.5,105,-135,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic (DEN),bovada,28.5,-105,-125,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey (NOP),bovada,15.5,-145,110,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi (NOP),bovada,6.5,-110,-120,2026-11-15T00:45:40.311751Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson (NOP),bovada,19.5,100,-130,2026-11-15T00:48:44.436851Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Trevon Brazile (DEN),bovada,5.5,-135,105,2026-11-15T00:49:14.646381Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears,draftkings,19.5,-110,-120,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson,draftkings,21.5,-115,-115,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon,draftkings,13.5,-105,-125,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cameron Johnson,draftkings,12.5,-125,-105,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun,draftkings,9.5,100,-130,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray,draftkings,18.5,-105,-125,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic,draftkings,24.5,-115,-115,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan,draftkings,11.5,-135,105,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Herbert Jones,draftkings,4.5,-135,105,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Saddiq Bey,draftkings,17.5,-110,-120,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole,draftkings,16.5,-130,100,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic,draftkings,5.5,-125,-105,2026-11-15T00:48:57.050413Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Nikola Jokic,fanduel,25.5,-102,-130,2026-11-15T00:49:38.452259Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jamal Murray,fanduel,20.5,-132,100,2026-11-15T00:49:40.419088Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Aaron Gordon,fanduel,13.5,102,-136,2026-11-15T00:49:38.452259Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Cam Johnson,fanduel,13.5,-112,-118,2026-11-15T00:49:38.452259Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Christian Braun,fanduel,9.5,102,-136,2026-11-15T00:49:14.309915Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,DeMar DeRozan,fanduel,11.5,106,-140,2026-11-15T00:49:38.452259Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jeremiah Fears,fanduel,20.5,-112,-118,2026-11-15T00:49:38.452259Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Zion Williamson,fanduel,20.5,102,-136,2026-11-15T00:49:37.333135Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Yves Missi,fanduel,6.5,116,-154,2026-11-15T00:49:32.788826Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Jordan Poole,fanduel,15.5,-106,-125,2026-11-15T00:49:38.452259Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Karlo Matkovic,fanduel,5.5,-130,-102,2026-11-15T00:49:14.309915Z
+672877,2026-11-15T00:00:00Z,New Orleans Pelicans,Denver Nuggets,Trevon Brazile,fanduel,6.5,104,-138,2026-11-15T00:49:38.452259Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg,betmgm,26.5,-120,-110,2026-11-15T00:49:29.942142Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford,betmgm,6.5,100,-140,2026-11-15T00:49:29.942142Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving,betmgm,19.5,-115,-115,2026-11-15T00:49:29.942142Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,PJ Washington,betmgm,10.5,-130,-105,2026-11-15T00:49:29.942142Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson,betmgm,15.5,-125,-110,2026-11-15T00:49:29.942142Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall,betmgm,10.5,-111,-120,2026-11-15T00:49:29.942142Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin,betmgm,8.5,105,-140,2026-11-15T00:46:58.655368Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Craig Porter,betmgm,7.5,-115,-115,2026-11-15T00:49:29.942142Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,10.5,200,-275,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,10.5,-275,200,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,11.5,-190,145,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,12.5,-145,110,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,13.5,-110,-120,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,14.5,120,-160,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,15.5,150,-200,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington (DAL),bovada,16.5,190,-260,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,19.5,-260,190,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,20.5,-260,190,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,20.5,-200,150,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,21.5,-210,155,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,21.5,-165,125,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,22.5,-165,125,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,22.5,-130,100,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,23.5,-135,105,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,23.5,-105,-125,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,24.5,-110,-120,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,24.5,115,-150,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,25.5,110,-145,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,25.5,140,-185,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,26.5,135,-180,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,26.5,170,-230,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,27.5,165,-220,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg (DAL),bovada,28.5,200,-275,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,4.5,-245,180,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,5.5,-160,120,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,6.5,-190,145,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,6.5,-105,-125,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,7.5,-130,100,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,7.5,135,-180,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,8.5,110,-145,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,8.5,190,-260,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,9.5,145,-190,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,10.5,-115,-115,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,11.5,120,-160,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,12.5,155,-210,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin (DAL),bovada,3.5,-190,145,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin (DAL),bovada,4.5,-120,-110,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin (DAL),bovada,5.5,125,-165,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford (DAL),bovada,5.5,-295,215,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin (DAL),bovada,6.5,185,-250,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,8.5,-220,165,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,9.5,-160,120,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson (CLE),bovada,12.5,-290,210,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson (CLE),bovada,13.5,-215,160,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall (DAL),bovada,13.5,200,-275,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson (CLE),bovada,14.5,-165,125,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving (DAL),bovada,27.5,205,-280,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama (DAL),bovada,10.5,190,-260,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Mario Hezonja (CLE),bovada,11.5,-275,200,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Thomas Bryant (CLE),bovada,11.5,-245,180,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Mario Hezonja (CLE),bovada,12.5,-200,150,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Thomas Bryant (CLE),bovada,12.5,-180,135,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Mario Hezonja (CLE),bovada,13.5,-150,115,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Thomas Bryant (CLE),bovada,13.5,-135,105,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor (CLE),bovada,13.5,-215,160,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Mario Hezonja (CLE),bovada,14.5,-115,-115,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Thomas Bryant (CLE),bovada,14.5,-105,-125,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor (CLE),bovada,14.5,-165,125,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson (CLE),bovada,15.5,-125,-105,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Mario Hezonja (CLE),bovada,15.5,110,-145,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas (CLE),bovada,15.5,-250,185,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Thomas Bryant (CLE),bovada,15.5,120,-160,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor (CLE),bovada,15.5,-125,-105,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson (CLE),bovada,16.5,105,-135,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Mario Hezonja (CLE),bovada,16.5,140,-185,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas (CLE),bovada,16.5,-190,145,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Thomas Bryant (CLE),bovada,16.5,155,-210,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor (CLE),bovada,16.5,105,-135,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson (CLE),bovada,17.5,130,-170,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Mario Hezonja (CLE),bovada,17.5,180,-245,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas (CLE),bovada,17.5,-150,115,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Thomas Bryant (CLE),bovada,17.5,200,-275,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor (CLE),bovada,17.5,130,-170,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson (CLE),bovada,18.5,165,-220,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas (CLE),bovada,18.5,-120,-110,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor (CLE),bovada,18.5,165,-220,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas (CLE),bovada,19.5,105,-135,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor (CLE),bovada,19.5,205,-280,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas (CLE),bovada,20.5,130,-170,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas (CLE),bovada,21.5,160,-215,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Craig Porter Jr. (CLE),bovada,6.5,-170,130,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama (DAL),bovada,6.5,-200,150,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Craig Porter Jr. (CLE),bovada,7.5,-120,-110,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama (DAL),bovada,7.5,-135,105,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Craig Porter Jr. (CLE),bovada,8.5,115,-150,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama (DAL),bovada,8.5,105,-135,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Craig Porter Jr. (CLE),bovada,9.5,160,-215,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama (DAL),bovada,9.5,140,-185,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor (CLE),bovada,12.5,-290,210,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson (CLE),bovada,19.5,205,-280,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas (CLE),bovada,22.5,200,-275,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Craig Porter Jr. (CLE),bovada,5.5,-260,190,2026-11-15T00:48:06.495292Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson,draftkings,16.5,-125,-105,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas,draftkings,23.5,-115,-115,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor,draftkings,18.5,-105,-125,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin,draftkings,8.5,110,-140,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg,draftkings,28.5,-105,-125,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford,draftkings,6.5,-110,-120,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving,draftkings,19.5,-115,-115,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington,draftkings,11.5,-110,-120,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Mario Hezonja,draftkings,13.5,-105,-125,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Thomas Bryant,draftkings,12.5,-110,-120,2026-11-15T00:46:48.659202Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Jaylon Tyson,fanduel,17.5,108,-144,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Meleek Thomas,fanduel,21.5,102,-136,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Tyrese Proctor,fanduel,17.5,-112,-118,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Caleb Martin,fanduel,10.5,-118,-110,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,P.J. Washington,fanduel,11.5,100,-132,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Cooper Flagg,fanduel,27.5,-112,-118,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Daniel Gafford,fanduel,6.5,-112,-118,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Kyrie Irving,fanduel,20.5,108,-144,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Naji Marshall,fanduel,10.5,-106,-125,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Zaccharie Risacher,fanduel,5.5,-144,108,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Santi Aldama,fanduel,7.5,-108,-122,2026-11-15T00:49:58.142124Z
+672878,2026-11-15T00:30:00Z,Cleveland Cavaliers,Dallas Mavericks,Craig Porter Jr.,fanduel,7.5,-125,-106,2026-11-15T00:49:58.142124Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu,betmgm,17.5,-140,105,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro,betmgm,7.5,-125,-105,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels,betmgm,17.5,-120,-110,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga,betmgm,14.5,-105,-125,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joshua Giddey,betmgm,13.5,-105,-125,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball,betmgm,21.5,-111,-118,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis,betmgm,16.5,-115,-115,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell,betmgm,21.5,105,-140,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert,betmgm,9.5,-140,105,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer,betmgm,6.5,-120,-111,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Patrick Williams,betmgm,8.5,-115,-115,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Trey Lyles,betmgm,6.5,-115,-115,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Zach Collins,betmgm,7.5,-120,-110,2026-11-15T00:48:10.835126Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu,betrivers,18.5,-122,-110,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro,betrivers,8.5,-113,-120,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels,betrivers,17.5,-125,-108,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga,betrivers,14.5,-113,-120,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey,betrivers,13.5,-127,-107,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball,betrivers,21.5,-118,-114,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis,betrivers,16.5,-117,-115,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell,betrivers,19.5,-122,-110,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert,betrivers,10.5,-121,-112,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr.,betrivers,10.5,-127,-107,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Patrick Williams,betrivers,8.5,-120,-113,2026-11-15T00:49:08.682619Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,10.5,190,-260,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,10.5,-280,205,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,10.5,105,-135,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,10.5,-120,-110,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,11.5,-200,150,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,11.5,140,-185,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,11.5,110,-145,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,12.5,-170,130,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,12.5,-150,115,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,12.5,180,-245,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,12.5,145,-190,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,13.5,-130,100,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,13.5,-115,-115,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,13.5,-245,180,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,14.5,-230,170,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,14.5,100,-130,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,14.5,115,-150,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,14.5,-185,140,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,15.5,-230,170,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,15.5,-170,130,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,15.5,130,-170,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,15.5,145,-190,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,15.5,-145,110,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,16.5,-180,135,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,16.5,-130,100,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,16.5,165,-220,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey (CHI),bovada,16.5,185,-250,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,16.5,-110,-120,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,17.5,-135,105,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,17.5,-105,-125,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,17.5,205,-280,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,17.5,-230,170,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,17.5,115,-150,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,18.5,-110,-120,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,18.5,120,-160,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,18.5,-180,135,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,18.5,145,-190,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,18.5,-150,115,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,19.5,115,-150,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,19.5,150,-200,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,19.5,-145,110,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis (CHI),bovada,19.5,180,-245,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,19.5,-120,-110,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,20.5,140,-185,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels (MIN),bovada,20.5,185,-250,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,20.5,-115,-115,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,20.5,105,-135,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu (MIN),bovada,21.5,175,-240,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,21.5,110,-145,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,21.5,130,-170,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,22.5,135,-180,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,22.5,160,-215,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,23.5,165,-220,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,23.5,190,-260,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball (MIN),bovada,24.5,200,-275,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,6.5,-200,150,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,7.5,-135,105,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,8.5,105,-135,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,8.5,-180,135,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,8.5,-230,170,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro (CHI),bovada,9.5,145,-190,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,9.5,-130,100,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,9.5,-165,125,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr. (MIN),bovada,13.5,190,-260,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga (MIN),bovada,11.5,-240,175,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,17.5,-190,145,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell (CHI),bovada,16.5,-250,185,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert (MIN),bovada,7.5,-260,190,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer (MIN),bovada,4.5,-245,180,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer (MIN),bovada,5.5,-160,120,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer (MIN),bovada,6.5,-105,-125,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer (MIN),bovada,7.5,135,-180,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Patrick Williams (CHI),bovada,10.5,160,-215,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Patrick Williams (CHI),bovada,6.5,-240,175,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Patrick Williams (CHI),bovada,7.5,-165,125,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer (MIN),bovada,8.5,190,-260,2026-11-15T00:49:11.740813Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Patrick Williams (CHI),bovada,8.5,-115,-115,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Patrick Williams (CHI),bovada,9.5,120,-160,2026-11-15T00:48:06.854649Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr.,draftkings,10.5,-120,-107,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball,draftkings,20.5,-114,-112,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu,draftkings,18.5,-111,-115,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels,draftkings,17.5,-106,-121,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga,draftkings,14.5,101,-128,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert,draftkings,10.5,104,-133,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro,draftkings,8.5,103,-132,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey,draftkings,13.5,-112,-114,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis,draftkings,15.5,-125,-102,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell,draftkings,20.5,-102,-125,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer,draftkings,6.5,-104,-123,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Patrick Williams,draftkings,8.5,-112,-114,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Tre Jones,draftkings,9.5,-110,-116,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Zach Collins,draftkings,7.5,-124,-102,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Trey Lyles,draftkings,5.5,-131,103,2026-11-15T00:48:58.351072Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Ayo Dosunmu,fanduel,18.5,-113,-113,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jaden McDaniels,fanduel,17.5,-125,-102,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Jonathan Kuminga,fanduel,13.5,-130,102,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,LaMelo Ball,fanduel,20.5,-118,-108,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Rudy Gobert,fanduel,10.5,102,-130,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Terrence Shannon Jr.,fanduel,10.5,-115,-111,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Isaac Okoro,fanduel,8.5,100,-128,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Josh Giddey,fanduel,12.5,-128,100,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Matas Buzelis,fanduel,15.5,-106,-120,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Norman Powell,fanduel,19.5,-122,-104,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Joan Beringer,fanduel,6.5,-113,-113,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Patrick Williams,fanduel,8.5,-108,-118,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Tre Jones,fanduel,9.5,-113,-113,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Zach Collins,fanduel,7.5,-125,-102,2026-11-15T00:48:26.248684Z
+672879,2026-11-15T01:00:00Z,Minnesota Timberwolves,Chicago Bulls,Trey Lyles,fanduel,5.5,-128,100,2026-11-15T00:48:26.248684Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson,betmgm,10.5,-120,-110,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo,betmgm,17.5,-115,-115,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham,betmgm,25.5,-110,-120,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins,betmgm,14.5,-115,-115,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell,betmgm,13.5,-135,100,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson,betmgm,15.5,-115,-115,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo,betmgm,28.5,-111,-118,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins,betmgm,11.5,-115,-115,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson,betmgm,13.5,-115,-115,2026-11-15T00:48:11.224344Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins,betmgm,9.5,-105,-125,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed,betmgm,11.5,-105,-125,2026-11-15T00:49:16.415931Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter,betmgm,10.5,-105,-125,2026-11-15T00:48:11.224344Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis,betmgm,6.5,-105,-125,2026-11-15T00:48:11.224344Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell,betmgm,7.5,-140,105,2026-11-15T00:48:11.224344Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green,betmgm,5.5,100,-135,2026-11-15T00:48:11.224344Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ron Holland,betmgm,5.5,-105,-125,2026-11-15T00:48:11.224344Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson,betrivers,10.5,-103,-132,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo,betrivers,16.5,-129,-105,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham,betrivers,25.5,-115,-118,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins,betrivers,14.5,-121,-112,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell,betrivers,12.5,-117,-115,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson,betrivers,15.5,-127,-106,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo,betrivers,28.5,-114,-118,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins,betrivers,11.5,-112,-121,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson,betrivers,12.5,-109,-125,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter,betrivers,9.5,-118,-114,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed,betrivers,10.5,-113,-120,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins,betrivers,9.5,-113,-120,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis,betrivers,6.5,-106,-129,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell,betrivers,8.5,-112,-121,2026-11-15T00:49:08.776303Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,21.5,-290,210,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,22.5,-230,170,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,23.5,-180,135,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,24.5,-145,110,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,25.5,-120,-110,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,26.5,100,-130,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,27.5,120,-160,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,28.5,150,-200,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,29.5,175,-240,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,10.5,-280,205,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,11.5,-275,200,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,11.5,-200,150,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,12.5,-200,150,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,12.5,-150,115,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,13.5,-150,115,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,13.5,-115,-115,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,14.5,-115,-115,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,14.5,115,-150,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,15.5,110,-145,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,15.5,145,-190,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,16.5,140,-185,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson (MIA),bovada,16.5,185,-250,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins (DET),bovada,17.5,180,-245,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,12.5,-250,185,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,13.5,-185,140,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,14.5,-240,175,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,14.5,-145,110,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,15.5,-180,135,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,15.5,-110,-120,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,16.5,-135,105,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,16.5,115,-150,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,17.5,-110,-120,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,17.5,150,-200,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,18.5,115,-150,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson (DET),bovada,18.5,185,-250,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,19.5,145,-190,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo (MIA),bovada,20.5,175,-240,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,24.5,-280,205,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,25.5,-230,170,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,26.5,-185,140,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,27.5,-150,115,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,28.5,-125,-105,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,29.5,-105,-125,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,30.5,115,-150,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,31.5,135,-180,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,32.5,165,-220,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,10.5,-150,115,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,11.5,-215,160,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,11.5,-115,-115,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,12.5,-160,120,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,12.5,115,-150,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,13.5,-120,-110,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,13.5,150,-200,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,14.5,110,-145,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,15.5,140,-185,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,16.5,175,-240,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,9.5,-215,160,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins (DET),bovada,14.5,190,-260,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo (MIA),bovada,33.5,190,-260,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,10.5,125,-165,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,11.5,165,-220,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,7.5,-220,165,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,8.5,-150,115,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins (MIA),bovada,9.5,-110,-120,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,10.5,105,-135,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,10.5,125,-165,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,10.5,-120,-110,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,11.5,140,-185,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,11.5,165,-220,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,11.5,110,-145,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,12.5,180,-245,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,12.5,145,-190,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,13.5,190,-260,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis (MIA),bovada,5.5,-190,145,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis (MIA),bovada,6.5,-125,-105,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,7.5,-260,190,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis (MIA),bovada,7.5,115,-150,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,7.5,-220,165,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,8.5,-180,135,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis (MIA),bovada,8.5,155,-210,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,8.5,-150,115,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson (DET),bovada,9.5,-130,100,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter (DET),bovada,9.5,-110,-120,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,9.5,-165,125,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell (MIA),bovada,10.5,-295,215,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ronald Holland (DET),bovada,3.5,-215,160,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham (DET),bovada,30.5,215,-295,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green (DET),bovada,4.5,-160,120,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ronald Holland (DET),bovada,4.5,-130,100,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green (DET),bovada,5.5,-105,-125,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ronald Holland (DET),bovada,5.5,115,-150,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green (DET),bovada,6.5,140,-185,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ronald Holland (DET),bovada,6.5,170,-230,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green (DET),bovada,7.5,200,-275,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed (DET),bovada,8.5,-230,170,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green (DET),bovada,3.5,-275,200,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell (MIA),bovada,10.5,175,-240,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Myron Gardner (MIA),bovada,3.5,-240,175,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Myron Gardner (MIA),bovada,4.5,-145,110,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Myron Gardner (MIA),bovada,5.5,105,-135,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Myron Gardner (MIA),bovada,6.5,150,-200,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell (MIA),bovada,6.5,-215,160,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell (MIA),bovada,7.5,-145,110,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell (MIA),bovada,8.5,-105,-125,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell (MIA),bovada,9.5,130,-170,2026-11-15T00:48:07.402034Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo,draftkings,17.5,-107,-119,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell,draftkings,13.5,-119,-107,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo,draftkings,28.5,-122,-104,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson,draftkings,13.5,-113,-112,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson,draftkings,10.5,104,-133,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham,draftkings,25.5,-115,-110,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins,draftkings,14.5,-112,-114,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson,draftkings,15.5,-108,-118,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins,draftkings,11.5,-113,-113,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins,draftkings,9.5,-111,-115,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter,draftkings,9.5,-106,-120,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed,draftkings,10.5,-119,-107,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis,draftkings,6.5,-125,-102,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green,draftkings,5.5,-102,-125,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ron Holland II,draftkings,4.5,-130,102,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell,draftkings,8.5,-102,-124,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Myron Gardner,draftkings,4.5,-142,111,2026-11-15T00:48:58.700033Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Cade Cunningham,fanduel,25.5,-113,-113,2026-11-15T00:48:55.366117Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ausar Thompson,fanduel,10.5,-111,-115,2026-11-15T00:48:27.327021Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Daniss Jenkins,fanduel,14.5,-111,-115,2026-11-15T00:48:34.473823Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Duncan Robinson,fanduel,15.5,-113,-113,2026-11-15T00:48:39.705525Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,John Collins,fanduel,11.5,-115,-111,2026-11-15T00:48:55.366117Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Giannis Antetokounmpo,fanduel,28.5,-113,-113,2026-11-15T00:48:27.327021Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bam Adebayo,fanduel,17.5,-115,-111,2026-11-15T00:48:27.327021Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Davion Mitchell,fanduel,13.5,-104,-122,2026-11-15T00:48:27.327021Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Klay Thompson,fanduel,12.5,-128,100,2026-11-15T00:48:27.327021Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Andrew Wiggins,fanduel,9.5,-113,-113,2026-11-15T00:48:50.686173Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Paul Reed,fanduel,9.5,-136,106,2026-11-15T00:48:38.743239Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Kevin Huerter,fanduel,9.5,-113,-113,2026-11-15T00:48:55.366117Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Bobby Portis,fanduel,6.5,-111,-115,2026-11-15T00:48:27.327021Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Javonte Green,fanduel,5.5,100,-128,2026-11-15T00:48:27.327021Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ron Holland II,fanduel,4.5,-128,100,2026-11-15T00:48:27.327021Z
+697667,2026-11-15T01:00:00Z,Miami Heat,Detroit Pistons,Ryan Conwell,fanduel,8.5,106,-136,2026-11-15T00:48:27.327021Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer,betmgm,19.5,-115,-115,2026-11-15T00:48:11.609180Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward,betmgm,15.5,-110,-120,2026-11-15T00:48:11.609180Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe,betmgm,9.5,-115,-115,2026-11-15T00:48:11.609180Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin,betmgm,12.5,-105,-125,2026-11-15T00:48:11.609180Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells,betmgm,11.5,-115,-115,2026-11-15T00:48:11.609180Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle,betmgm,22.5,-120,-110,2026-11-15T00:48:11.609180Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr.,betmgm,13.5,-105,-125,2026-11-15T00:48:11.609180Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer,betmgm,12.5,-105,-125,2026-11-15T00:48:11.609180Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf,betmgm,10.5,-120,-110,2026-11-15T00:48:11.609180Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer,betrivers,19.5,-114,-118,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward,betrivers,14.5,-114,-118,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe,betrivers,9.5,-129,-105,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin,betrivers,11.5,-114,-118,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells,betrivers,12.5,-114,-118,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle,betrivers,21.5,-120,-113,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore,betrivers,10.5,-129,-106,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr.,betrivers,13.5,-117,-115,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer,betrivers,11.5,-129,-105,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf,betrivers,10.5,-110,-122,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,GG Jackson,betrivers,10.5,-118,-114,2026-11-15T00:49:08.215425Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,10.5,-210,155,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,11.5,-150,115,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,12.5,-115,-115,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,13.5,115,-150,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,14.5,150,-200,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,17.5,-295,215,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,18.5,-230,170,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,19.5,-180,135,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,20.5,-145,110,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,21.5,-115,-115,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,22.5,110,-145,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,23.5,130,-170,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,24.5,160,-215,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle (BKN),bovada,25.5,200,-275,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,9.5,-295,215,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,10.5,-120,-110,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,11.5,110,-145,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,8.5,-230,170,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,9.5,-165,125,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore (BKN),bovada,15.5,190,-260,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,10.5,-170,130,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,11.5,-125,-105,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,12.5,105,-135,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,13.5,135,-180,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,9.5,-240,175,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,12.5,145,-190,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe (BKN),bovada,13.5,190,-260,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin (BKN),bovada,14.5,175,-240,2026-11-15T00:48:06.652400Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer,draftkings,18.5,-115,-110,2026-11-15T00:45:11.036540Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward,draftkings,15.5,-108,-118,2026-11-15T00:41:20.499098Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells,draftkings,11.5,-114,-111,2026-11-15T00:45:11.036540Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe,draftkings,10.5,-106,-120,2026-11-15T00:48:57.873568Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin,draftkings,11.5,-123,-104,2026-11-15T00:48:57.873568Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle,draftkings,22.5,-119,-107,2026-11-15T00:48:57.873568Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore,draftkings,10.5,-125,-102,2026-11-15T00:48:57.873568Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr.,draftkings,13.5,-118,-108,2026-11-15T00:48:57.873568Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf,draftkings,10.5,-108,-118,2026-11-15T00:48:57.873568Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Moritz Wagner,draftkings,10.5,-106,-120,2026-11-15T00:48:57.873568Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Julius Randle,fanduel,22.5,-108,-118,2026-11-15T00:49:09.211406Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Egor Demin,fanduel,11.5,-111,-115,2026-11-15T00:49:09.691889Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cameron Boozer,fanduel,19.5,-102,-125,2026-11-15T00:48:45.421628Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cedric Coward,fanduel,14.5,-125,-102,2026-11-15T00:49:09.691889Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Jaylen Wells,fanduel,12.5,-102,-125,2026-11-15T00:49:09.691889Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Day'Ron Sharpe,fanduel,9.5,-122,-104,2026-11-15T00:49:09.691889Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Nolan Traore,fanduel,10.5,-125,-102,2026-11-15T00:49:09.691889Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Mikel Brown Jr.,fanduel,13.5,-125,-102,2026-11-15T00:49:09.691889Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Cam Spencer,fanduel,11.5,-128,100,2026-11-15T00:48:26.509759Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Danny Wolf,fanduel,10.5,-130,102,2026-11-15T00:49:09.691889Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,GG Jackson II,fanduel,10.5,-115,-111,2026-11-15T00:49:09.211406Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Moritz Wagner,fanduel,8.5,-125,-102,2026-11-15T00:49:09.211406Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Isaiah Stewart,fanduel,10.5,-125,-102,2026-11-15T00:48:26.509759Z
+697669,2026-11-15T01:00:00Z,Memphis Grizzlies,Brooklyn Nets,Noah Clowney,fanduel,7.5,-115,-111,2026-11-15T00:48:26.509759Z
