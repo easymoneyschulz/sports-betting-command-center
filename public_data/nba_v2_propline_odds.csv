@@ -1,854 +1,383 @@
 event_id,commence_time,home_team,away_team,player_name,sportsbook,market_line,over_price,under_price,odds_timestamp_utc
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Collin Gillespie,betmgm,9.5,105,-140,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Devin Booker,betmgm,24.5,-120,-111,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Dillon Brooks,betmgm,15.5,-105,-125,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Jake Laravia,betmgm,6.5,-135,100,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Jalen Green,betmgm,12.5,-111,-120,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Luka Doncic,betmgm,35.5,-115,-115,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Matisse Thybulle,betmgm,7.5,-105,-125,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Miles Bridges,betmgm,13.5,-115,-115,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Oso Ighodaro,betmgm,6.5,105,-140,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Walker Kessler,betmgm,14.5,105,-140,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Collin Sexton,betmgm,13.5,-105,-125,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Khaman Maluach,betmgm,7.5,100,-135,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Quentin Grimes,betmgm,11.5,-125,-105,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Sandro Mamukelashvili,betmgm,10.5,-125,-105,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Luke Kennard,betmgm,7.5,-111,-118,2026-11-15T21:05:20.777891Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Collin Gillespie (PHX),bovada,10.5,-175,135,2026-11-15T22:33:17.948182Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Collin Sexton (LAL),bovada,16.5,-135,105,2026-11-15T22:33:20.649735Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Devin Booker (PHX),bovada,23.5,-110,-120,2026-11-15T22:33:17.948182Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Dillon Brooks (PHX),bovada,8.5,100,-130,2026-11-15T22:33:20.649735Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Jake LaRavia (LAL),bovada,7.5,-130,100,2026-11-15T22:33:17.948182Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Jalen Green (PHX),bovada,12.5,-120,-110,2026-11-15T22:33:20.649735Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Khaman Maluach (PHX),bovada,9.5,100,-130,2026-11-15T22:33:17.948182Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Luka Doncic (LAL),bovada,41.5,-105,-125,2026-11-15T22:33:17.948182Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Miles Bridges (PHX),bovada,13.5,-115,-115,2026-11-15T22:33:20.649735Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Quentin Grimes (LAL),bovada,11.5,-110,-120,2026-11-15T22:33:17.948182Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Walker Kessler (LAL),bovada,16.5,105,-135,2026-11-15T22:33:17.948182Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Collin Gillespie,draftkings,11.5,110,-140,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Devin Booker,draftkings,22.5,-120,-110,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Dillon Brooks,draftkings,7.5,-125,-105,2026-11-15T22:32:38.553374Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Jalen Green,draftkings,12.5,-105,-125,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Miles Bridges,draftkings,13.5,100,-130,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Oso Ighodaro,draftkings,4.5,124,-160,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Khaman Maluach,draftkings,8.5,-120,-110,2026-11-15T22:32:38.553374Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Jake LaRavia,draftkings,8.5,110,-140,2026-11-15T22:32:38.553374Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Luka Doncic,draftkings,41.5,-110,-120,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Matisse Thybulle,draftkings,7.5,-166,130,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Quentin Grimes,draftkings,11.5,-115,-115,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Sandro Mamukelashvili,draftkings,5.5,100,-130,2026-11-15T22:32:38.553374Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Walker Kessler,draftkings,16.5,110,-140,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Collin Sexton,draftkings,16.5,-120,-110,2026-11-15T22:33:15.633976Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Walker Kessler,fanduel,15.5,-136,102,2026-11-15T22:32:58.591869Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Devin Booker,fanduel,23.5,110,-146,2026-11-15T22:32:58.591869Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Luka Doncic,fanduel,40.5,-112,-118,2026-11-15T22:32:58.591869Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Dillon Brooks,fanduel,7.5,-114,-114,2026-11-15T22:32:58.591869Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Jalen Green,fanduel,12.5,110,-146,2026-11-15T22:32:59.735903Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Miles Bridges,fanduel,13.5,-102,-130,2026-11-15T22:32:58.591869Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Quentin Grimes,fanduel,11.5,-102,-130,2026-11-15T22:32:55.521745Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Collin Gillespie,fanduel,10.5,-180,134,2026-11-15T22:32:58.591869Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Collin Sexton,fanduel,16.5,-132,100,2026-11-15T22:32:58.591869Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Jake Laravia,fanduel,7.5,-122,-108,2026-11-15T22:32:58.591869Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Khaman Maluach,fanduel,9.5,100,-132,2026-11-15T22:32:59.735903Z
-697663,2026-11-15T21:00:00Z,Phoenix Suns,Los Angeles Lakers,Luke Kennard,fanduel,7.5,122,-162,2026-11-15T22:32:58.591869Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Brandon Miller,betmgm,14.5,-130,-105,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Brook Lopez,betmgm,9.5,-135,100,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Coby White,betmgm,7.5,-120,-110,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Darius Garland,betmgm,21.5,-105,-125,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Derrick Jones,betmgm,10.5,100,-135,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Gradey Dick,betmgm,7.5,-130,-105,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Grayson Allen,betmgm,18.5,-105,-125,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Keaton Wagler,betmgm,12.5,-105,-125,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Kris Dunn,betmgm,7.5,-130,-105,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Max Strus,betmgm,8.5,105,-140,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Moussa Diabate,betmgm,8.5,-125,-105,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Naz Reid,betmgm,16.5,-140,105,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Rui Hachimura,betmgm,11.5,-105,-125,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Ryan Kalkbrenner,betmgm,5.5,100,-135,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Sion James,betmgm,6.5,105,-140,2026-11-15T22:32:18.227137Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Brandon Miller (CHA),bovada,15.5,-130,100,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Coby White (CHA),bovada,7.5,110,-145,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Darius Garland (LAC),bovada,22.5,100,-130,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Grayson Allen (CHA),bovada,14.5,-110,-120,2026-11-15T22:31:46.740199Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Keaton Wagler (LAC),bovada,12.5,-105,-125,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Kris Dunn (LAC),bovada,7.5,115,-150,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Max Strus (LAC),bovada,7.5,-110,-120,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Moussa Diabate (CHA),bovada,9.5,105,-135,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Naz Reid (CHA),bovada,20.5,-105,-125,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Rui Hachimura (LAC),bovada,11.5,-125,-105,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Sion James (CHA),bovada,7.5,-130,100,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Brook Lopez (LAC),bovada,10.5,-115,-115,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Derrick Jones Jr. (LAC),bovada,10.5,-130,100,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Ryan Kalkbrenner (CHA),bovada,5.5,110,-145,2026-11-15T22:32:24.631260Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Grayson Allen,draftkings,18.5,-120,-110,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Brandon Miller,draftkings,14.5,-105,-125,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Coby White,draftkings,6.5,-125,-105,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Moussa Diabate,draftkings,9.5,-110,-120,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Naz Reid,draftkings,16.5,-130,100,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Ryan Kalkbrenner,draftkings,5.5,114,-145,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Sion James,draftkings,7.5,100,-130,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Brook Lopez,draftkings,10.5,-135,105,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Darius Garland,draftkings,22.5,-105,-125,2026-11-15T22:31:00.255672Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Derrick Jones Jr.,draftkings,10.5,-125,-105,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Keaton Wagler,draftkings,11.5,-125,-105,2026-11-15T22:31:08.433375Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Kris Dunn,draftkings,8.5,110,-140,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Max Strus,draftkings,7.5,-105,-125,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Rui Hachimura,draftkings,12.5,100,-130,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Gradey Dick,draftkings,6.5,-130,100,2026-11-15T22:32:07.186345Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Brook Lopez,fanduel,10.5,-122,-108,2026-11-15T22:32:47.104680Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Darius Garland,fanduel,23.5,-110,-120,2026-11-15T22:32:47.104680Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Derrick Jones Jr.,fanduel,10.5,104,-138,2026-11-15T22:32:47.104680Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Keaton Wagler,fanduel,12.5,-112,-118,2026-11-15T22:32:46.003363Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Kris Dunn,fanduel,7.5,-140,106,2026-11-15T22:32:47.948590Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Max Strus,fanduel,7.5,-114,-114,2026-11-15T22:32:47.104680Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Rui Hachimura,fanduel,11.5,100,-132,2026-11-15T22:32:47.104680Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Brandon Miller,fanduel,13.5,-122,-108,2026-11-15T22:32:47.104680Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Naz Reid,fanduel,16.5,-118,-112,2026-11-15T22:32:47.948590Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Coby White,fanduel,7.5,-112,-118,2026-11-15T22:32:47.104680Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Grayson Allen,fanduel,17.5,-146,110,2026-11-15T22:32:47.104680Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Moussa Diabaté,fanduel,8.5,-136,102,2026-11-15T22:32:47.948590Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Ryan Kalkbrenner,fanduel,5.5,114,-152,2026-11-15T22:32:36.362352Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Sion James,fanduel,6.5,-128,-104,2026-11-15T22:32:47.948590Z
-697662,2026-11-15T21:30:00Z,Los Angeles Clippers,Charlotte Hornets,Gradey Dick,fanduel,6.5,-130,-102,2026-11-15T22:32:36.362352Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Ace Bailey,betmgm,13.5,-120,-110,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Darryn Peterson,betmgm,16.5,-125,-105,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Devin Vassell,betmgm,8.5,-110,-120,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Dylan Harper,betmgm,20.5,-115,-115,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Josh Okogie,betmgm,3.5,-115,-118,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Keyonte George,betmgm,17.5,-110,-120,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Stephon Castle,betmgm,13.5,-125,-105,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Victor Wembanyama,betmgm,26.5,-110,-120,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Julian Champagnie,betmgm,11.5,-120,-110,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Keldon Johnson,betmgm,9.5,-140,100,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Mohamed Bamba,betmgm,14.5,-120,-110,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Josh Green,betmgm,6.5,-130,-105,2026-11-15T22:32:56.212673Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Ace Bailey (UTA),bovada,14.5,105,-135,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Brice Sensabaugh (UTA),bovada,11.5,-135,105,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Darryn Peterson (UTA),bovada,17.5,105,-135,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Devin Vassell (SAS),bovada,9.5,110,-145,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Dylan Harper (SAS),bovada,19.5,-110,-120,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Josh Green (UTA),bovada,5.5,110,-145,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Josh Okogie (UTA),bovada,4.5,-105,-125,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Julian Champagnie (SAS),bovada,12.5,105,-135,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Keldon Johnson (SAS),bovada,10.5,-120,-110,2026-11-15T22:32:25.623729Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Keyonte George (UTA),bovada,16.5,-110,-120,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Stephon Castle (SAS),bovada,16.5,115,-150,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Victor Wembanyama (SAS),bovada,27.5,-105,-125,2026-11-15T22:33:19.087637Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Ace Bailey,draftkings,13.5,-110,-120,2026-11-15T22:32:40.330529Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Darryn Peterson,draftkings,17.5,-110,-120,2026-11-15T22:32:40.330529Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Keyonte George,draftkings,17.5,-120,-110,2026-11-15T22:33:18.846409Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Devin Vassell,draftkings,8.5,-110,-120,2026-11-15T22:32:43.623521Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Dylan Harper,draftkings,20.5,-110,-120,2026-11-15T22:33:18.846409Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Julian Champagnie,draftkings,11.5,-120,-110,2026-11-15T22:32:43.623521Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Stephon Castle,draftkings,15.5,100,-130,2026-11-15T22:33:18.846409Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Victor Wembanyama,draftkings,25.5,-110,-120,2026-11-15T22:33:18.846409Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Keldon Johnson,draftkings,9.5,-130,100,2026-11-15T22:33:18.846409Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Josh Okogie,draftkings,3.5,105,-135,2026-11-15T22:31:42.947127Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Josh Green,draftkings,6.5,-105,-125,2026-11-15T22:32:49.959798Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Victor Wembanyama,fanduel,26.5,-118,-112,2026-11-15T22:33:18.541008Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Devin Vassell,fanduel,8.5,-136,102,2026-11-15T22:33:15.809205Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Stephon Castle,fanduel,15.5,-125,-106,2026-11-15T22:33:15.809205Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Dylan Harper,fanduel,19.5,-104,-128,2026-11-15T22:33:18.541008Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Julian Champagnie,fanduel,12.5,-106,-125,2026-11-15T22:33:15.809205Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Keldon Johnson,fanduel,10.5,-125,-106,2026-11-15T22:33:15.809205Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Ace Bailey,fanduel,13.5,-110,-120,2026-11-15T22:33:18.541008Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Darryn Peterson,fanduel,16.5,-102,-130,2026-11-15T22:33:18.541008Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Keyonte George,fanduel,18.5,-122,-108,2026-11-15T22:33:18.541008Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Josh Okogie,fanduel,3.5,-106,-125,2026-11-15T22:33:18.541008Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Brice Sensabaugh,fanduel,11.5,-122,-108,2026-11-15T22:33:06.764938Z
-682500,2026-11-15T22:00:00Z,Utah Jazz,San Antonio Spurs,Josh Green,fanduel,6.5,-120,-110,2026-11-15T22:33:18.541008Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White,betmgm,13.5,-120,-110,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum,betmgm,26.5,-105,-125,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta,betmgm,9.5,-130,-105,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George,betmgm,18.5,-125,-105,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard,betmgm,13.5,-125,-105,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg,betmgm,24.5,-105,-125,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin,betmgm,5.5,-135,100,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford,betmgm,8.5,100,-135,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,PJ Washington,betmgm,12.5,-120,-110,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall,betmgm,11.5,-111,-118,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher,betmgm,8.5,-110,-120,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser,betmgm,6.5,-125,-105,2026-11-15T22:31:27.817295Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin,betrivers,6.5,-113,-120,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg,betrivers,21.5,-159,117,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White,betrivers,13.5,-129,-106,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum,betrivers,27.5,-103,-132,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh,betrivers,4.5,-129,-106,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr.,betrivers,6.5,-109,-124,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall,betrivers,11.5,-114,-118,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta,betrivers,9.5,-129,-105,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington,betrivers,12.5,-118,-114,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George,betrivers,19.5,-109,-124,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard,betrivers,13.5,-122,-110,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser,betrivers,7.5,-112,-121,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher,betrivers,7.5,-132,-103,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford,betrivers,8.5,100,-136,2026-11-15T22:32:07.512783Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta (BOS),bovada,10.5,115,-150,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White (BOS),bovada,11.5,-220,165,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta (BOS),bovada,11.5,150,-200,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard (BOS),bovada,11.5,-200,150,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White (BOS),bovada,12.5,-165,125,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta (BOS),bovada,12.5,200,-275,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard (BOS),bovada,12.5,-150,115,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White (BOS),bovada,13.5,-125,-105,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard (BOS),bovada,13.5,-115,-115,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White (BOS),bovada,14.5,105,-135,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard (BOS),bovada,14.5,115,-150,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White (BOS),bovada,15.5,135,-180,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard (BOS),bovada,15.5,145,-190,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White (BOS),bovada,16.5,170,-230,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George (BOS),bovada,16.5,-215,160,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard (BOS),bovada,16.5,185,-250,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White (BOS),bovada,17.5,215,-295,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George (BOS),bovada,17.5,-165,125,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George (BOS),bovada,18.5,-130,100,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George (BOS),bovada,19.5,-105,-125,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George (BOS),bovada,20.5,120,-160,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George (BOS),bovada,21.5,145,-190,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,22.5,-245,180,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George (BOS),bovada,22.5,180,-245,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,23.5,-200,150,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,24.5,-160,120,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,25.5,-130,100,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,26.5,-105,-125,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,27.5,115,-150,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,28.5,135,-180,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,29.5,165,-220,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh (BOS),bovada,3.5,-190,145,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,30.5,200,-275,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh (BOS),bovada,4.5,-120,-110,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh (BOS),bovada,5.5,125,-165,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser (BOS),bovada,5.5,-260,190,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh (BOS),bovada,6.5,185,-250,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser (BOS),bovada,6.5,-170,130,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta (BOS),bovada,7.5,-240,175,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser (BOS),bovada,7.5,-120,-110,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta (BOS),bovada,8.5,-165,125,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser (BOS),bovada,8.5,115,-150,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta (BOS),bovada,9.5,-120,-110,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall (DAL),bovada,10.5,-150,115,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington (DAL),bovada,10.5,-230,170,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall (DAL),bovada,11.5,-115,-115,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington (DAL),bovada,11.5,-165,125,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall (DAL),bovada,12.5,115,-150,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington (DAL),bovada,12.5,-125,-105,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall (DAL),bovada,13.5,150,-200,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington (DAL),bovada,13.5,105,-135,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington (DAL),bovada,14.5,135,-180,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,19.5,-245,180,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,20.5,-190,145,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,21.5,-160,120,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,22.5,-125,-105,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,23.5,100,-130,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,24.5,120,-160,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,25.5,145,-190,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,26.5,175,-240,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin (DAL),bovada,4.5,-260,190,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin (DAL),bovada,5.5,-165,125,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr. (DAL),bovada,5.5,-180,135,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,5.5,-280,205,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin (DAL),bovada,6.5,-110,-120,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr. (DAL),bovada,6.5,-120,-110,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,6.5,-180,135,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin (DAL),bovada,7.5,130,-170,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr. (DAL),bovada,7.5,120,-160,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,7.5,-125,-105,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr. (DAL),bovada,8.5,165,-220,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,8.5,110,-145,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall (DAL),bovada,9.5,-215,160,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,9.5,150,-200,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser (BOS),bovada,9.5,160,-215,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,27.5,215,-295,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard (BOS),bovada,10.5,-280,205,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George (BOS),bovada,15.5,-280,205,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr. (DAL),bovada,4.5,-280,205,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford (DAL),bovada,10.5,190,-260,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,10.5,205,-280,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall (DAL),bovada,14.5,190,-260,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington (DAL),bovada,15.5,170,-230,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford (DAL),bovada,6.5,-200,150,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford (DAL),bovada,7.5,-135,105,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin (DAL),bovada,8.5,180,-245,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford (DAL),bovada,8.5,105,-135,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford (DAL),bovada,9.5,145,-190,2026-11-15T22:33:20.825481Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White,draftkings,13.5,-125,-102,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum,draftkings,26.5,-105,-122,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta,draftkings,9.5,-115,-111,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George,draftkings,19.5,-104,-122,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard,draftkings,13.5,-116,-110,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser,draftkings,7.5,-109,-117,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh,draftkings,4.5,-118,-108,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin,draftkings,6.5,-106,-120,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg,draftkings,22.5,-124,-103,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr.,draftkings,6.5,-116,-110,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall,draftkings,11.5,-110,-116,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington,draftkings,12.5,-121,-105,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher,draftkings,8.5,103,-132,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford,draftkings,8.5,105,-134,2026-11-15T22:31:25.983830Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin,fanduel,6.5,-120,-106,2026-11-15T22:32:40.251119Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg,fanduel,22.5,-120,-106,2026-11-15T22:32:40.251119Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White,fanduel,13.5,-120,-106,2026-11-15T22:33:15.463336Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum,fanduel,26.5,-115,-111,2026-11-15T22:32:40.251119Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh,fanduel,4.5,-113,-113,2026-11-15T22:32:40.251119Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr.,fanduel,6.5,-122,-104,2026-11-15T22:32:40.251119Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall,fanduel,11.5,-111,-115,2026-11-15T22:32:40.251119Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta,fanduel,9.5,-115,-111,2026-11-15T22:32:40.251119Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington,fanduel,13.5,-102,-125,2026-11-15T22:32:40.251119Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George,fanduel,19.5,-104,-122,2026-11-15T22:32:40.251119Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard,fanduel,14.5,104,-132,2026-11-15T22:33:15.463336Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser,fanduel,7.5,100,-128,2026-11-15T22:33:15.463336Z
-682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher,fanduel,8.5,-102,-125,2026-11-15T22:32:40.251119Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley,betmgm,15.5,-105,-125,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter,betmgm,10.5,-145,105,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl,betmgm,8.5,-105,-125,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson,betmgm,26.5,100,-135,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart,betmgm,8.5,-118,-111,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns,betmgm,19.5,-118,-111,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges,betmgm,8.5,-110,-120,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby,betmgm,16.5,-115,-115,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett,betmgm,20.5,-110,-120,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes,betmgm,18.5,100,-135,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet,betmgm,8.5,-111,-120,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride,betmgm,7.5,-105,-125,2026-11-15T22:31:30.166308Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Andre Drummond,betrivers,3.5,-125,-109,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley,betrivers,15.5,-112,-121,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter,betrivers,11.5,-108,-127,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl,betrivers,8.5,-103,-132,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson,betrivers,25.5,-108,-125,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart,betrivers,8.5,-110,-122,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns,betrivers,20.5,-109,-124,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet,betrivers,8.5,-109,-124,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges,betrivers,8.5,-108,-127,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride,betrivers,6.5,-127,-107,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby,betrivers,16.5,-112,-121,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett,betrivers,20.5,-109,-124,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes,betrivers,17.5,-129,-106,2026-11-15T22:33:21.679177Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter (TOR),bovada,10.5,-130,100,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl (TOR),bovada,10.5,185,-250,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart (NYK),bovada,10.5,150,-200,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet (NYK),bovada,10.5,170,-230,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges (NYK),bovada,10.5,175,-240,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter (TOR),bovada,11.5,105,-135,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart (NYK),bovada,11.5,200,-275,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley (TOR),bovada,12.5,-260,190,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter (TOR),bovada,12.5,135,-180,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley (TOR),bovada,13.5,-200,150,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter (TOR),bovada,13.5,175,-240,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley (TOR),bovada,14.5,-150,115,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby (NYK),bovada,14.5,-200,150,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes (TOR),bovada,14.5,-290,210,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley (TOR),bovada,15.5,-115,-115,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby (NYK),bovada,15.5,-150,115,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes (TOR),bovada,15.5,-220,165,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley (TOR),bovada,16.5,110,-145,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns (NYK),bovada,16.5,-250,185,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby (NYK),bovada,16.5,-120,-110,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes (TOR),bovada,16.5,-170,130,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley (TOR),bovada,17.5,140,-185,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns (NYK),bovada,17.5,-190,145,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby (NYK),bovada,17.5,105,-135,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett (TOR),bovada,17.5,-200,150,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes (TOR),bovada,17.5,-130,100,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley (TOR),bovada,18.5,175,-240,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns (NYK),bovada,18.5,-150,115,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby (NYK),bovada,18.5,135,-180,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett (TOR),bovada,18.5,-160,120,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes (TOR),bovada,18.5,-105,-125,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns (NYK),bovada,19.5,-120,-110,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby (NYK),bovada,19.5,165,-220,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett (TOR),bovada,19.5,-125,-105,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes (TOR),bovada,19.5,120,-160,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Andre Drummond (NYK),bovada,2.5,-245,180,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns (NYK),bovada,20.5,105,-135,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby (NYK),bovada,20.5,205,-280,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett (TOR),bovada,20.5,100,-130,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes (TOR),bovada,20.5,150,-200,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns (NYK),bovada,21.5,130,-170,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett (TOR),bovada,21.5,125,-165,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes (TOR),bovada,21.5,185,-250,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,22.5,-240,175,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns (NYK),bovada,22.5,160,-215,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett (TOR),bovada,22.5,150,-200,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,23.5,-190,145,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns (NYK),bovada,23.5,190,-260,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett (TOR),bovada,23.5,185,-250,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,24.5,-150,115,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,25.5,-125,-105,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,26.5,-105,-125,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,27.5,115,-150,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,28.5,140,-185,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,29.5,170,-230,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Andre Drummond (NYK),bovada,3.5,-135,105,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Andre Drummond (NYK),bovada,4.5,115,-150,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Andre Drummond (NYK),bovada,5.5,170,-230,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride (NYK),bovada,5.5,-240,175,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl (TOR),bovada,6.5,-210,155,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart (NYK),bovada,6.5,-260,190,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet (NYK),bovada,6.5,-230,170,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges (NYK),bovada,6.5,-215,160,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride (NYK),bovada,6.5,-160,120,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl (TOR),bovada,7.5,-145,110,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart (NYK),bovada,7.5,-180,135,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet (NYK),bovada,7.5,-150,115,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges (NYK),bovada,7.5,-145,110,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride (NYK),bovada,7.5,-110,-120,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter (TOR),bovada,8.5,-260,190,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl (TOR),bovada,8.5,100,-130,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart (NYK),bovada,8.5,-125,-105,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet (NYK),bovada,8.5,-110,-120,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges (NYK),bovada,8.5,-105,-125,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride (NYK),bovada,8.5,130,-170,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter (TOR),bovada,9.5,-180,135,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl (TOR),bovada,9.5,135,-180,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart (NYK),bovada,9.5,110,-145,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet (NYK),bovada,9.5,125,-165,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges (NYK),bovada,9.5,130,-170,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride (NYK),bovada,9.5,175,-240,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,30.5,200,-275,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett (TOR),bovada,16.5,-260,190,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby (NYK),bovada,13.5,-275,200,2026-11-15T22:33:21.111733Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson,draftkings,26.5,-104,-123,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart,draftkings,8.5,-124,-103,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns,draftkings,19.5,-116,-109,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet,draftkings,8.5,-103,-123,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges,draftkings,8.5,-104,-122,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride,draftkings,7.5,-103,-124,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby,draftkings,16.5,-112,-114,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Andre Drummond,draftkings,4.5,116,-148,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley,draftkings,15.5,-113,-112,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter,draftkings,11.5,101,-128,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl,draftkings,8.5,102,-130,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett,draftkings,19.5,-125,-102,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes,draftkings,18.5,-102,-125,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Collin Murray-Boyles,draftkings,8.5,-124,-103,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jamal Shead,draftkings,5.5,-123,-104,2026-11-15T22:31:26.899617Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley,fanduel,15.5,-102,-125,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter,fanduel,11.5,-104,-122,2026-11-15T22:33:23.054681Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl,fanduel,8.5,-106,-120,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson,fanduel,25.5,-108,-118,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart,fanduel,8.5,-108,-118,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns,fanduel,19.5,-130,102,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges,fanduel,8.5,100,-128,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby,fanduel,16.5,-111,-115,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett,fanduel,19.5,-122,-104,2026-11-15T22:33:23.054681Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes,fanduel,17.5,-128,100,2026-11-15T22:33:23.054681Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Andre Drummond,fanduel,3.5,-125,-102,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet,fanduel,8.5,-104,-122,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride,fanduel,7.5,104,-132,2026-11-15T22:32:41.277140Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Collin Murray-Boyles,fanduel,8.5,-128,100,2026-11-15T22:33:23.054681Z
-682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jamal Shead,fanduel,5.5,-118,-108,2026-11-15T22:33:23.054681Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa,betmgm,15.5,-110,-120,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr,betmgm,9.5,-135,100,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun,betmgm,20.5,-110,-120,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson,betmgm,17.5,-105,-125,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis,betmgm,22.5,-110,-120,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic,betmgm,6.5,-125,-105,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith,betmgm,14.5,-120,-110,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant,betmgm,22.5,-105,-125,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George,betmgm,14.5,-110,-120,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard,betmgm,13.5,-118,-111,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason,betmgm,11.5,-120,-110,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young,betmgm,18.5,-115,-115,2026-11-15T22:31:26.460814Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa,betrivers,15.5,-125,-108,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alexandre Sarr,betrivers,10.5,-113,-120,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun,betrivers,19.5,-112,-121,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson,betrivers,17.5,-113,-120,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis,betrivers,22.5,-112,-121,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic,betrivers,6.5,-109,-124,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith Jr.,betrivers,14.5,-105,-129,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant,betrivers,22.5,-104,-130,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George,betrivers,14.5,-122,-110,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard,betrivers,13.5,-122,-110,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason,betrivers,11.5,-112,-121,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young,betrivers,19.5,-103,-132,2026-11-15T22:33:24.297471Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bilal Coulibaly,betrivers,6.5,-124,-109,2026-11-15T22:32:07.701410Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr (WAS),bovada,10.5,-110,-120,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason (HOU),bovada,10.5,-165,125,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tre Johnson (WAS),bovada,10.5,125,-165,2026-11-15T22:31:19.076313Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr (WAS),bovada,11.5,120,-160,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George (WAS),bovada,11.5,-290,210,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard (HOU),bovada,11.5,-215,160,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason (HOU),bovada,11.5,-120,-110,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tre Johnson (WAS),bovada,11.5,165,-220,2026-11-15T22:31:19.076313Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa (WAS),bovada,12.5,-250,185,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr (WAS),bovada,12.5,160,-215,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith (HOU),bovada,12.5,-220,165,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George (WAS),bovada,12.5,-210,155,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard (HOU),bovada,12.5,-160,120,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason (HOU),bovada,12.5,110,-145,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa (WAS),bovada,13.5,-185,140,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr (WAS),bovada,13.5,210,-290,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith (HOU),bovada,13.5,-165,125,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George (WAS),bovada,13.5,-160,120,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard (HOU),bovada,13.5,-120,-110,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason (HOU),bovada,13.5,145,-190,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa (WAS),bovada,14.5,-145,110,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson (HOU),bovada,14.5,-240,175,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith (HOU),bovada,14.5,-125,-105,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George (WAS),bovada,14.5,-120,-110,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard (HOU),bovada,14.5,110,-145,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason (HOU),bovada,14.5,185,-250,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa (WAS),bovada,15.5,-110,-120,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson (HOU),bovada,15.5,-180,135,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith (HOU),bovada,15.5,105,-135,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George (WAS),bovada,15.5,110,-145,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard (HOU),bovada,15.5,140,-185,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young (WAS),bovada,15.5,-250,185,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa (WAS),bovada,16.5,115,-150,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun (HOU),bovada,16.5,-260,190,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson (HOU),bovada,16.5,-135,105,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith (HOU),bovada,16.5,130,-170,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George (WAS),bovada,16.5,135,-180,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard (HOU),bovada,16.5,175,-240,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young (WAS),bovada,16.5,-190,145,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa (WAS),bovada,17.5,150,-200,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun (HOU),bovada,17.5,-200,150,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson (HOU),bovada,17.5,-110,-120,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith (HOU),bovada,17.5,165,-220,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George (WAS),bovada,17.5,170,-230,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young (WAS),bovada,17.5,-150,115,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa (WAS),bovada,18.5,185,-250,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun (HOU),bovada,18.5,-160,120,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson (HOU),bovada,18.5,115,-150,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,18.5,-260,190,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith (HOU),bovada,18.5,210,-290,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant (HOU),bovada,18.5,-240,175,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young (WAS),bovada,18.5,-120,-110,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun (HOU),bovada,19.5,-125,-105,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson (HOU),bovada,19.5,145,-190,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,19.5,-210,155,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant (HOU),bovada,19.5,-185,140,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young (WAS),bovada,19.5,105,-135,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun (HOU),bovada,20.5,100,-130,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson (HOU),bovada,20.5,175,-240,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,20.5,-160,120,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant (HOU),bovada,20.5,-150,115,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young (WAS),bovada,20.5,130,-170,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun (HOU),bovada,21.5,125,-165,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,21.5,-130,100,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant (HOU),bovada,21.5,-120,-110,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young (WAS),bovada,21.5,160,-215,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun (HOU),bovada,22.5,150,-200,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,22.5,-105,-125,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant (HOU),bovada,22.5,105,-135,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun (HOU),bovada,23.5,185,-250,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,23.5,115,-150,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant (HOU),bovada,23.5,125,-165,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,24.5,145,-190,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant (HOU),bovada,24.5,155,-210,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,25.5,175,-240,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant (HOU),bovada,25.5,190,-260,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,26.5,210,-290,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tre Johnson (WAS),bovada,7.5,-220,165,2026-11-15T22:31:19.076313Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr (WAS),bovada,8.5,-210,155,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tre Johnson (WAS),bovada,8.5,-150,115,2026-11-15T22:31:19.076313Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr (WAS),bovada,9.5,-150,115,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tre Johnson (WAS),bovada,9.5,-110,-120,2026-11-15T22:31:19.076313Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young (WAS),bovada,22.5,200,-275,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason (HOU),bovada,9.5,-220,165,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic (HOU),bovada,4.5,-280,205,2026-11-15T22:31:19.076313Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic (HOU),bovada,5.5,-190,145,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic (HOU),bovada,6.5,-125,-105,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic (HOU),bovada,7.5,115,-150,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic (HOU),bovada,8.5,155,-210,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson (HOU),bovada,13.5,-290,210,2026-11-15T22:32:20.638344Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard (HOU),bovada,10.5,-295,215,2026-11-15T22:33:21.596905Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa,draftkings,15.5,-106,-121,2026-11-15T22:32:41.349685Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alexandre Sarr,draftkings,10.5,-103,-124,2026-11-15T22:32:46.143774Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis,draftkings,21.5,-124,-102,2026-11-15T22:32:41.349685Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George,draftkings,14.5,-121,-105,2026-11-15T22:31:51.414324Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young,draftkings,18.5,-116,-110,2026-11-15T22:31:27.088441Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tre Johnson,draftkings,9.5,-115,-111,2026-11-15T22:25:33.192481Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun,draftkings,19.5,-125,-102,2026-11-15T22:31:27.088441Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson,draftkings,17.5,-107,-119,2026-11-15T22:32:46.143774Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic,draftkings,6.5,-120,-106,2026-11-15T22:32:46.143774Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith Jr.,draftkings,14.5,-125,-102,2026-11-15T22:31:27.088441Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant,draftkings,21.5,-119,-107,2026-11-15T22:31:27.088441Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard,draftkings,13.5,-120,-106,2026-11-15T22:31:27.088441Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason,draftkings,11.5,-117,-109,2026-11-15T22:31:27.088441Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bilal Coulibaly,draftkings,7.5,-101,-126,2026-11-15T22:31:27.088441Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa,fanduel,15.5,-111,-115,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr,fanduel,10.5,-102,-125,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun,fanduel,20.5,102,-130,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson,fanduel,17.5,-104,-122,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis,fanduel,22.5,-111,-115,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic,fanduel,6.5,-111,-115,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith,fanduel,14.5,-113,-113,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant,fanduel,21.5,-102,-125,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George,fanduel,14.5,-108,-118,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard,fanduel,13.5,-102,-125,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason,fanduel,11.5,-120,-106,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young,fanduel,18.5,-120,-106,2026-11-15T22:32:44.616516Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tre Johnson,fanduel,9.5,100,-128,2026-11-15T22:26:44.690759Z
-682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bilal Coulibaly,fanduel,6.5,-132,104,2026-11-15T22:32:44.616516Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins,betmgm,12.5,-105,-125,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries,betmgm,11.5,-115,-115,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum,betmgm,15.5,-110,-120,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels,betmgm,9.5,-135,100,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez,betmgm,15.5,-110,-120,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson,betmgm,21.5,-120,-111,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma,betmgm,11.5,-115,-115,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner,betmgm,9.5,-111,-120,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament,betmgm,8.5,-135,100,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker,betmgm,21.5,-110,-120,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu,betmgm,13.5,-105,-125,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro,betmgm,21.5,-125,-105,2026-11-15T22:31:30.918558Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins,betrivers,12.5,-122,-110,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries,betrivers,11.5,-109,-124,2026-11-15T22:32:07.839438Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum,betrivers,15.5,-110,-122,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels,betrivers,9.5,-134,-103,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr.,betrivers,14.5,-124,-109,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson,betrivers,21.5,-117,-117,2026-11-15T22:32:07.839438Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma,betrivers,11.5,-125,-109,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort,betrivers,7.5,-125,-108,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner,betrivers,9.5,-127,-108,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament,betrivers,8.5,-129,-106,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker,betrivers,21.5,-114,-118,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu,betrivers,12.5,-132,-103,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Ryan Rollins,betrivers,10.5,-117,-115,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro,betrivers,21.5,-110,-122,2026-11-15T22:31:11.146330Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,10.5,-165,125,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,10.5,100,-130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,10.5,-180,135,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,10.5,110,-145,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,10.5,-280,205,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,11.5,-120,-110,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,11.5,135,-180,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,11.5,-130,100,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,11.5,145,-190,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,11.5,-200,150,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,12.5,110,-145,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,12.5,175,-240,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,12.5,-230,170,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,12.5,100,-130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,12.5,190,-260,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,12.5,-150,115,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,13.5,145,-190,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,13.5,-220,165,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,13.5,-170,130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,13.5,130,-170,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,13.5,-115,-115,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,14.5,185,-250,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,14.5,-165,125,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,14.5,-130,100,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,14.5,170,-230,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,14.5,115,-150,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,15.5,-130,100,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,15.5,100,-130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,15.5,145,-190,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,16.5,100,-130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,16.5,125,-165,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,16.5,185,-250,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,17.5,125,-165,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,17.5,160,-215,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,17.5,-280,205,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,18.5,160,-215,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,18.5,200,-275,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,18.5,-250,185,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,18.5,-250,185,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,18.5,-215,160,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,19.5,200,-275,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,19.5,-200,150,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,19.5,-200,150,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,19.5,-170,130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,20.5,-160,120,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,20.5,-160,120,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,20.5,-135,105,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,21.5,-125,-105,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,21.5,-125,-105,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,21.5,-110,-120,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,22.5,100,-130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,22.5,100,-130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,22.5,115,-150,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,23.5,120,-160,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,23.5,120,-160,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,23.5,140,-185,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,24.5,150,-200,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,24.5,150,-200,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,24.5,170,-230,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,25.5,180,-245,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,25.5,180,-245,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,25.5,205,-280,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,7.5,-280,205,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,7.5,-250,185,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,8.5,-190,145,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,8.5,-170,130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,9.5,-220,165,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,9.5,-135,105,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,9.5,-125,-105,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,10.5,-210,155,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,10.5,185,-250,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,10.5,160,-215,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Ryan Rollins (MIL),bovada,10.5,-125,-105,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,11.5,-150,115,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Ryan Rollins (MIL),bovada,11.5,105,-135,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,12.5,-115,-115,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Ryan Rollins (MIL),bovada,12.5,140,-185,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,13.5,115,-150,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Ryan Rollins (MIL),bovada,13.5,180,-245,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,14.5,150,-200,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,15.5,190,-260,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,6.5,-210,155,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,6.5,-240,175,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,7.5,-145,110,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,7.5,-165,125,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,8.5,100,-130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,8.5,-115,-115,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Ryan Rollins (MIL),bovada,8.5,-245,180,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,9.5,-295,215,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,9.5,135,-180,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,9.5,120,-160,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Ryan Rollins (MIL),bovada,9.5,-170,130,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,9.5,-250,185,2026-11-15T22:31:19.225285Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries,draftkings,11.5,-118,-108,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum,draftkings,16.5,-101,-126,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels,draftkings,9.5,-131,103,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr.,draftkings,14.5,-127,100,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson,draftkings,21.5,-121,-105,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma,draftkings,11.5,-129,101,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner,draftkings,9.5,-124,-103,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker,draftkings,21.5,-124,-103,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu,draftkings,13.5,-113,-113,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro,draftkings,21.5,-110,-115,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins,draftkings,12.5,-113,-113,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort,draftkings,8.5,100,-128,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament,draftkings,8.5,-113,-113,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Ryan Rollins,draftkings,10.5,-125,-102,2026-11-15T22:31:27.266696Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson,fanduel,21.5,-128,100,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum,fanduel,15.5,-128,100,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels,fanduel,9.5,-128,100,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker,fanduel,22.5,100,-128,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu,fanduel,13.5,-111,-115,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro,fanduel,21.5,-102,-125,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma,fanduel,11.5,-120,-106,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries,fanduel,11.5,-113,-113,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr.,fanduel,14.5,-128,100,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner,fanduel,9.5,-122,-104,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament,fanduel,8.5,-113,-113,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Ryan Rollins,fanduel,10.5,-125,-102,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins,fanduel,12.5,-102,-125,2026-11-15T22:32:42.364605Z
-682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort,fanduel,8.5,102,-130,2026-11-15T22:32:42.364605Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell,betmgm,17.5,-115,-115,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff,betmgm,22.5,-125,-105,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter,betmgm,13.5,-120,-110,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis,betmgm,12.5,-125,-105,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein,betmgm,10.5,-110,-120,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain,betmgm,15.5,-110,-120,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray,betmgm,11.5,-120,-111,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams,betmgm,8.5,-115,-115,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander,betmgm,31.5,-120,-110,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine,betmgm,18.5,-111,-118,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara,betmgm,9.5,-130,-105,2026-11-15T22:31:31.095345Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara,betrivers,9.5,-130,-104,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell,betrivers,17.5,-124,-110,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr.,betrivers,23.5,-115,-117,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter,betrivers,13.5,-125,-108,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis,betrivers,13.5,-109,-124,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein,betrivers,9.5,-136,100,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain,betrivers,14.5,-141,105,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray,betrivers,11.5,-112,-122,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams,betrivers,8.5,-125,-109,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander,betrivers,31.5,-120,-113,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine,betrivers,18.5,-117,-117,2026-11-15T22:32:08.003125Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,10.5,110,-145,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,10.5,-295,215,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,10.5,-220,165,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,10.5,100,-130,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,10.5,150,-200,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,11.5,145,-190,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,11.5,-215,160,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,11.5,-160,120,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,11.5,135,-180,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,11.5,200,-275,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,12.5,190,-260,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,12.5,-160,120,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,12.5,-120,-110,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,12.5,175,-240,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,12.5,-275,200,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,13.5,-120,-110,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,13.5,110,-145,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,13.5,-210,155,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,14.5,-275,200,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,14.5,110,-145,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,14.5,140,-185,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,14.5,-160,120,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,15.5,-210,155,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,15.5,140,-185,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,15.5,180,-245,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,15.5,-120,-110,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,15.5,-280,205,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,16.5,-160,120,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,16.5,175,-240,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,16.5,105,-135,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,16.5,-215,160,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,17.5,-125,-105,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,17.5,135,-180,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,17.5,-165,125,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,18.5,100,-130,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,18.5,170,-230,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,18.5,-130,100,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,19.5,125,-165,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,19.5,-105,-125,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,20.5,155,-210,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,20.5,-200,150,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,20.5,120,-160,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,21.5,190,-260,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,21.5,-160,120,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,21.5,145,-190,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,22.5,-130,100,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,22.5,180,-245,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,23.5,-105,-125,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,24.5,115,-150,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,25.5,140,-185,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,26.5,170,-230,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,27.5,205,-280,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,28.5,-220,165,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,29.5,-185,140,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,30.5,-150,115,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,31.5,-125,-105,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,32.5,-105,-125,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,33.5,110,-145,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,34.5,135,-180,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,35.5,155,-210,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,36.5,185,-250,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,6.5,-260,190,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,7.5,-250,185,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,7.5,-280,205,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,7.5,-180,135,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,8.5,-170,130,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,8.5,-190,145,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,8.5,-125,-105,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,9.5,-125,-105,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,9.5,-135,105,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,9.5,110,-145,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,10.5,-150,115,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,11.5,-115,-115,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,12.5,115,-150,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,13.5,150,-200,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,14.5,190,-260,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,19.5,210,-290,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,9.5,-215,160,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,27.5,-275,200,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,19.5,-260,190,2026-11-15T22:33:23.400768Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara,draftkings,9.5,-124,-103,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell,draftkings,17.5,-121,-105,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein,draftkings,9.5,-136,107,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain,draftkings,15.5,-118,-108,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams,draftkings,8.5,-123,-104,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander,draftkings,32.5,-104,-123,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr.,draftkings,23.5,-105,-122,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter,draftkings,13.5,-116,-110,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis,draftkings,12.5,-118,-108,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray,draftkings,11.5,-113,-113,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine,draftkings,19.5,-105,-121,2026-11-15T22:31:27.441165Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara,fanduel,9.5,-118,-108,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell,fanduel,17.5,-128,100,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein,fanduel,10.5,-104,-122,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain,fanduel,15.5,-106,-120,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams,fanduel,8.5,-128,100,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander,fanduel,31.5,-125,-102,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr.,fanduel,23.5,-120,-106,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter,fanduel,14.5,106,-136,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis,fanduel,13.5,100,-128,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray,fanduel,11.5,-111,-115,2026-11-15T22:32:41.947609Z
-682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine,fanduel,18.5,-118,-108,2026-11-15T22:32:41.947609Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White,betmgm,13.5,-115,-115,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum,betmgm,25.5,-125,-105,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh,betmgm,4.5,-125,-105,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta,betmgm,9.5,-125,-105,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George,betmgm,18.5,-115,-115,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard,betmgm,14.5,-111,-120,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg,betmgm,23.5,-110,-120,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin,betmgm,5.5,-135,100,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford,betmgm,7.5,-115,-115,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,PJ Washington,betmgm,12.5,-120,-111,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall,betmgm,11.5,-115,-115,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher,betmgm,8.5,-111,-120,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser,betmgm,6.5,-135,100,2026-11-15T23:08:45.003185Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin,betrivers,6.5,-112,-121,2026-11-15T23:12:30.813641Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg,betrivers,23.5,-108,-125,2026-11-15T23:12:30.813641Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White,betrivers,13.5,-125,-108,2026-11-15T23:11:31.599398Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum,betrivers,26.5,-124,-109,2026-11-15T23:12:30.813641Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh,betrivers,4.5,-127,-108,2026-11-15T23:12:30.813641Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr.,betrivers,6.5,-108,-125,2026-11-15T23:12:30.813641Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall,betrivers,11.5,-117,-115,2026-11-15T23:12:30.813641Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta,betrivers,9.5,-129,-105,2026-11-15T23:11:31.599398Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington,betrivers,12.5,-121,-112,2026-11-15T23:11:31.599398Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George,betrivers,19.5,-108,-125,2026-11-15T23:11:31.599398Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard,betrivers,13.5,-124,-109,2026-11-15T23:12:30.813641Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser,betrivers,7.5,-114,-118,2026-11-15T23:12:30.813641Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher,betrivers,7.5,-129,-106,2026-11-15T23:12:30.813641Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford,betrivers,8.5,102,-137,2026-11-15T23:11:31.599398Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Payton Pritchard (BOS),bovada,14.5,-105,-125,2026-11-16T00:41:36.203789Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Cooper Flagg (DAL),bovada,9.5,100,-130,2026-11-16T00:41:36.203789Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Daniel Gafford (DAL),bovada,1.5,-200,150,2026-11-16T00:36:48.782116Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jayson Tatum (BOS),bovada,21.5,-120,-110,2026-11-16T00:41:36.203789Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Jordan Walsh (BOS),bovada,10.5,140,-185,2026-11-16T00:36:48.782116Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,P.J. Washington (DAL),bovada,6.5,-135,105,2026-11-16T00:36:48.782116Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Paul George (BOS),bovada,9.5,-120,-110,2026-11-16T00:36:48.782116Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Caleb Martin (DAL),bovada,8.5,115,-150,2026-11-16T00:36:48.782116Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Derrick White (BOS),bovada,16.5,110,-145,2026-11-16T00:36:48.782116Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Morez Johnson Jr. (DAL),bovada,4.5,-110,-120,2026-11-16T00:41:36.203789Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Naji Marshall (DAL),bovada,7.5,-120,-110,2026-11-16T00:36:48.782116Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Zaccharie Risacher (DAL),bovada,12.5,-135,105,2026-11-16T00:36:48.782116Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Sam Hauser (BOS),bovada,11.5,110,-145,2026-11-16T00:36:48.782116Z
+682501,2026-11-15T23:00:00Z,Boston Celtics,Dallas Mavericks,Neemias Queta (BOS),bovada,5.5,110,-145,2026-11-16T00:36:48.782116Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley,betmgm,10.5,-135,100,2026-11-16T01:06:19.647927Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson,betmgm,25.5,110,-150,2026-11-16T01:06:19.647927Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby,betmgm,16.5,100,-135,2026-11-16T01:06:19.647927Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett,betmgm,18.5,105,-145,2026-11-16T01:06:19.647927Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Andre Drummond (NYK),bovada,3.5,-105,-125,2026-11-16T01:06:12.330714Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jakob Poeltl (TOR),bovada,11.5,105,-135,2026-11-16T01:06:41.402945Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson (NYK),bovada,25.5,-130,100,2026-11-16T01:06:41.402945Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jamal Shead (TOR),bovada,14.5,115,-150,2026-11-16T01:06:12.330714Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Josh Hart (NYK),bovada,1.5,-165,125,2026-11-16T01:06:41.402945Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns (NYK),bovada,19.5,-105,-125,2026-11-16T01:04:42.072936Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Landry Shamet (NYK),bovada,13.5,-115,-115,2026-11-16T01:06:12.330714Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges (NYK),bovada,3.5,-135,105,2026-11-16T01:06:12.330714Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride (NYK),bovada,4.5,-130,100,2026-11-16T01:06:12.330714Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby (NYK),bovada,17.5,105,-135,2026-11-16T01:06:18.252378Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett (TOR),bovada,18.5,100,-130,2026-11-16T01:06:41.402945Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes (TOR),bovada,19.5,-135,105,2026-11-16T01:06:41.402945Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Collin Murray-Boyles (TOR),bovada,6.5,125,-165,2026-11-16T01:06:41.402945Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley (TOR),bovada,9.5,-110,-120,2026-11-16T01:06:12.330714Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Ja'Kobe Walter (TOR),bovada,7.5,-145,110,2026-11-16T01:04:42.072936Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns,draftkings,19.5,-145,114,2026-11-16T01:06:23.622902Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges,draftkings,3.5,120,-154,2026-11-16T01:06:23.622902Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride,draftkings,3.5,140,-180,2026-11-16T01:06:23.622902Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby,draftkings,16.5,-110,-120,2026-11-16T01:06:23.622902Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley,draftkings,10.5,-130,100,2026-11-16T01:06:23.622902Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett,draftkings,17.5,-145,114,2026-11-16T01:06:23.622902Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes,draftkings,19.5,-125,-105,2026-11-16T01:06:23.622902Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Collin Murray-Boyles,draftkings,5.5,-160,124,2026-11-16T01:06:23.622902Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Immanuel Quickley,fanduel,10.5,-114,-114,2026-11-16T01:06:39.588118Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jalen Brunson,fanduel,25.5,-138,104,2026-11-16T01:06:39.588118Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Karl-Anthony Towns,fanduel,21.5,-102,-130,2026-11-16T01:06:39.588118Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Mikal Bridges,fanduel,3.5,128,-172,2026-11-16T01:06:39.588118Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,OG Anunoby,fanduel,16.5,-106,-125,2026-11-16T01:06:39.588118Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,RJ Barrett,fanduel,17.5,-138,104,2026-11-16T01:06:39.588118Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Scottie Barnes,fanduel,18.5,-128,-104,2026-11-16T01:06:39.588118Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Miles McBride,fanduel,3.5,148,-200,2026-11-16T01:06:39.588118Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Collin Murray-Boyles,fanduel,5.5,-174,130,2026-11-16T01:06:39.588118Z
+682502,2026-11-15T23:00:00Z,Toronto Raptors,New York Knicks,Jamal Shead,fanduel,19.5,116,-154,2026-11-16T01:06:39.588118Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa (WAS),bovada,15.5,110,-145,2026-11-16T01:05:14.022783Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson (HOU),bovada,25.5,-115,-115,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis (WAS),bovada,12.5,-110,-120,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bilal Coulibaly (WAS),bovada,7.5,-115,-115,2026-11-16T01:02:10.260278Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic (HOU),bovada,6.5,-115,-115,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith (HOU),bovada,13.5,105,-135,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant (HOU),bovada,25.5,-110,-120,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George (WAS),bovada,13.5,105,-135,2026-11-16T01:05:14.022783Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard (HOU),bovada,14.5,-105,-125,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason (HOU),bovada,10.5,-105,-125,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun (HOU),bovada,21.5,-110,-120,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young (WAS),bovada,12.5,110,-145,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr (WAS),bovada,18.5,-115,-115,2026-11-16T01:06:44.955478Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa,draftkings,13.5,-115,-115,2026-11-16T01:06:24.781359Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alexandre Sarr,draftkings,19.5,-105,-125,2026-11-16T01:06:24.781359Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis,draftkings,11.5,-125,-105,2026-11-16T01:06:24.781359Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George,draftkings,15.5,-115,-115,2026-11-16T01:05:34.725534Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young,draftkings,8.5,100,-130,2026-11-16T01:06:24.781359Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun,draftkings,17.5,-125,-105,2026-11-16T01:06:24.781359Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson,draftkings,26.5,-115,-115,2026-11-16T01:06:24.781359Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic,draftkings,5.5,-115,-115,2026-11-16T01:05:34.725534Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith Jr.,draftkings,13.5,-120,-110,2026-11-16T01:06:24.781359Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant,draftkings,25.5,-125,-105,2026-11-16T01:05:34.725534Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard,draftkings,13.5,-130,100,2026-11-16T01:05:34.725534Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason,draftkings,15.5,-115,-115,2026-11-16T01:05:34.725534Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,AJ Dybantsa,fanduel,14.5,100,-132,2026-11-16T01:06:40.243720Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alex Sarr,fanduel,19.5,-125,-106,2026-11-16T01:06:40.243720Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Alperen Sengun,fanduel,17.5,-114,-114,2026-11-16T01:06:40.243720Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Amen Thompson,fanduel,25.5,-130,-102,2026-11-16T01:06:41.792042Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Anthony Davis,fanduel,10.5,-120,-110,2026-11-16T01:06:40.243720Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Bogdan Bogdanovic,fanduel,5.5,-112,-118,2026-11-16T01:06:40.243720Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Jabari Smith,fanduel,13.5,106,-140,2026-11-16T01:06:40.243720Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kevin Durant,fanduel,24.5,-125,-106,2026-11-16T01:06:41.232244Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Kyshawn George,fanduel,15.5,104,-138,2026-11-16T01:06:40.243720Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Reed Sheppard,fanduel,14.5,108,-144,2026-11-16T01:06:40.243720Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Tari Eason,fanduel,15.5,-118,-112,2026-11-16T01:06:40.243720Z
+682503,2026-11-16T00:00:00Z,Washington Wizards,Houston Rockets,Trae Young,fanduel,8.5,106,-140,2026-11-16T01:06:40.243720Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins,betmgm,12.5,100,-135,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries,betmgm,12.5,-120,-110,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum,betmgm,15.5,-115,-115,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels,betmgm,9.5,-140,105,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez,betmgm,15.5,-120,-110,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson,betmgm,21.5,-120,-111,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma,betmgm,12.5,-115,-115,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner,betmgm,10.5,-111,-120,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament,betmgm,8.5,-110,-120,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker,betmgm,21.5,-115,-115,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu,betmgm,13.5,-110,-120,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro,betmgm,22.5,-115,-115,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kel'el Ware,betmgm,7.5,-120,-110,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort,betmgm,8.5,-110,-120,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jericho Sims,betmgm,3.5,-160,120,2026-11-16T01:06:19.787880Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins,betrivers,12.5,-121,-112,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries,betrivers,13.5,-104,-130,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum,betrivers,15.5,-132,-103,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels,betrivers,9.5,-136,100,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr.,betrivers,15.5,-108,-127,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson,betrivers,21.5,-127,-107,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma,betrivers,11.5,-129,-106,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort,betrivers,7.5,-124,-109,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner,betrivers,9.5,-130,-104,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament,betrivers,8.5,-115,-117,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker,betrivers,21.5,-113,-120,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu,betrivers,13.5,-103,-132,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro,betrivers,21.5,-125,-108,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kel'el Ware,betrivers,8.5,-110,-122,2026-11-16T01:05:35.133699Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,10.5,-200,150,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,10.5,105,-135,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,10.5,-200,150,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,10.5,-110,-120,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,10.5,-295,215,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,11.5,-145,110,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,11.5,140,-185,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,11.5,-145,110,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,11.5,120,-160,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,11.5,-215,160,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,12.5,-110,-120,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,12.5,180,-245,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,12.5,-275,200,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,12.5,-110,-120,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,12.5,160,-215,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,12.5,-160,120,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,13.5,120,-160,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,13.5,-220,165,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,13.5,-210,155,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,13.5,120,-160,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,13.5,-120,-110,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,14.5,155,-210,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,14.5,-165,125,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,14.5,-160,120,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,14.5,155,-210,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,14.5,110,-145,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,15.5,-130,100,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,15.5,-120,-110,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,15.5,200,-275,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,15.5,140,-185,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,16.5,100,-130,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,16.5,105,-135,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu (ATL),bovada,16.5,175,-240,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,17.5,125,-165,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,17.5,135,-180,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,18.5,160,-215,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr. (MIL),bovada,18.5,170,-230,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,18.5,-260,190,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,18.5,-250,185,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,18.5,-275,200,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,19.5,200,-275,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,19.5,-210,155,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,19.5,-200,150,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,19.5,-215,160,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,20.5,-160,120,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,20.5,-160,120,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,20.5,-170,130,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,21.5,-130,100,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,21.5,-125,-105,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,21.5,-135,105,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,22.5,-105,-125,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,22.5,100,-130,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,22.5,-110,-120,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,23.5,115,-150,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,23.5,120,-160,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,23.5,110,-145,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,24.5,145,-190,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,24.5,150,-200,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,24.5,135,-180,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,25.5,175,-240,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker (ATL),bovada,25.5,180,-245,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,25.5,165,-220,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,7.5,-260,190,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,7.5,-295,215,2026-11-16T01:01:16.710268Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,8.5,-185,140,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,8.5,-210,155,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,9.5,-280,205,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels (ATL),bovada,9.5,-130,100,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,9.5,-150,115,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson (ATL),bovada,26.5,210,-290,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,10.5,-200,150,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,10.5,175,-240,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,10.5,175,-240,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,11.5,-145,110,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,12.5,-110,-120,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum (ATL),bovada,12.5,-290,210,2026-11-16T01:01:16.710268Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,13.5,120,-160,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,14.5,155,-210,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,15.5,200,-275,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,6.5,-215,160,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,6.5,-215,160,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,7.5,-145,110,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,7.5,-145,110,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,8.5,-105,-125,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,8.5,-105,-125,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins (ATL),bovada,9.5,-280,205,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort (ATL),bovada,9.5,130,-170,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament (MIL),bovada,9.5,130,-170,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma (MIL),bovada,9.5,-280,205,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries (MIL),bovada,15.5,200,-275,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro (MIL),bovada,26.5,200,-275,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner (MIL),bovada,13.5,210,-290,2026-11-16T01:05:16.520917Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries,draftkings,12.5,101,-128,2026-11-16T01:06:46.743859Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum,draftkings,16.5,-101,-126,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels,draftkings,9.5,-127,-101,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr.,draftkings,15.5,-102,-125,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson,draftkings,22.5,-103,-123,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma,draftkings,12.5,-120,-106,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner,draftkings,10.5,-103,-123,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker,draftkings,21.5,-125,-102,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu,draftkings,13.5,-119,-107,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro,draftkings,22.5,-118,-108,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins,draftkings,12.5,-107,-120,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort,draftkings,8.5,-102,-125,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament,draftkings,8.5,-119,-107,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kel'el Ware,draftkings,8.5,-102,-125,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jericho Sims,draftkings,4.5,104,-133,2026-11-16T01:05:49.587004Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jalen Johnson,fanduel,21.5,-120,-106,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,CJ McCollum,fanduel,15.5,-125,-102,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Dyson Daniels,fanduel,9.5,-128,100,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nickeil Alexander-Walker,fanduel,21.5,-115,-111,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Onyeka Okongwu,fanduel,13.5,-113,-113,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Tyler Herro,fanduel,22.5,102,-130,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kyle Kuzma,fanduel,11.5,-128,100,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Brayden Burries,fanduel,12.5,-108,-118,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jaime Jaquez Jr.,fanduel,15.5,-115,-111,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Myles Turner,fanduel,9.5,-125,-102,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Nate Ament,fanduel,8.5,-102,-125,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Aaron Wiggins,fanduel,12.5,-108,-118,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Luguentz Dort,fanduel,8.5,-102,-125,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Kel'el Ware,fanduel,7.5,-128,100,2026-11-16T01:06:40.064290Z
+682504,2026-11-16T01:00:00Z,Milwaukee Bucks,Atlanta Hawks,Jericho Sims,fanduel,3.5,-130,102,2026-11-16T01:06:40.064290Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell,betmgm,17.5,-110,-120,2026-11-16T01:06:20.008977Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein,betmgm,9.5,-140,105,2026-11-16T01:06:20.008977Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain,betmgm,14.5,-111,-118,2026-11-16T01:06:20.008977Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams,betmgm,8.5,100,-135,2026-11-16T01:06:20.008977Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander,betmgm,30.5,-115,-115,2026-11-16T01:06:20.008977Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara,betrivers,9.5,-127,-107,2026-11-16T01:06:17.359314Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell,betrivers,18.5,-109,-124,2026-11-16T01:06:17.359314Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein,betrivers,9.5,-129,-105,2026-11-16T01:06:17.359314Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain,betrivers,15.5,100,-134,2026-11-16T01:06:17.359314Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams,betrivers,8.5,-124,-109,2026-11-16T01:06:17.359314Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander,betrivers,32.5,-114,-118,2026-11-16T01:06:17.359314Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,10.5,110,-145,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,10.5,-260,190,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,10.5,-260,190,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,10.5,100,-130,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,10.5,150,-200,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,11.5,145,-190,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,11.5,-185,140,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,11.5,-185,140,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,11.5,135,-180,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,11.5,200,-275,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,12.5,190,-260,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,12.5,-135,105,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,12.5,-135,105,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,12.5,175,-240,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,12.5,-275,200,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,13.5,-105,-125,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,13.5,-105,-125,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,13.5,-210,155,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,14.5,-275,200,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,14.5,120,-160,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,14.5,120,-160,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,14.5,-160,120,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,15.5,-210,155,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,15.5,155,-210,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,15.5,155,-210,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,15.5,-120,-110,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,15.5,-280,205,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,16.5,-160,120,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter (SAC),bovada,16.5,200,-275,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis (SAC),bovada,16.5,200,-275,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,16.5,105,-135,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,16.5,-215,160,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,17.5,-125,-105,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,17.5,135,-180,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,17.5,-165,125,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,18.5,100,-130,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,18.5,170,-230,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,18.5,-130,100,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,19.5,125,-165,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,19.5,-105,-125,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,20.5,155,-210,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,20.5,-200,150,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,20.5,120,-160,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell (OKC),bovada,21.5,190,-260,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,21.5,-160,120,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,21.5,145,-190,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,22.5,-130,100,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine (SAC),bovada,22.5,180,-245,2026-11-16T01:06:18.997670Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,23.5,-105,-125,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,24.5,115,-150,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,25.5,140,-185,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,26.5,170,-230,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,27.5,205,-280,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,28.5,-220,165,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,29.5,-185,140,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,30.5,-150,115,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,31.5,-125,-105,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,32.5,-105,-125,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,33.5,110,-145,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,34.5,135,-180,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,35.5,155,-210,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,36.5,185,-250,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,6.5,-260,190,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,7.5,-250,185,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,7.5,-280,205,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,7.5,-180,135,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,8.5,-170,130,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,8.5,-190,145,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,8.5,-125,-105,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara (OKC),bovada,9.5,-125,-105,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein (OKC),bovada,9.5,-135,105,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams (OKC),bovada,9.5,110,-145,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,10.5,-170,130,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,11.5,-125,-105,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,12.5,105,-135,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,13.5,135,-180,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,14.5,175,-240,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain (OKC),bovada,19.5,210,-290,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray (SAC),bovada,9.5,-240,175,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander (OKC),bovada,27.5,-275,200,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr. (SAC),bovada,19.5,-260,190,2026-11-16T01:05:16.635035Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara,draftkings,8.5,-122,-104,2026-11-16T01:05:49.789170Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell,draftkings,18.5,-105,-122,2026-11-16T01:05:49.789170Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein,draftkings,9.5,-113,-112,2026-11-16T01:05:49.789170Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain,draftkings,14.5,-113,-112,2026-11-16T01:05:49.789170Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams,draftkings,8.5,-108,-117,2026-11-16T01:05:52.885210Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander,draftkings,31.5,-111,-115,2026-11-16T01:05:49.789170Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr.,draftkings,23.5,-105,-121,2026-11-16T01:00:02.830922Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter,draftkings,13.5,-101,-126,2026-11-16T01:00:37.320023Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis,draftkings,13.5,-104,-123,2026-11-16T01:00:02.830922Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray,draftkings,11.5,-123,-104,2026-11-16T01:00:53.537613Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine,draftkings,19.5,-103,-123,2026-11-16T00:59:40.193890Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Aday Mara,fanduel,9.5,102,-130,2026-11-16T01:06:39.866562Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Ajay Mitchell,fanduel,18.5,-104,-122,2026-11-16T01:06:39.866562Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Isaiah Hartenstein,fanduel,9.5,-115,-111,2026-11-16T01:06:39.866562Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Jared McCain,fanduel,13.5,-115,-111,2026-11-16T01:06:39.866562Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Kenrich Williams,fanduel,8.5,-104,-122,2026-11-16T01:06:39.866562Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Shai Gilgeous-Alexander,fanduel,32.5,-108,-118,2026-11-16T01:06:39.866562Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Darius Acuff Jr.,fanduel,26.5,-104,-122,2026-11-16T01:06:39.866562Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,De'Andre Hunter,fanduel,13.5,-113,-113,2026-11-16T01:00:44.669571Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Domantas Sabonis,fanduel,13.5,-111,-115,2026-11-16T01:06:39.866562Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Keegan Murray,fanduel,13.5,106,-136,2026-11-16T01:06:15.639603Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Zach LaVine,fanduel,19.5,102,-130,2026-11-16T01:00:44.669571Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Malik Monk,fanduel,10.5,-130,102,2026-11-16T01:06:39.866562Z
+682505,2026-11-16T02:00:00Z,Sacramento Kings,Oklahoma City Thunder,Dylan Cardwell,fanduel,4.5,-102,-125,2026-11-16T01:00:44.669571Z
