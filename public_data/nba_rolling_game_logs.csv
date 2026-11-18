@@ -5356,3 +5356,105 @@ game_id,game_date,player_id,player_name,team,points,minutes
 401910001,2026-11-16,4698719,Trevon Brazile,Denver Nuggets,9.0,23.0
 401910001,2026-11-16,3978,DeMar DeRozan,Denver Nuggets,2.0,14.0
 401910001,2026-11-16,3135046,Tyus Jones,Denver Nuggets,0.0,10.0
+401910002,2026-11-17,3934719,OG Anunoby,New York Knicks,16.0,36.0
+401910002,2026-11-17,3136195,Karl-Anthony Towns,New York Knicks,16.0,36.0
+401910002,2026-11-17,3062679,Josh Hart,New York Knicks,5.0,31.0
+401910002,2026-11-17,3147657,Mikal Bridges,New York Knicks,17.0,30.0
+401910002,2026-11-17,3934672,Jalen Brunson,New York Knicks,31.0,34.0
+401910002,2026-11-17,6585,Andre Drummond,New York Knicks,2.0,11.0
+401910002,2026-11-17,2528426,Jordan Clarkson,New York Knicks,3.0,8.0
+401910002,2026-11-17,3914044,Landry Shamet,New York Knicks,12.0,24.0
+401910002,2026-11-17,4277869,Jose Alvarado,New York Knicks,2.0,7.0
+401910002,2026-11-17,4431823,Miles McBride,New York Knicks,3.0,9.0
+401910002,2026-11-17,4433225,Tyler Kolek,New York Knicks,4.0,13.0
+401910002,2026-11-17,4395625,RJ Barrett,Toronto Raptors,22.0,39.0
+401910002,2026-11-17,4433134,Scottie Barnes,Toronto Raptors,20.0,34.0
+401910002,2026-11-17,5093267,Collin Murray-Boyles,Toronto Raptors,8.0,33.0
+401910002,2026-11-17,4395724,Immanuel Quickley,Toronto Raptors,14.0,34.0
+401910002,2026-11-17,4684272,Ja'Kobe Walter,Toronto Raptors,25.0,33.0
+401910002,2026-11-17,4431893,Jamison Battle,Toronto Raptors,0.0,7.0
+401910002,2026-11-17,5149115,Allen Graves,Toronto Raptors,3.0,13.0
+401910002,2026-11-17,3134908,Jakob Poeltl,Toronto Raptors,3.0,18.0
+401910002,2026-11-17,4432241,Jamal Shead,Toronto Raptors,7.0,20.0
+401910002,2026-11-17,4702656,Alijah Martin,Toronto Raptors,0.0,8.0
+401910003,2026-11-17,4431736,Toumani Camara,Portland Trail Blazers,10.0,33.0
+401910003,2026-11-17,5105565,Donovan Clingan,Portland Trail Blazers,12.0,32.0
+401910003,2026-11-17,6606,Damian Lillard,Portland Trail Blazers,25.0,31.0
+401910003,2026-11-17,4703889,Jayson Kent,Portland Trail Blazers,8.0,27.0
+401910003,2026-11-17,5081727,Sidy Cissoko,Portland Trail Blazers,6.0,32.0
+401910003,2026-11-17,4066211,Robert Williams III,Portland Trail Blazers,6.0,16.0
+401910003,2026-11-17,4066399,Micah Potter,Portland Trail Blazers,0.0,1.0
+401910003,2026-11-17,4592435,Branden Carlson,Portland Trail Blazers,6.0,14.0
+401910003,2026-11-17,3995,Jrue Holiday,Portland Trail Blazers,23.0,31.0
+401910003,2026-11-17,4683678,Scoot Henderson,Portland Trail Blazers,9.0,21.0
+401910003,2026-11-17,4431671,Jaden McDaniels,Minnesota Timberwolves,22.0,37.0
+401910003,2026-11-17,4895758,Cody Williams,Minnesota Timberwolves,0.0,13.0
+401910003,2026-11-17,3032976,Rudy Gobert,Minnesota Timberwolves,0.0,22.0
+401910003,2026-11-17,4397002,Ayo Dosunmu,Minnesota Timberwolves,30.0,39.0
+401910003,2026-11-17,4432816,LaMelo Ball,Minnesota Timberwolves,18.0,31.0
+401910003,2026-11-17,3136196,Trey Lyles,Minnesota Timberwolves,8.0,31.0
+401910003,2026-11-17,5279133,Joan Beringer,Minnesota Timberwolves,3.0,26.0
+401910003,2026-11-17,4432847,Terrence Shannon Jr.,Minnesota Timberwolves,12.0,24.0
+401910003,2026-11-17,4592492,Bones Hyland,Minnesota Timberwolves,13.0,17.0
+401910004,2026-11-17,3908845,John Collins,Detroit Pistons,11.0,23.0
+401910004,2026-11-17,4066372,Kevin Huerter,Detroit Pistons,9.0,36.0
+401910004,2026-11-17,4432166,Cade Cunningham,Detroit Pistons,27.0,38.0
+401910004,2026-11-17,4684742,Ausar Thompson,Detroit Pistons,14.0,29.0
+401910004,2026-11-17,5107199,Daniss Jenkins,Detroit Pistons,25.0,38.0
+401910004,2026-11-17,4278562,Paul Reed,Detroit Pistons,10.0,25.0
+401910004,2026-11-17,2596112,Javonte Green,Detroit Pistons,6.0,23.0
+401910004,2026-11-17,4397449,Elijah Harkless,Detroit Pistons,0.0,4.0
+401910004,2026-11-17,4700852,Chaz Lanier,Detroit Pistons,3.0,25.0
+401910004,2026-11-17,5104157,Victor Wembanyama,San Antonio Spurs,25.0,34.0
+401910004,2026-11-17,4066259,De'Aaron Fox,San Antonio Spurs,6.0,34.0
+401910004,2026-11-17,4395630,Devin Vassell,San Antonio Spurs,12.0,36.0
+401910004,2026-11-17,4845367,Stephon Castle,San Antonio Spurs,10.0,31.0
+401910004,2026-11-17,5037871,Dylan Harper,San Antonio Spurs,20.0,35.0
+401910004,2026-11-17,6578,Harrison Barnes,San Antonio Spurs,0.0,10.0
+401910004,2026-11-17,4395723,Keldon Johnson,San Antonio Spurs,4.0,15.0
+401910004,2026-11-17,4592479,Julian Champagnie,San Antonio Spurs,14.0,30.0
+401910004,2026-11-17,5061568,Carter Bryant,San Antonio Spurs,0.0,2.0
+401910004,2026-11-17,3064560,Luke Kornet,San Antonio Spurs,2.0,14.0
+401910006,2026-11-17,4277919,Mo Bamba,Utah Jazz,15.0,31.0
+401910006,2026-11-17,4432811,Josh Green,Utah Jazz,9.0,13.0
+401910006,2026-11-17,4433627,Keyonte George,Utah Jazz,30.0,35.0
+401910006,2026-11-17,4873138,Ace Bailey,Utah Jazz,5.0,23.0
+401910006,2026-11-17,5041955,Darryn Peterson,Utah Jazz,13.0,31.0
+401910006,2026-11-17,5105839,Brice Sensabaugh,Utah Jazz,40.0,35.0
+401910006,2026-11-17,4065673,Tony Bradley,Utah Jazz,3.0,17.0
+401910006,2026-11-17,3133602,Svi Mykhailiuk,Utah Jazz,8.0,33.0
+401910006,2026-11-17,4065663,Josh Okogie,Utah Jazz,9.0,22.0
+401910006,2026-11-17,3936099,Derrick Jones Jr.,LA Clippers,5.0,28.0
+401910006,2026-11-17,4066648,Rui Hachimura,LA Clippers,20.0,27.0
+401910006,2026-11-17,3448,Brook Lopez,LA Clippers,23.0,23.0
+401910006,2026-11-17,2991139,Kris Dunn,LA Clippers,2.0,26.0
+401910006,2026-11-17,4396907,Darius Garland,LA Clippers,20.0,30.0
+401910006,2026-11-17,4432170,Isaiah Jackson,LA Clippers,8.0,19.0
+401910006,2026-11-17,5075626,Baba Miller,LA Clippers,3.0,4.0
+401910006,2026-11-17,5105832,Nick Martinelli,LA Clippers,0.0,4.0
+401910006,2026-11-17,4065778,Max Strus,LA Clippers,3.0,21.0
+401910006,2026-11-17,4702352,Kobe Sanders,LA Clippers,5.0,18.0
+401910006,2026-11-17,4845363,Cam Christie,LA Clippers,3.0,4.0
+401910006,2026-11-17,5106258,Gradey Dick,LA Clippers,0.0,17.0
+401910006,2026-11-17,5254165,Keaton Wagler,LA Clippers,15.0,18.0
+401910005,2026-11-17,4066218,Grant Williams,Charlotte Hornets,12.0,30.0
+401910005,2026-11-17,4433249,Moussa Diabate,Charlotte Hornets,5.0,38.0
+401910005,2026-11-17,4433287,Brandon Miller,Charlotte Hornets,28.0,32.0
+401910005,2026-11-17,4396971,Naz Reid,Charlotte Hornets,23.0,42.0
+401910005,2026-11-17,4395651,Coby White,Charlotte Hornets,19.0,26.0
+401910005,2026-11-17,2583632,Royce O'Neale,Charlotte Hornets,13.0,34.0
+401910005,2026-11-17,5211176,Tidjane Salaun,Charlotte Hornets,0.0,5.0
+401910005,2026-11-17,4576060,Ryan Kalkbrenner,Charlotte Hornets,6.0,14.0
+401910005,2026-11-17,4602025,Sion James,Charlotte Hornets,3.0,30.0
+401910005,2026-11-17,5060701,Christian Anderson,Charlotte Hornets,5.0,14.0
+401910005,2026-11-17,3155535,Kevon Looney,Los Angeles Lakers,4.0,17.0
+401910005,2026-11-17,4592691,Jake LaRavia,Los Angeles Lakers,4.0,23.0
+401910005,2026-11-17,3907498,Matisse Thybulle,Los Angeles Lakers,7.0,31.0
+401910005,2026-11-17,3945274,Luka Doncic,Los Angeles Lakers,36.0,42.0
+401910005,2026-11-17,4397014,Quentin Grimes,Los Angeles Lakers,47.0,42.0
+401910005,2026-11-17,4278077,Jarred Vanderbilt,Los Angeles Lakers,4.0,14.0
+401910005,2026-11-17,4278580,Sandro Mamukelashvili,Los Angeles Lakers,3.0,23.0
+401910005,2026-11-17,4433137,Ziaire Williams,Los Angeles Lakers,0.0,24.0
+401910005,2026-11-17,5060631,Adou Thiero,Los Angeles Lakers,0.0,6.0
+401910005,2026-11-17,5105817,Carson Cooper,Los Angeles Lakers,3.0,18.0
+401910005,2026-11-17,4277811,Collin Sexton,Los Angeles Lakers,10.0,25.0
