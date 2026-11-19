@@ -5458,3 +5458,281 @@ game_id,game_date,player_id,player_name,team,points,minutes
 401910005,2026-11-17,5060631,Adou Thiero,Los Angeles Lakers,0.0,6.0
 401910005,2026-11-17,5105817,Carson Cooper,Los Angeles Lakers,3.0,18.0
 401910005,2026-11-17,4277811,Collin Sexton,Los Angeles Lakers,10.0,25.0
+401910007,2026-11-18,4903027,Cedric Coward,Memphis Grizzlies,20.0,33.0
+401910007,2026-11-18,5041935,Cameron Boozer,Memphis Grizzlies,18.0,28.0
+401910007,2026-11-18,5112087,Jaylen Wells,Memphis Grizzlies,5.0,26.0
+401910007,2026-11-18,4600663,Zach Edey,Memphis Grizzlies,11.0,21.0
+401910007,2026-11-18,4433083,Cam Spencer,Memphis Grizzlies,26.0,29.0
+401910007,2026-11-18,2991070,Jerami Grant,Memphis Grizzlies,8.0,20.0
+401910007,2026-11-18,4594326,Kris Murray,Memphis Grizzlies,5.0,6.0
+401910007,2026-11-18,4595400,Olivier-Maxence Prosper,Memphis Grizzlies,5.0,16.0
+401910007,2026-11-18,4684806,Taylor Hendricks,Memphis Grizzlies,18.0,21.0
+401910007,2026-11-18,4593016,Quinten Post,Memphis Grizzlies,3.0,6.0
+401910007,2026-11-18,4683934,Jahmai Mashack,Memphis Grizzlies,3.0,13.0
+401910007,2026-11-18,4781746,Javon Small,Memphis Grizzlies,2.0,21.0
+401910007,2026-11-18,2995706,Mario Hezonja,Cleveland Cavaliers,16.0,28.0
+401910007,2026-11-18,4066328,Jarrett Allen,Cleveland Cavaliers,19.0,30.0
+401910007,2026-11-18,3992,James Harden,Cleveland Cavaliers,14.0,36.0
+401910007,2026-11-18,3908809,Donovan Mitchell,Cleveland Cavaliers,34.0,35.0
+401910007,2026-11-18,5023693,Tyrese Proctor,Cleveland Cavaliers,8.0,26.0
+401910007,2026-11-18,3934723,Thomas Bryant,Cleveland Cavaliers,5.0,12.0
+401910007,2026-11-18,4702134,Norchad Omier,Cleveland Cavaliers,2.0,16.0
+401910007,2026-11-18,4066757,Sam Merrill,Cleveland Cavaliers,7.0,23.0
+401910007,2026-11-18,4701233,Craig Porter Jr.,Cleveland Cavaliers,2.0,12.0
+401910007,2026-11-18,5041951,Meleek Thomas,Cleveland Cavaliers,14.0,22.0
+401910008,2026-11-18,3202,Kevin Durant,Houston Rockets,21.0,32.0
+401910008,2026-11-18,4432639,Jabari Smith Jr.,Houston Rockets,17.0,26.0
+401910008,2026-11-18,4871144,Alperen Sengun,Houston Rockets,7.0,14.0
+401910008,2026-11-18,2991230,Fred VanVleet,Houston Rockets,15.0,27.0
+401910008,2026-11-18,4684740,Amen Thompson,Houston Rockets,15.0,31.0
+401910008,2026-11-18,3136777,Jae'Sean Tate,Houston Rockets,0.0,1.0
+401910008,2026-11-18,4433192,Tari Eason,Houston Rockets,11.0,25.0
+401910008,2026-11-18,4592857,Isaiah Crawford,Houston Rockets,0.0,2.0
+401910008,2026-11-18,2991235,Steven Adams,Houston Rockets,4.0,16.0
+401910008,2026-11-18,4432827,Oscar Tshiebwe,Houston Rockets,4.0,11.0
+401910008,2026-11-18,2990992,Marcus Smart,Houston Rockets,4.0,18.0
+401910008,2026-11-18,3037789,Bogdan Bogdanovic,Houston Rockets,1.0,11.0
+401910008,2026-11-18,4711272,Reed Sheppard,Houston Rockets,20.0,25.0
+401910008,2026-11-18,5105837,Bruce Thornton,Houston Rockets,0.0,1.0
+401910008,2026-11-18,3149673,Pascal Siakam,Indiana Pacers,24.0,33.0
+401910008,2026-11-18,4017837,Ivica Zubac,Indiana Pacers,4.0,24.0
+401910008,2026-11-18,3133603,Kelly Oubre Jr.,Indiana Pacers,17.0,23.0
+401910008,2026-11-18,4396909,Aaron Nesmith,Indiana Pacers,2.0,29.0
+401910008,2026-11-18,4592829,Quenton Jackson,Indiana Pacers,15.0,22.0
+401910008,2026-11-18,2580365,Larry Nance Jr.,Indiana Pacers,3.0,9.0
+401910008,2026-11-18,4278355,Obi Toppin,Indiana Pacers,6.0,17.0
+401910008,2026-11-18,4398207,Jalen Slawson,Indiana Pacers,5.0,12.0
+401910008,2026-11-18,5106060,Jarace Walker,Indiana Pacers,1.0,17.0
+401910008,2026-11-18,4065731,Jay Huff,Indiana Pacers,5.0,15.0
+401910008,2026-11-18,2530530,T.J. McConnell,Indiana Pacers,14.0,18.0
+401910008,2026-11-18,4431752,Kobe Brown,Indiana Pacers,0.0,2.0
+401910008,2026-11-18,5105854,Braden Smith,Indiana Pacers,8.0,18.0
+401910009,2026-11-18,3134907,Kyle Kuzma,Milwaukee Bucks,26.0,30.0
+401910009,2026-11-18,3133628,Myles Turner,Milwaukee Bucks,4.0,21.0
+401910009,2026-11-18,4277922,Jericho Sims,Milwaukee Bucks,4.0,18.0
+401910009,2026-11-18,4395725,Tyler Herro,Milwaukee Bucks,8.0,24.0
+401910009,2026-11-18,5082206,Brayden Burries,Milwaukee Bucks,20.0,25.0
+401910009,2026-11-18,4432848,Jaime Jaquez Jr.,Milwaukee Bucks,10.0,23.0
+401910009,2026-11-18,5164559,Nate Ament,Milwaukee Bucks,7.0,17.0
+401910009,2026-11-18,5105623,Kel'el Ware,Milwaukee Bucks,11.0,17.0
+401910009,2026-11-18,2991043,Caris LeVert,Milwaukee Bucks,8.0,8.0
+401910009,2026-11-18,4277843,Gary Trent Jr.,Milwaukee Bucks,1.0,16.0
+401910009,2026-11-18,4397475,AJ Green,Milwaukee Bucks,11.0,14.0
+401910009,2026-11-18,5214640,Kasparas Jakucionis,Milwaukee Bucks,20.0,26.0
+401910009,2026-11-18,3032977,Giannis Antetokounmpo,Miami Heat,27.0,32.0
+401910009,2026-11-18,4066261,Bam Adebayo,Miami Heat,26.0,30.0
+401910009,2026-11-18,6475,Klay Thompson,Miami Heat,13.0,23.0
+401910009,2026-11-18,4278053,Davion Mitchell,Miami Heat,24.0,36.0
+401910009,2026-11-18,4601025,Pelle Larsson,Miami Heat,4.0,15.0
+401910009,2026-11-18,3059319,Andrew Wiggins,Miami Heat,11.0,26.0
+401910009,2026-11-18,3064482,Bobby Portis,Miami Heat,9.0,17.0
+401910009,2026-11-18,3899664,Simone Fontecchio,Miami Heat,6.0,18.0
+401910009,2026-11-18,4997528,Nikola Jovic,Miami Heat,4.0,14.0
+401910009,2026-11-18,4278076,Nick Richards,Miami Heat,0.0,1.0
+401910009,2026-11-18,4837356,Tre Donaldson,Miami Heat,0.0,1.0
+401910009,2026-11-18,5107157,Ryan Conwell,Miami Heat,13.0,26.0
+401910010,2026-11-18,1966,LeBron James,Philadelphia 76ers,22.0,31.0
+401910010,2026-11-18,3059318,Joel Embiid,Philadelphia 76ers,26.0,36.0
+401910010,2026-11-18,2581018,Kentavious Caldwell-Pope,Philadelphia 76ers,8.0,32.0
+401910010,2026-11-18,4351851,Anfernee Simons,Philadelphia 76ers,18.0,38.0
+401910010,2026-11-18,5124612,VJ Edgecombe,Philadelphia 76ers,24.0,43.0
+401910010,2026-11-18,4432446,Jabari Walker,Philadelphia 76ers,6.0,13.0
+401910010,2026-11-18,4711297,Justin Edwards,Philadelphia 76ers,2.0,13.0
+401910010,2026-11-18,3904625,Tacko Fall,Philadelphia 76ers,2.0,10.0
+401910010,2026-11-18,4433144,Caleb Love,Philadelphia 76ers,3.0,6.0
+401910010,2026-11-18,4873090,Labaron Philon Jr.,Philadelphia 76ers,10.0,17.0
+401910010,2026-11-18,4566434,Franz Wagner,Orlando Magic,27.0,36.0
+401910010,2026-11-18,4277847,Wendell Carter Jr.,Orlando Magic,15.0,32.0
+401910010,2026-11-18,4066320,Desmond Bane,Orlando Magic,15.0,38.0
+401910010,2026-11-18,4432165,Jalen Suggs,Orlando Magic,18.0,31.0
+401910010,2026-11-18,4712849,Anthony Black,Orlando Magic,15.0,37.0
+401910010,2026-11-18,4278572,Jamal Cain,Orlando Magic,0.0,4.0
+401910010,2026-11-18,4702382,Tristan da Silva,Orlando Magic,12.0,27.0
+401910010,2026-11-18,4348700,Goga Bitadze,Orlando Magic,8.0,20.0
+401910010,2026-11-18,3133635,Jevon Carter,Orlando Magic,6.0,16.0
+401910011,2026-11-18,4397189,Jalen Smith,Chicago Bulls,14.0,21.0
+401910011,2026-11-18,4432822,Isaac Okoro,Chicago Bulls,12.0,25.0
+401910011,2026-11-18,4711294,Matas Buzelis,Chicago Bulls,25.0,30.0
+401910011,2026-11-18,2595516,Norman Powell,Chicago Bulls,17.0,26.0
+401910011,2026-11-18,4871145,Josh Giddey,Chicago Bulls,18.0,28.0
+401910011,2026-11-18,4066650,Zach Collins,Chicago Bulls,3.0,11.0
+401910011,2026-11-18,4431687,Patrick Williams,Chicago Bulls,2.0,13.0
+401910011,2026-11-18,5044385,Leonard Miller,Chicago Bulls,4.0,7.0
+401910011,2026-11-18,5242496,Noa Essengue,Chicago Bulls,5.0,15.0
+401910011,2026-11-18,4278067,Nic Claxton,Chicago Bulls,14.0,22.0
+401910011,2026-11-18,2990984,Buddy Hield,Chicago Bulls,11.0,19.0
+401910011,2026-11-18,4395626,Tre Jones,Chicago Bulls,10.0,16.0
+401910011,2026-11-18,4848625,Dailyn Swain,Chicago Bulls,2.0,6.0
+401910011,2026-11-18,3064514,Julius Randle,Brooklyn Nets,17.0,27.0
+401910011,2026-11-18,4278104,Michael Porter Jr.,Brooklyn Nets,5.0,27.0
+401910011,2026-11-18,4432194,Day'Ron Sharpe,Brooklyn Nets,6.0,22.0
+401910011,2026-11-18,5175643,Egor Demin,Brooklyn Nets,22.0,31.0
+401910011,2026-11-18,5279130,Nolan Traore,Brooklyn Nets,13.0,23.0
+401910011,2026-11-18,4687718,Josh Minott,Brooklyn Nets,0.0,4.0
+401910011,2026-11-18,4712896,Noah Clowney,Brooklyn Nets,7.0,19.0
+401910011,2026-11-18,5107173,Danny Wolf,Brooklyn Nets,6.0,23.0
+401910011,2026-11-18,5174655,Chaney Johnson,Brooklyn Nets,2.0,6.0
+401910011,2026-11-18,3150844,Moritz Wagner,Brooklyn Nets,11.0,20.0
+401910011,2026-11-18,3907823,Terance Mann,Brooklyn Nets,0.0,5.0
+401910011,2026-11-18,4702177,Keon Ellis,Brooklyn Nets,3.0,6.0
+401910011,2026-11-18,5101761,Mikel Brown Jr.,Brooklyn Nets,15.0,27.0
+401910012,2026-11-18,6583,Anthony Davis,Washington Wizards,25.0,34.0
+401910012,2026-11-18,5142718,AJ Dybantsa,Washington Wizards,23.0,38.0
+401910012,2026-11-18,5174563,Kyshawn George,Washington Wizards,20.0,40.0
+401910012,2026-11-18,5160992,Alex Sarr,Washington Wizards,13.0,22.0
+401910012,2026-11-18,4277905,Trae Young,Washington Wizards,11.0,32.0
+401910012,2026-11-18,6609,Khris Middleton,Washington Wizards,8.0,20.0
+401910012,2026-11-18,4278129,Deandre Ayton,Washington Wizards,0.0,9.0
+401910012,2026-11-18,5104155,Bilal Coulibaly,Washington Wizards,3.0,26.0
+401910012,2026-11-18,5144126,Will Riley,Washington Wizards,0.0,10.0
+401910012,2026-11-18,5238230,Tre Johnson,Washington Wizards,0.0,8.0
+401910012,2026-11-18,4431893,Jamison Battle,Toronto Raptors,19.0,33.0
+401910012,2026-11-18,5093267,Collin Murray-Boyles,Toronto Raptors,1.0,5.0
+401910012,2026-11-18,3134908,Jakob Poeltl,Toronto Raptors,8.0,29.0
+401910012,2026-11-18,4395724,Immanuel Quickley,Toronto Raptors,24.0,34.0
+401910012,2026-11-18,4684272,Ja'Kobe Walter,Toronto Raptors,18.0,38.0
+401910012,2026-11-18,2993874,Kyle Anderson,Toronto Raptors,0.0,4.0
+401910012,2026-11-18,4431684,Trayce Jackson-Davis,Toronto Raptors,3.0,17.0
+401910012,2026-11-18,5149115,Allen Graves,Toronto Raptors,9.0,31.0
+401910012,2026-11-18,4397784,Malachi Smith,Toronto Raptors,0.0,8.0
+401910012,2026-11-18,4432241,Jamal Shead,Toronto Raptors,15.0,24.0
+401910012,2026-11-18,4702656,Alijah Martin,Toronto Raptors,2.0,17.0
+401910013,2026-11-18,3908845,John Collins,Detroit Pistons,20.0,30.0
+401910013,2026-11-18,2596112,Javonte Green,Detroit Pistons,18.0,35.0
+401910013,2026-11-18,4066372,Kevin Huerter,Detroit Pistons,11.0,36.0
+401910013,2026-11-18,4684742,Ausar Thompson,Detroit Pistons,10.0,34.0
+401910013,2026-11-18,5107199,Daniss Jenkins,Detroit Pistons,17.0,36.0
+401910013,2026-11-18,4278562,Paul Reed,Detroit Pistons,17.0,20.0
+401910013,2026-11-18,4397882,Tolu Smith,Detroit Pistons,3.0,3.0
+401910013,2026-11-18,4395702,Isaiah Joe,Detroit Pistons,11.0,16.0
+401910013,2026-11-18,4397449,Elijah Harkless,Detroit Pistons,6.0,14.0
+401910013,2026-11-18,4700852,Chaz Lanier,Detroit Pistons,9.0,16.0
+401910013,2026-11-18,4277813,Herbert Jones,New Orleans Pelicans,9.0,32.0
+401910013,2026-11-18,4395628,Zion Williamson,New Orleans Pelicans,24.0,32.0
+401910013,2026-11-18,4397136,Saddiq Bey,New Orleans Pelicans,10.0,42.0
+401910013,2026-11-18,5061589,Yves Missi,New Orleans Pelicans,4.0,17.0
+401910013,2026-11-18,5144091,Jeremiah Fears,New Orleans Pelicans,16.0,31.0
+401910013,2026-11-18,4997538,Karlo Matkovic,New Orleans Pelicans,0.0,10.0
+401910013,2026-11-18,3442,DeAndre Jordan,New Orleans Pelicans,8.0,10.0
+401910013,2026-11-18,4869780,Derik Queen,New Orleans Pelicans,9.0,19.0
+401910013,2026-11-18,4277956,Jordan Poole,New Orleans Pelicans,22.0,30.0
+401910013,2026-11-18,4703115,Jaron Pierre Jr.,New Orleans Pelicans,7.0,17.0
+401910014,2026-11-18,4431680,Onyeka Okongwu,Atlanta Hawks,28.0,36.0
+401910014,2026-11-18,4701230,Jalen Johnson,Atlanta Hawks,16.0,34.0
+401910014,2026-11-18,4278039,Nickeil Alexander-Walker,Atlanta Hawks,19.0,32.0
+401910014,2026-11-18,4397183,Aaron Wiggins,Atlanta Hawks,14.0,26.0
+401910014,2026-11-18,4869342,Dyson Daniels,Atlanta Hawks,10.0,37.0
+401910014,2026-11-18,2578185,Dorian Finney-Smith,Atlanta Hawks,0.0,5.0
+401910014,2026-11-18,4280151,Corey Kispert,Atlanta Hawks,8.0,17.0
+401910014,2026-11-18,5106262,Zuby Ejiofor,Atlanta Hawks,3.0,12.0
+401910014,2026-11-18,4397020,Luguentz Dort,Atlanta Hawks,16.0,31.0
+401910014,2026-11-18,4431941,RayJ Dennis,Atlanta Hawks,3.0,10.0
+401910014,2026-11-18,4222252,Isaiah Hartenstein,Oklahoma City Thunder,6.0,27.0
+401910014,2026-11-18,5174983,Aday Mara,Oklahoma City Thunder,10.0,27.0
+401910014,2026-11-18,4278073,Shai Gilgeous-Alexander,Oklahoma City Thunder,34.0,36.0
+401910014,2026-11-18,4683778,Jared McCain,Oklahoma City Thunder,18.0,33.0
+401910014,2026-11-18,4900671,Ajay Mitchell,Oklahoma City Thunder,13.0,34.0
+401910014,2026-11-18,4432823,Jaylin Williams,Oklahoma City Thunder,3.0,16.0
+401910014,2026-11-18,2991350,Alex Caruso,Oklahoma City Thunder,5.0,9.0
+401910014,2026-11-18,3133626,Kenrich Williams,Oklahoma City Thunder,10.0,23.0
+401910014,2026-11-18,4702384,Nique Clifford,Oklahoma City Thunder,7.0,13.0
+401910014,2026-11-18,5159925,Nikola Topic,Oklahoma City Thunder,0.0,5.0
+401910014,2026-11-18,5241364,Bennett Stirtz,Oklahoma City Thunder,6.0,17.0
+401910016,2026-11-18,6589,Draymond Green,Golden State Warriors,3.0,23.0
+401910016,2026-11-18,5175737,Yaxel Lendeborg,Golden State Warriors,13.0,30.0
+401910016,2026-11-18,4397886,Charles Bassey,Golden State Warriors,10.0,22.0
+401910016,2026-11-18,4433149,LJ Cryer,Golden State Warriors,9.0,19.0
+401910016,2026-11-18,4709138,Brandin Podziemski,Golden State Warriors,10.0,29.0
+401910016,2026-11-18,2990969,Georges Niang,Golden State Warriors,11.0,14.0
+401910016,2026-11-18,4703396,Graham Ike,Golden State Warriors,2.0,15.0
+401910016,2026-11-18,4897449,Malevy Leons,Golden State Warriors,2.0,7.0
+401910016,2026-11-18,4997536,Gui Santos,Golden State Warriors,6.0,17.0
+401910016,2026-11-18,3134903,Gary Payton II,Golden State Warriors,8.0,16.0
+401910016,2026-11-18,4066436,De'Anthony Melton,Golden State Warriors,0.0,19.0
+401910016,2026-11-18,4897262,Will Richard,Golden State Warriors,20.0,27.0
+401910016,2026-11-18,3138160,Caleb Martin,Dallas Mavericks,8.0,20.0
+401910016,2026-11-18,4278049,Daniel Gafford,Dallas Mavericks,6.0,24.0
+401910016,2026-11-18,4278078,P.J. Washington,Dallas Mavericks,21.0,25.0
+401910016,2026-11-18,5041939,Cooper Flagg,Dallas Mavericks,33.0,34.0
+401910016,2026-11-18,6442,Kyrie Irving,Dallas Mavericks,17.0,29.0
+401910016,2026-11-18,4278594,Naji Marshall,Dallas Mavericks,12.0,27.0
+401910016,2026-11-18,4593125,Santi Aldama,Dallas Mavericks,0.0,6.0
+401910016,2026-11-18,4873153,Morez Johnson Jr.,Dallas Mavericks,3.0,15.0
+401910016,2026-11-18,5211175,Zaccharie Risacher,Dallas Mavericks,3.0,18.0
+401910016,2026-11-18,4701208,Moussa Cisse,Dallas Mavericks,0.0,4.0
+401910016,2026-11-18,4432107,Marcus Sasser,Dallas Mavericks,0.0,4.0
+401910016,2026-11-18,4432582,Max Christie,Dallas Mavericks,5.0,8.0
+401910016,2026-11-18,4896372,Walter Clayton Jr.,Dallas Mavericks,8.0,27.0
+401910015,2026-11-18,4251,Paul George,Boston Celtics,10.0,23.0
+401910015,2026-11-18,4065648,Jayson Tatum,Boston Celtics,24.0,37.0
+401910015,2026-11-18,4397424,Neemias Queta,Boston Celtics,17.0,27.0
+401910015,2026-11-18,3078576,Derrick White,Boston Celtics,12.0,35.0
+401910015,2026-11-18,4683689,Jordan Walsh,Boston Celtics,0.0,4.0
+401910015,2026-11-18,4065804,Sam Hauser,Boston Celtics,9.0,17.0
+401910015,2026-11-18,5142621,Chris Cenac Jr.,Boston Celtics,6.0,17.0
+401910015,2026-11-18,4277951,Luka Garza,Boston Celtics,0.0,5.0
+401910015,2026-11-18,4351852,Mitchell Robinson,Boston Celtics,6.0,16.0
+401910015,2026-11-18,4066354,Payton Pritchard,Boston Celtics,15.0,30.0
+401910015,2026-11-18,4593841,Baylor Scheierman,Boston Celtics,0.0,13.0
+401910015,2026-11-18,5175647,Hugo Gonzalez,Boston Celtics,2.0,16.0
+401910015,2026-11-18,3064290,Aaron Gordon,Denver Nuggets,13.0,31.0
+401910015,2026-11-18,3138196,Cameron Johnson,Denver Nuggets,8.0,26.0
+401910015,2026-11-18,3112335,Nikola Jokic,Denver Nuggets,24.0,39.0
+401910015,2026-11-18,3936299,Jamal Murray,Denver Nuggets,21.0,38.0
+401910015,2026-11-18,4431767,Christian Braun,Denver Nuggets,15.0,35.0
+401910015,2026-11-18,4277848,Marvin Bagley III,Denver Nuggets,4.0,9.0
+401910015,2026-11-18,4592427,Spencer Jones,Denver Nuggets,2.0,17.0
+401910015,2026-11-18,4698719,Trevon Brazile,Denver Nuggets,0.0,11.0
+401910015,2026-11-18,3978,DeMar DeRozan,Denver Nuggets,18.0,25.0
+401910015,2026-11-18,3135046,Tyus Jones,Denver Nuggets,0.0,9.0
+401910017,2026-11-18,4277919,Mo Bamba,Utah Jazz,6.0,23.0
+401910017,2026-11-18,4432811,Josh Green,Utah Jazz,11.0,28.0
+401910017,2026-11-18,4433627,Keyonte George,Utah Jazz,30.0,39.0
+401910017,2026-11-18,4873138,Ace Bailey,Utah Jazz,19.0,27.0
+401910017,2026-11-18,5041955,Darryn Peterson,Utah Jazz,11.0,19.0
+401910017,2026-11-18,4684793,Kyle Filipowski,Utah Jazz,0.0,6.0
+401910017,2026-11-18,5105839,Brice Sensabaugh,Utah Jazz,8.0,14.0
+401910017,2026-11-18,4397077,Jaxson Hayes,Utah Jazz,6.0,25.0
+401910017,2026-11-18,3133602,Svi Mykhailiuk,Utah Jazz,15.0,34.0
+401910017,2026-11-18,4065663,Josh Okogie,Utah Jazz,3.0,15.0
+401910017,2026-11-18,4683766,Isaiah Collier,Utah Jazz,0.0,10.0
+401910017,2026-11-18,4433137,Ziaire Williams,Los Angeles Lakers,7.0,18.0
+401910017,2026-11-18,4433136,Walker Kessler,Los Angeles Lakers,10.0,31.0
+401910017,2026-11-18,3907498,Matisse Thybulle,Los Angeles Lakers,2.0,21.0
+401910017,2026-11-18,3945274,Luka Doncic,Los Angeles Lakers,29.0,37.0
+401910017,2026-11-18,4397014,Quentin Grimes,Los Angeles Lakers,20.0,35.0
+401910017,2026-11-18,4278077,Jarred Vanderbilt,Los Angeles Lakers,0.0,12.0
+401910017,2026-11-18,4278580,Sandro Mamukelashvili,Los Angeles Lakers,6.0,21.0
+401910017,2026-11-18,4592691,Jake LaRavia,Los Angeles Lakers,4.0,30.0
+401910017,2026-11-18,5060631,Adou Thiero,Los Angeles Lakers,0.0,6.0
+401910017,2026-11-18,5105817,Carson Cooper,Los Angeles Lakers,2.0,2.0
+401910017,2026-11-18,4277811,Collin Sexton,Los Angeles Lakers,12.0,20.0
+401910017,2026-11-18,4683774,Bronny James,Los Angeles Lakers,0.0,2.0
+401910017,2026-11-18,4868423,Jaden Hardy,Los Angeles Lakers,0.0,2.0
+401910017,2026-11-18,5113969,Cameron Carr,Los Angeles Lakers,5.0,2.0
+401910018,2026-11-18,3155526,Dillon Brooks,Phoenix Suns,29.0,31.0
+401910018,2026-11-18,4066383,Miles Bridges,Phoenix Suns,13.0,29.0
+401910018,2026-11-18,4601023,Oso Ighodaro,Phoenix Suns,7.0,21.0
+401910018,2026-11-18,3136193,Devin Booker,Phoenix Suns,29.0,33.0
+401910018,2026-11-18,4437244,Jalen Green,Phoenix Suns,18.0,30.0
+401910018,2026-11-18,4888725,Ryan Dunn,Phoenix Suns,6.0,13.0
+401910018,2026-11-18,5041953,Koa Peat,Phoenix Suns,2.0,4.0
+401910018,2026-11-18,5105977,Rasheer Fleming,Phoenix Suns,0.0,4.0
+401910018,2026-11-18,5203685,Khaman Maluach,Phoenix Suns,10.0,21.0
+401910018,2026-11-18,3913174,Luke Kennard,Phoenix Suns,3.0,17.0
+401910018,2026-11-18,4278402,Jordan Goodwin,Phoenix Suns,2.0,17.0
+401910018,2026-11-18,4278585,Collin Gillespie,Phoenix Suns,9.0,17.0
+401910018,2026-11-18,4280245,Jamaree Bouyea,Phoenix Suns,0.0,4.0
+401910018,2026-11-18,3155942,Domantas Sabonis,Sacramento Kings,8.0,24.0
+401910018,2026-11-18,4065732,De'Andre Hunter,Sacramento Kings,7.0,35.0
+401910018,2026-11-18,4594327,Keegan Murray,Sacramento Kings,12.0,31.0
+401910018,2026-11-18,3064440,Zach LaVine,Sacramento Kings,18.0,32.0
+401910018,2026-11-18,5142620,Darius Acuff Jr.,Sacramento Kings,36.0,35.0
+401910018,2026-11-18,4395650,Leaky Black,Sacramento Kings,3.0,17.0
+401910018,2026-11-18,4431679,Precious Achiuwa,Sacramento Kings,0.0,8.0
+401910018,2026-11-18,4917149,Alex Karaban,Sacramento Kings,0.0,4.0
+401910018,2026-11-18,2488653,Mason Plumlee,Sacramento Kings,0.0,4.0
+401910018,2026-11-18,4433174,Dylan Cardwell,Sacramento Kings,6.0,12.0
+401910018,2026-11-18,4066262,Malik Monk,Sacramento Kings,8.0,20.0
+401910018,2026-11-18,4279318,Daeqwon Plowden,Sacramento Kings,3.0,4.0
+401910018,2026-11-18,5106058,Emanuel Sharp,Sacramento Kings,6.0,14.0
