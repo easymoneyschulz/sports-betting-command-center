@@ -751,18 +751,6 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 36,7,Colorado State,True,True,401860917,265,73,Washington State,False,2026-11-15T03:45Z
 2449,21,North Dakota State,True,True,401864537,62,13,Hawai'i,False,2026-11-15T04:00Z
 145,17,Ole Miss,True,True,401856887,201,24,Oklahoma,False,2026-11-15T18:00Z
-242,0,Rice,False,True,401862830,218,0,Temple,False,2026-11-20T00:30Z
-2199,27,Eastern Michigan,True,True,401866465,2711,34,Western Michigan,False,2026-11-17T23:00Z
-2050,28,Ball State,True,True,401866464,195,35,Ohio,False,2026-11-18T00:00Z
-193,20,Miami (OH),True,True,401866466,2309,3,Kent State,False,2026-11-18T00:00Z
-2006,34,Akron,True,True,401866467,113,33,Massachusetts,False,2026-11-19T00:00Z
-2117,21,Central Michigan,True,True,401866469,2084,40,Buffalo,False,2026-11-19T00:30Z
-66,0,Iowa State,False,True,401856869,2116,0,UCF,False,2026-11-20T23:00Z
-228,0,Clemson,False,True,401858303,150,0,Duke,False,2026-11-21T00:30Z
-189,0,Bowling Green,False,True,401866468,2649,0,Toledo,False,2026-11-21T00:30Z
-2483,0,Oregon,False,True,401858529,127,0,Michigan State,False,2026-11-21T01:00Z
-2638,0,UTEP,False,True,401864545,2005,0,Air Force,False,2026-11-21T01:00Z
-167,0,New Mexico,False,True,401864542,2751,0,Wyoming,False,2026-11-21T02:00Z
 252,0,BYU,False,True,401856866,2305,0,Kansas,False,2026-11-21T17:00Z
 154,0,Wake Forest,False,True,401858310,59,0,Georgia Tech,False,2026-11-21T17:00Z
 194,0,Ohio State,False,True,401858531,158,0,Nebraska,False,2026-11-21T17:00Z
@@ -821,6 +809,18 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 197,0,Oklahoma State,False,True,401856870,9,0,Arizona State,False,2026-11-22T03:15Z
 328,0,Utah State,False,True,401860919,204,0,Oregon State,False,2026-11-22T03:30Z
 62,0,Hawai'i,False,True,401864541,2440,0,Nevada,False,2026-11-22T03:30Z
+2199,27,Eastern Michigan,True,True,401866465,2711,34,Western Michigan,False,2026-11-17T23:00Z
+2050,28,Ball State,True,True,401866464,195,35,Ohio,False,2026-11-18T00:00Z
+193,20,Miami (OH),True,True,401866466,2309,3,Kent State,False,2026-11-18T00:00Z
+2006,34,Akron,True,True,401866467,113,33,Massachusetts,False,2026-11-19T00:00Z
+2117,21,Central Michigan,True,True,401866469,2084,40,Buffalo,False,2026-11-19T00:30Z
+242,31,Rice,True,True,401862830,218,27,Temple,False,2026-11-20T00:30Z
+2483,45,Oregon,True,True,401858529,127,7,Michigan State,False,2026-11-21T01:00Z
+66,17,Iowa State,True,True,401856869,2116,48,UCF,False,2026-11-20T23:00Z
+228,20,Clemson,True,True,401858303,150,10,Duke,False,2026-11-21T00:30Z
+189,0,Bowling Green,True,True,401866468,2649,19,Toledo,False,2026-11-21T00:30Z
+2638,3,UTEP,True,True,401864545,2005,52,Air Force,False,2026-11-21T01:00Z
+167,24,New Mexico,True,True,401864542,2751,17,Wyoming,False,2026-11-21T02:00Z
 2309,0,Kent State,False,True,401866470,2199,0,Eastern Michigan,False,2026-11-25T00:00Z
 193,0,Miami (OH),False,True,401866471,2711,0,Western Michigan,False,2026-11-25T00:00Z
 2628,0,TCU,False,True,401856879,2641,0,Texas Tech,False,2026-11-27T01:00Z
