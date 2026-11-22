@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-19T14:42:31.712228+00:00",
+  "generated_at_utc": "2026-11-22T14:47:10.759318+00:00",
   "strategy": "V3 five-leg TD long shot",
   "status": "PAPER_PICK",
   "reason": "Research candidate within target odds; not a recommended wager",
@@ -11,20 +11,9 @@
       "team": "NYJ",
       "opponent": "LAC",
       "td_probability": 0.4043,
-      "american_odds": 260,
+      "american_odds": 285,
       "sportsbook": "draftkings",
-      "edge": 0.1265
-    },
-    {
-      "player_name": "C.Hubbard",
-      "player_id": "00-0036555",
-      "game_id": "2026_11_BAL_CAR",
-      "team": "CAR",
-      "opponent": "BAL",
-      "td_probability": 0.6896,
-      "american_odds": -130,
-      "sportsbook": "draftkings",
-      "edge": 0.1243
+      "edge": 0.1446
     },
     {
       "player_name": "J.Gibbs",
@@ -44,9 +33,20 @@
       "team": "SF",
       "opponent": "MIN",
       "td_probability": 0.7184,
-      "american_odds": -165,
+      "american_odds": -155,
       "sportsbook": "draftkings",
-      "edge": 0.0958
+      "edge": 0.1106
+    },
+    {
+      "player_name": "C.Hubbard",
+      "player_id": "00-0036555",
+      "game_id": "2026_11_BAL_CAR",
+      "team": "CAR",
+      "opponent": "BAL",
+      "td_probability": 0.6896,
+      "american_odds": -140,
+      "sportsbook": "draftkings",
+      "edge": 0.1062
     },
     {
       "player_name": "J.Cook",
@@ -60,7 +60,7 @@
       "edge": 0.05
     }
   ],
-  "combined_american_odds": 2060,
+  "combined_american_odds": 2192,
   "estimated_hit_probability_independence": 0.11898,
-  "estimated_profit_on_20": 411.91
+  "estimated_profit_on_20": 438.45
 }
