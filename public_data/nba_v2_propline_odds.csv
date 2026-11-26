@@ -1,73 +1,102 @@
 event_id,commence_time,home_team,away_team,player_name,sportsbook,market_line,over_price,under_price,odds_timestamp_utc
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Andrew Wiggins,betrivers,8.5,-106,-129,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Bam Adebayo,betrivers,17.5,-118,-114,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Bobby Portis,betrivers,5.5,-124,-109,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Davion Mitchell,betrivers,13.5,-127,-108,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Giannis Antetokounmpo,betrivers,27.5,-121,-112,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Jalen Brunson,betrivers,28.5,-113,-120,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Josh Hart,betrivers,9.5,-127,-108,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Karl-Anthony Towns,betrivers,21.5,-125,-108,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Klay Thompson,betrivers,11.5,-124,-109,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Landry Shamet,betrivers,12.5,-129,-106,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Mikal Bridges,betrivers,12.5,-108,-125,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Pelle Larsson,betrivers,9.5,-109,-124,2026-11-26T17:09:05.268344Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Bam Adebayo,fanduel,17.5,-130,-102,2026-11-26T17:25:39.978873Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Davion Mitchell,fanduel,13.5,-132,100,2026-11-26T17:25:42.188864Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Giannis Antetokounmpo,fanduel,27.5,100,-132,2026-11-26T17:25:39.978873Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Jalen Brunson,fanduel,28.5,-106,-125,2026-11-26T17:25:39.978873Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Josh Hart,fanduel,10.5,102,-136,2026-11-26T17:25:39.978873Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Karl-Anthony Towns,fanduel,22.5,-106,-125,2026-11-26T17:25:39.978873Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Klay Thompson,fanduel,12.5,104,-138,2026-11-26T17:18:16.790331Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Landry Shamet,fanduel,13.5,-106,-125,2026-11-26T17:25:39.978873Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Mikal Bridges,fanduel,12.5,-108,-122,2026-11-26T17:25:39.978873Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Pelle Larsson,fanduel,9.5,-118,-112,2026-11-26T17:18:16.790331Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Andrew Wiggins,fanduel,8.5,-120,-110,2026-11-26T17:25:39.978873Z
-135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Bobby Portis,fanduel,6.5,102,-136,2026-11-26T17:25:39.978873Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Derrick White,betrivers,13.5,-104,-130,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Dyson Daniels,betrivers,9.5,-113,-120,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Jalen Johnson,betrivers,18.5,-113,-120,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Jayson Tatum,betrivers,27.5,-109,-124,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Kingston Flemings,betrivers,8.5,-120,-113,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Luguentz Dort,betrivers,7.5,-136,100,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Neemias Queta,betrivers,11.5,-134,100,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Nickeil Alexander-Walker,betrivers,19.5,-125,-108,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Onyeka Okongwu,betrivers,14.5,-106,-129,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Paul George,betrivers,18.5,-112,-121,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Payton Pritchard,betrivers,12.5,-120,-113,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Sam Hauser,betrivers,7.5,-136,100,2026-11-26T17:09:05.443830Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Derrick White,fanduel,13.5,102,-136,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Dyson Daniels,fanduel,9.5,-110,-120,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Jalen Johnson,fanduel,18.5,-110,-120,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Jayson Tatum,fanduel,26.5,-125,-106,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Kingston Flemings,fanduel,8.5,-106,-122,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Luguentz Dort,fanduel,7.5,-132,100,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Neemias Queta,fanduel,11.5,-136,102,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Nickeil Alexander-Walker,fanduel,20.5,-104,-128,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Onyeka Okongwu,fanduel,14.5,-104,-128,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Paul George,fanduel,18.5,-114,-114,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Payton Pritchard,fanduel,12.5,-118,-112,2026-11-26T17:18:16.584729Z
-739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Sam Hauser,fanduel,8.5,104,-138,2026-11-26T17:18:16.584729Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Austin Reaves,betrivers,15.5,-129,-105,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Collin Sexton,betrivers,9.5,-112,-121,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,De'Aaron Fox,betrivers,12.5,-130,-105,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Devin Vassell,betrivers,12.5,-112,-121,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Jake LaRavia,betrivers,5.5,-136,100,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Julian Champagnie,betrivers,11.5,-103,-132,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Luka Dončić,betrivers,33.5,-112,-121,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Matisse Thybulle,betrivers,6.5,-125,-109,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Quentin Grimes,betrivers,10.5,-118,-114,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Stephon Castle,betrivers,17.5,-108,-125,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Victor Wembanyama,betrivers,30.5,-124,-109,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Walker Kessler,betrivers,12.5,-108,-125,2026-11-26T17:09:05.594283Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Austin Reaves,fanduel,17.5,102,-136,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Collin Sexton,fanduel,9.5,-114,-114,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Jake Laravia,fanduel,5.5,-136,102,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Luka Doncic,fanduel,33.5,-106,-125,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Matisse Thybulle,fanduel,6.5,-120,-110,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Quentin Grimes,fanduel,10.5,-130,-102,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Walker Kessler,fanduel,12.5,-112,-118,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Victor Wembanyama,fanduel,31.5,-106,-125,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Stephon Castle,fanduel,17.5,-108,-122,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,De'Aaron Fox,fanduel,12.5,-130,-102,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Devin Vassell,fanduel,12.5,-114,-114,2026-11-26T17:18:16.728696Z
-135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Julian Champagnie,fanduel,11.5,-104,-128,2026-11-26T17:18:16.728696Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Andrew Wiggins,betrivers,8.5,-108,-127,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Bam Adebayo,betrivers,17.5,-122,-110,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Bobby Portis,betrivers,5.5,-125,-108,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Davion Mitchell,betrivers,13.5,-129,-106,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Giannis Antetokounmpo,betrivers,27.5,-108,-125,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Jalen Brunson,betrivers,28.5,-112,-121,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Josh Hart,betrivers,9.5,-130,-104,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Karl-Anthony Towns,betrivers,21.5,-125,-108,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Klay Thompson,betrivers,11.5,-125,-108,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Landry Shamet,betrivers,12.5,-129,-106,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Mikal Bridges,betrivers,12.5,-108,-125,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Pelle Larsson,betrivers,9.5,-112,-121,2026-11-26T20:46:22.864569Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Bam Adebayo,fanduel,17.5,-130,-102,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Davion Mitchell,fanduel,13.5,-132,100,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Giannis Antetokounmpo,fanduel,27.5,100,-132,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Jalen Brunson,fanduel,28.5,-102,-130,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Josh Hart,fanduel,9.5,-128,-104,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Karl-Anthony Towns,fanduel,21.5,-125,-106,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Klay Thompson,fanduel,12.5,104,-138,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Landry Shamet,fanduel,13.5,100,-132,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Mikal Bridges,fanduel,12.5,-110,-120,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Pelle Larsson,fanduel,9.5,-118,-112,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Andrew Wiggins,fanduel,8.5,-120,-110,2026-11-26T20:45:45.646255Z
+135406,2026-11-28T00:10:00Z,New York Knicks,Miami Heat,Bobby Portis,fanduel,6.5,102,-136,2026-11-26T20:45:45.646255Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,Joel Embiid,fanduel,23.5,-106,-125,2026-11-26T20:45:46.020020Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,LeBron James,fanduel,18.5,-106,-125,2026-11-26T20:45:46.020020Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,Tyrese Maxey,fanduel,25.5,-102,-130,2026-11-26T20:45:46.020020Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,VJ Edgecombe,fanduel,15.5,-110,-120,2026-11-26T20:45:46.020020Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,Aaron Nesmith,fanduel,12.5,-132,100,2026-11-26T20:45:46.020020Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,Andrew Nembhard,fanduel,15.5,-112,-118,2026-11-26T20:45:46.020020Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,Ivica Zubac,fanduel,11.5,-118,-112,2026-11-26T20:46:01.137418Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,Kelly Oubre Jr.,fanduel,11.5,-112,-118,2026-11-26T20:45:46.020020Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,Obi Toppin,fanduel,12.5,-106,-125,2026-11-26T20:45:46.020020Z
+739282,2026-11-28T00:30:00Z,Indiana Pacers,Philadelphia 76ers,Pascal Siakam,fanduel,23.5,-114,-114,2026-11-26T20:45:46.020020Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Derrick White,betrivers,13.5,-104,-130,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Dyson Daniels,betrivers,9.5,-112,-122,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Jalen Johnson,betrivers,18.5,-110,-122,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Jayson Tatum,betrivers,27.5,-109,-124,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Kingston Flemings,betrivers,8.5,-117,-115,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Luguentz Dort,betrivers,7.5,-132,-103,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Neemias Queta,betrivers,11.5,-134,100,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Nickeil Alexander-Walker,betrivers,19.5,-121,-112,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Onyeka Okongwu,betrivers,14.5,-104,-130,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Paul George,betrivers,18.5,-122,-110,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Payton Pritchard,betrivers,12.5,-118,-114,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Sam Hauser,betrivers,7.5,-136,100,2026-11-26T20:46:23.074351Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Derrick White,draftkings,12.5,-123,-104,2026-11-26T20:47:12.719175Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Jayson Tatum,draftkings,26.5,-122,-104,2026-11-26T20:47:12.719175Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Neemias Queta,draftkings,11.5,-127,100,2026-11-26T20:47:12.719175Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Paul George,draftkings,18.5,-111,-115,2026-11-26T20:47:12.719175Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Payton Pritchard,draftkings,12.5,-123,-104,2026-11-26T20:47:12.719175Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Sam Hauser,draftkings,7.5,-120,-107,2026-11-26T20:47:12.719175Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Derrick White,fanduel,12.5,-130,-102,2026-11-26T20:48:18.646330Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Dyson Daniels,fanduel,9.5,-110,-120,2026-11-26T20:45:45.404758Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Jalen Johnson,fanduel,18.5,-114,-114,2026-11-26T20:48:18.646330Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Jayson Tatum,fanduel,26.5,-125,-106,2026-11-26T20:48:18.646330Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Kingston Flemings,fanduel,8.5,-106,-125,2026-11-26T20:48:18.646330Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Luguentz Dort,fanduel,7.5,-128,-104,2026-11-26T20:45:45.404758Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Neemias Queta,fanduel,11.5,-138,104,2026-11-26T20:48:18.646330Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Nickeil Alexander-Walker,fanduel,20.5,100,-132,2026-11-26T20:48:18.646330Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Onyeka Okongwu,fanduel,14.5,-102,-130,2026-11-26T20:48:18.646330Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Paul George,fanduel,18.5,-114,-114,2026-11-26T20:48:18.646330Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Payton Pritchard,fanduel,12.5,-125,-106,2026-11-26T20:48:18.646330Z
+739285,2026-11-28T01:00:00Z,Boston Celtics,Atlanta Hawks,Sam Hauser,fanduel,8.5,104,-138,2026-11-26T20:45:45.404758Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Caleb Martin,fanduel,5.5,-114,-114,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Cooper Flagg,fanduel,23.5,-130,-102,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Daniel Gafford,fanduel,9.5,-114,-114,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Kyrie Irving,fanduel,22.5,-102,-130,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,P.J. Washington,fanduel,11.5,102,-136,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Devin Booker,fanduel,25.5,-114,-114,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Dillon Brooks,fanduel,15.5,-112,-118,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Jalen Green,fanduel,15.5,-112,-118,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Miles Bridges,fanduel,14.5,-114,-114,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Oso Ighodaro,fanduel,6.5,-114,-114,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Collin Gillespie,fanduel,10.5,102,-136,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Naji Marshall,fanduel,9.5,-122,-108,2026-11-26T20:45:45.802458Z
+739287,2026-11-28T02:00:00Z,Phoenix Suns,Dallas Mavericks,Zaccharie Risacher,fanduel,8.5,-104,-128,2026-11-26T20:45:45.802458Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Austin Reaves,betrivers,15.5,-129,-105,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Collin Sexton,betrivers,9.5,-112,-121,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,De'Aaron Fox,betrivers,12.5,-130,-105,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Devin Vassell,betrivers,12.5,-112,-121,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Jake LaRavia,betrivers,5.5,-136,100,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Julian Champagnie,betrivers,11.5,-103,-132,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Luka Dončić,betrivers,33.5,-112,-121,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Matisse Thybulle,betrivers,6.5,-125,-109,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Quentin Grimes,betrivers,10.5,-118,-114,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Stephon Castle,betrivers,17.5,-108,-125,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Victor Wembanyama,betrivers,30.5,-124,-109,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Walker Kessler,betrivers,12.5,-108,-125,2026-11-26T20:46:23.385787Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Austin Reaves,fanduel,17.5,-102,-130,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Collin Sexton,fanduel,9.5,-120,-110,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Jake Laravia,fanduel,5.5,-130,-102,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Luka Doncic,fanduel,33.5,-106,-125,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Matisse Thybulle,fanduel,6.5,-120,-110,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Quentin Grimes,fanduel,10.5,-128,-104,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Walker Kessler,fanduel,12.5,-108,-122,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Victor Wembanyama,fanduel,31.5,-112,-118,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Stephon Castle,fanduel,17.5,-110,-118,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,De'Aaron Fox,fanduel,12.5,-130,-102,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Devin Vassell,fanduel,12.5,-114,-114,2026-11-26T20:45:45.582544Z
+135394,2026-11-28T02:40:00Z,San Antonio Spurs,Los Angeles Lakers,Julian Champagnie,fanduel,11.5,-102,-130,2026-11-26T20:45:45.582544Z
