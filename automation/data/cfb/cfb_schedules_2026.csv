@@ -821,9 +821,9 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 197,30,Oklahoma State,True,True,401856870,9,27,Arizona State,False,2026-11-22T03:30Z
 328,24,Utah State,True,True,401860919,204,31,Oregon State,False,2026-11-22T03:30Z
 62,8,Hawai'i,True,True,401864541,2440,16,Nevada,False,2026-11-22T03:30Z
-2309,0,Kent State,False,True,401866470,2199,0,Eastern Michigan,False,2026-11-25T00:00Z
-193,0,Miami (OH),False,True,401866471,2711,0,Western Michigan,False,2026-11-25T00:00Z
 2628,0,TCU,False,True,401856879,2641,0,Texas Tech,False,2026-11-27T01:00Z
+2309,12,Kent State,True,True,401866470,2199,17,Eastern Michigan,False,2026-11-25T00:00Z
+193,28,Miami (OH),True,True,401866471,2711,24,Western Michigan,False,2026-11-25T00:00Z
 158,0,Nebraska,False,True,401858536,2294,0,Iowa,False,2026-11-27T17:00Z
 344,0,Mississippi State,False,True,401856762,145,0,Ole Miss,False,2026-11-27T17:00Z
 202,0,Tulsa,False,True,401862840,2636,0,UTSA,False,2026-11-27T17:00Z
@@ -839,8 +839,8 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 277,0,West Virginia,False,True,401856880,254,0,Utah,False,2026-11-28T02:00Z
 87,0,Notre Dame,False,False,401858314,183,0,Syracuse,False,2026-11-28T17:00Z
 103,0,Boston College,False,True,401858311,2390,0,Miami,False,2026-11-28T17:00Z
-130,0,Michigan,False,True,401858540,194,0,Ohio State,False,2026-11-28T17:00Z
 97,0,Louisville,False,False,401856761,96,0,Kentucky,False,2026-11-28T17:00Z
+130,0,Michigan,False,True,401858540,194,0,Ohio State,False,2026-11-28T17:00Z
 152,0,NC State,False,True,401858313,153,0,North Carolina,False,2026-11-28T17:00Z
 41,0,UConn,False,False,401861969,2751,0,Wyoming,False,2026-11-28T17:00Z
 2426,0,Navy,False,True,401862842,2429,0,Charlotte,False,2026-11-28T17:00Z
@@ -864,9 +864,9 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 258,0,Virginia,False,True,401858317,259,0,Virginia Tech,False,2026-11-28T20:00Z
 2653,0,Troy,False,True,401869939,2032,0,Arkansas State,False,2026-11-28T20:00Z
 59,0,Georgia Tech,False,False,401856760,61,0,Georgia,False,2026-11-28T20:30Z
+150,0,Duke,False,True,401858312,154,0,Wake Forest,False,2026-11-28T20:30Z
 30,0,USC,False,True,401858543,26,0,UCLA,False,2026-11-28T20:30Z
 2132,0,Cincinnati,False,True,401856876,252,0,BYU,False,2026-11-28T20:30Z
-150,0,Duke,False,True,401858312,154,0,Wake Forest,False,2026-11-28T20:30Z
 2567,0,SMU,False,True,401858316,24,0,Stanford,False,2026-11-28T20:30Z
 213,0,Penn State,False,True,401858539,120,0,Maryland,False,2026-11-28T20:30Z
 2655,0,Tulane,False,True,401862839,58,0,South Florida,False,2026-11-28T20:30Z
@@ -879,8 +879,8 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 68,0,Boise State,False,False,401860926,36,0,Colorado State,False,2026-11-28T23:00Z
 2305,0,Kansas,False,True,401856877,197,0,Oklahoma State,False,2026-11-28T23:15Z
 21,0,San Diego State,False,False,401860929,265,0,Washington State,False,2026-11-28T23:30Z
-2509,0,Purdue,False,True,401858538,84,0,Indiana,False,2026-11-29T00:00Z
 2633,0,Tennessee,False,True,401856765,238,0,Vanderbilt,False,2026-11-29T00:00Z
+2509,0,Purdue,False,True,401858538,84,0,Indiana,False,2026-11-29T00:00Z
 2,0,Auburn,False,True,401856757,333,0,Alabama,False,2026-11-29T00:30Z
 264,0,Washington,False,True,401858541,2483,0,Oregon,False,2026-11-29T00:30Z
 221,0,Pittsburgh,False,True,401858315,25,0,California,False,2026-11-29T00:30Z
@@ -892,8 +892,8 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 16,0,Sacramento State,False,False,401864547,62,0,Hawai'i,False,2026-11-29T04:00Z
 55,0,Jacksonville State,False,False,401869535,2335,0,Liberty,False,2026-12-05T00:00Z
 -2,0,TBD,False,False,401869546,-1,0,TBD,False,2026-12-05T00:00Z
-21,0,San Diego State,False,False,401869542,68,0,Boise State,False,2026-12-05T01:00Z
 -2,0,TBD,False,False,401869533,-1,0,TBD,True,2026-12-05T01:00Z
+21,0,San Diego State,False,False,401869542,68,0,Boise State,False,2026-12-05T01:00Z
 -2,0,TBD,False,False,401874049,-1,0,TBD,False,2026-12-05T02:00Z
 154,0,Wake Forest,False,False,401858318,2390,0,Miami,True,2026-12-05T17:00Z
 -2,0,TBD,False,False,401869536,-1,0,TBD,True,2026-12-05T17:00Z
