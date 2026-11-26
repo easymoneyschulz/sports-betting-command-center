@@ -1,66 +1,66 @@
 {
-  "generated_at_utc": "2026-11-22T14:47:10.759318+00:00",
+  "generated_at_utc": "2026-11-26T14:49:58.132529+00:00",
   "strategy": "V3 five-leg TD long shot",
   "status": "PAPER_PICK",
   "reason": "Research candidate within target odds; not a recommended wager",
   "legs": [
     {
-      "player_name": "B.Allen",
-      "player_id": "00-0039794",
-      "game_id": "2026_11_NYJ_LAC",
-      "team": "NYJ",
-      "opponent": "LAC",
-      "td_probability": 0.4043,
-      "american_odds": 285,
+      "player_name": "T.Pollard",
+      "player_id": "00-0035261",
+      "game_id": "2026_12_TEN_JAX",
+      "team": "TEN",
+      "opponent": "JAX",
+      "td_probability": 0.6388,
+      "american_odds": 125,
       "sportsbook": "draftkings",
-      "edge": 0.1446
+      "edge": 0.1944
     },
     {
-      "player_name": "J.Gibbs",
-      "player_id": "00-0039139",
-      "game_id": "2026_11_TB_DET",
-      "team": "DET",
-      "opponent": "TB",
-      "td_probability": 0.8497,
-      "american_odds": -270,
+      "player_name": "B.Irving",
+      "player_id": "00-0039361",
+      "game_id": "2026_12_CAR_TB",
+      "team": "TB",
+      "opponent": "CAR",
+      "td_probability": 0.7336,
+      "american_odds": -120,
       "sportsbook": "draftkings",
-      "edge": 0.12
-    },
-    {
-      "player_name": "C.McCaffrey",
-      "player_id": "00-0033280",
-      "game_id": "2026_11_MIN_SF",
-      "team": "SF",
-      "opponent": "MIN",
-      "td_probability": 0.7184,
-      "american_odds": -155,
-      "sportsbook": "draftkings",
-      "edge": 0.1106
-    },
-    {
-      "player_name": "C.Hubbard",
-      "player_id": "00-0036555",
-      "game_id": "2026_11_BAL_CAR",
-      "team": "CAR",
-      "opponent": "BAL",
-      "td_probability": 0.6896,
-      "american_odds": -140,
-      "sportsbook": "draftkings",
-      "edge": 0.1062
+      "edge": 0.1882
     },
     {
       "player_name": "J.Cook",
       "player_id": "00-0037248",
-      "game_id": "2026_11_MIA_BUF",
+      "game_id": "2026_12_KC_BUF",
       "team": "BUF",
-      "opponent": "MIA",
-      "td_probability": 0.6991,
-      "american_odds": -185,
+      "opponent": "KC",
+      "td_probability": 0.681,
+      "american_odds": -105,
       "sportsbook": "draftkings",
-      "edge": 0.05
+      "edge": 0.1688
+    },
+    {
+      "player_name": "C.McCaffrey",
+      "player_id": "00-0033280",
+      "game_id": "2026_12_SEA_SF",
+      "team": "SF",
+      "opponent": "SEA",
+      "td_probability": 0.7189,
+      "american_odds": -145,
+      "sportsbook": "draftkings",
+      "edge": 0.1271
+    },
+    {
+      "player_name": "C.Lamb",
+      "player_id": "00-0036358",
+      "game_id": "2026_12_PHI_DAL",
+      "team": "DAL",
+      "opponent": "PHI",
+      "td_probability": 0.6464,
+      "american_odds": -160,
+      "sportsbook": "draftkings",
+      "edge": 0.031
     }
   ],
-  "combined_american_odds": 2192,
-  "estimated_hit_probability_independence": 0.11898,
-  "estimated_profit_on_20": 438.45
+  "combined_american_odds": 2111,
+  "estimated_hit_probability_independence": 0.14832,
+  "estimated_profit_on_20": 422.25
 }
