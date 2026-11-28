@@ -821,22 +821,6 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 197,30,Oklahoma State,True,True,401856870,9,27,Arizona State,False,2026-11-22T03:30Z
 328,24,Utah State,True,True,401860919,204,31,Oregon State,False,2026-11-22T03:30Z
 62,8,Hawai'i,True,True,401864541,2440,16,Nevada,False,2026-11-22T03:30Z
-2628,0,TCU,False,True,401856879,2641,0,Texas Tech,False,2026-11-27T01:00Z
-2309,12,Kent State,True,True,401866470,2199,17,Eastern Michigan,False,2026-11-25T00:00Z
-193,28,Miami (OH),True,True,401866471,2711,24,Western Michigan,False,2026-11-25T00:00Z
-158,0,Nebraska,False,True,401858536,2294,0,Iowa,False,2026-11-27T17:00Z
-344,0,Mississippi State,False,True,401856762,145,0,Ole Miss,False,2026-11-27T17:00Z
-202,0,Tulsa,False,True,401862840,2636,0,UTSA,False,2026-11-27T17:00Z
-2084,0,Buffalo,False,True,401866472,2006,0,Akron,False,2026-11-27T17:00Z
-2649,0,Toledo,False,True,401866473,195,0,Ohio,False,2026-11-27T17:00Z
-2026,0,App State,False,True,401869930,6,0,South Alabama,False,2026-11-27T20:00Z
-57,0,Florida,False,False,401856759,52,0,Florida State,False,2026-11-27T20:30Z
-218,0,Temple,False,True,401862838,235,0,Memphis,False,2026-11-27T20:30Z
-2449,0,North Dakota State,False,False,401864549,23,0,San José State,False,2026-11-27T20:30Z
-2005,0,Air Force,False,True,401864546,167,0,New Mexico,False,2026-11-27T21:30Z
-251,0,Texas,False,True,401856756,245,0,Texas A&M,False,2026-11-28T00:30Z
-135,0,Minnesota,False,True,401858544,275,0,Wisconsin,False,2026-11-28T00:30Z
-277,0,West Virginia,False,True,401856880,254,0,Utah,False,2026-11-28T02:00Z
 87,0,Notre Dame,False,False,401858314,183,0,Syracuse,False,2026-11-28T17:00Z
 103,0,Boston College,False,True,401858311,2390,0,Miami,False,2026-11-28T17:00Z
 97,0,Louisville,False,False,401856761,96,0,Kentucky,False,2026-11-28T17:00Z
@@ -890,13 +874,29 @@ away_id,away_score,away_team,completed,conference_game,game_id,home_id,home_scor
 326,0,Texas State,False,False,401860928,328,0,Utah State,False,2026-11-29T02:30Z
 204,0,Oregon State,False,False,401860927,278,0,Fresno State,False,2026-11-29T03:00Z
 16,0,Sacramento State,False,False,401864547,62,0,Hawai'i,False,2026-11-29T04:00Z
+2309,12,Kent State,True,True,401866470,2199,17,Eastern Michigan,False,2026-11-25T00:00Z
+193,28,Miami (OH),True,True,401866471,2711,24,Western Michigan,False,2026-11-25T00:00Z
+2628,27,TCU,True,True,401856879,2641,48,Texas Tech,False,2026-11-27T01:00Z
+277,28,West Virginia,True,True,401856880,254,52,Utah,False,2026-11-28T02:00Z
+251,16,Texas,True,True,401856756,245,6,Texas A&M,False,2026-11-28T00:30Z
+158,7,Nebraska,True,True,401858536,2294,31,Iowa,False,2026-11-27T17:08Z
+57,26,Florida,True,False,401856759,52,10,Florida State,False,2026-11-27T20:30Z
+344,17,Mississippi State,True,True,401856762,145,41,Ole Miss,False,2026-11-27T17:00Z
+202,22,Tulsa,True,True,401862840,2636,28,UTSA,False,2026-11-27T17:00Z
+2084,17,Buffalo,True,True,401866472,2006,9,Akron,False,2026-11-27T17:00Z
+2649,34,Toledo,True,True,401866473,195,31,Ohio,False,2026-11-27T17:00Z
+2026,13,App State,True,True,401869930,6,20,South Alabama,False,2026-11-27T20:00Z
+218,35,Temple,True,True,401862838,235,31,Memphis,False,2026-11-27T20:30Z
+2449,38,North Dakota State,True,False,401864549,23,31,San José State,False,2026-11-27T20:30Z
+2005,19,Air Force,True,True,401864546,167,42,New Mexico,False,2026-11-27T21:30Z
+135,5,Minnesota,True,True,401858544,275,28,Wisconsin,False,2026-11-28T00:30Z
 55,0,Jacksonville State,False,False,401869535,2335,0,Liberty,False,2026-12-05T00:00Z
 -2,0,TBD,False,False,401869546,-1,0,TBD,False,2026-12-05T00:00Z
--2,0,TBD,False,False,401869533,-1,0,TBD,True,2026-12-05T01:00Z
+2641,0,Texas Tech,False,False,401869533,254,0,Utah,True,2026-12-05T01:00Z
 21,0,San Diego State,False,False,401869542,68,0,Boise State,False,2026-12-05T01:00Z
 -2,0,TBD,False,False,401874049,-1,0,TBD,False,2026-12-05T02:00Z
 154,0,Wake Forest,False,False,401858318,2390,0,Miami,True,2026-12-05T17:00Z
--2,0,TBD,False,False,401869536,-1,0,TBD,True,2026-12-05T17:00Z
+2649,0,Toledo,False,False,401869536,2084,0,Buffalo,True,2026-12-05T17:00Z
 -2,0,TBD,False,False,401869545,61,0,Georgia,True,2026-12-05T21:00Z
 -2,0,TBD,False,False,401869532,-1,0,TBD,False,2026-12-06T01:00Z
 -2,0,TBD,False,False,401869534,-1,0,TBD,True,2026-12-06T01:00Z
